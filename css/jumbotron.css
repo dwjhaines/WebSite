@@ -1,0 +1,9 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+ div.jumbotron{
+    background-image: url("../Bonaire_2015_144.JPG");
+  }
