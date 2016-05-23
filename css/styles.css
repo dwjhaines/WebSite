@@ -34,19 +34,19 @@ body {
 }
 
 #diving-tile {
-  background: url('../images/diving-tile.jpg') no-repeat;
+  background: url('../images/diving-tile.JPG') no-repeat;
   background-position: center;
 }
 #travel-tile {
-  background: url('../images/travel-tile.jpg') no-repeat;
+  background: url('../images/travel-tile.JPG') no-repeat;
   background-position: center;
 }
 #football-tile {
-  background: url('../images/football-tile.jpg') no-repeat;
+  background: url('../images/football-tile.JPG') no-repeat;
   background-position: center;
 }
 #beer-tile {
-  background: url('../images/beer-tile.jpg') no-repeat;
+  background: url('../images/beer-tile.JPG') no-repeat;
   background-position: center;
 }
 
