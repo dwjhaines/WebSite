@@ -85,9 +85,12 @@ body {
 }
 
 /******** Extra mall devices only *******/
-@media (max-width: 767px{
+@media (max-width: 767px){
   #diving-tile, #travel-tile, #football-tile, #beer-tile {
     margin-top:10px;
+    width: 350px;
+    margin-left: auto ;
+    margin-right: auto ;
   }
 }
 
