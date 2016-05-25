@@ -63,6 +63,7 @@ body {
   opacity: .8;
 }
 
+/********* Footer elements **********/
 #social-media-icons{
   float: right;
   width: 50%;
@@ -75,7 +76,7 @@ body {
 
 /********* Settings for social media icons **********/
 .fa{
-  font-size:24px;
+  font-size:30px;
   float:right;
   padding-left: 5px;
   padding-right: 5px;
