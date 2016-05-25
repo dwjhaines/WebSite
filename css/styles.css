@@ -63,6 +63,37 @@ body {
   opacity: .8;
 }
 
+#social-media-icons{
+  float: right;
+  width: 50%;
+}
+
+#copyright{
+  float:left;
+  width: 50%;
+}
+
+/********* Settings for social media icons **********/
+.fa{
+  font-size:24px;
+  float:right;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.fa-youtube-square{
+  color:#bb0000;
+}
+.fa-twitter-square{
+  color:#00aced;
+}
+.fa-facebook-square{
+  color:#3B5998;
+}
+.fa-linkedin-square{
+  color:#007bb5;
+}
+
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   #diving-tile, #travel-tile, #football-tile, #beer-tile {
@@ -88,7 +119,7 @@ body {
 @media (max-width: 767px){
   #diving-tile, #travel-tile, #football-tile, #beer-tile {
     margin-top:10px;
-    width: 330px;
+    width: 280px;
     margin-left: auto ;
     margin-right: auto ;
   }
