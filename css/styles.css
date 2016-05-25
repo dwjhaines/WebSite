@@ -4,13 +4,8 @@ body {
   padding-bottom: 20px;
 }
 
- div.jumbotron{
-    background-image: url("../images/Bonaire_2015_144.JPG");
-  }
-  
-/* Remove bottom border from navbar */
-.navbar-fixed-top {
-  border-width: 0 0 0px;
+div.jumbotron{
+  background-image: url("../images/Bonaire_2015_144.JPG");
 }
 
 @media screen and (min-width: 768px) {
@@ -64,11 +59,10 @@ body {
 }
 
 /********* Footer elements **********/
-#social-media-icons{
-  float: right;
-  width: 50%;
-}
 
+.footer-row{
+  vertical-align: bottom;
+}
 
 /********* Settings for social media icons **********/
 .fa{
@@ -90,6 +84,11 @@ body {
 .fa-linkedin-square{
   color:#007bb5;
 }
+
+.fa:hover{
+  text-decoration: none;
+}
+
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
