@@ -69,10 +69,6 @@ body {
   width: 50%;
 }
 
-#copyright{
-  float:left;
-  width: 50%;
-}
 
 /********* Settings for social media icons **********/
 .fa{
@@ -123,6 +119,14 @@ body {
     width: 280px;
     margin-left: auto ;
     margin-right: auto ;
+  }
+  .fa{
+    float:none;
+    text-align:center;
+    font-size:36px;
+  }
+  #copyright{
+    text-align:center;
   }
 }
 
