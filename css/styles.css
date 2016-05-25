@@ -10,19 +10,11 @@ div.jumbotron{
 
 @media screen and (min-width: 768px) {
   .jumbotron {
-    padding-top: 00px;
+    padding-top: 30px;
     padding-bottom: 85px;
-    height: 236px
   }
 }
 
-.navbar {
-    position: relative;
-    min-height: 30px;
-    border: 1px solid transparent;
-    margin-bottom:0;
-    opacity: .8;
-}
 
 #diving-tile, #travel-tile, #football-tile, #beer-tile {
   height: 200px;
