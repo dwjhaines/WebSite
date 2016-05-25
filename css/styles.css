@@ -111,7 +111,7 @@ div.jumbotron{
   }
 }
 
-/******** Extra mall devices only *******/
+/******** Extra small devices only *******/
 @media (max-width: 767px){
   #diving-tile, #travel-tile, #football-tile, #beer-tile {
     margin-top:10px;
@@ -124,7 +124,7 @@ div.jumbotron{
     text-align:center;
     font-size:36px;
   }
-  #copyright{
+  .copyright{
     text-align:center;
   }
 }
