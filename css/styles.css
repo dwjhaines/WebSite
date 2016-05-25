@@ -140,7 +140,7 @@ div.jumbotron{
 /******** Extra small devices only *******/
 @media (max-width: 767px){
   div.jumbotron{
-    background-image: url("../images/Bonaire2.JPG");
+    background-image: url("../images/Bonaire3.JPG");
     height:150px;
   }
   
