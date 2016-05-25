@@ -15,6 +15,13 @@ div.jumbotron{
   }
 }
 
+/*.navbar {
+    position: relative;
+    min-height: 30px;
+    border: 1px solid transparent;
+    margin-bottom:0;
+    opacity: 1.8;
+}*/
 
 #diving-tile, #travel-tile, #football-tile, #beer-tile {
   height: 200px;
