@@ -58,12 +58,6 @@ div.jumbotron{
   opacity: .8;
 }
 
-/********* Footer elements **********/
-
-.footer-row{
-  vertical-align: bottom;
-}
-
 /********* Settings for social media icons **********/
 .fa{
   font-size:30px;
