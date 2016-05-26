@@ -1,0 +1,85 @@
+
+#week-00-tile{
+  height: 100px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+
+#week-00-tile:hover{
+  box-shadow: 0 1px 5px 1px #121212;
+}
+
+#week-00-tile {
+  background: url('../world_trip_2012/images/week-00.JPG') no-repeat;
+  background-position: center;
+}
+
+#week-00-tile span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+  color:lightgrey;
+}
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  #week-00-tile{
+    margin-top:50px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px)  {
+  #week-02-tile{
+    margin-top:30px;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #week-02-tile{
+    margin-top: 20px;
+  }
+}
+
+/******** Extra small devices only *******/
+@media (max-width: 767px){
+  div.jumbotron{
+    background-image: url("../images/week-00.JPG");
+    height:150px;
+  }
+  
+  #week-02-tile {
+    margin-top:10px;
+    width: 280px;
+    margin-left: auto ;
+    margin-right: auto ;
+  }
+  .fa{
+    float:none;
+    text-align:center;
+    font-size:36px;
+  }
+  .fa-futbol-o, .fa-beer{
+    font-size:20px;
+    padding-left: 0x;
+    padding-right: 3px;
+
+}
+  .copyright{
+    text-align:center;
+  }
+}
+
+/* END HOME PAGE */
