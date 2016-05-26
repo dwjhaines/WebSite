@@ -177,6 +177,12 @@ div.jumbotron{
     text-align:center;
     font-size:36px;
   }
+  .fa-futbol-o, .fa-beer{
+    font-size:15px;
+    padding-left: 10x;
+    padding-right: 3px;
+
+}
   .copyright{
     text-align:center;
   }
