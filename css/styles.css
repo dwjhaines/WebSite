@@ -33,6 +33,7 @@ div.jumbotron{
   height: 20px;
   padding-top: 8px;
   font-size: 1.6em;
+
 }
 .navbar-header a:visited,
 .navbar-header a:link{
@@ -55,7 +56,7 @@ div.jumbotron{
   padding-left:10px;
 }
 
-#diving-tile, #travel-tile, #football-tile, #beer-tile {
+#diving-tile, #travel-tile, #football-tile, #beer-tile, #moalboal-tile, #myanmar-tile{
   height: 200px;
   width: 100%;
   margin-bottom: 15px;
@@ -64,7 +65,7 @@ div.jumbotron{
   overflow: hidden;
 }
 
-#diving-tile:hover, #travel-tile:hover, #football-tile:hover, #beer-tile:hover {
+#diving-tile:hover, #travel-tile:hover, #football-tile:hover, #beer-tile:hover, #moalboal-tile:hover, #myanmar-tile:hover{
   box-shadow: 0 1px 5px 1px #121212;
 }
 
@@ -84,8 +85,16 @@ div.jumbotron{
   background: url('../images/beer-tile.JPG') no-repeat;
   background-position: center;
 }
+#moalboal-tile {
+  background: url('../images/moalboal-tile.JPG') no-repeat;
+  background-position: center;
+}
+#myanmar-tile {
+  background: url('../images/myanmar-tile.JPG') no-repeat;
+  background-position: center;
+}
 
-#diving-tile span, #travel-tile span, #football-tile span, #beer-tile span {
+#diving-tile span, #travel-tile span, #football-tile span, #beer-tile span, #moalboal-tile span, #myanmar-tile  span{
   position: absolute;
   bottom: 0;
   right: 0;
@@ -122,25 +131,30 @@ div.jumbotron{
 .fa:hover{
   text-decoration: none;
 }
-
+.fa-futbol-o, .fa-beer{
+  font-size:22px;
+  padding-left: 18px;
+  padding-right: 5px;
+  padding-top:2px;
+}
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-  #diving-tile, #travel-tile, #football-tile, #beer-tile {
+  #diving-tile, #travel-tile, #football-tile, #beer-tile, #moalboal-tile, #myanmar-tile {
     margin-top:50px;
   }
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px)  {
-  #diving-tile, #travel-tile, #football-tile, #beer-tile {
+  #diving-tile, #travel-tile, #football-tile, #beer-tile, #moalboal-tile, #myanmar-tile {
     margin-top:30px;
   }
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  #diving-tile, #travel-tile, #football-tile, #beer-tile {
+  #diving-tile, #travel-tile, #football-tile, #beer-tile, #moalboal-tile, #myanmar-tile {
     margin-top: 20px;
   }
 }
@@ -152,7 +166,7 @@ div.jumbotron{
     height:150px;
   }
   
-  #diving-tile, #travel-tile, #football-tile, #beer-tile {
+  #diving-tile, #travel-tile, #football-tile, #beer-tile, #moalboal-tile, #myanmar-tile {
     margin-top:10px;
     width: 280px;
     margin-left: auto ;
