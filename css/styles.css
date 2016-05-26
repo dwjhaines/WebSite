@@ -179,7 +179,7 @@ div.jumbotron{
   }
   .fa-futbol-o, .fa-beer{
     font-size:20px;
-    padding-left: 5x;
+    padding-left: 0x;
     padding-right: 3px;
 
 }
