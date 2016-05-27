@@ -33,6 +33,7 @@
   color: #fff;
   opacity: .8;
   color:lightgrey;
+  margin-top:20px;
 }
 
 p.diary-text{
@@ -64,29 +65,23 @@ img.diary-photo{
     
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-  #week-00-tile{
-    margin-top:50px;
-  }
+
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px)  {
-  #week-02-tile{
-    margin-top:30px;
-  }
+
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  #week-02-tile{
-    margin-top: 20px;
-  }
+
 }
 
 /******** Extra small devices only *******/
 @media (max-width: 767px){
   
-  #week-02-tile {
+  #week-02-tile, #week-01-tile {
     margin-top:10px;
     width: 280px;
     margin-left: auto ;
