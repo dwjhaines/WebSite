@@ -55,30 +55,12 @@
 
 /******** Extra small devices only *******/
 @media (max-width: 767px){
-  div.jumbotron{
-    background-image: url("../images/week-00.JPG");
-    height:150px;
-  }
   
   #week-02-tile {
     margin-top:10px;
     width: 280px;
     margin-left: auto ;
     margin-right: auto ;
-  }
-  .fa{
-    float:none;
-    text-align:center;
-    font-size:36px;
-  }
-  .fa-futbol-o, .fa-beer{
-    font-size:20px;
-    padding-left: 0x;
-    padding-right: 3px;
-
-}
-  .copyright{
-    text-align:center;
   }
 }
 
