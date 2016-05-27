@@ -1,5 +1,5 @@
 
-#week-00-tile{
+#week-00-tile, #week-01-tile{
   height: 150px;
   width: 100%;
   margin-bottom: 15px;
@@ -8,16 +8,21 @@
   overflow: hidden;
 }
 
-#week-00-tile:hover{
+#week-00-tile:hover, #week-01-tile:hover{
   box-shadow: 0 1px 5px 1px #121212;
 }
 
-#week-00-tile {
+#week-00-tile{
   background: url('../world_trip_2012/images/week-00.JPG') no-repeat;
   background-position: center;
 }
 
-#week-00-tile span{
+#week-01-tile {
+  background: url('../world_trip_2012/images/week-01.JPG') no-repeat;
+  background-position: center;
+}
+
+#week-00-tile span, #week-01-tile span{
   position: absolute;
   bottom: 0;
   right: 0;
