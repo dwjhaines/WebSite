@@ -57,7 +57,7 @@ div.jumbotron{
 }
 
 #diving-tile, #travel-tile, #football-tile, #beer-tile,
-#moalboal-tile, #myanmar-tile, #mexico-tile, #myanmar-tile2{
+#moalboal-tile, #myanmar-tile, #brazil-tile, #sa-tile{
   height: 200px;
   width: 100%;
   margin-bottom: 15px;
@@ -67,7 +67,7 @@ div.jumbotron{
 }
 
 #diving-tile:hover, #travel-tile:hover, #football-tile:hover, #beer-tile:hover,
-#moalboal-tile:hover, #myanmar-tile:hover, #mexico-tile:hover, #myanmar-tile2:hover  {
+#moalboal-tile:hover, #myanmar-tile:hover, #brazil-tile:hover, #sa-tile:hover  {
   box-shadow: 0 1px 5px 1px #121212;
 }
 
@@ -96,17 +96,17 @@ div.jumbotron{
   background-position: center;
 }
 
-#myanmar-tile2 {
-  background: url('../images/myanmar-tile2.JPG') no-repeat;
+#sa-tile {
+  background: url('../images/sa-tile.JPG') no-repeat;
   background-position: center;
 }
-#mexico-tile {
-  background: url('../images/mexico-tile.JPG') no-repeat;
+#brazil-tile {
+  background: url('../images/brazil-tile.JPG') no-repeat;
   background-position: center;
 }
 
 #diving-tile span, #travel-tile span, #football-tile span, #beer-tile span,
-#moalboal-tile span, #myanmar-tile  span, #myanmar-tile2 span, #mexico-tile span{
+#moalboal-tile span, #myanmar-tile  span, #sa-tile span, #brazil-tile span{
   position: absolute;
   bottom: 0;
   right: 0;
@@ -153,7 +153,7 @@ div.jumbotron{
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   #diving-tile, #travel-tile, #football-tile, #beer-tile,
-  #moalboal-tile, #myanmar-tile, #mexico-tile, #myanmar-tile2{
+  #moalboal-tile, #myanmar-tile, #brazil-tile, #sa-tile{
     margin-top:50px;
   }
 }
@@ -161,7 +161,7 @@ div.jumbotron{
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px)  {
   #diving-tile, #travel-tile, #football-tile, #beer-tile,
-  #moalboal-tile, #myanmar-tile, #mexico-tile, #myanmar-tile2 {
+  #moalboal-tile, #myanmar-tile, #brazil-tile, #sa-tile {
     margin-top:30px;
   }
 }
@@ -169,7 +169,7 @@ div.jumbotron{
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   #diving-tile, #travel-tile, #football-tile, #beer-tile,
-  #moalboal-tile, #myanmar-tile, #mexico-tile, #myanmar-tile2 {
+  #moalboal-tile, #myanmar-tile, #brazil-tile, #sa-tile {
     margin-top: 20px;
   }
 }
@@ -182,7 +182,7 @@ div.jumbotron{
   }
   
   #diving-tile, #travel-tile, #football-tile, #beer-tile,
-  #moalboal-tile, #myanmar-tile, #mexico-tile, #myanmar-tile2 {
+  #moalboal-tile, #myanmar-tile, #brazil-tile, #sa-tile{
     margin-top:10px;
     width: 280px;
     margin-left: auto ;
