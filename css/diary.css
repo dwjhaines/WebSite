@@ -30,8 +30,33 @@
   color:lightgrey;
 }
 
+p.diary-text{
+ text-align:justify;
+ font-size:1em;
+}
 
+span.diary-date{
+  font-weight: bold; 
+  font-size:1.2em;
+}
 
+div.diary-photo-left{
+  display:inline;
+  float:left;
+  margin:5px 10px 0pt 0pt;
+}  
+
+div.diary-photo-right{
+  display:inline;
+  float:left;
+  margin:5px 10px 0pt 0pt;
+  border:20;
+} 
+
+img.diary-photo{
+  border:20;
+}
+    
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   #week-00-tile{
