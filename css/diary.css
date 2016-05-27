@@ -81,7 +81,7 @@ img.diary-photo{
 /******** Extra small devices only *******/
 @media (max-width: 767px){
   
-  #week-02-tile, #week-01-tile {
+  #week-00-tile, #week-01-tile {
     margin-top:10px;
     width: 280px;
     margin-left: auto ;
