@@ -1,5 +1,7 @@
 
-#week-00-tile, #week-01-tile, #week-02-tile, #week-03-tile{
+#week-00-tile, #week-01-tile, #week-02-tile, #week-03-tile,
+#week-04-tile, #week-05-tile, #week-06-tile, #week-07-tile,
+#week-08-tile, #week-09-tile, #week-10-tile, #week-11-tile{
   height: 150px;
   width: 100%;
   margin-bottom: 15px;
@@ -8,7 +10,9 @@
   overflow: hidden;
 }
 
-#week-00-tile:hover, #week-01-tile:hover, #week-02-tile:hover, #week-03-tile:hover{
+#week-00-tile:hover, #week-01-tile:hover, #week-02-tile:hover, #week-03-tile:hover,
+#week-04-tile:hover, #week-05-tile:hover, #week-06-tile:hover, #week-07-tile:hover,
+#week-08-tile:hover, #week-09-tile:hover, #week-10-tile:hover, #week-11-tile:hover{
   box-shadow: 0 1px 5px 1px #121212;
 }
 
@@ -28,8 +32,41 @@
   background: url('../world_trip_2012/images/week-03.JPG') no-repeat;
   background-position: center;
 }
-
-#week-00-tile span, #week-01-tile span, #week-02-tile span, #week-03-tile span{
+#week-04-tile{
+  background: url('../world_trip_2012/images/week-04.JPG') no-repeat;
+  background-position: center;
+}
+#week-05-tile {
+  background: url('../world_trip_2012/images/week-05.JPG') no-repeat;
+  background-position: center;
+}
+#week-06-tile {
+  background: url('../world_trip_2012/images/week-06.JPG') no-repeat;
+  background-position: center;
+}
+#week-07-tile{
+  background: url('../world_trip_2012/images/week-07.JPG') no-repeat;
+  background-position: center;
+}
+#week-08-tile{
+  background: url('../world_trip_2012/images/week-08.JPG') no-repeat;
+  background-position: center;
+}
+#week-09-tile {
+  background: url('../world_trip_2012/images/week-09.JPG') no-repeat;
+  background-position: center;
+}
+#week-10-tile {
+  background: url('../world_trip_2012/images/week-10.JPG') no-repeat;
+  background-position: center;
+}
+#week-11-tile{
+  background: url('../world_trip_2012/images/week-11.JPG') no-repeat;
+  background-position: center;
+}
+#week-00-tile span, #week-01-tile span, #week-02-tile span, #week-03-tile span,
+#week-04-tile span, #week-05-tile span, #week-06-tile span, #week-07-tile span,
+#week-08-tile span, #week-09-tile span, #week-10-tile span, #week-11-tile span{
   position: absolute;
   bottom: 0;
   right: 0;
@@ -92,7 +129,9 @@ img.diary-photo{
 /******** Extra small devices only *******/
 @media (max-width: 767px){
   
-  #week-00-tile, #week-01-tile, #week-02-tile, #week-03-tile {
+  #week-00-tile, #week-01-tile, #week-02-tile, #week-03-tile,
+  #week-04-tile, #week-05-tile, #week-06-tile, #week-07-tile,
+  #week-08-tile, #week-09-tile, #week-10-tile, #week-11-tile {
     margin-top:10px;
     margin-left: auto ;
     margin-right: auto ;
