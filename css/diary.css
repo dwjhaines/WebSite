@@ -98,6 +98,12 @@ img.diary-photo{
     margin-left: auto ;
     margin-right: auto ;
   }
+  img.diary-photo{
+    border:20;
+  }
+  div.diary-photo-left, div.diary-photo-right{
+  width:320px;
+}
 }
 
 /* END HOME PAGE */
