@@ -2,7 +2,18 @@
 #week-00-tile, #week-01-tile, #week-02-tile, #week-03-tile,
 #week-04-tile, #week-05-tile, #week-06-tile, #week-07-tile,
 #week-08-tile, #week-09-tile, #week-10-tile, #week-11-tile,
-#week-12-tile, #week-13-tile, #week-14-tile, #week-15-tile{
+#week-12-tile, #week-13-tile, #week-14-tile, #week-15-tile,
+#week-17-tile, #week-18-tile, #week-19-tile, #week-20-tile,
+#week-21-tile, #week-22-tile, #week-23-tile, #week-24-tile,
+#week-25-tile, #week-26-tile, #week-27-tile, #week-28-tile,
+#week-29-tile, #week-30-tile, #week-34-tile, #week-35-tile,
+#week-36-tile,
+#week-37-tile, #week-38-tile, #week-39-tile, #week-40-tile,
+#week-41-tile, #week-42-tile, #week-43-tile, #week-44-tile,
+#week-46-tile, #week-47-tile, #week-48-tile,
+#week-49-tile, #week-50-tile, #week-51-tile, #week-52-tile,
+#week-53-tile, #week-54-tile, #week-55-tile, #week-56-tile,
+#week-57-tile{
   height: 150px;
   width: 100%;
   margin-bottom: 15px;
@@ -14,7 +25,18 @@
 #week-00-tile:hover, #week-01-tile:hover, #week-02-tile:hover, #week-03-tile:hover,
 #week-04-tile:hover, #week-05-tile:hover, #week-06-tile:hover, #week-07-tile:hover,
 #week-08-tile:hover, #week-09-tile:hover, #week-10-tile:hover, #week-11-tile:hover,
-#week-12-tile:hover, #week-13-tile:hover, #week-14-tile:hover, #week-15-tile:hover{
+#week-12-tile:hover, #week-13-tile:hover, #week-14-tile:hover, #week-15-tile:hover,
+#week-17-tile:hover, #week-18-tile:hover, #week-19-tile:hover, #week-20-tile:hover,
+#week-21-tile:hover, #week-22-tile:hover, #week-23-tile:hover, #week-24-tile:hover,
+#week-25-tile:hover, #week-26-tile:hover, #week-27-tile:hover, #week-28-tile:hover,
+#week-29-tile:hover, #week-30-tile:hover,
+#week-34-tile:hover, #week-35-tile:hover, #week-36-tile:hover,
+#week-37-tile:hover, #week-38-tile:hover, #week-39-tile:hover, #week-40-tile:hover,
+#week-41-tile:hover, #week-42-tile:hover, #week-43-tile:hover, #week-44-tile:hover,
+#week-46-tile:hover, #week-47-tile:hover, #week-48-tile:hover,
+#week-49-tile:hover, #week-50-tile:hover, #week-51-tile:hover, #week-52-tile:hover,
+#week-53-tile:hover, #week-54-tile:hover, #week-55-tile:hover, #week-56-tile:hover,
+#week-57-tile:hover{
   box-shadow: 0 1px 5px 1px #121212;
 }
 
@@ -82,10 +104,169 @@
   background: url('../world_trip_2012/images/week-15.JPG') no-repeat;
   background-position: center;
 }
+#week-17-tile {
+  background: url('../world_trip_2012/images/week-17.JPG') no-repeat;
+  background-position: center;
+}
+#week-18-tile {
+  background: url('../world_trip_2012/images/week-18.JPG') no-repeat;
+  background-position: center;
+}
+#week-19-tile {
+  background: url('../world_trip_2012/images/week-19.JPG') no-repeat;
+  background-position: center;
+}
+#week-20-tile {
+  background: url('../world_trip_2012/images/week-20.JPG') no-repeat;
+  background-position: center;
+}
+#week-21-tile {
+  background: url('../world_trip_2012/images/week-21.JPG') no-repeat;
+  background-position: center;
+}
+#week-22-tile {
+  background: url('../world_trip_2012/images/week-22.JPG') no-repeat;
+  background-position: center;
+}
+#week-23-tile {
+  background: url('../world_trip_2012/images/week-23.JPG') no-repeat;
+  background-position: center;
+}
+#week-24-tile {
+  background: url('../world_trip_2012/images/week-24.JPG') no-repeat;
+  background-position: center;
+}
+#week-25-tile {
+  background: url('../world_trip_2012/images/week-25.JPG') no-repeat;
+  background-position: center;
+}
+#week-26-tile {
+  background: url('../world_trip_2012/images/week-26.JPG') no-repeat;
+  background-position: center;
+}
+#week-27-tile {
+  background: url('../world_trip_2012/images/week-27.JPG') no-repeat;
+  background-position: center;
+}
+#week-28-tile {
+  background: url('../world_trip_2012/images/week-28.JPG') no-repeat;
+  background-position: center;
+}
+#week-29-tile {
+  background: url('../world_trip_2012/images/week-29.JPG') no-repeat;
+  background-position: center;
+}
+#week-30-tile {
+  background: url('../world_trip_2012/images/week-30.JPG') no-repeat;
+  background-position: center;
+}
+#week-34-tile {
+  background: url('../world_trip_2012/images/week-34.JPG') no-repeat;
+  background-position: center;
+}
+#week-35-tile {
+  background: url('../world_trip_2012/images/week-35.JPG') no-repeat;
+  background-position: center;
+}
+#week-36-tile {
+  background: url('../world_trip_2012/images/week-36.JPG') no-repeat;
+  background-position: center;
+}
+#week-37-tile {
+  background: url('../world_trip_2012/images/week-37.JPG') no-repeat;
+  background-position: center;
+}
+#week-38-tile {
+  background: url('../world_trip_2012/images/week-38.JPG') no-repeat;
+  background-position: center;
+}
+#week-39-tile {
+  background: url('../world_trip_2012/images/week-39.JPG') no-repeat;
+  background-position: center;
+}
+#week-40-tile {
+  background: url('../world_trip_2012/images/week-40.JPG') no-repeat;
+  background-position: center;
+}
+#week-41-tile {
+  background: url('../world_trip_2012/images/week-41.JPG') no-repeat;
+  background-position: center;
+}
+#week-42-tile {
+  background: url('../world_trip_2012/images/week-42.JPG') no-repeat;
+  background-position: center;
+}
+#week-43-tile {
+  background: url('../world_trip_2012/images/week-43.JPG') no-repeat;
+  background-position: center;
+}
+#week-44-tile {
+  background: url('../world_trip_2012/images/week-44.JPG') no-repeat;
+  background-position: center;
+}
+#week-46-tile {
+  background: url('../world_trip_2012/images/week-46.JPG') no-repeat;
+  background-position: center;
+}
+#week-47-tile {
+  background: url('../world_trip_2012/images/week-47.JPG') no-repeat;
+  background-position: center;
+}
+#week-48-tile {
+  background: url('../world_trip_2012/images/week-48.JPG') no-repeat;
+  background-position: center;
+}
+#week-49-tile {
+  background: url('../world_trip_2012/images/week-49.JPG') no-repeat;
+  background-position: center;
+}
+#week-50-tile {
+  background: url('../world_trip_2012/images/week-50.JPG') no-repeat;
+  background-position: center;
+}
+#week-51-tile {
+  background: url('../world_trip_2012/images/week-51.JPG') no-repeat;
+  background-position: center;
+}
+#week-52-tile {
+  background: url('../world_trip_2012/images/week-52.JPG') no-repeat;
+  background-position: center;
+}
+#week-53-tile {
+  background: url('../world_trip_2012/images/week-53.JPG') no-repeat;
+  background-position: center;
+}
+#week-54-tile {
+  background: url('../world_trip_2012/images/week-54.JPG') no-repeat;
+  background-position: center;
+}
+#week-55-tile {
+  background: url('../world_trip_2012/images/week-55.JPG') no-repeat;
+  background-position: center;
+}
+#week-56-tile {
+  background: url('../world_trip_2012/images/week-56.JPG') no-repeat;
+  background-position: center;
+}
+#week-57-tile {
+  background: url('../world_trip_2012/images/week-57.JPG') no-repeat;
+  background-position: center;
+}
 #week-00-tile span, #week-01-tile span, #week-02-tile span, #week-03-tile span,
 #week-04-tile span, #week-05-tile span, #week-06-tile span, #week-07-tile span,
 #week-08-tile span, #week-09-tile span, #week-10-tile span, #week-11-tile span,
-#week-12-tile span, #week-13-tile span, #week-14-tile span, #week-15-tile span{
+#week-12-tile span, #week-13-tile span, #week-14-tile span, #week-15-tile span,
+#week-17-tile span, #week-18-tile span, #week-19-tile span, #week-20-tile span,
+#week-21-tile span, #week-22-tile span, #week-23-tile span, #week-24-tile span,
+#week-25-tile span, #week-26-tile span, #week-27-tile span, #week-28-tile span,
+#week-29-tile span, #week-30-tile span,
+#week-34-tile span, #week-35-tile span, #week-36-tile span,
+#week-37-tile span, #week-38-tile span, #week-39-tile span, #week-40-tile span,
+#week-41-tile span, #week-42-tile span, #week-43-tile span, #week-44-tile span,
+#week-46-tile span, #week-47-tile span, #week-48-tile span,
+#week-49-tile span, #week-50-tile span, #week-51-tile span, #week-52-tile span,
+#week-53-tile span, #week-54-tile span, #week-55-tile span, #week-56-tile span,
+#week-57-tile span{
   position: absolute;
   bottom: 0;
   right: 0;
@@ -151,7 +332,18 @@ img.diary-photo{
   #week-00-tile, #week-01-tile, #week-02-tile, #week-03-tile,
   #week-04-tile, #week-05-tile, #week-06-tile, #week-07-tile,
   #week-08-tile, #week-09-tile, #week-10-tile, #week-11-tile,
-  #week-12-tile, #week-13-tile, #week-14-tile, #week-15-tile {
+  #week-12-tile, #week-13-tile, #week-14-tile, #week-15-tile,
+  #week-17-tile, #week-18-tile, #week-19-tile, #week-20-tile,
+  #week-21-tile, #week-22-tile, #week-23-tile, #week-24-tile,
+  #week-25-tile, #week-26-tile, #week-27-tile, #week-28-tile,
+  #week-29-tile, #week-30-tile,
+  #week-34-tile, #week-35-tile, #week-36-tile,
+  #week-37-tile, #week-38-tile, #week-39-tile, #week-40-tile,
+  #week-41-tile, #week-42-tile, #week-43-tile, #week-44-tile,
+  #week-46-tile, #week-47-tile, #week-48-tile,
+  #week-49-tile, #week-50-tile, #week-51-tile, #week-52-tile,
+  #week-53-tile, #week-54-tile, #week-55-tile, #week-56-tile,
+  #week-57-tile {
     margin-top:10px;
     margin-left: auto ;
     margin-right: auto ;
