@@ -18,6 +18,10 @@ div.jumbotron{
   }
 }
 
+.jumbotron{
+    margin-bottom: 20px;
+}
+
 .navbar {
     position: relative;
     border: 1px solid transparent;
@@ -76,14 +80,15 @@ div.jumbotron{
 }
  #sa-photos-tile{
   height: 150px;
-  width: 90%;
+
   margin-bottom: 15px;
   margin-top:0;
   position: relative;
   border: 2px solid #3F0C1F;
   overflow: hidden;
-  align:centre;
-  margin: 0 auto;
+  margin-right: 15px;
+  margin-left: 15px;
+
 }
 
 #diving-tile:hover, #travel-tile:hover, #football-tile:hover, #beer-tile:hover,
@@ -199,7 +204,7 @@ div.jumbotron{
   }
   
   #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile, #sa-photos-tile{
-    margin-top:10px;
+    margin-top: 0px;
     margin-bottom:20px;
   }
 }
