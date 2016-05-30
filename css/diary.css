@@ -252,6 +252,7 @@
   background: url('../world_trip_2012/images/week-57.JPG') no-repeat;
   background-position: center;
 }
+
 #week-00-tile span, #week-01-tile span, #week-02-tile span, #week-03-tile span,
 #week-04-tile span, #week-05-tile span, #week-06-tile span, #week-07-tile span,
 #week-08-tile span, #week-09-tile span, #week-10-tile span, #week-11-tile span,
@@ -266,7 +267,7 @@
 #week-46-tile span, #week-47-tile span, #week-48-tile span,
 #week-49-tile span, #week-50-tile span, #week-51-tile span, #week-52-tile span,
 #week-53-tile span, #week-54-tile span, #week-55-tile span, #week-56-tile span,
-#week-57-tile span{
+#week-57-tile span {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -343,7 +344,7 @@ img.diary-photo{
   #week-46-tile, #week-47-tile, #week-48-tile,
   #week-49-tile, #week-50-tile, #week-51-tile, #week-52-tile,
   #week-53-tile, #week-54-tile, #week-55-tile, #week-56-tile,
-  #week-57-tile {
+  #week-57-tile{
     margin-top:10px;
     margin-left: auto ;
     margin-right: auto ;
