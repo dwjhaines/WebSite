@@ -61,7 +61,8 @@ div.jumbotron{
 }
 
 #diving-tile, #travel-tile, #football-tile, #beer-tile,
-#moalboal-tile, #myanmar-tile, #brazil-tile, #sa-tile{
+#moalboal-tile, #myanmar-tile, #brazil-tile, #france-tile,
+#sa-tile, #sa2-tile{
   height: 200px;
   width: 100%;
   margin-bottom: 15px;
@@ -80,7 +81,6 @@ div.jumbotron{
 }
  #sa-photos-tile{
   height: 150px;
-
   margin-bottom: 15px;
   margin-top:0;
   position: relative;
@@ -92,7 +92,7 @@ div.jumbotron{
 }
 
 #diving-tile:hover, #travel-tile:hover, #football-tile:hover, #beer-tile:hover,
-#moalboal-tile:hover, #myanmar-tile:hover, #brazil-tile:hover, #sa-tile:hover,
+#moalboal-tile:hover, #myanmar-tile:hover, #brazil-tile:hover, #france-tile:hover, #sa-tile:hover, #sa2-tile:hover
 #sa-week-1-tile:hover, #sa-week-2-tile:hover, #sa-week-3-tile:hover, #sa-week-4-tile:hover , #sa-photos-tile:hover  {
   box-shadow: 0 1px 5px 1px #121212;
 }
@@ -126,8 +126,16 @@ div.jumbotron{
   background: url('../images/sa-tile.JPG') no-repeat;
   background-position: center;
 }
+#sa2-tile {
+  background: url('../images/sa2-tile.JPG') no-repeat;
+  background-position: center;
+}
 #brazil-tile {
   background: url('../images/brazil-tile.JPG') no-repeat;
+  background-position: center;
+}
+#france-tile {
+  background: url('../images/france-tile.JPG') no-repeat;
   background-position: center;
 }
 #sa-week-1-tile {
@@ -151,7 +159,7 @@ div.jumbotron{
   background-position: center;
 }
 #diving-tile span, #travel-tile span, #football-tile span, #beer-tile span,
-#moalboal-tile span, #myanmar-tile  span, #sa-tile span, #brazil-tile span,
+#moalboal-tile span, #myanmar-tile  span, #sa-tile span, #sa2-tile span, #brazil-tile span, #france-tile span,
 #sa-week-1-tile span, #sa-week-2-tile span, #sa-week-3-tile span, #sa-week-4-tile span, #sa-photos-tile span{
   position: absolute;
   bottom: 0;
@@ -199,7 +207,8 @@ div.jumbotron{
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   #diving-tile, #travel-tile, #football-tile, #beer-tile,
-  #moalboal-tile, #myanmar-tile, #brazil-tile, #sa-tile{
+  #moalboal-tile, #myanmar-tile, #brazil-tile, #france-tile,
+  #sa-tile, #sa2-tile{
     margin-top:50px;
   }
   
@@ -212,7 +221,8 @@ div.jumbotron{
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px)  {
   #diving-tile, #travel-tile, #football-tile, #beer-tile,
-  #moalboal-tile, #myanmar-tile, #brazil-tile, #sa-tile{
+  #moalboal-tile, #myanmar-tile, #brazil-tile, #france-tile, 
+  #sa-tile, #sa2-tile{
     margin-top:30px;
   }
   #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile, #sa-photos-tile{
@@ -224,7 +234,8 @@ div.jumbotron{
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   #diving-tile, #travel-tile, #football-tile, #beer-tile,
-  #moalboal-tile, #myanmar-tile, #brazil-tile, #sa-tile{
+  #moalboal-tile, #myanmar-tile, #brazil-tile,  #france-tile, 
+  #sa-tile, #sa2-tile{
     margin-top: 20px;
   }
   #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile, #sa-photos-tile{
@@ -241,7 +252,8 @@ div.jumbotron{
   }
   
   #diving-tile, #travel-tile, #football-tile, #beer-tile,
-  #moalboal-tile, #myanmar-tile, #brazil-tile, #sa-tile{
+  #moalboal-tile, #myanmar-tile, #brazil-tile,  #france-tile, 
+  #sa-tile, #sa2-tile{
     margin-top:10px;
     width: 280px;
     margin-left: auto ;
