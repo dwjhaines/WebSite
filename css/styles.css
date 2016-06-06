@@ -132,8 +132,12 @@ div.jumbotron{
   background: url('../images/sa2-tile.JPG') no-repeat;
   background-position: center;
 }
-#brazil-tile , #brazil2-tile {
+#brazil-tile {
   background: url('../images/brazil-tile.JPG') no-repeat;
+  background-position: center;
+}
+#brazil2-tile {
+  background: url('../images/brazil2-tile.JPG') no-repeat;
   background-position: center;
 }
 #france-tile {
