@@ -61,7 +61,7 @@ div.jumbotron{
 }
 
 #diving-tile, #travel-tile, #football-tile, #beer-tile,
-#moalboal-tile, #myanmar-tile, #brazil-tile, #france-tile,
+#moalboal-tile, #myanmar-tile, #brazil-tile, #brazil2-tile, #france-tile,
 #san-marino-tile, #glasgow-tile, #dublin-tile, #munich-1860-tile, #spain-tile,
 #sa-tile, #sa2-tile{
   height: 200px;
@@ -93,7 +93,7 @@ div.jumbotron{
 }
 
 #diving-tile:hover, #travel-tile:hover, #football-tile:hover, #beer-tile:hover,
-#moalboal-tile:hover, #myanmar-tile:hover, #brazil-tile:hover, #france-tile:hover, #sa-tile:hover, #sa2-tile:hover,
+#moalboal-tile:hover, #myanmar-tile:hover, #brazil-tile:hover, #brazil2-tile:hover, #france-tile:hover, #sa-tile:hover, #sa2-tile:hover,
 #san-marino-tile:hover, #glasgow-tile:hover, #dublin-tile:hover, #munich-1860-tile:hover, #spain-tile:hover,
 #sa-week-1-tile:hover, #sa-week-2-tile:hover, #sa-week-3-tile:hover, #sa-week-4-tile:hover , #sa-photos-tile:hover  {
   box-shadow: 0 1px 5px 1px #121212;
@@ -132,7 +132,7 @@ div.jumbotron{
   background: url('../images/sa2-tile.JPG') no-repeat;
   background-position: center;
 }
-#brazil-tile {
+#brazil-tile , #brazil2-tile {
   background: url('../images/brazil-tile.JPG') no-repeat;
   background-position: center;
 }
@@ -181,7 +181,7 @@ div.jumbotron{
   background-position: center;
 }
 #diving-tile span, #travel-tile span, #football-tile span, #beer-tile span,
-#moalboal-tile span, #myanmar-tile  span, #sa-tile span, #sa2-tile span, #brazil-tile span, #france-tile span,
+#moalboal-tile span, #myanmar-tile  span, #sa-tile span, #sa2-tile span, #brazil-tile span, #brazil2-tile span, #france-tile span,
 #san-marino-tile span, #glasgow-tile span, #dublin-tile span, #munich-1860-tile span, #spain-tile span,
 #sa-week-1-tile span, #sa-week-2-tile span, #sa-week-3-tile span, #sa-week-4-tile span, #sa-photos-tile span{
   position: absolute;
@@ -230,12 +230,12 @@ div.jumbotron{
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   #diving-tile, #travel-tile, #football-tile, #beer-tile,
-  #moalboal-tile, #myanmar-tile,  #sa-tile{
+  #moalboal-tile, #myanmar-tile, #brazil-tile, #sa-tile{
     margin-top:50px;
   }
   
   #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile, 
-  #sa-photos-tile, #sa2-tile, #brazil-tile, #france-tile,
+  #sa-photos-tile, #sa2-tile, #france-tile, #brazil2-tile, 
   #san-marino-tile, #glasgow-tile, #dublin-tile, #munich-1860-tile, #spain-tile{
     margin-top: 0px;
     margin-bottom:20px;
@@ -245,12 +245,12 @@ div.jumbotron{
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px)  {
   #diving-tile, #travel-tile, #football-tile, #beer-tile,
-  #moalboal-tile, #myanmar-tile,
+  #moalboal-tile, #myanmar-tile, #brazil-tile, 
   #sa-tile{
     margin-top:30px;
   }
   #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile,
-  #sa-photos-tile, #brazil-tile, #france-tile, #sa2-tile, 
+  #sa-photos-tile, #brazil2-tile, #france-tile, #sa2-tile, 
   #san-marino-tile, #glasgow-tile, #dublin-tile, #munich-1860-tile, #spain-tile{
     margin-top:10px;
     margin-bottom:20px;
@@ -260,12 +260,12 @@ div.jumbotron{
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   #diving-tile, #travel-tile, #football-tile, #beer-tile,
-  #moalboal-tile, #myanmar-tile,
+  #moalboal-tile, #myanmar-tile, #brazil-tile, 
   #sa-tile{
     margin-top: 20px;
   }
   #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile,
-  #sa-photos-tile, #brazil-tile, #france-tile, #sa2-tile, 
+  #sa-photos-tile, #brazil2-tile, #france-tile, #sa2-tile, 
   #san-marino-tile, #glasgow-tile, #dublin-tile, #munich-1860-tile, #spain-tile{
     margin-top: 0px;
     margin-bottom:20px;
@@ -280,7 +280,7 @@ div.jumbotron{
   }
   
   #diving-tile, #travel-tile, #football-tile, #beer-tile,
-  #moalboal-tile, #myanmar-tile,
+  #moalboal-tile, #myanmar-tile, #brazil-tile, 
   #sa-tile{
     margin-top:10px;
     width: 280px;
@@ -288,7 +288,7 @@ div.jumbotron{
     margin-right: auto ;
   }
   #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile,
-  #sa-photos-tile, #brazil-tile, #france-tile, #sa2-tile ,
+  #sa-photos-tile, #brazil2-tile, #france-tile, #sa2-tile ,
   #san-marino-tile, #glasgow-tile, #dublin-tile, #munich-1860-tile, #spain-tile{
     margin-top: 0px;
     margin-bottom:20px;
