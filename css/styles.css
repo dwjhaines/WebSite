@@ -227,6 +227,30 @@ div.jumbotron{
   color:lightgrey;
 }
 
+div.tiles {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+span.tiles{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+  color:lightgrey;
+} 
+.tiles:hover  {
+  box-shadow: 0 1px 5px 1px #121212;
+}
+
 /********* Settings for social media icons **********/
 .fa{
   font-size:30px;
@@ -272,6 +296,10 @@ div.jumbotron{
     margin-top: 0px;
     margin-bottom:20px;
   }
+  div.tiles{
+    margin-top: 0px;
+    margin-bottom:20px;
+  }
 }
 
 /********** Medium devices only **********/
@@ -288,6 +316,10 @@ div.jumbotron{
     margin-top:10px;
     margin-bottom:20px;
   }
+  div.tiles{
+    margin-top: 10px;
+    margin-bottom:20px;
+  }
 }
 
 /********** Small devices only **********/
@@ -297,10 +329,17 @@ div.jumbotron{
   #sa-tile{
     margin-top: 20px;
   }
+  div.tiles{
+    margin-top: 20px;
+  }
   #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile,
   #sa-photos-tile, #brazil2-tile, #france-tile, #sa2-tile, 
   #san-marino-tile, #glasgow-tile, #dublin-tile, #munich-1860-tile, #spain-tile,
   #st-gallen-tile, #kuban-tile, #valencia-tile, #malmo-tile, #tallinn-tile, #napoli-tile{
+    margin-top: 0px;
+    margin-bottom:20px;
+  }
+  div.tiles{
     margin-top: 0px;
     margin-bottom:20px;
   }
@@ -325,6 +364,13 @@ div.jumbotron{
   #sa-photos-tile, #brazil2-tile, #france-tile, #sa2-tile ,
   #san-marino-tile, #glasgow-tile, #dublin-tile, #munich-1860-tile, #spain-tile,
   #st-gallen-tile, #kuban-tile, #valencia-tile, #malmo-tile, #tallinn-tile, #napoli-tile{
+    margin-top: 0px;
+    margin-bottom:20px;
+    width: 280px;
+    margin-left: auto ;
+    margin-right: auto ;
+  }
+  div.tiles{
     margin-top: 0px;
     margin-bottom:20px;
     width: 280px;
