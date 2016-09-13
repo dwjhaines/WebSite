@@ -62,7 +62,7 @@ div.jumbotron{
 
 #diving-tile, #travel-tile, #football-tile, #beer-tile,
 #moalboal-tile, #myanmar-tile, #brazil-tile, #brazil2-tile, #france-tile,
-#san-marino-tile, #glasgow-tile, #dublin-tile, #munich-1860-tile, #spain-tile,
+#san-marino-tile, #glasgow-tile, #dublin-tile, #munich-1860-tile, #spain-tile, #slovakia-tile,
 #st-gallen-tile, #kuban-tile, #valencia-tile, #malmo-tile, #tallinn-tile, #napoli-tile,
 #sa-tile, #sa2-tile{
   height: 200px;
@@ -104,7 +104,7 @@ div.jumbotron{
 
 #diving-tile:hover, #travel-tile:hover, #football-tile:hover, #beer-tile:hover,
 #moalboal-tile:hover, #myanmar-tile:hover, #brazil-tile:hover, #brazil2-tile:hover, #france-tile:hover, #sa-tile:hover, #sa2-tile:hover,
-#san-marino-tile:hover, #glasgow-tile:hover, #dublin-tile:hover, #munich-1860-tile:hover, #spain-tile:hover,
+#san-marino-tile:hover, #glasgow-tile:hover, #dublin-tile:hover, #munich-1860-tile:hover, #spain-tile:hover, #slovakia-tile:hover,
 #st-gallen-tile:hover, #kuban-tile:hover, #valencia-tile:hover, #malmo-tile:hover, #tallinn-tile:hover, #napoli-tile:hover,
 #sa-week-1-tile:hover, #sa-week-2-tile:hover, #sa-week-3-tile:hover, #sa-week-4-tile:hover , #sa-photos-tile:hover .#framce-photos-tile:hover {
   box-shadow: 0 1px 5px 1px #121212;
@@ -195,6 +195,10 @@ div.jumbotron{
   background: url('../images/spain-tile.JPG') no-repeat;
   background-position: center;
 }
+#slovakia-tile {
+  background: url('../images/slovakia-tile.JPG') no-repeat;
+  background-position: center;
+}
 #dublin-tile {
   background: url('../images/dublin-tile.JPG') no-repeat;
   background-position: center;
@@ -225,7 +229,7 @@ div.jumbotron{
 }
 #diving-tile span, #travel-tile span, #football-tile span, #beer-tile span,
 #moalboal-tile span, #myanmar-tile  span, #sa-tile span, #sa2-tile span, #brazil-tile span, #brazil2-tile span, #france-tile span,
-#san-marino-tile span, #glasgow-tile span, #dublin-tile span, #munich-1860-tile span, #spain-tile span,
+#san-marino-tile span, #glasgow-tile span, #dublin-tile span, #munich-1860-tile span, #spain-tile span,  #slovakia-tile span,
 #st-gallen-tile span, #kuban-tile span, #valencia-tile span, #malmo-tile span, #tallinn-tile span, #napoli-tile span,
 #sa-week-1-tile span, #sa-week-2-tile span, #sa-week-3-tile span, #sa-week-4-tile span, #sa-photos-tile span, #france-photos-tile span{
   position: absolute;
@@ -305,7 +309,7 @@ span.tiles{
   
   #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile, 
   #sa-photos-tile, #france-photos-tile, #sa2-tile, #france-tile, #brazil2-tile, 
-  #san-marino-tile, #glasgow-tile, #dublin-tile, #munich-1860-tile, #spain-tile,
+  #san-marino-tile, #glasgow-tile, #dublin-tile, #munich-1860-tile, #spain-tile, #slovakia-tile,
   #st-gallen-tile, #kuban-tile, #valencia-tile, #malmo-tile, #tallinn-tile, #napoli-tile{
     margin-top: 0px;
     margin-bottom:20px;
@@ -325,7 +329,7 @@ span.tiles{
   }
   #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile,
   #sa-photos-tile, #france-photos-tile, #brazil2-tile, #france-tile, #sa2-tile, 
-  #san-marino-tile, #glasgow-tile, #dublin-tile, #munich-1860-tile, #spain-tile,
+  #san-marino-tile, #glasgow-tile, #dublin-tile, #munich-1860-tile, #spain-tile, #slovakia-tile,
   #st-gallen-tile, #kuban-tile, #valencia-tile, #malmo-tile, #tallinn-tile, #napoli-tile{
     margin-top:10px;
     margin-bottom:20px;
@@ -348,7 +352,7 @@ span.tiles{
   }
   #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile,
   #sa-photos-tile, #france-photos-tile, #brazil2-tile, #france-tile, #sa2-tile, 
-  #san-marino-tile, #glasgow-tile, #dublin-tile, #munich-1860-tile, #spain-tile,
+  #san-marino-tile, #glasgow-tile, #dublin-tile, #munich-1860-tile, #spain-tile, #slovakia-tile,
   #st-gallen-tile, #kuban-tile, #valencia-tile, #malmo-tile, #tallinn-tile, #napoli-tile{
     margin-top: 0px;
     margin-bottom:20px;
@@ -376,7 +380,7 @@ span.tiles{
   }
   #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile,
   #sa-photos-tile, #france-photos-tile, #brazil2-tile, #france-tile, #sa2-tile ,
-  #san-marino-tile, #glasgow-tile, #dublin-tile, #munich-1860-tile, #spain-tile,
+  #san-marino-tile, #glasgow-tile, #dublin-tile, #munich-1860-tile, #spain-tile, #slovakia-tile,
   #st-gallen-tile, #kuban-tile, #valencia-tile, #malmo-tile, #tallinn-tile, #napoli-tile{
     margin-top: 0px;
     margin-bottom:20px;
