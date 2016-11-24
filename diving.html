@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- saved from url=(0043)http://getbootstrap.com/examples/jumbotron/ -->
-<html lang="en">
+<html lang="en" ng-app>
     <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -53,92 +53,74 @@
             </nav>
         </div>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <a
-                        href="https://goo.gl/photos/zJckBBD52Ceichca9">
-                        <div class="tiles" style="background-image: url('images/bonaire-2016-tile.JPG')">
-                            <span class="tiles">Bonaire 2016</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <a
-                        href="log-book.html">
-                        <div class="tiles" style="background-image: url('images/log-book-tile.JPG')">
-                            <span class="tiles">Log Book</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <a
-                        href="https://goo.gl/photos/LDK3N4h2JvaCsdZi7">
-                        <div class="tiles" style="background-image: url('images/thailand-tile.JPG')">
-                            <span class="tiles">Thailand</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <a
-                        href="https://goo.gl/photos/8barMhKNdbdqRNxe7">
-                        <div class="tiles" style="background-image: url('images/bonaire-2015-tile.JPG')">
-                            <span class="tiles">Bonaire 2015</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <a
-                        href="https://goo.gl/photos/JHWAv7B591zSTGr48">
-                        <div class="tiles" style="background-image: url('images/bonaire-2014-tile.JPG')">
-                            <span class="tiles">Bonaire 2014</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
+       <div class="container">
+                <div class="row"
+                    ng-init="
+                         trips=[
+                         {
+                            link:'https://goo.gl/photos/zJckBBD52Ceichca9',
+                            image:'images/bonaire-2016-tile.JPG',
+                            title:'Bonaire 2016'
+                         },
+                         {
+                            link:'log-book.html',
+                            image:'images/log-book-tile.JPG',
+                            title:'Log Book'
+                         },
+                         {
+                            link:'https://goo.gl/photos/LDK3N4h2JvaCsdZi7',
+                            image:'images/thailand-tile.JPG',
+                            title:'Thailand 2015'
+                         },
+                         {
+                            link:'https://goo.gl/photos/8barMhKNdbdqRNxe7',
+                            image:'images/bonaire-2015-tile.JPG',
+                            title:'Bonaire 2015'
+                         },
+                         {
+                            link:'https://goo.gl/photos/JHWAv7B591zSTGr48',
+                            image:'images/bonaire-2014-tile.JPG',
+                            title:'Bonaire 2014'
+                         }                                                             
+                         ]">
 
-                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12" ng-repeat="trip in trips">
+                        <a href="{{trip.link}}">
+
+                        <div class="tiles" style="background-image: url({{trip.image}})">
+                            <span class="tiles">{{trip.title}}</span>
+                        </div> </a>
+                </div> 
 
               
-            </div> <!-- Home Tiles -->
+        </div> <!-- Row -->
 
-            <hr>
+        <hr>
 
-            <footer>
-                <div class="row footer-row">
-                    <div class="col-md-6 col-sm-6 col-xs-12 copyright">
-                        <p>© 2016 dwjhaines</p>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-xs-12 fa">
-                        <a href="https://www.youtube.com/user/dwjhaines">
-                            <i class="fa fa-youtube-square"></i>
-                        </a>
-                        <a href="https://twitter.com/dwjhaines">
-                            <i class="fa fa-twitter-square"></i>
-                        </a>
-                        <a href="https://facebook.com/dwjhaines">
-                            <i class="fa fa-facebook-square"></i>
-                        </a>
-                        <a href="https://uk.linkedin.com/in/dwjhaines">
-                            <i class="fa fa-linkedin-square"></i>
-                        </a>
-                    </div>
+        <footer>
+            <div class="row footer-row">
+                <div class="col-md-6 col-sm-6 col-xs-12 copyright">
+                    <p>© 2016 dwjhaines</p>
                 </div>
-            </footer>
+                <div class="col-md-6 col-sm-6 col-xs-12 fa">
+                    <a href="https://www.youtube.com/user/dwjhaines">
+                        <i class="fa fa-youtube-square"></i>
+                    </a>
+                    <a href="https://twitter.com/dwjhaines">
+                        <i class="fa fa-twitter-square"></i>
+                    </a>
+                    <a href="https://facebook.com/dwjhaines">
+                        <i class="fa fa-facebook-square"></i>
+                    </a>
+                    <a href="https://uk.linkedin.com/in/dwjhaines">
+                        <i class="fa fa-linkedin-square"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
 
-        </div>
-        <!-- /container -->
+        </div> <!-- /container -->
 
-        <!-- Bootstrap core JavaScript
-    ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="./index_files/jquery.min.js"></script>
-        <script>
-            window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
-        </script>
-        <script src="./index_files/bootstrap.min.js"></script>
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="./index_files/ie10-viewport-bug-workaround.js"></script>
-
+        <script src="angular/angular.min.js"></script>
     </body>
 </html>
