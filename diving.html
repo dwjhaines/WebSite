@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- saved from url=(0043)http://getbootstrap.com/examples/jumbotron/ -->
-<html lang="en" ng-app>
+<html lang="en" ng-app="diveApp">
     <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -54,73 +54,76 @@
         </div>
 
        <div class="container">
-                <div class="row"
-                    ng-init="
-                         trips=[
-                         {
-                            link:'https://goo.gl/photos/zJckBBD52Ceichca9',
-                            image:'images/bonaire-2016-tile.JPG',
-                            title:'Bonaire 2016'
-                         },
-                         {
-                            link:'log-book.html',
-                            image:'images/log-book-tile.JPG',
-                            title:'Log Book'
-                         },
-                         {
-                            link:'https://goo.gl/photos/LDK3N4h2JvaCsdZi7',
-                            image:'images/thailand-tile.JPG',
-                            title:'Thailand 2015'
-                         },
-                         {
-                            link:'https://goo.gl/photos/8barMhKNdbdqRNxe7',
-                            image:'images/bonaire-2015-tile.JPG',
-                            title:'Bonaire 2015'
-                         },
-                         {
-                            link:'https://goo.gl/photos/JHWAv7B591zSTGr48',
-                            image:'images/bonaire-2014-tile.JPG',
-                            title:'Bonaire 2014'
-                         }                                                             
-                         ]">
-
-                <div class="col-md-3 col-sm-6 col-xs-12" ng-repeat="trip in trips">
-                        <a href="{{trip.link}}">
-
+            <div class="row row-content" ng-controller="tileController as tileCtrl">
+                <div class="col-md-3 col-sm-6 col-xs-12" ng-repeat="trip in tileCtrl.trips">
+                    <a href="{{trip.link}}">
                         <div class="tiles" style="background-image: url({{trip.image}})">
                             <span class="tiles">{{trip.title}}</span>
-                        </div> </a>
-                </div> 
+                        </div>
+                    </a>
+                </div>  
+            </div> <!-- Row -->
 
-              
-        </div> <!-- Row -->
-
-        <hr>
-
-        <footer>
-            <div class="row footer-row">
-                <div class="col-md-6 col-sm-6 col-xs-12 copyright">
-                    <p>© 2016 dwjhaines</p>
+            <hr>
+        
+            <footer>
+                <div class="row footer-row">
+                    <div class="col-md-6 col-sm-6 col-xs-12 copyright">
+                        <p>© 2016 dwjhaines</p>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 fa">
+                        <a href="https://www.youtube.com/user/dwjhaines">
+                            <i class="fa fa-youtube-square"></i>
+                        </a>
+                        <a href="https://twitter.com/dwjhaines">
+                            <i class="fa fa-twitter-square"></i>
+                        </a>
+                        <a href="https://facebook.com/dwjhaines">
+                            <i class="fa fa-facebook-square"></i>
+                        </a>
+                        <a href="https://uk.linkedin.com/in/dwjhaines">
+                            <i class="fa fa-linkedin-square"></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="col-md-6 col-sm-6 col-xs-12 fa">
-                    <a href="https://www.youtube.com/user/dwjhaines">
-                        <i class="fa fa-youtube-square"></i>
-                    </a>
-                    <a href="https://twitter.com/dwjhaines">
-                        <i class="fa fa-twitter-square"></i>
-                    </a>
-                    <a href="https://facebook.com/dwjhaines">
-                        <i class="fa fa-facebook-square"></i>
-                    </a>
-                    <a href="https://uk.linkedin.com/in/dwjhaines">
-                        <i class="fa fa-linkedin-square"></i>
-                    </a>
-                </div>
-            </div>
-        </footer>
+            </footer>
 
         </div> <!-- /container -->
 
         <script src="angular/angular.min.js"></script>
+        <script>
+            var app = angular.module('diveApp',[]);
+            app.controller('tileController', function() {
+                var trips=[
+                     {
+                        link:'https://goo.gl/photos/zJckBBD52Ceichca9',
+                        image:'images/bonaire-2016-tile.JPG',
+                        title:'Bonaire 2016'
+                     },
+                     {
+                        link:'log-book.html',
+                        image:'images/log-book-tile.JPG',
+                        title:'Log Book'
+                     },
+                     {
+                        link:'https://goo.gl/photos/LDK3N4h2JvaCsdZi7',
+                        image:'images/thailand-tile.JPG',
+                        title:'Thailand 2015'
+                     },
+                     {
+                        link:'https://goo.gl/photos/8barMhKNdbdqRNxe7',
+                        image:'images/bonaire-2015-tile.JPG',
+                        title:'Bonaire 2015'
+                     },
+                     {
+                        link:'https://goo.gl/photos/JHWAv7B591zSTGr48',
+                        image:'images/bonaire-2014-tile.JPG',
+                        title:'Bonaire 2014'
+                     }                                                             
+                ]
+                this.trips=trips;
+            });
+
+        </script>
     </body>
 </html>

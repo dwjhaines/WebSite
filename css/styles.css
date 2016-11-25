@@ -61,10 +61,7 @@ div.jumbotron{
 }
 
 #diving-tile, #travel-tile, #football-tile, #beer-tile,
-#moalboal-tile, #myanmar-tile, #brazil-tile, #brazil2-tile, #france-tile,
-#san-marino-tile, #glasgow-tile, #dublin-tile, #munich-1860-tile, #spain-tile, #slovakia-tile,
-#st-gallen-tile, #kuban-tile, #valencia-tile, #malmo-tile, #tallinn-tile, #napoli-tile,
-#sa-tile, #sa2-tile{
+#moalboal-tile, #myanmar-tile, #brazil-tile, #sa-tile{
   height: 200px;
   width: 100%;
   margin-bottom: 15px;
@@ -103,9 +100,7 @@ div.jumbotron{
 }
 
 #diving-tile:hover, #travel-tile:hover, #football-tile:hover, #beer-tile:hover,
-#moalboal-tile:hover, #myanmar-tile:hover, #brazil-tile:hover, #brazil2-tile:hover, #france-tile:hover, #sa-tile:hover, #sa2-tile:hover,
-#san-marino-tile:hover, #glasgow-tile:hover, #dublin-tile:hover, #munich-1860-tile:hover, #spain-tile:hover, #slovakia-tile:hover,
-#st-gallen-tile:hover, #kuban-tile:hover, #valencia-tile:hover, #malmo-tile:hover, #tallinn-tile:hover, #napoli-tile:hover,
+#moalboal-tile:hover, #myanmar-tile:hover, #brazil-tile:hover, #sa-tile:hover, 
 #sa-week-1-tile:hover, #sa-week-2-tile:hover, #sa-week-3-tile:hover, #sa-week-4-tile:hover , #sa-photos-tile:hover .#framce-photos-tile:hover {
   box-shadow: 0 1px 5px 1px #121212;
 }
@@ -134,13 +129,8 @@ div.jumbotron{
   background: url('../images/myanmar-tile.JPG') no-repeat;
   background-position: center;
 }
-
 #sa-tile {
   background: url('../images/sa-tile.JPG') no-repeat;
-  background-position: center;
-}
-#sa2-tile {
-  background: url('../images/sa2-tile.JPG') no-repeat;
   background-position: center;
 }
 #brazil-tile {
@@ -149,10 +139,6 @@ div.jumbotron{
 }
 #brazil2-tile {
   background: url('../images/brazil2-tile.JPG') no-repeat;
-  background-position: center;
-}
-#france-tile {
-  background: url('../images/france-tile.JPG') no-repeat;
   background-position: center;
 }
 #sa-week-1-tile {
@@ -179,58 +165,9 @@ div.jumbotron{
   background: url('../images/france-photos-tile.JPG') no-repeat;
   background-position: center;
 }
-#munich-1860-tile {
-  background: url('../images/munich-1860-tile.JPG') no-repeat;
-  background-position: center;
-}
-#glasgow-tile {
-  background: url('../images/glasgow-tile.JPG') no-repeat;
-  background-position: center;
-}
-#san-marino-tile {
-  background: url('../images/san-marino-tile.JPG') no-repeat;
-  background-position: center;
-}
-#spain-tile {
-  background: url('../images/spain-tile.JPG') no-repeat;
-  background-position: center;
-}
-#slovakia-tile {
-  background: url('../images/slovakia-tile.JPG') no-repeat;
-  background-position: center;
-}
-#dublin-tile {
-  background: url('../images/dublin-tile.JPG') no-repeat;
-  background-position: center;
-}
-#napoli-tile {
-  background: url('../images/napoli-tile.JPG') no-repeat;
-  background-position: center;
-}
-#kuban-tile {
-  background: url('../images/kuban-tile.JPG') no-repeat;
-  background-position: center;
-}
-#st-gallen-tile {
-  background: url('../images/st-gallen-tile.JPG') no-repeat;
-  background-position: center;
-}
-#valencia-tile {
-  background: url('../images/valencia-tile.JPG') no-repeat;
-  background-position: center;
-}
-#malmo-tile {
-  background: url('../images/malmo-tile.JPG') no-repeat;
-  background-position: center;
-}
-#tallinn-tile {
-  background: url('../images/tallinn-tile.JPG') no-repeat;
-  background-position: center;
-}
+
 #diving-tile span, #travel-tile span, #football-tile span, #beer-tile span,
-#moalboal-tile span, #myanmar-tile  span, #sa-tile span, #sa2-tile span, #brazil-tile span, #brazil2-tile span, #france-tile span,
-#san-marino-tile span, #glasgow-tile span, #dublin-tile span, #munich-1860-tile span, #spain-tile span,  #slovakia-tile span,
-#st-gallen-tile span, #kuban-tile span, #valencia-tile span, #malmo-tile span, #tallinn-tile span, #napoli-tile span,
+#moalboal-tile span, #myanmar-tile  span, #sa-tile span, #brazil-tile span, 
 #sa-week-1-tile span, #sa-week-2-tile span, #sa-week-3-tile span, #sa-week-4-tile span, #sa-photos-tile span, #france-photos-tile span{
   position: absolute;
   bottom: 0;
