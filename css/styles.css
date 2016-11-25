@@ -245,9 +245,8 @@ span.tiles{
   }
   
   #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile, 
-  #sa-photos-tile, #france-photos-tile, #sa2-tile, #france-tile, #brazil2-tile, 
-  #san-marino-tile, #glasgow-tile, #dublin-tile, #munich-1860-tile, #spain-tile, #slovakia-tile,
-  #st-gallen-tile, #kuban-tile, #valencia-tile, #malmo-tile, #tallinn-tile, #napoli-tile{
+  #sa-photos-tile, #france-photos-tile
+  {
     margin-top: 0px;
     margin-bottom:20px;
   }
@@ -264,10 +263,9 @@ span.tiles{
   #sa-tile{
     margin-top:30px;
   }
-  #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile,
-  #sa-photos-tile, #france-photos-tile, #brazil2-tile, #france-tile, #sa2-tile, 
-  #san-marino-tile, #glasgow-tile, #dublin-tile, #munich-1860-tile, #spain-tile, #slovakia-tile,
-  #st-gallen-tile, #kuban-tile, #valencia-tile, #malmo-tile, #tallinn-tile, #napoli-tile{
+  #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile, 
+  #sa-photos-tile, #france-photos-tile
+  {
     margin-top:10px;
     margin-bottom:20px;
   }
@@ -287,10 +285,9 @@ span.tiles{
   div.tiles{
     margin-top: 20px;
   }
-  #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile,
-  #sa-photos-tile, #france-photos-tile, #brazil2-tile, #france-tile, #sa2-tile, 
-  #san-marino-tile, #glasgow-tile, #dublin-tile, #munich-1860-tile, #spain-tile, #slovakia-tile,
-  #st-gallen-tile, #kuban-tile, #valencia-tile, #malmo-tile, #tallinn-tile, #napoli-tile{
+  #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile, 
+  #sa-photos-tile, #france-photos-tile
+  {
     margin-top: 0px;
     margin-bottom:20px;
   }
@@ -315,10 +312,9 @@ span.tiles{
     margin-left: auto ;
     margin-right: auto ;
   }
-  #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile,
-  #sa-photos-tile, #france-photos-tile, #brazil2-tile, #france-tile, #sa2-tile ,
-  #san-marino-tile, #glasgow-tile, #dublin-tile, #munich-1860-tile, #spain-tile, #slovakia-tile,
-  #st-gallen-tile, #kuban-tile, #valencia-tile, #malmo-tile, #tallinn-tile, #napoli-tile{
+  #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile, 
+  #sa-photos-tile, #france-photos-tile
+  {
     margin-top: 0px;
     margin-bottom:20px;
     width: 280px;
