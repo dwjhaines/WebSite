@@ -59,7 +59,7 @@
         <!-- Main container loops through list in Angular module -->
         <div class="container">
             <div class="row row-content" ng-controller="tileController as tileCtrl">
-                <div class="col-md-3 col-sm-6 col-xs-12" ng-repeat="trip in tileCtrl.trips">
+                <div class="col-md-3 col-sm-6 col-xs-12" ng-repeat="trip in tileCtrl.trips | filter:tileCtrl.filtText">
                     <a href="{{trip.link}}">
                         <div class="tiles" style="background-image: url({{trip.image}})">
                             <span class="tiles">{{trip.title}}</span>
@@ -100,16 +100,19 @@
         <script>
             var app = angular.module('footballApp',[]);
                 app.controller('tileController', function() {
+                    this.filtText = 'football';
                     var trips=[
                     {
                         link:'https://goo.gl/photos/E17KU5vKjNEzfja16',
                         image:'images/slovakia-tile.JPG',
-                        title:'Slovakia v England'
+                        title:'Slovakia v England',
+                        category: 'football'
                      },    
                      {
                         link:'france-2016.html',
                         image:'images/france-tile.JPG',
-                        title:'France 2016'
+                        title:'France 2016',
+                        category: 'football'
                      },                       
                      {
                         link:'https://goo.gl/photos/rrY1sqr2YPasXyYm6',
@@ -119,62 +122,74 @@
                      {
                         link:'https://goo.gl/photos/cK4P6ThiPwcktuEW6',
                         image:'images/san-marino-tile.JPG',
-                        title:'San Marino v England'
+                        title:'San Marino v England',
+                        category: 'football'
                      },                       
                      {
                         link:'https://goo.gl/photos/LWgreorWVnJHDJJx7',
                         image:'images/munich-1860-tile.JPG',
-                        title:'1860 Munich v Swansea'
+                        title:'1860 Munich v Swansea',
+                        category: 'football'
                      },                       
                      {
                         link:'https://goo.gl/photos/8zi3dK7XreUvnR6F9',
                         image:'images/dublin-tile.JPG',
-                        title:'Ireland and Slovenia'
+                        title:'Ireland and Slovenia',
+                        category: 'football'
                      },                       
                      {
                         link:'https://goo.gl/photos/SXnE9xzrZcbZ5YvZ8',
                         image:'images/glasgow-tile.JPG',
-                        title:'Scotland v England'
+                        title:'Scotland v England',
+                        category: 'football'
                      },                       
                      {
                         link:'https://goo.gl/photos/EryTs8xySPbzZBWb9',
                         image:'images/tallinn-tile.JPG',
-                        title:'Estonia v England'
+                        title:'Estonia v England',
+                        category: 'football'
                      },                       
                      {
                         link:'brazil.html',
                         image:'images/brazil2-tile.JPG',
-                        title:'Brazil 2014'
+                        title:'Brazil 2014',
+                        category: 'football'
                      },                       
                      {
                         link:'https://goo.gl/photos/9YZ5ihSnKoB2L8qv7',
                         image:'images/napoli-tile.JPG',
-                        title:'Napoli v Swansea'
+                        title:'Napoli v Swansea',
+                        category: 'football'
                      },                       
                      {
                         link:'https://goo.gl/photos/mZJTBa7oMZfEBRL76',
                         image:'images/st-gallen-tile.JPG',
-                        title:'St Gallen v Swansea'
+                        title:'St Gallen v Swansea',
+                        category: 'football'
                      },                       
                      {
                         link:'https://goo.gl/photos/oanjEfDW47t8vg36A',
                         image:'images/kuban-tile.JPG',
-                        title:'F. C. Kuban v Swansea'
+                        title:'F. C. Kuban v Swansea',
+                        category: 'football'
                      },                       
                      {
                         link:'https://goo.gl/photos/qLTw7mfiffp8YzGVA',
                         image:'images/valencia-tile.JPG',
-                        title:'Valencia v Swansea'
+                        title:'Valencia v Swansea',
+                        category: 'football'
                      },                       
                      {
                         link:'https://goo.gl/photos/L9x3bvhgNAvvXAiC9',
                         image:'images/malmo-tile.JPG',
-                        title:'Malmo v Swansea'
+                        title:'Malmo v Swansea',
+                        category: 'football'
                      },                       
                      {
                         link:'south-africa.html',
                         image:'images/sa2-tile.JPG',
-                        title:'South Africa 2010'
+                        title:'South Africa 2010',
+                        category: 'football'
                      }                   
                     ]
                 this.trips=trips;
