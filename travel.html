@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- saved from url=(0043)http://getbootstrap.com/examples/jumbotron/ -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en" ng-app="travelApp"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -51,22 +51,16 @@
       </nav>
     </div>
 
-    <div class="container">
-      <div id="home-tiles" class="row">
-        <div class="col-md-3 col-sm-6 col-xs-12">
-          <a href="brazil.html"><div class="tiles" id="brazil-tile"><span>Brazil 2014</span></div></a>
-          
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-12">
-          <a href="world_trip_2012/index-2012.html"><div class="tiles" id="moalboal-tile"><span>2012 World Trip</span></div></a>
-        </div>
-      <div class="col-md-3 col-sm-6 col-xs-12">
-          <a href="south-africa.html"><div class="tiles" id="sa-tile"><span>South Africa 2010</span></div></a>
-        </div>
-      <div class="col-md-3 col-sm-6 col-xs-12">
-          <a href="world_trip_2006/index.html"><div class="tiles" id="myanmar-tile"><span>2006 World Trip</span></div></a>
-        </div>
-      </div>
+       <div class="container">
+            <div class="row row-content" ng-controller="tileController as tileCtrl">
+                <div class="col-md-3 col-sm-6 col-xs-12" ng-repeat="trip in tileCtrl.trips">
+                    <a href="{{trip.link}}">
+                        <div class="tiles" style="background-image: url({{trip.image}})">
+                            <span class="tiles">{{trip.title}}</span>
+                        </div>
+                    </a>
+                </div>  
+            </div> <!-- Row -->
   
       <hr>
 
@@ -94,6 +88,41 @@
     <script src="./index_files/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./index_files/ie10-viewport-bug-workaround.js"></script>
-  
+    
+    <script src="angular/angular.min.js"></script>
+        <script>
+            var app = angular.module('travelApp',[]);
+            app.controller('tileController', function() {
+                var trips=[
+                    {
+                        link:'https://goo.gl/photos/An7H2jwyCpCyvJZd7',
+                        image:'images/thailand-2016-tile.JPG',
+                        title:'Thailand 2016'
+                     },
+                     {
+                        link:'brazil.html',
+                        image:'images/brazil-tile.JPG',
+                        title:'Brazil 2014'
+                     },
+                     {
+                        link:'world_trip_2012/index-2012.html',
+                        image:'images/moalboal-tile.JPG',
+                        title:'2012 World Trip'
+                     },
+                     {
+                        link:'south-africa.html',
+                        image:'images/sa-tile.JPG',
+                        title:'South Africa 2010'
+                     },
+                     {
+                        link:'world_trip_2006/index.html',
+                        image:'images/myanmar-tile.JPG',
+                        title:'2006 World Trip'
+                     },                                                        
+                ]
+                this.trips=trips;
+            });
+
+        </script>
   </body>
 </html>
