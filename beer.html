@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- saved from url=(0043)http://getbootstrap.com/examples/jumbotron/ -->
-<html lang="en">
+<html lang="en" ng-app="beerApp">
     <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -53,96 +53,23 @@
             </nav>
         </div>
 
-        <div class="container">
-            <div id="beer-tiles" class="row">
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <a
-                        href="https://goo.gl/photos/d5VVhEpxTfqHjPKf8">
-                        <div class="tiles" style="background-image: url('images/munich-tile.JPG')">
-                            <span class="tiles">Munich 2016</span>
+       <div class="container">
+            <div class="row row-content" ng-controller="tileController as tileCtrl">
+                <div class="col-md-3 col-sm-6 col-xs-12" ng-repeat="session in tileCtrl.sessions">
+                    <a href="{{session.link}}">
+                        <div class="tiles" style="background-image: url({{session.image}})">
+                            <span class="tiles">{{session.title}}</span>
                         </div>
                     </a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <a
-                        href="https://goo.gl/photos/83NW68uTbJ6tZfiL9">
-                        <div class="tiles" style="background-image: url('images/belgium-tile.JPG')">
-                            <span class="tiles">Belgium/Germany</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <a
-                        href="https://goo.gl/photos/3umS8YXcG68W2DxR8">
-                        <div class="tiles" style="background-image: url('images/brussels-tile.JPG')">
-                            <span class="tiles">Brussels 2015</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <a
-                        href="https://goo.gl/photos/T4b29obhdk3UuKo49">
-                        <div class="tiles" style="background-image: url('images/munich-2015-tile.JPG')">
-                            <span class="tiles">Munich 2015</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <a
-                        href="https://goo.gl/photos/ibWwL6oDdiFcJcVt9">
-                        <div class="tiles" style="background-image: url('images/bruges-tile.JPG')">
-                            <span class="tiles">Bruges/Ghent</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <a
-                        href="https://goo.gl/photos/QJNTijtN1KHXJweM6">
-                        <div class="tiles" style="background-image: url('images/real-ale-trail-tile.JPG')">
-                            <span class="tiles">Real Ale Trail</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <a
-                        href="https://goo.gl/photos/nBbn6E2faHmCctte6">
-                        <div class="tiles" style="background-image: url('images/amsterdam-2015-tile.JPG')">
-                            <span class="tiles">Amsterdam 2015</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <a
-                        href="https://goo.gl/photos/93ktqEjPmE63fQpMA">
-                        <div class="tiles" style="background-image: url('images/burford-tile.JPG')">
-                            <span class="tiles">Burford</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <a
-                        href="https://goo.gl/photos/UhkXHBit6Xx1joUj7">
-                        <div class="tiles" style="background-image: url('images/gower-2014-tile.JPG')">
-                            <span class="tiles">Gower 2014</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <a
-                        href="https://goo.gl/photos/o7nM7CT5CiZyd2KH6">
-                        <div class="tiles" style="background-image: url('images/london-2014-tile.JPG')">
-                            <span class="tiles">London 2014</span>
-                        </div>
-                    </a>
-                </div>                
-            </div> <!-- Home Tiles -->
+                </div>  
+            </div> <!-- Row -->
 
             <hr>
-
+        
             <footer>
                 <div class="row footer-row">
                     <div class="col-md-6 col-sm-6 col-xs-12 copyright">
-                        <p>© 2016 dwjhaines</p>
+                        <p>© 2017 dwjhaines</p>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12 fa">
                         <a href="https://www.youtube.com/user/dwjhaines">
@@ -161,19 +88,77 @@
                 </div>
             </footer>
 
-        </div>
-        <!-- /container -->
+        </div> <!-- /container -->
 
-        <!-- Bootstrap core JavaScript
-    ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="./index_files/jquery.min.js"></script>
+        <script src="angular/angular.min.js"></script>
         <script>
-            window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
-        </script>
-        <script src="./index_files/bootstrap.min.js"></script>
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="./index_files/ie10-viewport-bug-workaround.js"></script>
+            var app = angular.module('beerApp',[]);
+            app.controller('tileController', function() {
+                var sessions=[
+                    {
+                        link:'https://goo.gl/photos/d5VVhEpxTfqHjPKf8',
+                        image:'images/munich-tile.JPG',
+                        title:'Munich 2016'
+                     },
+                     {
+                        link:'https://goo.gl/photos/83NW68uTbJ6tZfiL9',
+                        image:'images/belgium-tile.JPG',
+                        title:'Belgium/Germany'
+                     },
+                     {
+                        link:'https://goo.gl/photos/3umS8YXcG68W2DxR8',
+                        image:'images/brussels-tile.JPG',
+                        title:'Brussels 2015'
+                     },
+                     {
+                        link:'https://goo.gl/photos/T4b29obhdk3UuKo49',
+                        image:'images/munich-2015-tile.JPG',
+                        title:'Munich 2015'
+                     },
+                     {
+                        link:'https://goo.gl/photos/ibWwL6oDdiFcJcVt9',
+                        image:'images/bruges-tile.JPG',
+                        title:'Bruges/Ghent'
+                     },
+                     {
+                        link:'https://goo.gl/photos/QJNTijtN1KHXJweM6',
+                        image:'images/real-ale-trail-tile.JPG',
+                        title:'Real Ale Trail'
+                     },
+                     {
+                        link:'https://goo.gl/photos/nBbn6E2faHmCctte6',
+                        image:'images/amsterdam-2015-tile.JPG',
+                        title:'Amsterdam 2015'
+                     },
+                     {
+                        link:'https://goo.gl/photos/93ktqEjPmE63fQpMA',
+                        image:'images/burford-tile.JPG',
+                        title:'Burford'
+                     },
+                     {
+                        link:'https://goo.gl/photos/UhkXHBit6Xx1joUj7',
+                        image:'images/gower-2014-tile.JPG',
+                        title:'Gower 2014'
+                     },
+                     {
+                        link:'https://goo.gl/photos/o7nM7CT5CiZyd2KH6',
+                        image:'images/london-2014-tile.JPG',
+                        title:'London 2014'
+                     },
+                     {
+                        link:'https://goo.gl/photos/pfXaU65Hbi42RJmv6',
+                        image:'images/brussels-2011-tile.JPG',
+                        title:'Brussels 2011'
+                     },
+                     {
+                        link:'https://goo.gl/photos/hFjBKq4tLq6s8iuz7',
+                        image:'images/munich-2011-tile.JPG',
+                        title:'Munich 2011'
+                     }               
+                ]
+                this.sessions=sessions;
+            });
 
+        </script>
     </body>
 </html>
