@@ -97,7 +97,16 @@ div.jumbotron{
   margin-right: 0px;
   margin-left: 0px;
 }
-
+ #poland-photos-tile{
+  height: 170px;
+  margin-bottom: 15px;
+  margin-top:0;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  margin-right: 0px;
+  margin-left: 0px;
+}
 #diving-tile:hover, #travel-tile:hover, #football-tile:hover, #beer-tile:hover,
 #sa-week-1-tile:hover, #sa-week-2-tile:hover, #sa-week-3-tile:hover, #sa-week-4-tile:hover , #sa-photos-tile:hover .#framce-photos-tile:hover {
   box-shadow: 0 1px 5px 1px #121212;
@@ -143,9 +152,13 @@ div.jumbotron{
   background: url('../images/france-photos-tile.JPG') no-repeat;
   background-position: center;
 }
+#poland-photos-tile {
+  background: url('../images/poland-photos-tile.JPG') no-repeat;
+  background-position: center;
+}
 
 #diving-tile span, #travel-tile span, #football-tile span, #beer-tile span,
-#sa-week-1-tile span, #sa-week-2-tile span, #sa-week-3-tile span, #sa-week-4-tile span, #sa-photos-tile span, #france-photos-tile span{
+#sa-week-1-tile span, #sa-week-2-tile span, #sa-week-3-tile span, #sa-week-4-tile span, #sa-photos-tile span, #france-photos-tile, #poland-photos-tile span{
   position: absolute;
   bottom: 0;
   right: 0;
@@ -221,7 +234,7 @@ span.tiles{
   }
   
   #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile, 
-  #sa-photos-tile, #france-photos-tile
+  #sa-photos-tile, #france-photos-tile, #poland-photos-tile
   {
     margin-top: 0px;
     margin-bottom:20px;
@@ -238,7 +251,7 @@ span.tiles{
     margin-top:30px;
   }
   #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile, 
-  #sa-photos-tile, #france-photos-tile
+  #sa-photos-tile, #france-photos-tile, #poland-photos-tile
   {
     margin-top:10px;
     margin-bottom:20px;
@@ -258,7 +271,7 @@ span.tiles{
     margin-top: 20px;
   }
   #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile, 
-  #sa-photos-tile, #france-photos-tile
+  #sa-photos-tile, #france-photos-tile, #poland-photos-tile
   {
     margin-top: 0px;
     margin-bottom:20px;
@@ -283,7 +296,7 @@ span.tiles{
     margin-right: auto ;
   }
   #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile, 
-  #sa-photos-tile, #france-photos-tile
+  #sa-photos-tile, #france-photos-tile, #poland-photos-tile
   {
     margin-top: 0px;
     margin-bottom:20px;
