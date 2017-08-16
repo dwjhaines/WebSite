@@ -60,7 +60,7 @@ div.jumbotron{
   padding-left:10px;
 }
 
-#diving-tile, #travel-tile, #football-tile, #beer-tile{
+#diving-tile, #travel-tile, #football-tile, #beer-tile, #cycling-tile{
   height: 200px;
   width: 100%;
   margin-bottom: 15px;
@@ -107,7 +107,7 @@ div.jumbotron{
   margin-right: 0px;
   margin-left: 0px;
 }
-#diving-tile:hover, #travel-tile:hover, #football-tile:hover, #beer-tile:hover,
+#diving-tile:hover, #travel-tile:hover, #football-tile:hover, #beer-tile:hover, #cycling-tile:hover
 #sa-week-1-tile:hover, #sa-week-2-tile:hover, #sa-week-3-tile:hover, #sa-week-4-tile:hover , #sa-photos-tile:hover .#framce-photos-tile:hover {
   box-shadow: 0 1px 5px 1px #121212;
 }
@@ -126,6 +126,10 @@ div.jumbotron{
 }
 #beer-tile {
   background: url('../images/beer-tile.JPG') no-repeat;
+  background-position: center;
+}
+#cycling-tile {
+  background: url('../images/cycling-tile.JPG') no-repeat;
   background-position: center;
 }
 #sa-week-1-tile {
@@ -157,7 +161,7 @@ div.jumbotron{
   background-position: center;
 }
 
-#diving-tile span, #travel-tile span, #football-tile span, #beer-tile span,
+#diving-tile span, #travel-tile span, #football-tile span, #beer-tile span, #cycling-tile span,
 #sa-week-1-tile span, #sa-week-2-tile span, #sa-week-3-tile span, #sa-week-4-tile span, #sa-photos-tile span, #france-photos-tile, #poland-photos-tile span{
   position: absolute;
   bottom: 0;
@@ -229,7 +233,7 @@ span.tiles{
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-  #diving-tile, #travel-tile, #football-tile, #beer-tile{
+  #diving-tile, #travel-tile, #football-tile, #beer-tile, #cycling-tile{
     margin-top:50px;
   }
   
@@ -247,7 +251,7 @@ span.tiles{
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px)  {
-  #diving-tile, #travel-tile, #football-tile, #beer-tile{
+  #diving-tile, #travel-tile, #football-tile, #beer-tile, #cycling-tile{
     margin-top:30px;
   }
   #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile, 
@@ -264,7 +268,7 @@ span.tiles{
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  #diving-tile, #travel-tile, #football-tile, #beer-tile{
+  #diving-tile, #travel-tile, #football-tile, #beer-tile, #cycling-tile{
     margin-top: 20px;
   }
   div.tiles{
@@ -289,7 +293,7 @@ span.tiles{
     height:150px;
   }
   
-  #diving-tile, #travel-tile, #football-tile, #beer-tile{
+  #diving-tile, #travel-tile, #football-tile, #beer-tile, #cycling-tile{
     margin-top:10px;
     width: 280px;
     margin-left: auto ;
