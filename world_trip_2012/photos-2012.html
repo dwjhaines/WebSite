@@ -1,129 +1,181 @@
 <!DOCTYPE html>
 <!-- saved from url=(0043)http://getbootstrap.com/examples/jumbotron/ -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico?">
+<html lang="en" ng-app="photosApp">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
 
-  <title>2012 photos</title>
+        <title>2012 photos</title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <!-- Bootstrap core CSS -->
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-  <link href="../css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-    
-  <!-- Icons for social media links -->
-  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <link href="../css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-  <!-- Custom styles for this template -->
-  <link href="../css/styles.css" rel="stylesheet">
-  <link href="../css/diary.css" rel="stylesheet">
+        <!-- Icons for social media links -->
+        <link
+            rel="stylesheet"
+            href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 
-  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-  <script src="../css/ie-emulation-modes-warning.js"></script>
+        <!-- Custom styles for this template -->
+        <link href="../css/styles.css" rel="stylesheet">
 
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
-  </head>
+        <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+        <script src="../css/ie-emulation-modes-warning.js"></script>
 
-  <body>
-    
-    <!-- Main jumbotron for a nav bar and main photo -->
-    <div class="jumbotron">
-      <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="col-md-6 col-sm-6 col-xs-6">
-          <div class="navbar-header">
-            <span>World Trip 2012 - Photos</span>
-          </div>
-        </div> 
-        <div class="col-md-6 col-sm-6 col-xs-6">
-          <div class="navbar-header navbar-icons">
-            <a href="../index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
-          </div>
-         </div> 
-      </nav>
-    </div>
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script> <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script> <![endif]-->
+    </head>
 
-    <div class="container">
+    <body>
 
-      <div id="diary-tiles" class="row">
-        <div class="col-md-2 col-sm-3 col-xs-6">
-          <a href="week-00.html"><div id="week-00-tile"><span>Week 0</span></div></a>
-        </div>
-        <div class="col-md-2 col-sm-3 col-xs-6">
-          <a href="week-01.html"><div id="week-01-tile"><span>Week 1</span></div></a>
-        </div>
-        <div class="col-md-2 col-sm-3 col-xs-6">
-          <a href="week-02.html"><div id="week-02-tile"><span>Week 2</span></div></a>
-        </div>
-        <div class="col-md-2 col-sm-3 col-xs-6">
-          <a href="week-03.html"><div id="week-03-tile"><span>Week 3</span></div></a>    
-        </div>
-        <div class="col-md-2 col-sm-3 col-xs-6">
-          <a href="week-04.html"><div id="week-04-tile"><span>Week 4</span></div></a>
-        </div>
-        <div class="col-md-2 col-sm-3 col-xs-6">
-          <a href="week-05.html"><div id="week-05-tile"><span>Week 5</span></div></a>
-        </div>
-        <div class="col-md-2 col-sm-3 col-xs-6">
-          <a href="week-06.html"><div id="week-06-tile"><span>Week 6</span></div></a>
-        </div>
-        <div class="col-md-2 col-sm-3 col-xs-6">
-          <a href="week-07.html"><div id="week-07-tile"><span>Week 7</span></div></a>    
-        </div>
-        <div class="col-md-2 col-sm-3 col-xs-6">
-          <a href="week-08.html"><div id="week-08-tile"><span>Week 8</span></div></a>
-        </div>
-        <div class="col-md-2 col-sm-3 col-xs-6">
-          <a href="week-09.html"><div id="week-09-tile"><span>Week 9</span></div></a>
-        </div>
-        <div class="col-md-2 col-sm-3 col-xs-6">
-          <a href="week-10.html"><div id="week-10-tile"><span>Week 10</span></div></a>
-        </div>
-        <div class="col-md-2 col-sm-3 col-xs-6">
-          <a href="week-11.html"><div id="week-11-tile"><span>Week 11</span></div></a>    
-        </div>
-        <div class="col-md-2 col-sm-3 col-xs-6">
-          <a href="week-12.html"><div id="week-12-tile"><span>Week 12</span></div></a>
+        <!-- Jumbotron for a nav bar and main photo -->
+        <div class="jumbotron">
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="col-md-6 col-sm-6 col-xs-9">
+                    <div class="navbar-header">
+                        <span>dwjhaines - world trip photos</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-3">
+                    <div class="navbar-header navbar-icons">
+                        <a href="index.html">
+                            <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                        </a>      
+                        <a href="travel.html">
+                            <span class="glyphicon glyphicon-plane" aria-hidden="true"></span>
+                        </a>                         
+                    </div>
+                </div>
+            </nav>
         </div>
 
+        <!-- Main container loops through list in Angular module -->
+        <div class="container">
+            <div class="row row-content" ng-controller="tileController as tileCtrl">
+                <div class="col-md-3 col-sm-6 col-xs-12" ng-repeat="part in tileCtrl.parts">
+                    <a href="{{part.link}}">
+                        <div class="tiles" style="background-image: url({{part.image}})">
+                            <span class="tiles">{{part.title}}</span>
+                        </div>
+                    </a>
+                </div>  
+            </div> <!-- Row -->
 
-      </div>
-  
-      <hr>
+            <hr>
 
-      <footer>
-        <div class="row footer-row">
-          <div class="col-md-6 col-sm-6 col-xs-12 copyright">
-            <p>© 2017 dwjhaines</p>
-          </div>
-          <div class="col-md-6 col-sm-6 col-xs-12 fa">
-            <a href="https://www.youtube.com/user/dwjhaines"><i class="fa fa-youtube-square"></i></a>
-            <a href="https://twitter.com/dwjhaines"><i class="fa fa-twitter-square"></i></a>
-            <a href="https://facebook.com/dwjhaines"><i class="fa fa-facebook-square"></i></a>
-            <a href="https://uk.linkedin.com/in/dwjhaines"><i class="fa fa-linkedin-square"></i></a>
-          </div>
+            <!-- Footer -->
+            <footer>
+                <div class="row footer-row">
+                    <div class="col-md-6 col-sm-6 col-xs-12 copyright">
+                        <p>© 2017 dwjhaines</p>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 fa">
+                        <a href="https://www.youtube.com/user/dwjhaines">
+                            <i class="fa fa-youtube-square"></i>
+                        </a>
+                        <a href="https://twitter.com/dwjhaines">
+                            <i class="fa fa-twitter-square"></i>
+                        </a>
+                        <a href="https://facebook.com/dwjhaines">
+                            <i class="fa fa-facebook-square"></i>
+                        </a>
+                        <a href="https://uk.linkedin.com/in/dwjhaines">
+                            <i class="fa fa-linkedin-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </footer>
+
         </div>
-      </footer>
-      
-    </div> <!-- /container -->
-   
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="./index_files/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="./index_files/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="./index_files/ie10-viewport-bug-workaround.js"></script>
-  
-  </body>
+        <!-- /container -->
+
+        <script src="../angular/angular.min.js"></script>
+        <script>
+            var app = angular.module("photosApp",[]);
+                app.controller('tileController', function() {
+                    var parts=[
+                    {
+                        link:'https://photos.app.goo.gl/ZmObvsgtqWm2YGaw2',
+                        image:'images/part01-tile.JPG',
+                        title:'Part 1'
+                    },
+                    {
+                        link:'https://photos.app.goo.gl/w61j1cwPG3lKaXx73',
+                        image:'images/part02-tile.JPG',
+                        title:'Part 2'
+                    },
+                    {
+                        link:'https://photos.app.goo.gl/sA5jQfySe2bBOjNr1',
+                        image:'images/part03-tile.JPG',
+                        title:'Part 3'
+                    },
+                    {
+                        link:'https://photos.app.goo.gl/8eUFq9IrbyttTya43',
+                        image:'images/part04-tile.JPG',
+                        title:'Part 4'
+                    },
+                    {
+                        link:'https://photos.app.goo.gl/kuQ2xoAvSilZ0uk53',
+                        image:'images/part05-tile.JPG',
+                        title:'Part 5'
+                    },
+                    {
+                        link:'https://photos.app.goo.gl/mYO5V1zLDgcziAQf1',
+                        image:'images/part06-tile.JPG',
+                        title:'Part 6'
+                    },
+                    {
+                        link:'https://photos.app.goo.gl/AuKBhmETU116XvME2',
+                        image:'images/part07-tile.JPG',
+                        title:'Part 7'
+                    },
+                    {
+                        link:'https://photos.app.goo.gl/ndB9CVx7jhvh8vqE2',
+                        image:'images/part08-tile.JPG',
+                        title:'Part 8'
+                    },
+                    {
+                        link:'https://photos.app.goo.gl/CZ6fKQ4lvMIveVvK2',
+                        image:'images/part09-tile.JPG',
+                        title:'Part 9'
+                    },
+                    {
+                        link:'https://photos.app.goo.gl/9WdCoeodDnZ63wlt2',
+                        image:'images/part10-tile.JPG',
+                        title:'Part 10'
+                    },
+                    {
+                        link:'https://photos.app.goo.gl/97lKC7EbM3sYUc252',
+                        image:'images/part11-tile.JPG',
+                        title:'Part 11'
+                    },
+                    {
+                        link:'https://photos.app.goo.gl/dsuHMmfz0x1rok5K2',
+                        image:'images/part12-tile.JPG',
+                        title:'Part 12'
+                    },
+                    {
+                        link:'https://goo.gl/photos/ue2tzHARm3YWzWuG9',
+                        image:'images/part13-tile.JPG',
+                        title:'Part 13'
+                    },
+                    {
+                        link:'https://photos.app.goo.gl/wY2RVI1SSFQZoOHp1',
+                        image:'images/part14-tile.JPG',
+                        title:'Part 14'
+                    },
+                ]
+                this.parts=parts;
+            });
+
+        </script>
+
+    </body>
 </html>
