@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- saved from url=(0043)http://getbootstrap.com/examples/jumbotron/ -->
-<html lang="en" ng-app="diveApp">
+<html lang="en" ng-app="tripApp">
     <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -35,27 +35,31 @@
 
     <body>
 
-        <!-- Main jumbotron for a nav bar and main photo -->
+        <!-- Jumbotron for a nav bar and main photo -->
         <div class="jumbotron">
             <nav class="navbar navbar-inverse navbar-fixed-top">
                 <div class="col-md-6 col-sm-6 col-xs-9">
                     <div class="navbar-header">
-                        <span>dwjhaines - diving</span>
+                        <span>dwjhaines - football</span>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-3">
                     <div class="navbar-header navbar-icons">
                         <a href="index.html">
                             <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-                        </a>
+                        </a>      
+                        <a href="travel.html">
+                            <span class="glyphicon glyphicon-plane" aria-hidden="true"></span>
+                        </a>                         
                     </div>
                 </div>
             </nav>
         </div>
 
-       <div class="container">
+        <!-- Main container loops through list in Angular module -->
+        <div class="container">
             <div class="row row-content" ng-controller="tileController as tileCtrl">
-                <div class="col-md-3 col-sm-6 col-xs-12" ng-repeat="trip in tileCtrl.trips">
+                <div class="col-md-3 col-sm-6 col-xs-12" ng-repeat="trip in tileCtrl.trips | filter:'diving'">
                     <a href="{{trip.link}}">
                         <div class="tiles" style="background-image: url({{trip.image}})">
                             <span class="tiles">{{trip.title}}</span>
@@ -65,7 +69,8 @@
             </div> <!-- Row -->
 
             <hr>
-        
+
+            <!-- Footer -->
             <footer>
                 <div class="row footer-row">
                     <div class="col-md-6 col-sm-6 col-xs-12 copyright">
@@ -88,117 +93,11 @@
                 </div>
             </footer>
 
-        </div> <!-- /container -->
+        </div>
+        <!-- /container -->
 
         <script src="angular/angular.min.js"></script>
-        <script>
-            var app = angular.module('diveApp',[]);
-            app.controller('tileController', function() {
-                var trips=[
-                    {
-                        link:'https://photos.app.goo.gl/N0ZrKnOkCqGbphTF2',
-                        image:'images/bonaire-2017-tile.JPG',
-                        title:'Bonaire 2017'
-                     },
-                     {
-                        link:'https://goo.gl/photos/cEGsbFbsLJqUHKe37',
-                        image:'images/thailand-2016-tile.JPG',
-                        title:'Thailand 2016'
-                     },
-                     {
-                        link:'https://goo.gl/photos/zJckBBD52Ceichca9',
-                        image:'images/bonaire-2016-tile.JPG',
-                        title:'Bonaire 2016'
-                     },
-                     {
-                        link:'log-book.html',
-                        image:'images/log-book-tile.JPG',
-                        title:'Log Book'
-                     },
-                     {
-                        link:'https://goo.gl/photos/LDK3N4h2JvaCsdZi7',
-                        image:'images/thailand-tile.JPG',
-                        title:'Thailand 2015'
-                     },
-                     {
-                        link:'https://goo.gl/photos/8barMhKNdbdqRNxe7',
-                        image:'images/bonaire-2015-tile.JPG',
-                        title:'Bonaire 2015'
-                     },
-                     {
-                        link:'https://goo.gl/photos/JHWAv7B591zSTGr48',
-                        image:'images/bonaire-2014-tile.JPG',
-                        title:'Bonaire 2014'
-                     },
-                     {
-                        link:'https://goo.gl/photos/u1WdEKMbneVuuyRdA',
-                        image:'images/maldives-tile.JPG',
-                        title:'Maldives 2014'
-                     },
-                     {
-                        link:'https://goo.gl/photos/owFVQPsQUik97B6X9',
-                        image:'images/belize-tile.JPG',
-                        title:'Belize 2013'
-                     },
-					 {
-                        link:'https://photos.app.goo.gl/wPygU1RyNEw8l99u2',
-                        image:'images/ambon-tile.JPG',
-                        title:'Ambon 2013'
-                     },
-					 {
-                        link:'https://photos.app.goo.gl/GoZenheCuJJIMKbl2',
-                        image:'images/bonaire-2013-tile.JPG',
-                        title:'Bonaire 2013'
-                     },
-                     {
-                        link:'https://goo.gl/photos/br9u2iTg3Z7XnZjKA',
-                        image:'images/thailand-2011-tile.JPG',
-                        title:'Thailand 2011'
-                     },
-                     {
-                        link:'https://goo.gl/photos/dvrDo9hoNNrF1MXv8',
-                        image:'images/egypt-tile.JPG',
-                        title:'Egypt 2011'
-                     },
-                     {
-                        link:'https://goo.gl/photos/d54N1h4YD3fV6kfP6',
-                        image:'images/malaysia-tile.JPG',
-                        title:'Malaysia 2011'
-                     },
-                     {
-                        link:'https://goo.gl/photos/MSEoH94JjuuKhdy26',
-                        image:'images/bonaire-2011-tile.JPG',
-                        title:'Bonaire 2011'
-                     },
-                     {
-                        link:'https://goo.gl/photos/RJaaDSx4hWfwaagN9',
-                        image:'images/thailand-2010-tile.JPG',
-                        title:'Thailand 2010'
-                     },
-                     {
-                        link:'https://goo.gl/photos/4henEyoTxXrtrhHv5',
-                        image:'images/egypt-2010-tile.JPG',
-                        title:'Egypt 2010'
-                     },
-                     {
-                        link:'https://photos.app.goo.gl/2fWivhKLYUFgNbmr1',
-                        image:'images/gozo-tile.JPG',
-                        title:'Gozo 2009'
-                     },
-                     {
-                        link:'https://photos.app.goo.gl/PYCrZistPCzoJMTs2',
-                        image:'images/mexico-2008-tile.JPG',
-                        title:'Mexico 2008'
-                     },
-                     {
-                        link:'https://photos.app.goo.gl/VnwY2IfGoscmPWCr2',
-                        image:'images/indonesia-2008-tile.JPG',
-                        title:'Indonesia 2008'
-                     }              
-                ]
-                this.trips=trips;
-            });
+        <script src="js/test.js"></script>
 
-        </script>
     </body>
 </html>

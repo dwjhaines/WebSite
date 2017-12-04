@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- saved from url=(0043)http://getbootstrap.com/examples/jumbotron/ -->
-<html lang="en" ng-app="footballApp">
+<html lang="en" ng-app="tripApp">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -59,7 +59,7 @@
         <!-- Main container loops through list in Angular module -->
         <div class="container">
             <div class="row row-content" ng-controller="tileController as tileCtrl">
-                <div class="col-md-3 col-sm-6 col-xs-12" ng-repeat="trip in tileCtrl.trips | filter:tileCtrl.filtText">
+                <div class="col-md-3 col-sm-6 col-xs-12" ng-repeat="trip in tileCtrl.trips | filter:'football'">
                     <a href="{{trip.link}}">
                         <div class="tiles" style="background-image: url({{trip.image}})">
                             <span class="tiles">{{trip.title}}</span>
@@ -97,160 +97,7 @@
         <!-- /container -->
 
         <script src="angular/angular.min.js"></script>
-        <script>
-            var app = angular.module('footballApp',[]);
-                app.controller('tileController', function() {
-                    this.filtText = 'football';
-                    var trips=[
-                    {
-                        link:'poland-2017.html',
-                        image:'images/poland-tile.JPG',
-                        title:'Poland 2017',
-                        category: 'football'
-                    }, 
-                    {
-                        link:'https://goo.gl/photos/Fyi2KbnMVFD1LzrS6',
-                        image:'images/germany-1-tile.JPG',
-                        title:'Germany 2017',
-                        category: 'football'
-                    }, 
-                    {
-                        link:'https://goo.gl/photos/E17KU5vKjNEzfja16',
-                        image:'images/slovakia-tile.JPG',
-                        title:'Slovakia v England',
-                        category: 'football'
-                     },    
-                     {
-                        link:'france-2016.html',
-                        image:'images/france-tile.JPG',
-                        title:'France 2016',
-                        category: 'football'
-                     },                       
-                     {
-                        link:'https://goo.gl/photos/rrY1sqr2YPasXyYm6',
-                        image:'images/spain-tile.JPG',
-                        title:'Spain v England',
-						category: 'football'
-                     },                       
-                     {
-                        link:'https://goo.gl/photos/cK4P6ThiPwcktuEW6',
-                        image:'images/san-marino-tile.JPG',
-                        title:'San Marino v England',
-                        category: 'football'
-                     },                       
-                     {
-                        link:'https://goo.gl/photos/LWgreorWVnJHDJJx7',
-                        image:'images/munich-1860-tile.JPG',
-                        title:'1860 Munich v Swansea',
-                        category: 'football'
-                     },                       
-                     {
-                        link:'https://goo.gl/photos/8zi3dK7XreUvnR6F9',
-                        image:'images/dublin-tile.JPG',
-                        title:'Ireland and Slovenia',
-                        category: 'football'
-                     },                       
-                     {
-                        link:'https://goo.gl/photos/SXnE9xzrZcbZ5YvZ8',
-                        image:'images/glasgow-tile.JPG',
-                        title:'Scotland v England',
-                        category: 'football'
-                     },                       
-                     {
-                        link:'https://goo.gl/photos/EryTs8xySPbzZBWb9',
-                        image:'images/tallinn-tile.JPG',
-                        title:'Estonia v England',
-                        category: 'football'
-                     },                       
-                     {
-                        link:'brazil.html',
-                        image:'images/brazil2-tile.JPG',
-                        title:'Brazil 2014',
-                        category: 'football'
-                     },                       
-                     {
-                        link:'https://goo.gl/photos/9YZ5ihSnKoB2L8qv7',
-                        image:'images/napoli-tile.JPG',
-                        title:'Napoli v Swansea',
-                        category: 'football'
-                     },                       
-                     {
-                        link:'https://goo.gl/photos/mZJTBa7oMZfEBRL76',
-                        image:'images/st-gallen-tile.JPG',
-                        title:'St Gallen v Swansea',
-                        category: 'football'
-                     },                       
-                     {
-                        link:'https://goo.gl/photos/oanjEfDW47t8vg36A',
-                        image:'images/kuban-tile.JPG',
-                        title:'F. C. Kuban v Swansea',
-                        category: 'football'
-                     },                       
-                     {
-                        link:'https://goo.gl/photos/qLTw7mfiffp8YzGVA',
-                        image:'images/valencia-tile.JPG',
-                        title:'Valencia v Swansea',
-                        category: 'football'
-                     },                       
-                     {
-                        link:'https://goo.gl/photos/L9x3bvhgNAvvXAiC9',
-                        image:'images/malmo-tile.JPG',
-                        title:'Malmo v Swansea',
-                        category: 'football'
-                     },
-                     {
-                        link:'https://goo.gl/photos/Q3aieVMQYsTDVGWv6',
-                        image:'images/league-cup-tile.JPG',
-                        title:'League Cup Final 2013',
-                        category: 'football'
-                     },
-                     {
-                        link:'https://goo.gl/photos/JA8vz1H4wBrtGWo69',
-                        image:'images/ukraine-tile.JPG',
-                        title:'Ukraine 2012',
-                        category: 'football'
-                     }, 
-                     {
-                        link:'south-africa.html',
-                        image:'images/sa2-tile.JPG',
-                        title:'South Africa 2010',
-                        category: 'football'
-                     },   
-					 {
-                        link:'https://goo.gl/photos/d42Rqrwu5yvF2kmd6',
-                        image:'images/belarus-tile.JPG',
-                        title:'Belarus v England',
-                        category: 'football'
-                     }, 
-					 {
-                        link:'https://goo.gl/photos/wKJd7BpZzBfu2Gd39',
-                        image:'images/moscow-tile.JPG',
-                        title:'Russia v England',
-                        category: 'football'
-                     },  
-                     {
-                        link:'https://goo.gl/photos/YVwMZc1BPu2iZhbC6',
-                        image:'images/germany-2006-tile.JPG',
-                        title:'Germany 2006',
-                        category: 'football'
-                     },  					 
-                     {
-                        link:'https://goo.gl/photos/AnVc4KBPVc29TDwK8	',
-                        image:'images/vetch-tile.JPG',
-                        title:'The Vetch 2004/05',
-                        category: 'football'
-                     },
-					{
-                        link:'https://goo.gl/photos/XefCRHovogrPgnV18',
-                        image:'images/portugal-tile.JPG',
-                        title:'Portugal 2004',
-                        category: 'football'
-                     }				 
-                ]
-                this.trips=trips;
-            });
-
-        </script>
+        <script src="js/test.js"></script>
 
     </body>
 </html>

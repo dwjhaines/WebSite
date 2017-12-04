@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- saved from url=(0043)http://getbootstrap.com/examples/jumbotron/ -->
-<html lang="en" ng-app="travelApp"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en" ng-app="tripApp"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,26 +34,32 @@
   </head>
 
   <body>
-    
-    <!-- Main jumbotron for a nav bar and main photo -->
-    <div class="jumbotron">
-      <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="col-md-6 col-sm-6 col-xs-9">
-          <div class="navbar-header">
-            <span>dwjhaines - travelogues</span>
-          </div>
-        </div> 
-        <div class="col-md-6 col-sm-6 col-xs-3">
-          <div class="navbar-header navbar-icons">        
-            <a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>  
-          </div>
-         </div> 
-      </nav>
-    </div>
 
-       <div class="container">
+        <!-- Jumbotron for a nav bar and main photo -->
+        <div class="jumbotron">
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="col-md-6 col-sm-6 col-xs-9">
+                    <div class="navbar-header">
+                        <span>dwjhaines - football</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-3">
+                    <div class="navbar-header navbar-icons">
+                        <a href="index.html">
+                            <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                        </a>      
+                        <a href="travel.html">
+                            <span class="glyphicon glyphicon-plane" aria-hidden="true"></span>
+                        </a>                         
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Main container loops through list in Angular module -->
+        <div class="container">
             <div class="row row-content" ng-controller="tileController as tileCtrl">
-                <div class="col-md-3 col-sm-6 col-xs-12" ng-repeat="trip in tileCtrl.trips">
+                <div class="col-md-3 col-sm-6 col-xs-12" ng-repeat="trip in tileCtrl.trips | filter:'travel'">
                     <a href="{{trip.link}}">
                         <div class="tiles" style="background-image: url({{trip.image}})">
                             <span class="tiles">{{trip.title}}</span>
@@ -61,68 +67,37 @@
                     </a>
                 </div>  
             </div> <!-- Row -->
-  
-      <hr>
 
-      <footer>
-        <div class="row footer-row">
-          <div class="col-md-6 col-sm-6 col-xs-12 copyright">
-            <p>© 2016 dwjhaines</p>
-          </div>
-          <div class="col-md-6 col-sm-6 col-xs-12 fa">
-            <a href="https://www.youtube.com/user/dwjhaines"><i class="fa fa-youtube-square"></i></a>
-            <a href="https://twitter.com/dwjhaines"><i class="fa fa-twitter-square"></i></a>
-            <a href="https://facebook.com/dwjhaines"><i class="fa fa-facebook-square"></i></a>
-            <a href="https://uk.linkedin.com/in/dwjhaines"><i class="fa fa-linkedin-square"></i></a>
-          </div>
+            <hr>
+
+            <!-- Footer -->
+            <footer>
+                <div class="row footer-row">
+                    <div class="col-md-6 col-sm-6 col-xs-12 copyright">
+                        <p>© 2017 dwjhaines</p>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 fa">
+                        <a href="https://www.youtube.com/user/dwjhaines">
+                            <i class="fa fa-youtube-square"></i>
+                        </a>
+                        <a href="https://twitter.com/dwjhaines">
+                            <i class="fa fa-twitter-square"></i>
+                        </a>
+                        <a href="https://facebook.com/dwjhaines">
+                            <i class="fa fa-facebook-square"></i>
+                        </a>
+                        <a href="https://uk.linkedin.com/in/dwjhaines">
+                            <i class="fa fa-linkedin-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </footer>
+
         </div>
-      </footer>
-      
-    </div> <!-- /container -->
-   
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="./index_files/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="./index_files/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="./index_files/ie10-viewport-bug-workaround.js"></script>
-    
-    <script src="angular/angular.min.js"></script>
-        <script>
-            var app = angular.module('travelApp',[]);
-            app.controller('tileController', function() {
-                var trips=[
-                    {
-                        link:'https://goo.gl/photos/An7H2jwyCpCyvJZd7',
-                        image:'images/thailand-2016-tile.JPG',
-                        title:'Thailand 2016'
-                     },
-                     {
-                        link:'brazil.html',
-                        image:'images/brazil-tile.JPG',
-                        title:'Brazil 2014'
-                     },
-                     {
-                        link:'world_trip_2012/index-2012.html',
-                        image:'images/moalboal-tile.JPG',
-                        title:'2012 World Trip'
-                     },
-                     {
-                        link:'south-africa.html',
-                        image:'images/sa-tile.JPG',
-                        title:'South Africa 2010'
-                     },
-                     {
-                        link:'world_trip_2006/index.html',
-                        image:'images/myanmar-tile.JPG',
-                        title:'2006 World Trip'
-                     },                                                        
-                ]
-                this.trips=trips;
-            });
+        <!-- /container -->
 
-        </script>
-  </body>
+        <script src="angular/angular.min.js"></script>
+        <script src="js/test.js"></script>
+
+    </body>
 </html>
