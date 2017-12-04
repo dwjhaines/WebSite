@@ -56,6 +56,12 @@ app.controller('tileController', function() {
             category: ['football']
         }, 
         {
+            link:'https://photos.app.goo.gl/RGaeOtltzzoCdaDl1w',
+            image:'images/leuven-tile.JPG',
+            title:'Leuven 2016',
+            category: ['beer']
+        }, 
+        {
             link:'france-2016.html',
             image:'images/france-tile.JPG',
             title:'France 2016',
@@ -66,115 +72,163 @@ app.controller('tileController', function() {
             image:'images/munich-tile.JPG',
             title:'Munich 2016',
             category: ['beer']
-         },
-         {
+        },
+        {
             link:'https://goo.gl/photos/83NW68uTbJ6tZfiL9',
             image:'images/belgium-tile.JPG',
             title:'Belgium/Germany',
             category: ['beer', 'travel', 'football']
-         },
-         {
+        },
+        {
             link:'https://goo.gl/photos/LDK3N4h2JvaCsdZi7',
             image:'images/thailand-tile.JPG',
             title:'Thailand 2015',
             category: ['diving', 'travel']
-         },
-         {
+        },
+        {
             link:'https://goo.gl/photos/rrY1sqr2YPasXyYm6',
             image:'images/spain-tile.JPG',
             title:'Spain v England',
-            category: ['beer', 'travel', 'football']
-         }, 
-         {
+            category: ['beer', 'football']
+        }, 
+        {
             link:'https://goo.gl/photos/8barMhKNdbdqRNxe7',
             image:'images/bonaire-2015-tile.JPG',
             title:'Bonaire 2015',
             category: ['diving']
-         },
-         {
+        },
+        {
             link:'https://goo.gl/photos/cK4P6ThiPwcktuEW6',
             image:'images/san-marino-tile.JPG',
             title:'San Marino v England',
             category: ['football']
-         },   
-         {
+        },   
+        {
             link:'https://goo.gl/photos/3umS8YXcG68W2DxR8',
             image:'images/brussels-tile.JPG',
             title:'Brussels 2015',
             category: ['beer']
-         },
-         {
+        },
+        {
             link:'https://goo.gl/photos/LWgreorWVnJHDJJx7',
             image:'images/munich-1860-tile.JPG',
             title:'1860 Munich v Swansea',
             category: ['football', 'beer']
-         },                       
-         {
+        },                       
+        {
             link:'https://goo.gl/photos/8zi3dK7XreUvnR6F9',
             image:'images/dublin-tile.JPG',
             title:'Ireland and Slovenia',
             category: ['football', 'beer', 'travel']
-         },  
-         {
+        },  
+        {
             link:'https://goo.gl/photos/T4b29obhdk3UuKo49',
             image:'images/munich-2015-tile.JPG',
             title:'Munich 2015',
             category: ['beer']
-         },
-         {
+        },
+        {
             link:'https://goo.gl/photos/ibWwL6oDdiFcJcVt9',
             image:'images/bruges-tile.JPG',
             title:'Bruges/Ghent',
             category: ['beer']
-         },
-         {
+        },
+        {
             link:'https://goo.gl/photos/QJNTijtN1KHXJweM6',
             image:'images/real-ale-trail-tile.JPG',
             title:'Real Ale Trail',
             category: ['beer']
-         },
-         {
+        },
+        {
             link:'https://goo.gl/photos/nBbn6E2faHmCctte6',
             image:'images/amsterdam-2015-tile.JPG',
             title:'Amsterdam 2015',
             category: ['beer']
-         },
-         {
+        },
+        {
+            link:'https://goo.gl/photos/JHWAv7B591zSTGr48',
+            image:'images/bonaire-2014-tile.JPG',
+            title:'Bonaire 2014',
+            category: ['diving']
+        },
+        {
+            link:'https://goo.gl/photos/SXnE9xzrZcbZ5YvZ8',
+            image:'images/glasgow-tile.JPG',
+            title:'Scotland v England',
+            category: ['football']
+        }, 
+        {
             link:'https://goo.gl/photos/93ktqEjPmE63fQpMA',
             image:'images/burford-tile.JPG',
             title:'Burford',
-            category: 'beer'
-         },  
-         {
+            category: ['beer']
+        },
+        {
+            link:'https://goo.gl/photos/u1WdEKMbneVuuyRdA',
+            image:'images/maldives-tile.JPG',
+            title:'Maldives 2014',
+            category: ['diving']
+        },
+        {
+            link:'https://goo.gl/photos/EryTs8xySPbzZBWb9',
+            image:'images/tallinn-tile.JPG',
+            title:'Estonia v England',
+            category: ['football']
+        },                       
+        {
+            link:'brazil.html',
+            image:'images/brazil2-tile.JPG',
+            title:'Brazil 2014',
+            category: ['football', 'travel']
+        }, 
+        {
             link:'https://photos.app.goo.gl/wF2Mvo4VBhj8oc2L2',
             image:'images/swan-tile.JPG',
             title:'Last Night in The Swan',
-            category: 'beer'
-         },
-         {
+            category: ['beer']
+        },
+        {
             link:'https://goo.gl/photos/NEFgcq8HUi8W5Trj9',
             image:'images/munich-2014-tile.JPG',
             title:'Munich 2014',
-            category: 'beer'
+            category: ['beer']
         }, 
-         {
+        {
             link:'https://goo.gl/photos/UhkXHBit6Xx1joUj7',
             image:'images/gower-2014-tile.JPG',
             title:'Gower 2014',
-            category: 'beer'
-         },
-         {
+            category: ['beer']
+        },
+        {
             link:'https://goo.gl/photos/o7nM7CT5CiZyd2KH6',
             image:'images/london-2014-tile.JPG',
             title:'London 2014',
-            category: 'beer'
-         },
-         {
+            category: ['beer']
+        },
+        {
             link:'https://goo.gl/photos/gXi3fyNKmNKMHEue7',
             image:'images/amsterdam-2014-tile.JPG',
             title:'Amsterdam 2014',
-            category: 'beer'
-         },
+            category: ['beer']
+        },
+        {
+            link:'https://goo.gl/photos/9YZ5ihSnKoB2L8qv7',
+            image:'images/napoli-tile.JPG',
+            title:'Napoli v Swansea',
+            category: ['football']
+        },
+        {
+            link:'https://goo.gl/photos/owFVQPsQUik97B6X9',
+            image:'images/belize-tile.JPG',
+            title:'Belize 2013',
+            category: ['diving']
+        },
+        {
+            link:'https://goo.gl/photos/mZJTBa7oMZfEBRL76',
+            image:'images/st-gallen-tile.JPG',
+            title:'St Gallen v Swansea',
+            category: ['beer', 'football']
+        },  
          {
             link:'https://goo.gl/photos/RucVzMktRi7uVmYW9',
             image:'images/munich-2012-tile.JPG',
@@ -341,40 +395,10 @@ app.controller('tileController', function() {
     
  
    
+  
                       
-                      
-                    
+                       
                      
-                     {
-                        link:'https://goo.gl/photos/SXnE9xzrZcbZ5YvZ8',
-                        image:'images/glasgow-tile.JPG',
-                        title:'Scotland v England',
-                        category: 'football'
-                     },                       
-                     {
-                        link:'https://goo.gl/photos/EryTs8xySPbzZBWb9',
-                        image:'images/tallinn-tile.JPG',
-                        title:'Estonia v England',
-                        category: 'football'
-                     },                       
-                     {
-                        link:'brazil.html',
-                        image:'images/brazil2-tile.JPG',
-                        title:'Brazil 2014',
-                        category: 'football'
-                     },                       
-                     {
-                        link:'https://goo.gl/photos/9YZ5ihSnKoB2L8qv7',
-                        image:'images/napoli-tile.JPG',
-                        title:'Napoli v Swansea',
-                        category: 'football'
-                     },                       
-                     {
-                        link:'https://goo.gl/photos/mZJTBa7oMZfEBRL76',
-                        image:'images/st-gallen-tile.JPG',
-                        title:'St Gallen v Swansea',
-                        category: 'football'
-                     },                       
                      {
                         link:'https://goo.gl/photos/oanjEfDW47t8vg36A',
                         image:'images/kuban-tile.JPG',
@@ -450,24 +474,9 @@ app.controller('tileController', function() {
                      },
 
 
-                     {
-                        link:'https://goo.gl/photos/JHWAv7B591zSTGr48',
-                        image:'images/bonaire-2014-tile.JPG',
-                        title:'Bonaire 2014',
-                        category: 'diving'
-                     },
-                     {
-                        link:'https://goo.gl/photos/u1WdEKMbneVuuyRdA',
-                        image:'images/maldives-tile.JPG',
-                        title:'Maldives 2014',
-                        category: 'diving'
-                     },
-                     {
-                        link:'https://goo.gl/photos/owFVQPsQUik97B6X9',
-                        image:'images/belize-tile.JPG',
-                        title:'Belize 2013',
-                        category: 'diving'
-                     },
+
+
+
 					 {
                         link:'https://photos.app.goo.gl/wPygU1RyNEw8l99u2',
                         image:'images/ambon-tile.JPG',
