@@ -38,7 +38,7 @@ app.controller('tileController', function() {
             category: ['beer', 'travel', 'football']
         },
         {
-            link:'https://goo.gl/photos/cEGsbFbsLJqUHKe37',
+            link:'https://goo.gl/photos/An7H2jwyCpCyvJZd7',
             image:'images/thailand-2016-tile.JPG',
             title:'Thailand 2016',
             category: ['diving', 'travel']
