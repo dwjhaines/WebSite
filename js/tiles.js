@@ -260,18 +260,6 @@ app.controller('tileController', function() {
             category: ['beer', 'football']
         },
         {
-            link:'https://goo.gl/photos/JA8vz1H4wBrtGWo69',
-            image:'images/ukraine-tile.JPG',
-            title:'Ukraine 2012',
-            category: ['travel', 'football']
-        }, 
-        {
-            link:'https://goo.gl/photos/RucVzMktRi7uVmYW9',
-            image:'images/munich-2012-tile.JPG',
-            title:'Munich 2012',
-            category: ['beer']
-        },	
-        {
             link:'https://photos.app.goo.gl/wPygU1RyNEw8l99u2',
             image:'images/ambon-tile.JPG',
             title:'Ambon 2013',
@@ -289,6 +277,18 @@ app.controller('tileController', function() {
             title:'2012 World Trip',
             category: ['travel']
         },
+        {
+            link:'https://goo.gl/photos/JA8vz1H4wBrtGWo69',
+            image:'images/ukraine-tile.JPG',
+            title:'Ukraine 2012',
+            category: ['travel', 'football']
+        }, 
+        {
+            link:'https://goo.gl/photos/RucVzMktRi7uVmYW9',
+            image:'images/munich-2012-tile.JPG',
+            title:'Munich 2012',
+            category: ['beer']
+        },	
         {
             link:'https://goo.gl/photos/br9u2iTg3Z7XnZjKA',
             image:'images/thailand-2011-tile.JPG',
