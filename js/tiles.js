@@ -428,7 +428,7 @@ app.controller('tileController', function() {
             category: ['football', 'travel']
         }, 
         {
-            link:'world_trip_2006/index.html',
+            link:'world_trip_2006/World_Trip_Index.htm',
             image:'images/myanmar-tile.JPG',
             title:'2006 World Trip',
             category: ['travel']
