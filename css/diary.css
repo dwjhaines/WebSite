@@ -303,6 +303,12 @@ div.diary-photo-right{
   margin:5px 0px 0pt 10pt;
 } 
 
+div.diary-photo-centre{
+  display: table;
+  margin-left:auto;
+  margin-right:auto;
+}
+
 img.diary-photo{
   border:20;
 }

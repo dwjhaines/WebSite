@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://getbootstrap.com/examples/jumbotron/ -->
+<html lang="en" ng-app="photosApp">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+
+        <title>2012 photos</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <link href="../css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+        <!-- Icons for social media links -->
+        <link
+            rel="stylesheet"
+            href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+        <!-- Custom styles for this template -->
+        <link href="../css/styles.css" rel="stylesheet">
+
+        <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+        <script src="../css/ie-emulation-modes-warning.js"></script>
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script> <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script> <![endif]-->
+    </head>
+
+    <body>
+
+        <!-- Jumbotron for a nav bar and main photo -->
+        <div class="jumbotron">
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="col-md-6 col-sm-6 col-xs-9">
+                    <div class="navbar-header">
+                        <span>dwjhaines - world trip photos</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-3">
+                    <div class="navbar-header navbar-icons">
+                        <a href="../index.html">
+                            <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                        </a>      
+                        <a href="../travel.html">
+                            <span class="glyphicon glyphicon-plane" aria-hidden="true"></span>
+                        </a>                         
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Main container loops through list in Angular module -->
+        <div class="container">
+            <div class="row row-content" ng-controller="tileController as tileCtrl">
+                <div class="col-md-3 col-sm-6 col-xs-12" ng-repeat="part in tileCtrl.parts">
+                    <a href="{{part.link}}">
+                        <div class="tiles" style="background-image: url({{part.image}})">
+                            <span class="tiles">{{part.title}}</span>
+                        </div>
+                    </a>
+                </div>  
+            </div> <!-- Row -->
+
+            <hr>
+
+            <!-- Footer -->
+            <footer>
+                <div class="row footer-row">
+                    <div class="col-md-6 col-sm-6 col-xs-12 copyright">
+                        <p>© 2018 dwjhaines</p>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 fa">
+                        <a href="https://www.youtube.com/user/dwjhaines">
+                            <i class="fa fa-youtube-square"></i>
+                        </a>
+                        <a href="https://twitter.com/dwjhaines">
+                            <i class="fa fa-twitter-square"></i>
+                        </a>
+                        <a href="https://facebook.com/dwjhaines">
+                            <i class="fa fa-facebook-square"></i>
+                        </a>
+                        <a href="https://uk.linkedin.com/in/dwjhaines">
+                            <i class="fa fa-linkedin-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+        <!-- /container -->
+
+        <script src="../angular/angular.min.js"></script>
+        <script>
+            var app = angular.module("photosApp",[]);
+                app.controller('tileController', function() {
+                    var parts=[
+                    {
+                        link:'https://photos.app.goo.gl/ZmObvsgtqWm2YGaw2',
+                        image:'images/part01-tile.JPG',
+                        title:'Part 1'
+                    },
+                    {
+                        link:'https://photos.app.goo.gl/w61j1cwPG3lKaXx73',
+                        image:'images/part02-tile.JPG',
+                        title:'Part 2'
+                    },
+                    {
+                        link:'https://photos.app.goo.gl/sA5jQfySe2bBOjNr1',
+                        image:'images/part03-tile.JPG',
+                        title:'Part 3'
+                    },
+                    {
+                        link:'https://photos.app.goo.gl/8eUFq9IrbyttTya43',
+                        image:'images/part04-tile.JPG',
+                        title:'Part 4'
+                    }
+                ]
+                this.parts=parts;
+            });
+
+        </script>
+
+    </body>
+</html>
