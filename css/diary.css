@@ -307,6 +307,8 @@ div.diary-photo-centre{
   display: table;
   margin-left:auto;
   margin-right:auto;
+  width:80%;
+  height:auto;
 }
 
 img.diary-photo{
@@ -357,6 +359,9 @@ img.diary-photo{
   }
   img.diary-photo{
     width:320px;
+  }
+  div.diary-photo-centre{
+    width:320px
   }
 
 }
