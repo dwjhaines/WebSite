@@ -311,6 +311,11 @@ div.diary-photo-centre{
   height:auto;
 }
 
+div.car-wrapper{
+  width:500px;
+  margin:auto;
+}
+
 img.diary-photo{
   border:20;
 }
