@@ -60,6 +60,11 @@ div.jumbotron{
   padding-left:10px;
 }
 
+.headerphoto{
+    position:relative;
+    top:-65px
+}
+
 #diving-tile, #travel-tile, #football-tile, #beer-tile, #cycling-tile{
   height: 200px;
   width: 100%;
@@ -258,6 +263,30 @@ div.jumbotron{
   opacity: .8;
   color:lightgrey;
 }
+div.newtiles{
+  height: 200px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  background-position: center;
+}
+span.newtiles{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.0em;
+  background-color: #222222;
+  color: #FFFFFF;
+  opacity: .8;
+  color:lightgrey;
+} 
+.newtiles:hover  {
+  box-shadow: 0 1px 5px 1px #121212;
+}
 
 div.tiles {
   height: 200px;
@@ -283,6 +312,8 @@ span.tiles{
 .tiles:hover  {
   box-shadow: 0 1px 5px 1px #121212;
 }
+
+
 
 /********* Settings for social media icons **********/
 .fa{
@@ -331,6 +362,10 @@ span.tiles{
     margin-top: 0px;
     margin-bottom:20px;
   }
+  div.newtiles{
+    margin-top: 0px;
+    margin-bottom:20px;
+  }
 }
 
 /********** Medium devices only **********/
@@ -348,6 +383,10 @@ span.tiles{
     margin-top: 10px;
     margin-bottom:20px;
   }
+  div.newtiles{
+    margin-top: 10px;
+    margin-bottom:20px;
+  }
 }
 
 /********** Small devices only **********/
@@ -358,6 +397,9 @@ span.tiles{
   div.tiles{
     margin-top: 20px;
   }
+  div.newtiles{
+    margin-top: 20px;
+  }
   #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile, 
   #sa-photos-tile, #france-photos-tile, #myanmar-photos-tile, #thailand-photos-tile, #brazil-photos-tile-1, #brazil-photos-tile-2, #poland-photos-tile, #photos-2012-tile, #photos-2018-tile
   {
@@ -365,6 +407,10 @@ span.tiles{
     margin-bottom:20px;
   }
   div.tiles{
+    margin-top: 0px;
+    margin-bottom:20px;
+  }
+  div.newtiles{
     margin-top: 0px;
     margin-bottom:20px;
   }
@@ -393,6 +439,13 @@ span.tiles{
     margin-right: auto ;
   }
   div.tiles{
+    margin-top: 0px;
+    margin-bottom:20px;
+    width: 280px;
+    margin-left: auto ;
+    margin-right: auto ;
+  }
+  div.newtiles{
     margin-top: 0px;
     margin-bottom:20px;
     width: 280px;
