@@ -15,7 +15,7 @@ app.controller('tileController', function() {
          },
          {
             link:'week-03.html',
-            image:'images/week03.JPG',
+            image:'images/Week03.JPG',
             title:'Week 3',
             category: ['diary']
          },
