@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<!-- saved from url=(0043)http://getbootstrap.com/examples/jumbotron/ -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html lang="en" ng-app="diaryApp">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>World Trip 2018</title>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
   <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico?">
-
-  <title>2018 diary</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="../css/bootstrap.min.css" rel="stylesheet">
-
+  
+  
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   <link href="../css/ie10-viewport-bug-workaround.css" rel="stylesheet">
     
@@ -23,86 +22,60 @@
   <!-- Custom styles for this template -->
   <link href="../css/styles.css" rel="stylesheet">
   <link href="../css/diary.css" rel="stylesheet">
-
-  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-  <script src="../css/ie-emulation-modes-warning.js"></script>
-
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
-  </head>
-
-  <body>
-    
-    <!-- Main jumbotron for a nav bar and main photo -->
-    <div class="jumbotron">
-      <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="col-md-6 col-sm-6 col-xs-6">
-          <div class="navbar-header">
-            <span>World Trip 2018</span>
-          </div>
-        </div> 
-        <div class="col-md-6 col-sm-6 col-xs-6">
-          <div class="navbar-header navbar-icons">
-            <a href="../index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
-          </div>
-         </div> 
-      </nav>
-    </div>
-
-    <div class="container">
-      <div id="home-tiles" class="row">
-        <div class="col-md-12 col-sm-12 col-xs-12">
-            <a href="photos-2018.html">
-                <div id="photos-2018-tile">
-                    <span>Photos</span>
-                </div>
-            </a>
-        </div>
-      </div>
-      <div id="diary-tiles" class="row">
-        <div class="col-md-2 col-sm-3 col-xs-6">
-          <a href="week-01.html"><div id="week-01-tile"><span>Week 1</span></div></a>
-        </div>
-        <div class="col-md-2 col-sm-3 col-xs-6">
-          <a href="week-02.html"><div id="week-02-tile"><span>Week 2</span></div></a>
-        </div>
-        <div class="col-md-2 col-sm-3 col-xs-6">
-          <a href="week-03.html"><div id="week-03-tile"><span>Week 3</span></div></a>    
-        </div>
-        <div class="col-md-2 col-sm-3 col-xs-6">
-          <a href="week-04.html"><div id="week-04-tile"><span>Week 4</span></div></a>    
-        </div>  
-      </div>
   
-      <hr>
 
-      <footer>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>                    
+      </button>
+      <p class="nav navbar-" >dwjhaines</p>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="../index.html">Photos</a></li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fixed bg-1 text-center">
+  <img src="images/WT2018-001.JPG" class="img-responsive img-circle headerphoto" style="display:inline" alt="Sunset" width="350" height="350">
+</div>
+
+<!-- Second Container (Grid) -->
+<div class="container-fluid bg-3 text-left">  
+<div class="row row-content" ng-controller="tileController as tileCtrl">
+    <div class="col-md-3 col-sm-6 col-xs-12" ng-repeat="week in tileCtrl.weeks | filter:'diary'">
+        <a href="{{week.link}}">
+            <div class="newtiles" style="background-image: url({{week.image}})">
+                <span class="newtiles">{{week.title}}</span>
+            </div>
+        </a>
+    </div>  
+</div> <!-- Row -->
+</div>
+
+
+<!-- Footer -->
+      <footer class="container-fluid-footer bg-4 text-center">
         <div class="row footer-row">
-          <div class="col-md-6 col-sm-6 col-xs-12 copyright">
-            <p>© 2018 dwjhaines</p>
-          </div>
+
           <div class="col-md-6 col-sm-6 col-xs-12 fa">
             <a href="https://www.youtube.com/user/dwjhaines"><i class="fa fa-youtube-square"></i></a>
             <a href="https://twitter.com/dwjhaines"><i class="fa fa-twitter-square"></i></a>
             <a href="https://facebook.com/dwjhaines"><i class="fa fa-facebook-square"></i></a>
-            <a href="https://uk.linkedin.com/in/dwjhaines"><i class="fa fa-linkedin-square"></i></a>
           </div>
         </div>
       </footer>
-      
-    </div> <!-- /container -->
-   
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="./index_files/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="./index_files/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="./index_files/ie10-viewport-bug-workaround.js"></script>
-  
-  </body>
+        <script src="../angular/angular.min.js"></script>
+        <script src="../js/diarytiles.js"></script>
+</body>
 </html>
