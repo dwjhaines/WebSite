@@ -8,6 +8,12 @@ app.controller('tileController', function() {
             category: ['travel']
          },
 		 {
+            link:'https://photos.app.goo.gl/dYngfhi6RLfwe20C3',
+            image:'images/london-2018-tile.JPG',
+            title:'London 2018',
+            category: ['beer']
+         },
+		 {
             link:'thailand-2018.html',
             image:'images/thailand-2018-tile.JPG',
             title:'Thailand 2018',

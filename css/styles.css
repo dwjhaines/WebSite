@@ -27,7 +27,7 @@ div.jumbotron{
     border: 1px solid transparent;
     margin-bottom:0;
     opacity: .5;
-    background-color: #433535;
+    background-color: #200200;
     padding-left:20px;
     padding-right:20px;
 }
@@ -47,6 +47,10 @@ div.jumbotron{
 .navbar-header a:hover{
   color:yellow;
 }  
+
+.navbar-link a:hover{
+  color:yellow;
+} 
 
 .navbar-icons{
   float:right;
