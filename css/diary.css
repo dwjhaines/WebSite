@@ -363,6 +363,22 @@ img.diary-photo{
       padding-bottom: 10px;
       padding-right: 25px;
   }
+  
+  div.footer-row{
+      background-color: #8f807f;
+      padding-top: 6px;
+      padding-bottom: 6px;
+  }
+  
+  .footer-row a:visited,
+  .footer-row a:link{
+      color:lightgrey;
+  }  
+  
+  .footer-row a:hover{
+      color:darkgrey;
+      text-decoration: none;
+  } 
 
 
 
