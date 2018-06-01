@@ -54,7 +54,7 @@
 <div class="container-fluid bg-3 text-left">  
 <div class="row row-content" ng-controller="tileController as tileCtrl">
     <div class="col-md-3 col-sm-6 col-xs-12" ng-repeat="week in tileCtrl.weeks | filter:'photos'">
-        <a href="{{week.link}}">
+        <a href="{{week.link}}" target="_blank">
             <div class="newtiles" style="background-image: url({{week.image}})">
                 <span class="newtiles">{{week.title}}</span>
             </div>
@@ -70,12 +70,11 @@
 
           <div class="col-md-6 col-sm-6 col-xs-12 fa">
             <a href="https://www.youtube.com/user/dwjhaines"><i class="fa fa-youtube-square"></i></a>
-            <a href="https://twitter.com/dwjhaines"><i class="fa fa-twitter-square"></i></a>
             <a href="https://facebook.com/dwjhaines"><i class="fa fa-facebook-square"></i></a>
           </div>
         </div>
       </footer>
         <script src="../angular/angular.min.js"></script>
-        <script src="../js/diarytiles.js"></script>
+        <script src="js/diarytiles.js"></script>
 </body>
 </html>
