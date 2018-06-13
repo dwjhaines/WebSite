@@ -20,6 +20,12 @@ app.controller('tileController', function() {
             category: ['diary']
         },
         {
+            link:'week-04.html',
+            image:'images/tiles/week04-tile.JPG',
+            title:'Week 4',
+            category: ['diary']
+        },
+        {
             link:'https://photos.app.goo.gl/Vn1VyjrhFdkJ97sE9',
             image:'images/tiles/week02-tile.JPG',
             title:'1. Europe',
