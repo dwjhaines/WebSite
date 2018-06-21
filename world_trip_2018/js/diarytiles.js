@@ -37,6 +37,13 @@ app.controller('tileController', function() {
             title:'1. Europe',
             category: ['photos']
         }
+        ,
+        {
+            link:'https://photos.app.goo.gl/1DeC3JDDMza7ct9t7',
+            image:'images/tiles/week05-tile.JPG',
+            title:'2. Russia',
+            category: ['photos']
+        }
     ]
     this.weeks=weeks;
 });
