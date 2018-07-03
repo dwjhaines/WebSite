@@ -42,12 +42,17 @@ app.controller('tileController', function() {
             image:'images/tiles/week02-tile.JPG',
             title:'1. Europe',
             category: ['photos']
-        }
-        ,
+        },
         {
             link:'https://photos.app.goo.gl/1DeC3JDDMza7ct9t7',
             image:'images/tiles/week05-tile.JPG',
             title:'2. Russia',
+            category: ['photos']
+        },
+        {
+            link:'https://photos.app.goo.gl/EV4ZaTCCV6vGAXRa6',
+            image:'images/tiles/week06-tile.JPG',
+            title:'3. Russia',
             category: ['photos']
         }
     ]
