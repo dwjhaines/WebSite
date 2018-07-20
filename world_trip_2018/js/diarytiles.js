@@ -2,39 +2,15 @@ var app = angular.module('diaryApp',[]);
 app.controller('tileController', function() {
     var weeks=[
         {
-            link:'week-01.html',
-            image:'images/tiles/week01-tile.JPG',
-            title:'Week 1',
+            link:'week-09.html',
+            image:'images/tiles/week09-tile.JPG',
+            title:'Week 9',
             category: ['diary']
         },
         {
-            link:'week-02.html',
-            image:'images/tiles/week02-tile.JPG',
-            title:'Week 2',
-            category: ['diary']
-        },
-        {
-            link:'week-03.html',
-            image:'images/tiles/week03-tile.JPG',
-            title:'Week 3',
-            category: ['diary']
-        },
-        {
-            link:'week-04.html',
-            image:'images/tiles/week04-tile.JPG',
-            title:'Week 4',
-            category: ['diary']
-        },
-        {
-            link:'week-05.html',
-            image:'images/tiles/week05-tile.JPG',
-            title:'Week 5',
-            category: ['diary']
-        },
-        {
-            link:'week-06.html',
-            image:'images/tiles/week06-tile.JPG',
-            title:'Week 6',
+            link:'week-08.html',
+            image:'images/tiles/week08-tile.JPG',
+            title:'Week 8',
             category: ['diary']
         },
         {
@@ -44,9 +20,39 @@ app.controller('tileController', function() {
             category: ['diary']
         },
         {
-            link:'week-08.html',
-            image:'images/tiles/week08-tile.JPG',
-            title:'Week 8',
+            link:'week-06.html',
+            image:'images/tiles/week06-tile.JPG',
+            title:'Week 6',
+            category: ['diary']
+        },
+        {
+            link:'week-05.html',
+            image:'images/tiles/week05-tile.JPG',
+            title:'Week 5',
+            category: ['diary']
+        },
+        {
+            link:'week-04.html',
+            image:'images/tiles/week04-tile.JPG',
+            title:'Week 4',
+            category: ['diary']
+        },
+        {
+            link:'week-03.html',
+            image:'images/tiles/week03-tile.JPG',
+            title:'Week 3',
+            category: ['diary']
+        },
+        {
+            link:'week-02.html',
+            image:'images/tiles/week02-tile.JPG',
+            title:'Week 2',
+            category: ['diary']
+        },
+        {
+            link:'week-01.html',
+            image:'images/tiles/week01-tile.JPG',
+            title:'Week 1',
             category: ['diary']
         },
         {
