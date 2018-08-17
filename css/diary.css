@@ -398,12 +398,16 @@ body {
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px)  {
-
+  div.diary-photo-centre{
+    width:900px
+  }
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-
+  div.diary-photo-centre{
+    width:720px
+  }
 }
 
 /******** Extra small devices only *******/
@@ -432,7 +436,7 @@ body {
     width:320px;
   }
   div.diary-photo-centre{
-    width:320px
+    width:390px
   }
 
 }
