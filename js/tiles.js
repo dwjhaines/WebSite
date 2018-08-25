@@ -14,6 +14,18 @@ app.controller('tileController', function() {
             category: ['beer']
          },
 		 {
+            link:'https://photos.app.goo.gl/J3BuVc50tQ6dlGwG3',
+            image:'images/thailand-2018-2-tile.JPG',
+            title:'Thailand 2018',
+            category: ['diving']
+         },
+         {
+            link:'https://photos.app.goo.gl/pv450j2TRH4dsEBr1',
+            image:'images/myanmar-2018-tile.JPG',
+            title:'Myanmar 2018',
+            category: ['diving']
+         },
+         {
             link:'thailand-2018.html',
             image:'images/thailand-2018-tile.JPG',
             title:'Thailand 2018',
