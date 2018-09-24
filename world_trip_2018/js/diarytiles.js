@@ -112,7 +112,7 @@ app.controller('tileController', function() {
         {
             link:'https://photos.app.goo.gl/Vn1VyjrhFdkJ97sE9',
             image:'images/tiles/week02-tile.JPG',
-            title:'1. Europe',
+            title:'1. Kingsclere to Skopje',
             category: ['photos']
         },
         {
@@ -130,7 +130,13 @@ app.controller('tileController', function() {
         {
             link:'https://photos.app.goo.gl/m2odvgpAoPt6PbsG8',
             image:'images/tiles/DSC_0400.JPG',
-            title:'4. Europe',
+            title:'4. Macedonia and Greece',
+            category: ['photos']
+        },
+        {
+            link:'https://photos.app.goo.gl/dsgNnvsaAjAwCQLs8',
+            image:'images/tiles/week17-tile.JPG',
+            title:'5. The Journey Home',
             category: ['photos']
         }
     ]
