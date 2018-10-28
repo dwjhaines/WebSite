@@ -168,6 +168,12 @@ app.controller('tileController', function() {
             image:'images/tiles/week17-tile.JPG',
             title:'5. The Journey Home',
             category: ['photos']
+        },
+        {
+            link:'https://photos.app.goo.gl/JFuVdg1VWB3772m19',
+            image:'images/tiles/malaysia-tile.JPG',
+            title:'6. Malaysia',
+            category: ['photos']
         }
     ]
     this.weeks=weeks;
