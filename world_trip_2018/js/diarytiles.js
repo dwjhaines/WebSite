@@ -186,6 +186,12 @@ app.controller('tileController', function() {
             image:'images/tiles/malaysia-tile.JPG',
             title:'6. Malaysia',
             category: ['photos']
+        },
+        {
+            link:'https://photos.app.goo.gl/1knBtLEYJrsx88zx9',
+            image:'images/tiles/indonesia-tile.JPG',
+            title:'7. Indonesia',
+            category: ['photos']
         }
     ]
     this.weeks=weeks;
