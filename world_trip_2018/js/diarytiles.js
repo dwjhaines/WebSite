@@ -2,6 +2,12 @@ var app = angular.module('diaryApp',[]);
 app.controller('tileController', function() {
     var weeks=[
         {
+            link:'week-27.html',
+            image:'images/tiles/week27-tile.JPG',
+            title:'Week 27',
+            category: ['diary']
+        },
+        {
             link:'week-26.html',
             image:'images/tiles/week26-tile.JPG',
             title:'Week 26',
@@ -197,6 +203,12 @@ app.controller('tileController', function() {
             link:'https://photos.app.goo.gl/1knBtLEYJrsx88zx9',
             image:'images/tiles/indonesia-tile.JPG',
             title:'7. Indonesia',
+            category: ['photos']
+        },
+        {
+            link:'https://photos.app.goo.gl/PLBpPmf89r1H8urB8',
+            image:'images/tiles/australia-tile.JPG',
+            title:'8. Australia',
             category: ['photos']
         }
     ]
