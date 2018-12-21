@@ -572,9 +572,15 @@ app.controller('tileController', function() {
             category: ['beer']
         },	
         {
-            link:'log-book.html',
+            link:'log-book-1.html',
             image:'images/log-book-tile.JPG',
-            title:'Log Book',
+            title:'1 - 1000',
+            category: ['diving']
+        },	
+        {
+            link:'log-book-2.html',
+            image:'images/log-book-tile.JPG',
+            title:'1001 - 2000',
             category: ['diving']
         }
     ]
