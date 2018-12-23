@@ -152,7 +152,7 @@ app.controller('tileController', function() {
             category: ['diary']
         },
         {
-            link:'week-6.html',
+            link:'week-06.html',
             image:'images/tiles/week06-tile.JPG',
             title:'Week 6',
             category: ['diary']
@@ -182,7 +182,7 @@ app.controller('tileController', function() {
             category: ['diary']
         },
         {
-            link:'week-1.html',
+            link:'week-01.html',
             image:'images/tiles/week01-tile.JPG',
             title:'Week 1',
             category: ['diary']
