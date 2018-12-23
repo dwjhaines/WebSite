@@ -153,7 +153,7 @@ app.controller('tileController', function() {
         },
         {
             link:'week-06.html',
-            image:'images/tiles/week02-tile.JPG',
+            image:'images/tiles/week06-tile.JPG',
             title:'Week 6',
             category: ['diary']
         },
@@ -183,7 +183,7 @@ app.controller('tileController', function() {
         },
         {
             link:'week-01.html',
-            image:'images/tiles/week02-tile.JPG',
+            image:'images/tiles/week01-tile.JPG',
             title:'Week 1',
             category: ['diary']
         },
