@@ -246,6 +246,12 @@ app.controller('tileController', function() {
             image:'images/tiles/week30-tile.JPG',
             title:'9. Indonesia',
             category: ['photos']
+        },
+        {
+            link:'https://photos.app.goo.gl/47wG1A3q5dWzwt8t9',
+            image:'images/tiles/week32-tile.JPG',
+            title:'10. Bangkok',
+            category: ['photos']
         }
     ]
     this.weeks=weeks;
