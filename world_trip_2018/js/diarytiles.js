@@ -264,6 +264,12 @@ app.controller('tileController', function() {
             image:'images/tiles/week32-tile.JPG',
             title:'10. Bangkok',
             category: ['photos']
+        },
+        {
+            link:'https://photos.app.goo.gl/2pkoKJMZRj4vZRYv7',
+            image:'images/tiles/week34-tile.JPG',
+            title:'11. The Philippines',
+            category: ['photos']
         }
     ]
     this.weeks=weeks;
