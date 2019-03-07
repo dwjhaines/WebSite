@@ -330,12 +330,17 @@ app.controller('tileController', function() {
             image:'images/tiles/week39-tile.JPG',
             title:'13. Penang',
             category: ['photos']
-        }
-        ,
+        },
         {
             link:'https://photos.app.goo.gl/syMn1f2m5ptzmEhZ6',
             image:'images/tiles/week40-tile.JPG',
             title:'14. Thailand',
+            category: ['photos']
+        },
+        {
+            link:'https://photos.app.goo.gl/WcJ4uvsdQV5GUVh29',
+            image:'images/tiles/myanmar-tile.JPG',
+            title:'15. Myanmar',
             category: ['photos']
         }
         
