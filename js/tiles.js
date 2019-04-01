@@ -582,6 +582,12 @@ app.controller('tileController', function() {
             image:'images/log-book-tile.JPG',
             title:'1001 - 2000',
             category: ['diving']
+        },	
+        {
+            link:'log-book-3.html',
+            image:'images/log-book-tile.JPG',
+            title:'2001 - 3000',
+            category: ['diving']
         }
     ]
     this.trips=trips;
