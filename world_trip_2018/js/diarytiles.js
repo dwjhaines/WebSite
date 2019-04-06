@@ -372,6 +372,18 @@ app.controller('tileController', function() {
             image:'images/tiles/week42-tile.JPG',
             title:'16. Thailand',
             category: ['photos']
+        },
+        {
+            link:'https://photos.app.goo.gl/KgsELuCJyC44GohV7',
+            image:'images/tiles/week43-tile.JPG',
+            title:'17. Indonesia',
+            category: ['photos']
+        },
+        {
+            link:'https://photos.app.goo.gl/fEAzhXMgrCrwfP9C7',
+            image:'images/tiles/week46-tile.JPG',
+            title:'18. Malaysia',
+            category: ['photos']
         }
         
     ]
