@@ -386,7 +386,7 @@ app.controller('tileController', function() {
             category: ['photos']
         },
         {
-            link:'https://photos.app.goo.gl/fEAzhXMgrCrwfP9C7',
+            link:'https://photos.app.goo.gl/NPsVqW8ej2m3xFEC7',
             image:'images/tiles/week46-tile.JPG',
             title:'18. Malaysia',
             category: ['photos']
