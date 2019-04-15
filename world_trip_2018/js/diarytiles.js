@@ -390,7 +390,20 @@ app.controller('tileController', function() {
             image:'images/tiles/week46-tile.JPG',
             title:'18. Malaysia',
             category: ['photos']
+        },
+        {
+            link:'https://photos.app.goo.gl/jmfLh6mvqbPJwgTr5',
+            image:'images/tiles/thailand-tile.JPG',
+            title:'19. Thailand',
+            category: ['photos']
+        },
+        {
+            link:'https://photos.app.goo.gl/RCh4MNCXFeXrxpPm6',
+            image:'images/tiles/week47-tile.JPG',
+            title:'20. Hong Kong',
+            category: ['photos']
         }
+        
         
     ]
     this.weeks=weeks;
