@@ -2,6 +2,12 @@ var app = angular.module('diaryApp',[]);
 app.controller('tileController', function() {
     var weeks=[
         {
+            link:'week-49.html',
+            image:'images/tiles/week49-tile.JPG',
+            title:'Week 49',
+            category: ['diary']
+        },
+        {
             link:'week-48.html',
             image:'images/tiles/week48-tile.JPG',
             title:'Week 48',
