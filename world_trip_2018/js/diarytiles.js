@@ -420,9 +420,14 @@ app.controller('tileController', function() {
             image:'images/tiles/week47-tile.JPG',
             title:'20. Hong Kong',
             category: ['photos']
+        },
+        {
+            link:'https://photos.app.goo.gl/W1okcugVrL3HjRe88',
+            image:'images/tiles/week50-tile.JPG',
+            title:'21. Antwerp',
+            category: ['photos']
         }
-        
-        
+
     ]
     this.weeks=weeks;
 });
