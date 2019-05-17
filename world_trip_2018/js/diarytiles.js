@@ -438,6 +438,12 @@ app.controller('tileController', function() {
             image:'images/tiles/week50-tile.JPG',
             title:'21. Antwerp',
             category: ['photos']
+        },
+        {
+            link:'https://photos.app.goo.gl/cnzu8F8yXq7dVLoa8',
+            image:'images/tiles/bonaire-tile.JPG',
+            title:'22. Bonaire',
+            category: ['photos']
         }
 
     ]
