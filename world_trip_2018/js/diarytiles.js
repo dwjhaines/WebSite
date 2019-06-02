@@ -456,6 +456,12 @@ app.controller('tileController', function() {
             image:'images/tiles/bonaire-tile.JPG',
             title:'22. Bonaire',
             category: ['photos']
+        },
+        {
+            link:'https://photos.app.goo.gl/UnMMNZnNvfVD6TeMA',
+            image:'images/tiles/germany-tile.JPG',
+            title:'23. Germany',
+            category: ['photos']
         }
 
     ]
