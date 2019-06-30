@@ -492,6 +492,12 @@ app.controller('tileController', function() {
             image:'images/tiles/portugal-tile.JPG',
             title:'24. Portugal',
             category: ['photos']
+        },
+        {
+            link:'https://photos.app.goo.gl/Y6UsWVfQpxXBhnKx8',
+            image:'images/tiles/europe-tile.JPG',
+            title:'25. Europe',
+            category: ['photos']
         }
 
     ]
