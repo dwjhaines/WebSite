@@ -494,7 +494,7 @@ app.controller('tileController', function() {
             category: ['photos']
         },
         {
-            link:'https://photos.app.goo.gl/Y6UsWVfQpxXBhnKx8',
+            link:'https://photos.app.goo.gl/DD9RvSPM4PBGFNTp9',
             image:'images/tiles/europe-tile.JPG',
             title:'25. Europe',
             category: ['photos']
