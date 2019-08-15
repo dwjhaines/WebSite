@@ -3,7 +3,7 @@ app.controller('tileController', function() {
     var trips=[
         {
             link:'world_trip_2018/index-2018.html',
-            image:'world_trip_2018/images/tiles/week27-tile.JPG',
+            image:'world_trip_2018/images/tiles/week23-tile.JPG',
             title:'World Trip 2018',
             category: ['travel']
          },
