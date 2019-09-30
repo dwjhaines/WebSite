@@ -4,7 +4,7 @@ app.controller('tileController', function() {
         {
             link:'world_trip_2018/index-2018.html',
             image:'world_trip_2018/images/tiles/week23-tile.JPG',
-            title:'World Trip 2018',
+            title:'World Trip 2018/19',
             category: ['travel']
          },
 		 {
@@ -312,6 +312,12 @@ app.controller('tileController', function() {
             image:'images/ukraine-tile.JPG',
             title:'Ukraine 2012',
             category: ['travel', 'football']
+        },
+        {
+            link:'https://photos.app.goo.gl/oKJ8D5HbYNjcWMa37',
+            image:'images/bulgaria-2011-tile.JPG',
+            title:'Bulgaria v England',
+            category: ['football']
         }, 
         {
             link:'https://goo.gl/photos/RucVzMktRi7uVmYW9',
