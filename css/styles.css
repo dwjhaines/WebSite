@@ -156,6 +156,16 @@ div.jumbotron{
   margin-right: 0px;
   margin-left: 0px;
 }
+ #praguesofia-photos-tile{
+  height: 170px;
+  margin-bottom: 15px;
+  margin-top:0;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  margin-right: 0px;
+  margin-left: 0px;
+}
  #photos-2012-tile{
   height: 170px;
   margin-bottom: 15px;
@@ -178,7 +188,7 @@ div.jumbotron{
 }
 
 #diving-tile:hover, #travel-tile:hover, #football-tile:hover, #beer-tile:hover, #cycling-tile:hover,
-#sa-week-1-tile:hover, #sa-week-2-tile:hover, #sa-week-3-tile:hover, #sa-week-4-tile:hover , #sa-photos-tile:hover, #framce-photos-tile:hover, #brazil-photos-tile-1:hover, #brazil-photos-tile-2:hover, #photos-2012-tile:hover, #photos-2018-tile:hover, #poland-photos-tile:hover{
+#sa-week-1-tile:hover, #sa-week-2-tile:hover, #sa-week-3-tile:hover, #sa-week-4-tile:hover , #sa-photos-tile:hover, #framce-photos-tile:hover, #brazil-photos-tile-1:hover, #brazil-photos-tile-2:hover, #photos-2012-tile:hover, #photos-2018-tile:hover, #poland-photos-tile:hover, #praguesofia-photos-tile{
   box-shadow: 0 1px 5px 1px #121212;
 }
 
@@ -246,6 +256,10 @@ div.jumbotron{
   background: url('../images/poland-photos-tile.JPG') no-repeat;
   background-position: center;
 }
+#praguesofia-photos-tile {
+  background: url('../images/praguesofia-photos-tile.JPG') no-repeat;
+  background-position: center;
+}
 #photos-2012-tile {
   background: url('../world_trip_2012/images/2012-photos-tile.JPG') no-repeat;
   background-position: center;
@@ -255,7 +269,7 @@ div.jumbotron{
   background-position: center;
 }
 #diving-tile span, #travel-tile span, #football-tile span, #beer-tile span, #cycling-tile span,
-#sa-week-1-tile span, #sa-week-2-tile span, #sa-week-3-tile span, #sa-week-4-tile span, #sa-photos-tile span, #france-photos-tile span, #myanmar-photos-tile span, #thailand-photos-tile span, #brazil-photos-tile-1 span, #brazil-photos-tile-2 span, #poland-photos-tile span, #photos-2012-tile span, #photos-2018-tile span{
+#sa-week-1-tile span, #sa-week-2-tile span, #sa-week-3-tile span, #sa-week-4-tile span, #sa-photos-tile span, #france-photos-tile span, #myanmar-photos-tile span, #thailand-photos-tile span, #brazil-photos-tile-1 span, #brazil-photos-tile-2 span, #poland-photos-tile span, #praguesofia-photos-tile span, #photos-2012-tile span, #photos-2018-tile span{
   position: absolute;
   bottom: 0;
   right: 0;
@@ -357,7 +371,7 @@ span.tiles{
   }
   
   #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile, 
-  #sa-photos-tile, #france-photos-tile, #myanmar-photos-tile, #thailand-photos-tile, #brazil-photos-tile-1, #brazil-photos-tile-2, #poland-photos-tile, #photos-2012-tile, #photos-2018-tile
+  #sa-photos-tile, #france-photos-tile, #myanmar-photos-tile, #thailand-photos-tile, #brazil-photos-tile-1, #brazil-photos-tile-2, #poland-photos-tile, #praguesofia-photos-tile, #photos-2012-tile, #photos-2018-tile
   {
     margin-top: 0px;
     margin-bottom:20px;
@@ -378,7 +392,7 @@ span.tiles{
     margin-top:30px;
   }
   #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile, 
-  #sa-photos-tile, #france-photos-tile, #myanmar-photos-tile, #thailand-photos-tile, #brazil-photos-tile-1, #brazil-photos-tile-2, #poland-photos-tile, #photos-2012-tile, #photos-2018-tile
+  #sa-photos-tile, #france-photos-tile, #myanmar-photos-tile, #thailand-photos-tile, #brazil-photos-tile-1, #brazil-photos-tile-2, #poland-photos-tile, #praguesofia-photos-tile, #photos-2012-tile, #photos-2018-tile
   {
     margin-top:10px;
     margin-bottom:20px;
@@ -405,7 +419,7 @@ span.tiles{
     margin-top: 20px;
   }
   #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile, 
-  #sa-photos-tile, #france-photos-tile, #myanmar-photos-tile, #thailand-photos-tile, #brazil-photos-tile-1, #brazil-photos-tile-2, #poland-photos-tile, #photos-2012-tile, #photos-2018-tile
+  #sa-photos-tile, #france-photos-tile, #myanmar-photos-tile, #thailand-photos-tile, #brazil-photos-tile-1, #brazil-photos-tile-2, #poland-photos-tile, #praguesofia-photos-tile, #photos-2012-tile, #photos-2018-tile
   {
     margin-top: 0px;
     margin-bottom:20px;
@@ -434,7 +448,7 @@ span.tiles{
     margin-right: auto ;
   }
   #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile, 
-  #sa-photos-tile, #france-photos-tile, #myanmar-photos-tile, #thailand-photos-tile, #brazil-photos-tile-1, #brazil-photos-tile-2, #poland-photos-tile, #photos-2012-tile, #photos-2018-tile
+  #sa-photos-tile, #france-photos-tile, #myanmar-photos-tile, #thailand-photos-tile, #brazil-photos-tile-1, #brazil-photos-tile-2, #poland-photos-tile, #praguesofia-photos-tile, #photos-2012-tile, #photos-2018-tile
   {
     margin-top: 0px;
     margin-bottom:20px;

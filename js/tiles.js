@@ -1,6 +1,14 @@
 var app = angular.module('tripApp',[]);
 app.controller('tileController', function() {
     var trips=[
+        
+        
+        {
+            link:'pragueandsofia.html',
+            image:'images/praguesofia-tile.JPG',
+            title:'Prague and Sofia',
+            category: ['football']
+        }, 
         {
             link:'world_trip_2018/index-2018.html',
             image:'world_trip_2018/images/tiles/week23-tile.JPG',
