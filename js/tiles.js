@@ -1,9 +1,13 @@
 var app = angular.module('tripApp',[]);
 app.controller('tileController', function() {
-    var trips=[
-        
-        
+    var trips=[ 
         {
+            link:'https://photos.app.goo.gl/qCduTBH6WjCZ1vsR7',
+            image:'images/belgium-2019-tile.JPG',
+            title:'Brussels 2019',
+            category: ['beer']
+         },
+		 {
             link:'pragueandsofia.html',
             image:'images/praguesofia-tile.JPG',
             title:'Prague and Sofia',
