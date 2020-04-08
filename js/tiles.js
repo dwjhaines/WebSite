@@ -612,7 +612,13 @@ app.controller('tileController', function() {
             image:'images/log-book-tile.JPG',
             title:'2001 - 3000',
             category: ['diving']
-        }
+        }, 
+        {
+            link:'world_trip_1994/index-1994.html',
+            image:'world_trip_1994/images/tiles/week23-tile.JPG',
+            title:'World Trip 1994/5',
+            category: ['travel']
+         }
     ]
     this.trips=trips;
 });
