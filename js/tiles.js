@@ -615,7 +615,7 @@ app.controller('tileController', function() {
         }, 
         {
             link:'world_trip_1994/index-1994.html',
-            image:'world_trip_1994/images/tiles/week23-tile.JPG',
+            image:'world_trip_1994/images/tiles/week04-tile.JPG',
             title:'World Trip 1994/5',
             category: ['travel']
          }

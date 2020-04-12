@@ -32,7 +32,7 @@ app.controller('tileController', function() {
             category: ['diary']
         },
         {
-            link:'week-065.html',
+            link:'week-06.html',
             image:'images/tiles/week06-tile.JPG',
             title:'Week 6',
             category: ['diary']
