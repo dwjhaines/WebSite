@@ -144,6 +144,30 @@ app.controller('tileController', function() {
             image:'images/tiles/week24-tile.JPG',
             title:'Week 24',
             category: ['diary']
+        },
+        {
+            link:'week-25.html',
+            image:'images/tiles/week25-tile.JPG',
+            title:'Week 25',
+            category: ['diary']
+        },
+        {
+            link:'week-26.html',
+            image:'images/tiles/week26-tile.JPG',
+            title:'Week 26',
+            category: ['diary']
+        },
+        {
+            link:'week-27.html',
+            image:'images/tiles/week27-tile.JPG',
+            title:'Week 27',
+            category: ['diary']
+        },
+        {
+            link:'week-28.html',
+            image:'images/tiles/week28-tile.JPG',
+            title:'Week 28',
+            category: ['diary']
         }
     ]
     this.weeks=weeks;
