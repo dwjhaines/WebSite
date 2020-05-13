@@ -312,6 +312,18 @@ app.controller('tileController', function() {
             image:'images/tiles/week52-tile.JPG',
             title:'Week 52',
             category: ['diary']
+        },
+        {
+            link:'week-53.html',
+            image:'images/tiles/week53-tile.JPG',
+            title:'Week 53',
+            category: ['diary']
+        },
+        {
+            link:'week-54.html',
+            image:'images/tiles/week54-tile.JPG',
+            title:'Week 54',
+            category: ['diary']
         }
     ]
     this.weeks=weeks;
