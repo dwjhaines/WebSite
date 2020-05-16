@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="diaryApp">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>1989/90 Blog</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico?">
+  
+  
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="../css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    
+  <!-- Icons for social media links -->
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <!-- Custom styles for this template -->
+  <link href="../css/styles.css" rel="stylesheet">
+  <link href="../css/diary.css" rel="stylesheet">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127676458-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-127676458-1');
+</script>
+
+
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+
+      <p class="nav navbar-" >World Trip 1989/90 - Diary</p>
+    </div>
+    <div class="navbar-header navbar-icons">
+          <a href="..\index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
+          <a href="..\travel.html"><span class="glyphicon glyphicon-plane" aria-hidden="true"></span></a> 
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+
+
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fixed bg-1 text-center">
+  <img src="images/WT2018-001.JPG" class="img-responsive img-circle headerphoto" style="display:inline" alt="Sunset" width="350" height="350">
+</div>
+
+<!-- Second Container (Grid) -->
+<div class="container-fluid bg-3 text-left">  
+<div class="row row-content" ng-controller="tileController as tileCtrl">
+    <div class="col-md-3 col-sm-6 col-xs-12" ng-repeat="week in tileCtrl.weeks | filter:'diary'">
+        <a href="{{week.link}}">
+            <div class="newtiles" style="background-image: url({{week.image}})">
+                <span class="newtiles">{{week.title}}</span>
+            </div>
+        </a>
+    </div>  
+</div> <!-- Row -->
+<!-- Footer -->
+                  <footer>
+                <div class="row footer-row">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 fa">
+                        <a href="https://www.youtube.com/user/dwjhaines">
+                            <i class="fa fa-youtube-square"></i>
+                        </a>
+                        <a href="https://facebook.com/dwjhaines">
+                            <i class="fa fa-facebook-square"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </footer>
+</div>
+
+        <script src="../angular/angular.min.js"></script>
+        <script src="js/diarytiles.js"></script>
+</body>
+</html>

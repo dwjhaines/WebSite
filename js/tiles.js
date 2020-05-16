@@ -618,6 +618,12 @@ app.controller('tileController', function() {
             image:'world_trip_1994/images/tiles/week04-tile.JPG',
             title:'World Trip 1994/5',
             category: ['travel']
+         }, 
+        {
+            link:'world_trip_1989/index-1989.html',
+            image:'world_trip_1989/images/tiles/part01-tile.jpg',
+            title:'World Trip 1989/90',
+            category: ['travel']
          }
     ]
     this.trips=trips;
