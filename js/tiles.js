@@ -621,7 +621,7 @@ app.controller('tileController', function() {
          }, 
         {
             link:'world_trip_1989/index-1989.html',
-            image:'world_trip_1989/images/tiles/part01-tile.jpg',
+            image:'world_trip_1989/images/tiles/WT1989-tile.jpg',
             title:'World Trip 1989/90',
             category: ['travel']
          }
