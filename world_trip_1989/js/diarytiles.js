@@ -3,8 +3,8 @@ app.controller('tileController', function() {
     var weeks=[
         {
             link:'part-01.html',
-            image:'images/tiles/part01-tile.JPG',
-            title:'Part 1',
+            image:'images/tiles/part01-tile.jpg',
+            title:'Part 1 - U.S.A.',
             category: ['diary']
         }
     ]
