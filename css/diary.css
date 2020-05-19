@@ -288,6 +288,13 @@ p.diary-text{
  color: #333;
 }
 
+p.hitching-text{
+ text-align: center;
+ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+ line-height: 1.3;
+ color: #3b0ead;
+}
+
 span.diary-date{
   font-weight: bold; 
   font-size:1.2em;

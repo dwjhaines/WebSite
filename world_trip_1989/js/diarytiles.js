@@ -22,7 +22,7 @@ app.controller('tileController', function() {
         {
             link:'part-04.html',
             image:'images/tiles/part04-tile.jpg',
-            title:'Part 4 - Sydney to Freo',
+            title:'Part 4 - Sydney to Perth',
             category: ['diary']
         },
         {
