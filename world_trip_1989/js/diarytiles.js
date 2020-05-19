@@ -18,6 +18,18 @@ app.controller('tileController', function() {
             image:'images/tiles/part03-tile.jpg',
             title:'Part 3 - New Zealand',
             category: ['diary']
+        },
+        {
+            link:'part-04.html',
+            image:'images/tiles/part04-tile.jpg',
+            title:'Part 4 - Sydney to Freo',
+            category: ['diary']
+        },
+        {
+            link:'part-05.html',
+            image:'images/tiles/part05-tile.jpg',
+            title:'Part 5 - Fremantle',
+            category: ['diary']
         }
     ]
     this.weeks=weeks;

@@ -36,57 +36,57 @@
 </head>
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>                    
-      </button>
-      <p class="nav navbar-" >World Trip 2018/19 - Blog</p>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a class = "navbar-link" href="photos-2018.html">Photos</a></li>
-      </ul>
-
-    </div>
-  </div>
-</nav>
-
-<!-- First Container -->
-<div class="container-fixed bg-1 text-center">
-  <img src="images/WT2018-001.JPG" class="img-responsive img-circle headerphoto" style="display:inline" alt="Sunset" width="350" height="350">
-</div>
-
-<!-- Second Container (Grid) -->
-<div class="container-fluid bg-3 text-left">  
-<div class="row row-content" ng-controller="tileController as tileCtrl">
-    <div class="col-md-3 col-sm-6 col-xs-12" ng-repeat="week in tileCtrl.weeks | filter:'diary'">
-        <a href="{{week.link}}">
-            <div class="newtiles" style="background-image: url({{week.image}})">
-                <span class="newtiles">{{week.title}}</span>
-            </div>
-        </a>
-    </div>  
-</div> <!-- Row -->
-<!-- Footer -->
-                  <footer>
-                <div class="row footer-row">
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 fa">
-                        <a href="https://www.youtube.com/user/dwjhaines">
-                            <i class="fa fa-youtube-square"></i>
-                        </a>
-                        <a href="https://facebook.com/dwjhaines">
-                            <i class="fa fa-facebook-square"></i>
-                        </a>
-
-                    </div>
+    <!-- Jumbotron for a nav bar and main photo -->
+    <div class="jumbotron">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="col-md-6 col-sm-6 col-xs-9">
+                <div class="navbar-header">
+                    <span>dwjhaines - world trip 2018/19</span>
                 </div>
-            </footer>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-3">
+                <div class="navbar-header navbar-icons">
+                    <a href="..\index.html">
+                        <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                    </a>      
+                    <a href="..\travel.html">
+                        <span class="glyphicon glyphicon-plane" aria-hidden="true"></span>
+                    </a>
+                    <a href="photos-2018.html" title = "Photos">
+                        <span class="glyphicon glyphicon-camera" aria-hidden="true"></span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Main Container (Grid) -->
+    <div class="container-fluid bg-3 text-left">  
+        <div class="row row-content" ng-controller="tileController as tileCtrl">
+            <div class="col-md-3 col-sm-6 col-xs-12" ng-repeat="week in tileCtrl.weeks | filter:'diary'">
+                <a href="{{week.link}}">
+                    <div class="newtiles" style="background-image: url({{week.image}})">
+                        <span class="newtiles">{{week.title}}</span>
+                    </div>
+                </a>
+            </div>  
+        </div> <!-- Row -->
+<!-- Footer -->
+        <footer>
+            <div class="row footer-row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 fa">
+                    <a href="https://www.youtube.com/user/dwjhaines">
+                        <i class="fa fa-youtube-square"></i>
+                    </a>
+                    <a href="https://facebook.com/dwjhaines">
+                        <i class="fa fa-facebook-square"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
 </div>
 
 

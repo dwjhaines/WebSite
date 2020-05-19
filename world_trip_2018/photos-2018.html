@@ -27,30 +27,31 @@
 </head>
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>                    
-      </button>
-      <p class="nav navbar-" >World Trip 2018 - Photos</p>
+    <!-- Jumbotron for a nav bar and main photo -->
+    <div class="jumbotron">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="col-md-6 col-sm-6 col-xs-9">
+                <div class="navbar-header">
+                    <span>dwjhaines - world trip 2018/19</span>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-3">
+                <div class="navbar-header navbar-icons">
+                    <a href="..\index.html">
+                        <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                    </a>      
+                    <a href="..\travel.html">
+                        <span class="glyphicon glyphicon-plane" aria-hidden="true"></span>
+                    </a>
+                    <a href="index-2018.html" title = "Blog Index">
+                        <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+                    </a>
+                </div>
+            </div>
+        </nav>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="index-2018.html">Blog</a></li>
-      </ul>
 
-    </div>
-  </div>
-</nav>
-
-<!-- First Container -->
-<div class="container-fixed bg-1 text-center">
-  <img src="images/WT2018-001.JPG" class="img-responsive img-circle headerphoto" style="display:inline" alt="Sunset" width="350" height="350">
-</div>
-
-<!-- Second Container (Grid) -->
+<!-- Main Container (Grid) -->
 <div class="container-fluid bg-3 text-left">  
 <div class="row row-content" ng-controller="tileController as tileCtrl">
     <div class="col-md-3 col-sm-6 col-xs-12" ng-repeat="week in tileCtrl.weeks | filter:'photos'">
