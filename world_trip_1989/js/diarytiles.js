@@ -30,6 +30,12 @@ app.controller('tileController', function() {
             image:'images/tiles/part05-tile.jpg',
             title:'Part 5 - Fremantle',
             category: ['diary']
+        },
+        {
+            link:'part-06.html',
+            image:'images/tiles/part06-tile.jpg',
+            title:'Part 6 - Freo to Cairns',
+            category: ['diary']
         }
     ]
     this.weeks=weeks;
