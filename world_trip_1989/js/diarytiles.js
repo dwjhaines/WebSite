@@ -36,6 +36,18 @@ app.controller('tileController', function() {
             image:'images/tiles/part06-tile.jpg',
             title:'Part 6 - Freo to Cairns',
             category: ['diary']
+        },
+        {
+            link:'part-07.html',
+            image:'images/tiles/part07-tile.jpg',
+            title:'Part 7 - Cairns to Sydney',
+            category: ['diary']
+        },
+        {
+            link:'part-08.html',
+            image:'images/tiles/part08-tile.jpg',
+            title:'Part 8 - Sydney',
+            category: ['diary']
         }
     ]
     this.weeks=weeks;
