@@ -48,6 +48,30 @@ app.controller('tileController', function() {
             image:'images/tiles/part08-tile.jpg',
             title:'Part 8 - Sydney',
             category: ['diary']
+        },
+        {
+            link:'part-09.html',
+            image:'images/tiles/part09-tile.jpg',
+            title:'Part 9 - Sydney cont.',
+            category: ['diary']
+        },
+        {
+            link:'part-10.html',
+            image:'images/tiles/part10-tile.jpg',
+            title:'Part 10 - ',
+            category: ['diary']
+        },
+        {
+            link:'part-11.html',
+            image:'images/tiles/part11-tile.jpg',
+            title:'Part 11 - ',
+            category: ['diary']
+        },
+        {
+            link:'part-12.html',
+            image:'images/tiles/part12-tile.jpg',
+            title:'Part 12 -',
+            category: ['diary']
         }
     ]
     this.weeks=weeks;
