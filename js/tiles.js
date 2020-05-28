@@ -624,6 +624,12 @@ app.controller('tileController', function() {
             image:'world_trip_1989/images/tiles/WT1989-tile.jpg',
             title:'World Trip 1989/90',
             category: ['travel']
+         }, 
+        {
+            link:'https://photos.app.goo.gl/a23Wf1pAtCHgXCYr9',
+            image:'images/sydney-tile.jpg',
+            title:'Sydney 1989',
+            category: ['beer']
          }
     ]
     this.trips=trips;
