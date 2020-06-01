@@ -58,19 +58,19 @@ app.controller('tileController', function() {
         {
             link:'part-10.html',
             image:'images/tiles/part10-tile.jpg',
-            title:'Part 10 - ',
+            title:'Part 10 - New Zealand',
             category: ['diary']
         },
         {
             link:'part-11.html',
             image:'images/tiles/part11-tile.jpg',
-            title:'Part 11 - ',
+            title:'Part 11 - Indonesia',
             category: ['diary']
         },
         {
             link:'part-12.html',
             image:'images/tiles/part12-tile.jpg',
-            title:'Part 12 -',
+            title:'Part 12 - ',
             category: ['diary']
         }
     ]
