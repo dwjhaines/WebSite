@@ -287,6 +287,13 @@ p.diary-text{
  line-height: 1.4;
  color: #333;
 }
+p.roz-diary-text{
+ text-align:justify;
+ font-style: italic ;
+ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+ line-height: 1.4;
+ color: #3c1269;
+}
 
 p.hitching-text{
  text-align: center;
