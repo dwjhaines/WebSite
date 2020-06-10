@@ -630,6 +630,12 @@ app.controller('tileController', function() {
             image:'images/sydney-tile.jpg',
             title:'Sydney 1989',
             category: ['beer']
+         }, 
+        {
+            link:'inter_rail_1984/index-1984.html',
+            image:'images/ir1984-tile.jpg',
+            title:'Inter Rail 1984',
+            category: ['travel']
          }
     ]
     this.trips=trips;
