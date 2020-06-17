@@ -632,6 +632,12 @@ app.controller('tileController', function() {
             category: ['beer']
          }, 
         {
+            link:'europe_1986/index-1986.html',
+            image:'images/europe86-tile.jpg',
+            title:'Europe 1986',
+            category: ['travel']
+         }, 
+        {
             link:'inter_rail_1985/index-1985.html',
             image:'images/ir1985-tile.jpg',
             title:'Inter Rail 1985',
