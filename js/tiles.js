@@ -614,6 +614,12 @@ app.controller('tileController', function() {
             category: ['diving']
         }, 
         {
+            link:'world_trip_2000/index-2000.html',
+            image:'world_trip_2000/images/tiles/WT2000-tile.jpg.JPG',
+            title:'World Trip 2000/01',
+            category: ['travel']
+         }, 
+        {
             link:'world_trip_1994/index-1994.html',
             image:'world_trip_1994/images/tiles/week04-tile.JPG',
             title:'World Trip 1994/5',
