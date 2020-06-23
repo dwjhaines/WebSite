@@ -10,13 +10,13 @@ app.controller('tileController', function() {
         {
             link:'part-02.html',
             image:'images/tiles/part02-tile.jpg',
-            title:'Part 2 - ',
+            title:'Part 2 - Indonesia',
             category: ['diary']
         },
         {
             link:'part-03.html',
             image:'images/tiles/part03-tile.jpg',
-            title:'Part 3 - ',
+            title:'Part 3 - Thailand',
             category: ['diary']
         },
         {
