@@ -314,6 +314,10 @@ span.diary-date{
   font-size:1.2em;
 }
 
+div.diving-text{
+    text-align: center;
+}
+
 div.diary-photo-left{
   display:inline;
   float:left;
