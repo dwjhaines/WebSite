@@ -16,13 +16,13 @@ app.controller('tileController', function() {
         {
             link:'part-03.html',
             image:'images/tiles/part03-tile.jpg',
-            title:'Part 3 - Thailand',
+            title:'Part 3 - Thailand/Malaysia',
             category: ['diary']
         },
         {
             link:'part-04.html',
             image:'images/tiles/part04-tile.jpg',
-            title:'Part 4 - ',
+            title:'Part 4 - Australia',
             category: ['diary']
         },
         {

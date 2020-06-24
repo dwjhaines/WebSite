@@ -615,7 +615,7 @@ app.controller('tileController', function() {
         }, 
         {
             link:'world_trip_2000/index-2000.html',
-            image:'world_trip_2000/images/tiles/WT2000-tile.jpg.JPG',
+            image:'images/wt2000-tile.jpg',
             title:'World Trip 2000/01',
             category: ['travel']
          }, 
