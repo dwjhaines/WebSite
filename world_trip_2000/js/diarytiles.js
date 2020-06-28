@@ -28,7 +28,7 @@ app.controller('tileController', function() {
         {
             link:'part-05.html',
             image:'images/tiles/part05-tile.jpg',
-            title:'Part 5 -',
+            title:'Part 5 - Thailand',
             category: ['diary']
         },
         {
