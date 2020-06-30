@@ -620,6 +620,12 @@ app.controller('tileController', function() {
             category: ['travel']
          }, 
         {
+            link:'https://photos.app.goo.gl/W9wdJ8hQMqGh3c5E8',
+            image:'images/wt2000-sessions-tile.jpg',
+            title:'2000/01 - Sessions',
+            category: ['beer']
+         }, 
+        {
             link:'world_trip_1994/index-1994.html',
             image:'world_trip_1994/images/tiles/week04-tile.JPG',
             title:'World Trip 1994/5',
