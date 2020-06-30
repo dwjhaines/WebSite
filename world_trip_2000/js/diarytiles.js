@@ -40,7 +40,7 @@ app.controller('tileController', function() {
         {
             link:'part-07.html',
             image:'images/tiles/part07-tile.jpg',
-            title:'Part 7 - ',
+            title:'Part 7 - Thailand',
             category: ['diary']
         },
         {
