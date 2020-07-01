@@ -46,55 +46,19 @@ app.controller('tileController', function() {
         {
             link:'part-08.html',
             image:'images/tiles/part08-tile.jpg',
-            title:'Part 8 - ',
+            title:'Part 8 - Cambodia',
             category: ['diary']
         },
         {
             link:'part-09.html',
             image:'images/tiles/part09-tile.jpg',
-            title:'Part 9 - ',
+            title:'Part 9 - Vietnam',
             category: ['diary']
         },
         {
             link:'part-10.html',
             image:'images/tiles/part10-tile.jpg',
-            title:'Part 10 - ',
-            category: ['diary']
-        },
-        {
-            link:'part-11.html',
-            image:'images/tiles/part11-tile.jpg',
-            title:'Part 11 - ',
-            category: ['diary']
-        },
-        {
-            link:'part-12.html',
-            image:'images/tiles/part12-tile.jpg',
-            title:'Part 12 - ',
-            category: ['diary']
-        },
-        {
-            link:'part-13.html',
-            image:'images/tiles/part13-tile.jpg',
-            title:'Part 13 - ',
-            category: ['diary']
-        },
-        {
-            link:'part-14.html',
-            image:'images/tiles/part14-tile.jpg',
-            title:'Part 14 - ',
-            category: ['diary']
-        },
-        {
-            link:'part-15.html',
-            image:'images/tiles/part15-tile.jpg',
-            title:'Part 15 - ',
-            category: ['diary']
-        },
-        {
-            link:'part-16.html',
-            image:'images/tiles/part16-tile.jpg',
-            title:'Part 16 - ',
+            title:'Part 10 - Thailand',
             category: ['diary']
         }
     ]
