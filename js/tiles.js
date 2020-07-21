@@ -548,6 +548,12 @@ app.controller('tileController', function() {
             category: ['beer']
         }, 
         {
+            link:'https://photos.app.goo.gl/1KuPQnra57JE7XQ69',
+            image:'images/brussels-2003-tile.JPG',
+            title:'Brussels 2003',
+            category: ['beer']
+        }, 
+        {
             link:'https://photos.app.goo.gl/MfjK0wpwCGBRGUQI3',
             image:'images/bacharach-tile.JPG',
             title:'Bacharach 2003',
@@ -563,6 +569,12 @@ app.controller('tileController', function() {
             link:'https://goo.gl/photos/MZcBLMUaQ6uJY9WQ8',
             image:'images/germany-2003-tile.JPG',
             title:'Germany 2003',
+            category: ['beer']
+        }, 
+        {
+            link:'https://photos.app.goo.gl/46AVrHoLa7VmSuq46',
+            image:'images/dublin-2003-tile.JPG',
+            title:'Dublin 2003',
             category: ['beer']
         }, 
         {

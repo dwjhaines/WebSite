@@ -61,8 +61,8 @@
             <div class="row row-content" ng-controller="tileController as tileCtrl">
                 <div class="col-md-3 col-sm-6 col-xs-12" ng-repeat="trip in tileCtrl.trips | filter:'travel'">
                     <a href="{{trip.link}}">
-                        <div class="tiles" style="background-image: url({{trip.image}})">
-                            <span class="tiles">{{trip.title}}</span>
+                        <div class="newtiles" style="background-image: url({{trip.image}})">
+                            <span class="newtiles">{{trip.title}}</span>
                         </div>
                     </a>
                 </div>  
