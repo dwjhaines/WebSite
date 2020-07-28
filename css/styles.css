@@ -69,7 +69,7 @@ div.jumbotron{
     top:-50px
 }
 
-#diving-tile, #travel-tile, #football-tile, #beer-tile, #cycling-tile{
+#diving-tile, #travel-tile, #football-tile, #beer-tile, #cycling-tile, #lockdown-tile{
   height: 200px;
   width: 100%;
   margin-bottom: 15px;
@@ -197,7 +197,7 @@ div.jumbotron{
   margin-left: 0px;
 }
 
-#diving-tile:hover, #travel-tile:hover, #football-tile:hover, #beer-tile:hover, #cycling-tile:hover,
+#diving-tile:hover, #travel-tile:hover, #football-tile:hover, #beer-tile:hover, #cycling-tile, #lockdown-tile:hover,
 #sa-week-1-tile:hover, #sa-week-2-tile:hover, #sa-week-3-tile:hover, #sa-week-4-tile:hover , #sa-photos-tile:hover, #framce-photos-tile:hover, #brazil-photos-tile-1:hover, #brazil-photos-tile-2:hover, #photos-2012-tile:hover, #photos-2018-tile:hover, #poland-photos-tile:hover, #indo-photos-tile:hover, #praguesofia-photos-tile{
   box-shadow: 0 1px 5px 1px #121212;
 }
@@ -220,6 +220,10 @@ div.jumbotron{
 }
 #cycling-tile {
   background: url('../images/cycling-tile.JPG') no-repeat;
+  background-position: center;
+}
+#lockdown-tile {
+  background: url('../images/lockdown-tile.JPG') no-repeat;
   background-position: center;
 }
 #sa-week-1-tile {
@@ -282,7 +286,7 @@ div.jumbotron{
   background: url('../world_trip_2018/images/2018-photos-tile.JPG') no-repeat;
   background-position: center;
 }
-#diving-tile span, #travel-tile span, #football-tile span, #beer-tile span, #cycling-tile span,
+#diving-tile span, #travel-tile span, #football-tile span, #beer-tile span, #cycling-tile span, #lockdown-tile span,
 #sa-week-1-tile span, #sa-week-2-tile span, #sa-week-3-tile span, #sa-week-4-tile span, #sa-photos-tile span, #france-photos-tile span, #myanmar-photos-tile span, #thailand-photos-tile span, #brazil-photos-tile-1 span, #brazil-photos-tile-2 span, #poland-photos-tile span, #indo-photos-tile span, #praguesofia-photos-tile span, #photos-2012-tile span, #photos-2018-tile span{
   position: absolute;
   bottom: 0;
@@ -380,7 +384,7 @@ span.tiles{
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-  #diving-tile, #travel-tile, #football-tile, #beer-tile, #cycling-tile{
+  #diving-tile, #travel-tile, #football-tile, #beer-tile, #cycling-tile, #lockdown-tile{
     margin-top:50px;
   }
   
@@ -402,7 +406,7 @@ span.tiles{
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px)  {
-  #diving-tile, #travel-tile, #football-tile, #beer-tile, #cycling-tile{
+  #diving-tile, #travel-tile, #football-tile, #beer-tile, #cycling-tile, #lockdown-tile{
     margin-top:30px;
   }
   #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile, 
@@ -423,7 +427,7 @@ span.tiles{
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  #diving-tile, #travel-tile, #football-tile, #beer-tile, #cycling-tile{
+  #diving-tile, #travel-tile, #football-tile, #beer-tile, #cycling-tile, #lockdown-tile{
     margin-top: 20px;
   }
   div.tiles{
@@ -455,7 +459,7 @@ span.tiles{
     height:150px;
   }
   
-  #diving-tile, #travel-tile, #football-tile, #beer-tile, #cycling-tile{
+  #diving-tile, #travel-tile, #football-tile, #beer-tile, #cycling-tile, #lockdown-tile{
     margin-top:10px;
     width: 280px;
     margin-left: auto ;
