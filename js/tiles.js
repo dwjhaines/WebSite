@@ -567,7 +567,7 @@ app.controller('tileController', function() {
         }, 
         {
             link:'https://photos.app.goo.gl/AVSLom695ngvkJXE9',
-            image:'images/italy-2003-tile.JPG',
+            image:'images/italy-2003-tile.jpg',
             title:'Italy 2003',
             category: ['travel']
         }, 
