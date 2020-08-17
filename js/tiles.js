@@ -5,7 +5,7 @@ app.controller('tileController', function() {
             link:'germany-2020.html',
             image:'images/aachen-2020-tile.JPG',
             title:'Germany 2020',
-            category: ['beer', 'travel']
+            category: ['beer']
         },
         {
             link:'indonesia-2020.html',
