@@ -524,6 +524,12 @@ app.controller('tileController', function() {
             category: ['beer']
         },  					 
         {
+            link:'https://photos.app.goo.gl/L3wSWGCTbzsN3XSD7',
+            image:'images/maldives-2004-tile.jpg',
+            title:'Maldives 2004',
+            category: ['travel']
+        },  					 
+        {
             link:'https://photos.app.goo.gl/SmQ1Q5Kn6EizxvXl1',
             image:'images/belgium-2004-tile.JPG',
             title:'Belgium 2004',
@@ -536,10 +542,22 @@ app.controller('tileController', function() {
             category: ['football']
         },
         {
+            link:'https://photos.app.goo.gl/uBYz4ApsPDYkGYrc6',
+            image:'images/austria-2004-tile.JPG',
+            title:'Austria/Poland 2004',
+            category: ['football', 'travel']
+        },
+        {
             link:'https://goo.gl/photos/XefCRHovogrPgnV18',
             image:'images/portugal-tile.JPG',
             title:'Portugal 2004',
             category: ['football', 'travel']
+        },
+        {
+            link:'https://photos.app.goo.gl/ttRZs4o8xHBgNQfL8',
+            image:'images/amsterdam-2004-tile.JPG',
+            title:'Amsterdam 2004',
+            category: ['beer', 'football']
         },
         {
             link:'https://goo.gl/photos/ifRofQvGsShUS2hz9',
