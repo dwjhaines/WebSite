@@ -2,10 +2,16 @@ var app = angular.module('tripApp',[]);
 app.controller('tileController', function() {
     var trips=[ 
         {
-            link:'germany-2020.html',
+            link:'aachen-2020.html',
             image:'images/aachen-2020-tile.JPG',
-            title:'Germany 2020',
+            title:'Aachen 2020',
             category: ['beer']
+        },
+        {
+            link:'https://photos.app.goo.gl/QGp2bDHvENtrojNu6',
+            image:'images/lockdown-tile-2.jpg',
+            title:'Lockdown 2020',
+            category: ['misc']
         },
         {
             link:'indonesia-2020.html',
@@ -504,6 +510,18 @@ app.controller('tileController', function() {
             image:'images/belgium-dec-2005-tile.JPG',
             title:'Belgium Dec 2005',
             category: ['beer']
+        },
+        {
+            link:'https://photos.app.goo.gl/88FZ4ftGT56iy2st7',
+            image:'images/egypt-2005-tile.JPG',
+            title:'Egypt 2005',
+            category: ['diving']
+        },
+        {
+            link:'https://photos.app.goo.gl/xWdDGQNYdCamav5s6',
+            image:'images/copenhagen-2005-tile.JPG',
+            title:'Copenhagen 2005',
+            category: ['football']
         },  
         {
             link:'https://photos.app.goo.gl/qQImXyCFhkCLcxiu2',
@@ -518,6 +536,12 @@ app.controller('tileController', function() {
             category: ['beer']
         },  					 
         {
+            link:'https://photos.app.goo.gl/zq8cH5xnnY5pKBhK6',
+            image:'images/usa-2005-tile.jpg',
+            title:'USA 2005',
+            category: ['football']
+        },  					 
+        {
             link:'https://photos.app.goo.gl/O1xSeaa5YQNU0HDo2',
             image:'images/hanover-2005-tile.JPG',
             title:'Hanover 2005',
@@ -527,7 +551,7 @@ app.controller('tileController', function() {
             link:'https://photos.app.goo.gl/L3wSWGCTbzsN3XSD7',
             image:'images/maldives-2004-tile.jpg',
             title:'Maldives 2004',
-            category: ['travel']
+            category: ['travel', 'diving']
         },  					 
         {
             link:'https://photos.app.goo.gl/SmQ1Q5Kn6EizxvXl1',
@@ -678,6 +702,12 @@ app.controller('tileController', function() {
             image:'images/wt2000-sessions-tile.jpg',
             title:'2000/01 - Sessions',
             category: ['beer']
+         }, 
+        {
+            link:'https://photos.app.goo.gl/XZ7WbxQdhojjxMfbA',
+            image:'images/wedding-tile.jpg',
+            title:'Our Wedding',
+            category: ['misc']
          }, 
         {
             link:'world_trip_1994/index-1994.html',

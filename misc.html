@@ -10,7 +10,7 @@
         <meta name="author" content="">
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
 
-        <title>diving</title>
+        <title>misc</title>
 
         <!-- Bootstrap core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -40,7 +40,7 @@
             <nav class="navbar navbar-inverse navbar-fixed-top">
                 <div class="col-md-6 col-sm-6 col-xs-9">
                     <div class="navbar-header">
-                        <span>dwjhaines - diving</span>
+                        <span>dwjhaines - misc</span>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-3">
@@ -59,7 +59,7 @@
         <!-- Main container loops through list in Angular module -->
         <div class="container">
             <div class="row row-content" ng-controller="tileController as tileCtrl">
-                <div class="col-md-3 col-sm-6 col-xs-12" ng-repeat="trip in tileCtrl.trips | filter:'diving'">
+                <div class="col-md-3 col-sm-6 col-xs-12" ng-repeat="trip in tileCtrl.trips | filter:'misc'">
                     <a href="{{trip.link}}">
                         <div class="tiles" style="background-image: url({{trip.image}})">
                             <span class="tiles">{{trip.title}}</span>
