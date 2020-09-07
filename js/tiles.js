@@ -2,6 +2,18 @@ var app = angular.module('tripApp',[]);
 app.controller('tileController', function() {
     var trips=[ 
         {
+            link:'germany-2020.html',
+            image:'images/germany-2020-tile.JPG',
+            title:'Germany 2020',
+            category: ['beer', 'travel']
+        },
+        {
+            link:'https://photos.app.goo.gl/sLwrwGPUEG3BHsJJ7',
+            image:'images/winchester-tile.jpg',
+            title:'Winchester 2020',
+            category: ['beer']
+        },
+        {
             link:'aachen-2020.html',
             image:'images/aachen-2020-tile.JPG',
             title:'Aachen 2020',
@@ -36,6 +48,12 @@ app.controller('tileController', function() {
             image:'world_trip_2018/images/tiles/week23-tile.JPG',
             title:'World Trip 2018/19',
             category: ['travel']
+         },
+		 {
+            link:'https://photos.app.goo.gl/hBkHDWbZUFhCGbH59',
+            image:'images/hoggy-tile.jpg',
+            title:'Hoggy\'s 50th',
+            category: ['beer']
          },
 		 {
             link:'https://photos.app.goo.gl/dYngfhi6RLfwe20C3',
