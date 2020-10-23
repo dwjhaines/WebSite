@@ -615,7 +615,7 @@ app.controller('tileController', function() {
         }, 
         {
             link:'https://photos.app.goo.gl/QHF3CjHaTQJDx8Fn6',
-            image:'images/ludlow-2003-tile.JPG',
+            image:'images/ludlow-2003-tile.jpg',
             title:'Ludlow 2003',
             category: ['beer']
         }, 
