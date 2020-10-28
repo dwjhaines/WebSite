@@ -728,6 +728,12 @@ app.controller('tileController', function() {
             category: ['beer']
          }, 
         {
+            link:'https://photos.app.goo.gl/MhrDZkv1zDWpCTMw8',
+            image:'images/usa-1997-tile.jpg',
+            title:'USA 1997',
+            category: ['travel']
+         }, 
+        {
             link:'https://photos.app.goo.gl/XZ7WbxQdhojjxMfbA',
             image:'images/wedding-tile.jpg',
             title:'Our Wedding',
