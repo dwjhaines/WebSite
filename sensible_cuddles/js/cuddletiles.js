@@ -27,7 +27,7 @@ app.controller('tileController', function() {
             category: ['cuddle']
         },
         {
-            image:'images/percy.jpg',
+            image:'images/pedfgrcy.jpg',
             title:'10/11 - Percy',
             category: ['cuddle']
         },
