@@ -87,13 +87,13 @@ app.controller('tileController', function() {
             category: ['cuddle']
         },
         {
-            image:'images/question-mark.jpg',
-            title:'22/11 - ',
+            image:'images/hedgey.jpg',
+            title:'22/11 - Hedgey',
             category: ['cuddle']
         },
         {
-            image:'images/question-mark.jpg',
-            title:'23/11 - ',
+            image:'images/noo.jpg',
+            title:'23/11 - Noo & Noo',
             category: ['cuddle']
         },
         {
