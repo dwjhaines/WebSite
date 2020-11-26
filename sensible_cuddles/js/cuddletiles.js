@@ -107,8 +107,8 @@ app.controller('tileController', function() {
             category: ['cuddle']
         },
         {
-            image:'images/question-mark.jpg',
-            title:'26/11 - ',
+            image:'images/addo.jpg',
+            title:'26/11 - Addo',
             category: ['cuddle']
         },
         {
