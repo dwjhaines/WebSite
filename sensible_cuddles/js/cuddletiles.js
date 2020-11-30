@@ -122,13 +122,13 @@ app.controller('tileController', function() {
             category: ['cuddle']
         },
         {
-            image:'images/question-mark.jpg',
-            title:'29/11 - ',
+            image:'images/pattypolly.jpg',
+            title:'29/11 - Patty and Polly',
             category: ['cuddle']
         },
         {
-            image:'images/question-mark.jpg',
-            title:'30/11 - ',
+            image:'images/jinglebells.jpg',
+            title:'30/11 - Jingle & Bells',
             category: ['cuddle']
         },
         {
