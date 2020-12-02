@@ -132,13 +132,13 @@ app.controller('tileController', function() {
             category: ['cuddle']
         },
         {
-            image:'images/question-mark.jpg',
-            title:'1/12 - ',
+            image:'images/santy.jpg',
+            title:'1/12 - Santy',
             category: ['cuddle']
         },
         {
-            image:'images/question-mark.jpg',
-            title:'2/12 - ',
+            image:'images/emily.jpg',
+            title:'2/12 - |Emily',
             category: ['cuddle']
         }
         
