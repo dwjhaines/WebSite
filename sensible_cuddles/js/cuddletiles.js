@@ -138,7 +138,7 @@ app.controller('tileController', function() {
         },
         {
             image:'images/emily.jpg',
-            title:'2/12 - |Emily',
+            title:'2/12 - Emily',
             category: ['cuddle']
         }
         
