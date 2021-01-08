@@ -15,6 +15,11 @@ app.controller('tileController', function() {
             image:'images/piggywiggy.jpg',
             title:'7/1 - Piggy Wiggy',
             category: ['cuddle']
+        },
+        {
+            image:'images/bertie.jpg',
+            title:'8/1 - Bertie',
+            category: ['cuddle']
         }        
 
     ]
