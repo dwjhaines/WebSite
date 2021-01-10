@@ -20,7 +20,19 @@ app.controller('tileController', function() {
             image:'images/bertie.jpg',
             title:'8/1 - Bertie',
             category: ['cuddle']
+        },
+        {
+            image:'images/bertie.jpg',
+            title:'9/1 - Bertie',
+            category: ['cuddle']
+        },
+        {
+            image:'images/legend.jpg',
+            title:'10/1 - Legend',
+            category: ['cuddle']
         }        
+        
+        
 
     ]
     this.weeks=weeks;
