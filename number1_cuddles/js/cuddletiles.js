@@ -30,6 +30,11 @@ app.controller('tileController', function() {
             image:'images/legend.jpg',
             title:'10/1 - Legend',
             category: ['cuddle']
+        },
+        {
+            image:'images/smoo.jpg',
+            title:'11/1 - Smoo',
+            category: ['cuddle']
         }        
         
         
