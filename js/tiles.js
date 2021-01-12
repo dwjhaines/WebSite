@@ -408,6 +408,12 @@ app.controller('tileController', function() {
             image:'images/malaysia-tile.JPG',
             title:'Malaysia 2011',
             category: ['diving', 'travel']
+        },
+        {
+            link:'https://photos.app.goo.gl/GhCddwJHhQbKViZw8',
+            image:'images/playoff-final-tile.jpg',
+            title:'2011 Play-off Final',
+            category: ['football']
         },             
         {
             link:'https://goo.gl/photos/hFjBKq4tLq6s8iuz7',
