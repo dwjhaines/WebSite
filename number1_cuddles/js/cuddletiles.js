@@ -35,9 +35,12 @@ app.controller('tileController', function() {
             image:'images/smoo.jpg',
             title:'11/1 - Smoo',
             category: ['cuddle']
+        },
+        {
+            image:'images/paddy2.jpg',
+            title:'12/1 - Paddy II',
+            category: ['cuddle']
         }        
-        
-        
 
     ]
     this.weeks=weeks;
