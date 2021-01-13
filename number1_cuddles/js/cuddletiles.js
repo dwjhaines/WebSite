@@ -40,6 +40,11 @@ app.controller('tileController', function() {
             image:'images/paddy2.jpg',
             title:'12/1 - Paddy II',
             category: ['cuddle']
+        },
+        {
+            image:'images/snuffle.jpg',
+            title:'13/1 - Snuffle',
+            category: ['cuddle']
         }        
 
     ]
