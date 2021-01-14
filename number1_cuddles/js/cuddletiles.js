@@ -45,6 +45,11 @@ app.controller('tileController', function() {
             image:'images/snuffle.jpg',
             title:'13/1 - Snuffle',
             category: ['cuddle']
+        },
+        {
+            image:'images/sid.jpg',
+            title:'14/1 - Sid',
+            category: ['cuddle']
         }        
 
     ]
