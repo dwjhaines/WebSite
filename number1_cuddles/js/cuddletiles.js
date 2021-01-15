@@ -50,8 +50,12 @@ app.controller('tileController', function() {
             image:'images/sid.jpg',
             title:'14/1 - Sid',
             category: ['cuddle']
-        }        
-
+        },
+        {
+            image:'images/roz.jpg',
+            title:'15/1 - Roz',
+            category: ['cuddle']
+        }
     ]
     this.weeks=weeks;
 });
