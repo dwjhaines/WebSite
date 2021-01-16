@@ -55,6 +55,11 @@ app.controller('tileController', function() {
             image:'images/roz.jpg',
             title:'15/1 - Roz',
             category: ['cuddle']
+        },
+        {
+            image:'images/rainbow.jpg',
+            title:'16/1 - Rainbow',
+            category: ['cuddle']
         }
     ]
     this.weeks=weeks;
