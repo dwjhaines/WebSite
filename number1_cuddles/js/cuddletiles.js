@@ -60,6 +60,21 @@ app.controller('tileController', function() {
             image:'images/rainbow.jpg',
             title:'16/1 - Rainbow',
             category: ['cuddle']
+        },
+        {
+            image:'images/odell.jpg',
+            title:'17/1 - Odell',
+            category: ['cuddle']
+        },
+        {
+            image:'images/nelly.jpg',
+            title:'18/1 - Nelly',
+            category: ['cuddle']
+        },
+        {
+            image:'images/twiggy.jpg',
+            title:'18/1 - Twiggy',
+            category: ['cuddle']
         }
     ]
     this.weeks=weeks;
