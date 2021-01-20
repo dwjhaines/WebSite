@@ -464,6 +464,12 @@ app.controller('tileController', function() {
             category: ['beer']
         },
         {
+            link:'https://photos.app.goo.gl/gsxaE8LNJfr34ot6A',
+            image:'images/doha-tile.jpg',
+            title:'Doha 2009',
+            category: ['football']
+        },
+        {
             link:'https://photos.app.goo.gl/uPcz3AoYWkIWxTel2',
             image:'images/barcelona-2009-tile.JPG',
             title:'Barcelona 2009',
