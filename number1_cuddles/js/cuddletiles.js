@@ -75,6 +75,11 @@ app.controller('tileController', function() {
             image:'images/twiggy.jpg',
             title:'18/1 - Twiggy',
             category: ['cuddle']
+        },
+        {
+            image:'images/nutmeg.jpg',
+            title:'18/1 - Nutmeg',
+            category: ['cuddle']
         }
     ]
     this.weeks=weeks;
