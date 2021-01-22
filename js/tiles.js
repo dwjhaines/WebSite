@@ -393,7 +393,7 @@ app.controller('tileController', function() {
         },	
         {
             link:'https://photos.app.goo.gl/SZG79tDeCtutw4ce7',
-            image:'images/montenegro-2011-tile.JPG',
+            image:'images/montenegro-2011-tile.jpg',
             title:'Montenegro 2011',
             category: ['football']
         },
@@ -513,7 +513,7 @@ app.controller('tileController', function() {
         }, 
         {
             link:'https://photos.app.goo.gl/prvvHPd1Rzh7Zwi78',
-            image:'images/germany-2008-tile.JPG',
+            image:'images/germany-2008-tile.jpg',
             title:'Germany 2008',
             category: ['football', 'travel', 'beer']
         }, 
