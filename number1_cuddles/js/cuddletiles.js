@@ -90,6 +90,11 @@ app.controller('tileController', function() {
             image:'images/roz.jpg',
             title:'22/1 - Roz',
             category: ['cuddle']
+        },
+        {
+            image:'images/paddy.jpg',
+            title:'22/1 - Paddy',
+            category: ['cuddle']
         }
     ]
     this.weeks=weeks;
