@@ -93,7 +93,12 @@ app.controller('tileController', function() {
         },
         {
             image:'images/paddy.jpg',
-            title:'22/1 - Paddy',
+            title:'23/1 - Paddy',
+            category: ['cuddle']
+        },
+        {
+            image:'images/tropic.jpg',
+            title:'24/1 - Tropic',
             category: ['cuddle']
         }
     ]
