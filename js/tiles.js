@@ -2,17 +2,23 @@ var app = angular.module('tripApp',[]);
 app.controller('tileController', function() {
     var trips=[ 
         {
+            link:'https://photos.app.goo.gl/iajs1pe6TLrjcWBNA',
+            image:'images/spare-room-tile.jpg',
+            title:'Spare Room',
+            category: ['misc']
+        }, 
+        {
             link:'https://photos.app.goo.gl/yFdAqZAc3T6c63de7',
             image:'images/london-2020.jpg',
             title:'London - Dec 2020',
             category: ['beer', 'travel']
-         }, 
+        }, 
         {
             link:'https://photos.app.goo.gl/May8cejN5XmL6JNWA',
             image:'images/sid-tile.jpg',
             title:'Sid',
             category: ['misc']
-         }, 
+        }, 
         {
             link:'germany-2020.html',
             image:'images/germany-2020-tile.JPG',

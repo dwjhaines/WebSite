@@ -130,6 +130,36 @@ app.controller('tileController', function() {
             image:'images/lee.jpg',
             title:"30/1 - Lee",
             category: ['cuddle']
+        },
+        {
+            image:'images/hoggy.jpg',
+            title:"31/1 - Hoggy",
+            category: ['cuddle']
+        },
+        {
+            image:'images/pout.jpg',
+            title:"1/2 - Pout",
+            category: ['cuddle']
+        },
+        {
+            image:'images/bertie.jpg',
+            title:"2/2 - Bertie",
+            category: ['cuddle']
+        },
+        {
+            image:'images/newbear.jpg',
+            title:"3/2 - New Bear",
+            category: ['cuddle']
+        },
+        {
+            image:'images/paddy.jpg',
+            title:"4/2 - Paddy",
+            category: ['cuddle']
+        },
+        {
+            image:'images/odell.jpg',
+            title:"5/2 - Odell",
+            category: ['cuddle']
         }
     ]
     this.weeks=weeks;
