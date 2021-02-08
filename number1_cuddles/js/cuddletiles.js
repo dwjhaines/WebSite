@@ -170,6 +170,11 @@ app.controller('tileController', function() {
             image:'images/roz.jpg',
             title:"7/2 - Roz",
             category: ['cuddle']
+        },
+        {
+            image:'images/oceanshelly.jpg',
+            title:'8/2 - Ocean & Shelly',
+            category: ['cuddle']
         }
     ]
     this.weeks=weeks;
