@@ -175,6 +175,11 @@ app.controller('tileController', function() {
             image:'images/oceanshelly.jpg',
             title:'8/2 - Ocean & Shelly',
             category: ['cuddle']
+        },
+        {
+            image:'images/oceanshelly.jpg',
+            title:'9/2 - Ocean & Shelly',
+            category: ['cuddle']
         }
     ]
     this.weeks=weeks;
