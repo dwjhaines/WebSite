@@ -180,6 +180,31 @@ app.controller('tileController', function() {
             image:'images/oceanshelly.jpg',
             title:'9/2 - Ocean & Shelly',
             category: ['cuddle']
+        },
+        {
+            image:'images/addo.jpg',
+            title:'10/2 - Addo',
+            category: ['cuddle']
+        },
+        {
+            image:'images/tamzin.jpg',
+            title:'11/2 - Tamzin',
+            category: ['cuddle']
+        },
+        {
+            image:'images/thomas.jpg',
+            title:'12/2 - Thomas',
+            category: ['cuddle']
+        },
+        {
+            image:'images/thomas.jpg',
+            title:'13/2 - Thomas',
+            category: ['cuddle']
+        },
+        {
+            image:'images/michelle.jpg',
+            title:'16/2 - Michelle',
+            category: ['cuddle']
         }
     ]
     this.weeks=weeks;
