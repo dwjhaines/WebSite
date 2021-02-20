@@ -238,7 +238,7 @@ app.controller('tileController', function() {
         },
         {
             image:'images/rozs_teddy.jpg',
-            title:"19/2 - Roz's Teddy",
+            title:"21/2 - Roz's Teddy",
             category: ['cuddle']
         }
     ]
