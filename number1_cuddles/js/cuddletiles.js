@@ -207,8 +207,38 @@ app.controller('tileController', function() {
             category: ['cuddle']
         },
         {
+            image:'images/bertie.jpg',
+            title:"15/2 - Bertie",
+            category: ['cuddle']
+        },
+        {
             image:'images/michelle.jpg',
             title:'16/2 - Michelle',
+            category: ['cuddle']
+        },
+        {
+            image:'images/flappy.jpg',
+            title:'17/2 - Flappy',
+            category: ['cuddle']
+        },
+        {
+            image:'images/flippy.jpg',
+            title:'18/2 - Flippy',
+            category: ['cuddle']
+        },
+        {
+            image:'images/floppy.jpg',
+            title:'19/2 - Floppy',
+            category: ['cuddle']
+        },
+        {
+            image:'images/sid.jpg',
+            title:'20/2 - Sid',
+            category: ['cuddle']
+        },
+        {
+            image:'images/rozs_teddy.jpg',
+            title:"19/2 - Roz's Teddy",
             category: ['cuddle']
         }
     ]
