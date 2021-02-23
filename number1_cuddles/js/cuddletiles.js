@@ -240,6 +240,16 @@ app.controller('tileController', function() {
             image:'images/rozs_teddy.jpg',
             title:"21/2 - Roz's Teddy",
             category: ['cuddle']
+        },
+        {
+            image:'images/eddy.jpg',
+            title:"22/2 -Eddy",
+            category: ['cuddle']
+        },
+        {
+            image:'images/andy.jpg',
+            title:"23/2 -Andy",
+            category: ['cuddle']
         }
     ]
     this.weeks=weeks;
