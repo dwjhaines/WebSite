@@ -248,7 +248,12 @@ app.controller('tileController', function() {
         },
         {
             image:'images/andy.jpg',
-            title:"23/2 -Andy",
+            title:"23/2 - Andy",
+            category: ['cuddle']
+        },
+        {
+            image:'images/fff.jpg',
+            title:"24/2 - Fat Furry Franky",
             category: ['cuddle']
         }
     ]

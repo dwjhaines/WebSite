@@ -22,6 +22,8 @@
 
   <!-- Custom styles for this template -->
   <link href="css/styles.css" rel="stylesheet">
+  <link href="css/strava.css" rel="stylesheet">
+  <link href="css/strava2.css" rel="stylesheet">
 
   <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
   <script src="css/ie-emulation-modes-warning.js"></script>
@@ -33,7 +35,7 @@
   <![endif]-->
   </head>
 
-  <body>
+  <body onload="updateDays()">
     
     <!-- Main jumbotron for a nav bar and main photo -->
     <div class="jumbotron">
@@ -53,10 +55,34 @@
     
     <div class="container">
       <div id="home-tiles" class="row">
-        <div align="center" class="col-md-12 col-sm-12 col-xs-12">
+	    <div align="center" class="col-md-4 col-sm-6 col-xs-12" >
+          <div  class="stravaBox">
+            <p class="stravaHeader">7500 Mile Challenge</p>
+            <p class="stravaText">7,408 miles in 2020 so 7,500 in 2021!</p>
+          </div>
+          <div  class="stravaBox" onload="updateDays()">
+            <p class="stravaHeader2">Number of Days</p>
+            <p class="stravaText" id="numberOfDays">0</p>
+            <p class="stravaHeader2">Target Miles</p>
+            <p class="stravaText" id="targetMiles">0</p>
+            <p class="stravaHeader2" id="milesCycled">Miles Cycled</p>
+            <p class="stravaText">1064</p>
+            
+            <button type="button" onclick='document.getElementById("numberOfDays").innerHTML = "27"'>Update</button>
+            <button type="button" onclick="updateDays()">Try it</button>
+            
+            
+            <div class="footer">
+                <a target="_parent" class="primary" href="https://www.strava.com/athletes/266358?utm_campaign=athlete_share&amp;utm_content=266358&amp;utm_medium=widget">View all <em>of David's</em> activity »</a>
+                <div target="_parent" class="branding logo-sm"><a class="branding-content" target="_parent" href="/"><span class="sr-only">Strava</span></a></div>
+            </div>
+          </div>
+          
+        </div>
+        <div align="center" class="col-md-4 col-sm-6 col-xs-12">
           <iframe height='160' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/266358/activity-summary/c2d34d5f7175a1ffcb4242dcb95ef962adeef50d'></iframe>
         </div>
-        <div align="center" class="col-md-12 col-sm-12 col-xs-12">
+        <div align="center" class="col-md-4 col-sm-6 col-xs-12">
           <iframe height='454' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/266358/latest-rides/c2d34d5f7175a1ffcb4242dcb95ef962adeef50d'></iframe>
         </div>
 
@@ -67,7 +93,7 @@
       <footer>
         <div class="row footer-row">
           <div class="col-md-6 col-sm-6 col-xs-12 copyright">
-            <p>© 2020 dwjhaines</p>
+            <p>© 2021 dwjhaines</p>
           </div>
           <div class="col-md-6 col-sm-6 col-xs-12 fa">
             <a href="https://www.youtube.com/user/dwjhaines"><i class="fa fa-youtube-square"></i></a>
@@ -87,6 +113,6 @@
     <script src="./index_files/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./index_files/ie10-viewport-bug-workaround.js"></script>
-  
+    <script src="js/strava.js"></script>
   </body>
 </html>

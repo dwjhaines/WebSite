@@ -1,0 +1,63 @@
+div.stravaBox{
+    font-weight: 300;
+    width: 300px;
+    color: #333;
+    min-width: 200px;
+    border: 1px solid #f0f0f5;
+    border-radius: 3px;
+    padding-top:10px;
+    padding-left:10px;
+    padding-bottom:5px;
+    padding-right:10px;
+    text-align: left;
+}
+
+.stravaHeader{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple";
+    color: #007FB6;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.stravaHeader2{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple";
+    color: #007FB6;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.stravaText{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #666666;
+    font-size:12px;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+
+.stravaData {
+  width: 100%;
+  height: 100vh;
+}
+
+.riderProfile img {
+  width: 75px;
+  border-radius: 50%;
+}
+.riderInfo {
+  display: inline-block;
+  padding: 15px;
+  vertical-align: top;
+}
+.riderName {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.ytdCount, 
+.ytdDistance {
+  font-size: 12px;
+  color: #000;
+}
