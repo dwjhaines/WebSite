@@ -18,7 +18,7 @@ div.stravaBox{
     font-size: 16px;
     font-weight: 600;
     margin-top: 10px;
-    margin-bottom: 2px;
+    margin-bottom: 3px;
 }
 
 .stravaHeader2{
@@ -29,6 +29,15 @@ div.stravaBox{
     margin-bottom: 0px;
 }
 
+.differanceText{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple";
+    color: #007FB6;
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom:30px;
+    padding-top:30px;
+}
+
 .stravaText{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #666666;
@@ -36,6 +45,17 @@ div.stravaBox{
     font-weight: 300;
     margin-bottom: 0px;
 }
+
+
+div.resultBox{
+    text-align:center;
+    height:100px;
+    background-color: #ffffff;
+    border: 1px solid #f0f0f5;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
 
 
 .stravaData {
