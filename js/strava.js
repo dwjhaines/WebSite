@@ -1,3 +1,8 @@
+const authLink = "https://www.strava.com/oauth/token"
+
+reAuthourise()
+updateDays()
+
 function updateDays(){
     var target = 7500 // Number of miles
     var numberOfDays = 365 // Number of days to achieve the target
@@ -11,29 +16,63 @@ function updateDays(){
     // Calculate how many miles should have been done by now
     var target = Math.round(target*days/numberOfDays)
     
-    var milesToDate = 1064 // ***************** TODO This needs to be obtained from Strava ********************
+    var milesToDate = 1099 // ***************** TODO This needs to be obtained from Strava ********************
     var differance = milesToDate - target
 
     
     document.getElementById("numberOfDays").innerHTML = days
     document.getElementById("targetMiles").innerHTML = target
-    document.getElementById("milesCycled").innerHTML = milesToDate
+    //document.getElementById("milesCycled").innerHTML = milesToDate
     document.getElementById("differance").innerHTML = Math.abs(differance)
     
     
     if (differance < 0){ // behind target
-        document.getElementById("aheadOrBehind").innerHTML = "behind target"
+        document.getElementById("aheadOrBehind").innerHTML = "behind target."
         document.getElementById("result").style.backgroundColor="#ffb7ba";
         document.getElementById("differance").style.color="red";
         document.getElementById("aheadOrBehind").style.color="red";
     }
     else {
-        document.getElementById("aheadOrBehind").innerHTML = "ahead of target"
+        document.getElementById("aheadOrBehind").innerHTML = "ahead of target."
         document.getElementById("result").style.backgroundColor="#cafdc8";
         document.getElementById("differance").style.color="green";
         document.getElementById("aheadOrBehind").style.color="green";
     }
 }
+
+function reAuthourise(){
+    fetch(authLink,{
+        method: 'post',
+        headers: {
+            'Accept': 'application/json, text/plain, */*',
+            'Content-Type': 'application/json'
+        },
+        body:JSON.stringify({
+            client_id: '61833',
+            client_secret: '1dad36071eccfe7f6629c999a2beb7f70ab0cdd4',
+            refresh_token: '1cf828f8c28705ded41344a36cd8ee38edc3d122',
+            grant_type: 'refresh_token'
+        })
+    }).then((res) => res.json())
+        .then(res => getDistance(res))
+}
+
+async function getDistance(res){
+    console.log(res)
+    const activities_link = 'https://www.strava.com/api/v3/athletes/266358/stats?access_token=' + res.access_token
+    
+    const response = await fetch(activities_link, {});
+    const json = await response.json();
+    console.log(json)
+    
+    var distanceInMetres = json.ytd_ride_totals.distance
+    var distanceInMiles = Math.floor(distanceInMetres * 0.000621371192)
+    console.log(distanceInMiles)
+    document.getElementById("milesCycled").innerHTML = distanceInMiles
+}
+
+
+
 
  
     

@@ -255,6 +255,11 @@ app.controller('tileController', function() {
             image:'images/fff.jpg',
             title:"24/2 - Fat Furry Franky",
             category: ['cuddle']
+        },
+        {
+            image:'images/casey.jpg',
+            title:"25/2 - Casey",
+            category: ['cuddle']
         }
     ]
     this.weeks=weeks;
