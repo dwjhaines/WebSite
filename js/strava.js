@@ -1,9 +1,6 @@
-const authLink = "https://www.strava.com/oauth/token"
+MilageChallenge()
 
-reAuthourise()
-updateDays()
-
-function updateDays(){
+function updateDays(milesToDate){
     var target = 7500 // Number of miles
     var numberOfDays = 365 // Number of days to achieve the target
     var oneDay = 24 * 60 * 60 * 1000; // Number of miliseconds in 24 hours (js counts time in ms)
@@ -16,13 +13,11 @@ function updateDays(){
     // Calculate how many miles should have been done by now
     var target = Math.round(target*days/numberOfDays)
     
-    var milesToDate = 1099 // ***************** TODO This needs to be obtained from Strava ********************
     var differance = milesToDate - target
 
-    
     document.getElementById("numberOfDays").innerHTML = days
     document.getElementById("targetMiles").innerHTML = target
-    //document.getElementById("milesCycled").innerHTML = milesToDate
+    document.getElementById("milesCycled").innerHTML = milesToDate
     document.getElementById("differance").innerHTML = Math.abs(differance)
     
     
@@ -40,8 +35,10 @@ function updateDays(){
     }
 }
 
-function reAuthourise(){
-    fetch(authLink,{
+async function MilageChallenge(){
+    // First we need to get an updated authorisation token to allow us to access Strava data
+    const auth_link = "https://www.strava.com/oauth/token"
+    fetch(auth_link,{
         method: 'post',
         headers: {
             'Accept': 'application/json, text/plain, */*',
@@ -58,6 +55,7 @@ function reAuthourise(){
 }
 
 async function getDistance(res){
+    // ToDo - Need to get all of this into above function and get the combined function to return distance in miles
     console.log(res)
     const activities_link = 'https://www.strava.com/api/v3/athletes/266358/stats?access_token=' + res.access_token
     
@@ -67,8 +65,8 @@ async function getDistance(res){
     
     var distanceInMetres = json.ytd_ride_totals.distance
     var distanceInMiles = Math.floor(distanceInMetres * 0.000621371192)
-    console.log(distanceInMiles)
-    document.getElementById("milesCycled").innerHTML = distanceInMiles
+    console.log("Distance so far in miles: " + distanceInMiles)
+    updateDays(distanceInMiles)
 }
 
 
