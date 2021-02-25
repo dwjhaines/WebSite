@@ -11,7 +11,7 @@ function updateDays(){
     // Calculate how many miles should have been done by now
     var target = Math.round(target*days/numberOfDays)
     
-    var milesToDate = 1150 // ***************** TODO This needs to be obtained from Strava ********************
+    var milesToDate = 1064 // ***************** TODO This needs to be obtained from Strava ********************
     var differance = milesToDate - target
 
     
