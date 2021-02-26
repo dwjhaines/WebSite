@@ -260,6 +260,11 @@ app.controller('tileController', function() {
             image:'images/casey.jpg',
             title:"25/2 - Casey",
             category: ['cuddle']
+        },
+        {
+            image:'images/hoggy.jpg',
+            title:"26/2 - Hoggy",
+            category: ['cuddle']
         }
     ]
     this.weeks=weeks;
