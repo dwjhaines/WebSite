@@ -46,12 +46,12 @@ function updateData(milesToDate){
     var days = Math.ceil(Math.abs((startDate.getTime() - todaysDate.getTime()) / (oneDay)));
     
     // Calculate how many miles should have been done by now
-    var target = Math.round(target*days/numberOfDays)
+    var dailyTarget = Math.round(target*days/numberOfDays)
     
-    var differance = milesToDate - target
+    var differance = milesToDate - dailyTarget
 
     document.getElementById("numberOfDays").innerHTML = days
-    document.getElementById("targetMiles").innerHTML = target
+    document.getElementById("targetMiles").innerHTML = dailyTarget
     document.getElementById("milesCycled").innerHTML = milesToDate
     document.getElementById("differance").innerHTML = Math.abs(differance)
     
@@ -68,6 +68,10 @@ function updateData(milesToDate){
         document.getElementById("differance").style.color="green";
         document.getElementById("aheadOrBehind").style.color="green";
     }
+    
+    var percentComplete = Math.min(Math.floor((milesToDate/target)*100), 100)
+    console.log(percentComplete)
+    document.getElementById("myBar").style.width=percentComplete+"%"
 }
 
 

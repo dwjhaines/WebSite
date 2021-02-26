@@ -13,6 +13,22 @@ div.stravaBox{
     margin-bottom:5px;
 }
 
+div.resultsBox{
+    font-weight: 300;
+    width: 300px;
+    height:140px;
+    color: #333;
+    min-width: 200px;
+    border: 1px solid #f0f0f5;
+    border-radius: 3px;
+    padding-top:10px;
+    padding-left:4px;
+    padding-bottom:5px;
+    padding-right:3px;
+    text-align: left;
+    margin-bottom:5px;
+}
+
 .stravaHeader{
     font-family: -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple";
     color: #007FB6;
@@ -47,7 +63,6 @@ div.stravaBox{
     margin-bottom: 0px;
 }
 
-
 div.resultBox{
     text-align:center;
     height:100px;
@@ -55,6 +70,18 @@ div.resultBox{
     border: 1px solid #f0f0f5;
     border-radius: 3px;
     margin-bottom: 10px;
+}
+
+/* Progress Bar Parameters*/
+#myProgress {
+  width: 100%;
+  background-color: red;
+}
+
+#myBar {
+  width: 0%;
+  height: 10px;
+  background-color: green;
 }
 
 /* The following is all copied from the Strava css file */
