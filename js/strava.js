@@ -72,6 +72,8 @@ function updateData(milesToDate){
     var percentComplete = Math.min(Math.floor((milesToDate/target)*100), 100)
     console.log(percentComplete)
     document.getElementById("myBar").style.width=percentComplete+"%"
+    var milesSinceLockdown = 7212 + milesToDate
+    document.getElementById("milesCycledSinceLockdown").innerHTML = milesSinceLockdown
 }
 
 

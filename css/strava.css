@@ -16,7 +16,7 @@ div.stravaBox{
 div.resultsBox{
     font-weight: 300;
     width: 300px;
-    height:140px;
+    height:185px;
     color: #333;
     min-width: 200px;
     border: 1px solid #f0f0f5;
@@ -44,6 +44,15 @@ div.resultsBox{
     font-size: 12px;
     font-weight: 600;
     margin-bottom: 0px;
+}
+
+.stravaHeader3{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple";
+    color: #007FB6;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    margin-top: 10px;
 }
 
 .differanceText{

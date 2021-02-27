@@ -243,7 +243,7 @@ app.controller('tileController', function() {
         },
         {
             image:'images/eddy.jpg',
-            title:"22/2 -Eddy",
+            title:"22/2 - Eddy",
             category: ['cuddle']
         },
         {
@@ -264,6 +264,11 @@ app.controller('tileController', function() {
         {
             image:'images/hoggy.jpg',
             title:"26/2 - Hoggy",
+            category: ['cuddle']
+        },
+        {
+            image:'images/beaky.jpg',
+            title:"27/2 - Beaky",
             category: ['cuddle']
         }
     ]
