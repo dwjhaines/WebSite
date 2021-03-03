@@ -270,6 +270,31 @@ app.controller('tileController', function() {
             image:'images/beaky.jpg',
             title:"27/2 - Beaky",
             category: ['cuddle']
+        },
+        {
+            image:'images/ruffles.jpg',
+            title:"28/2 - Ruffles",
+            category: ['cuddle']
+        },
+        {
+            image:'images/mikey.jpg',
+            title:"1/3 - Mikey",
+            category: ['cuddle']
+        },
+        {
+            image:'images/spikey.jpg',
+            title:"2/3 - Spikey",
+            category: ['cuddle']
+        },
+        {
+            image:'images/melly.jpg',
+            title:"3/3 - Melly",
+            category: ['cuddle']
+        },
+        {
+            image:'images/sydney.jpg',
+            title:"4/3 - Sydney",
+            category: ['cuddle']
         }
     ]
     this.weeks=weeks;
