@@ -824,6 +824,12 @@ app.controller('tileController', function() {
             category: ['beer']
          }, 
         {
+            link:'https://photos.app.goo.gl/CGsTgJuDy2rL2zwX6',
+            image:'images/ir1988-tile.jpg',
+            title:'Inter Rail 1988',
+            category: ['travel']
+         }, 
+        {
             link:'inter_rail_1987/index-1987.html',
             image:'images/ir1987-tile.jpg',
             title:'Inter Rail 1987',
