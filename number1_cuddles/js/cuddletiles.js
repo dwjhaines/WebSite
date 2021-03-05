@@ -295,6 +295,11 @@ app.controller('tileController', function() {
             image:'images/sydney.jpg',
             title:"4/3 - Sydney",
             category: ['cuddle']
+        },
+        {
+            image:'images/roz.jpg',
+            title:"5/3 - Roz",
+            category: ['cuddle']
         }
     ]
     this.weeks=weeks;
