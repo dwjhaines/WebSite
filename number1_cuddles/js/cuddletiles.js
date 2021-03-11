@@ -320,6 +320,16 @@ app.controller('tileController', function() {
             image:'images/splash.jpg',
             title:"9/3 - Splash",
             category: ['cuddle']
+        },
+        {
+            image:'images/scuba.jpg',
+            title:"10/3 - Scuba",
+            category: ['cuddle']
+        },
+        {
+            image:'images/sue-shee.jpg',
+            title:"11/3 - Sue-Shee",
+            category: ['cuddle']
         }
     ]
     this.weeks=weeks;
