@@ -49,21 +49,23 @@ function updateData(milesToDate){
     var dailyTarget = Math.round(target*days/numberOfDays)
     
     var differance = milesToDate - dailyTarget
+    var dailyMilage = milesToDate / days
 
     document.getElementById("numberOfDays").innerHTML = days
     document.getElementById("targetMiles").innerHTML = dailyTarget
     document.getElementById("milesCycled").innerHTML = milesToDate
+    document.getElementById("milesPerDay").innerHTML = dailyMilage.toFixed(2)
     document.getElementById("differance").innerHTML = Math.abs(differance)
     
     
     if (differance < 0){ // behind target
-        document.getElementById("aheadOrBehind").innerHTML = "behind target."
+        document.getElementById("aheadOrBehind").innerHTML = "miles behind target"
         document.getElementById("result").style.backgroundColor="#ffb7ba";
         document.getElementById("differance").style.color="red";
         document.getElementById("aheadOrBehind").style.color="red";
     }
     else { // ahead of target
-        document.getElementById("aheadOrBehind").innerHTML = "ahead of target."
+        document.getElementById("aheadOrBehind").innerHTML = "miles ahead of target"
         document.getElementById("result").style.backgroundColor="#cafdc8";
         document.getElementById("differance").style.color="green";
         document.getElementById("aheadOrBehind").style.color="green";

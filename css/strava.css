@@ -1,6 +1,7 @@
 div.stravaBox{
     font-weight: 300;
     width: 300px;
+    height:310px;
     color: #333;
     min-width: 200px;
     border: 1px solid #f0f0f5;
@@ -13,28 +14,22 @@ div.stravaBox{
     margin-bottom:5px;
 }
 
-div.resultsBox{
-    font-weight: 300;
-    width: 300px;
-    height:185px;
-    color: #333;
-    min-width: 200px;
-    border: 1px solid #f0f0f5;
-    border-radius: 3px;
-    padding-top:10px;
-    padding-left:4px;
-    padding-bottom:5px;
-    padding-right:3px;
-    text-align: left;
-    margin-bottom:5px;
-}
+    hr { 
+        position: relative; 
+        margin: 5px;
+        border: none; 
+        height: 1px; 
+        background: #dddddd; 
 
+    }
+        
+        
 .stravaHeader{
     font-family: -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple";
     color: #007FB6;
     font-size: 16px;
     font-weight: 600;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 3px;
 }
 
@@ -43,7 +38,7 @@ div.resultsBox{
     color: #007FB6;
     font-size: 12px;
     font-weight: 600;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
 }
 
 .stravaHeader3{
@@ -51,7 +46,7 @@ div.resultsBox{
     color: #007FB6;
     font-size: 12px;
     font-weight: 600;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
     margin-top: 10px;
 }
 
@@ -60,7 +55,7 @@ div.resultsBox{
     color: #007FB6;
     font-size: 40px;
     font-weight: 600;
-    padding-bottom:25px;
+    padding-bottom:5px;
     padding-top:25px;
 }
 

@@ -335,6 +335,26 @@ app.controller('tileController', function() {
             image:'images/snugs.jpg',
             title:"12/3 - Snugs",
             category: ['cuddle']
+        },
+        {
+            image:'images/nutmeg.jpg',
+            title:"13/3 - Nutmeg",
+            category: ['cuddle']
+        },
+        {
+            image:'images/andy.jpg',
+            title:"14/3 - Andy",
+            category: ['cuddle']
+        },
+        {
+            image:'images/ruby.jpg',
+            title:"15/3 - Ruby",
+            category: ['cuddle']
+        },
+        {
+            image:'images/binky.jpg',
+            title:"16/3 - Binky",
+            category: ['cuddle']
         }
     ]
     this.weeks=weeks;
