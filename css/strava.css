@@ -1,7 +1,7 @@
 div.stravaBox{
     font-weight: 300;
     width: 300px;
-    height:310px;
+    overflow: auto; /* causes the parent element to "contain" the child elements */
     color: #333;
     min-width: 200px;
     border: 1px solid #f0f0f5;
@@ -20,10 +20,8 @@ div.stravaBox{
         border: none; 
         height: 1px; 
         background: #dddddd; 
-
     }
-        
-        
+              
 .stravaHeader{
     font-family: -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple";
     color: #007FB6;

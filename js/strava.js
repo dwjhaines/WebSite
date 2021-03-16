@@ -55,6 +55,7 @@ function updateData(milesToDate){
     document.getElementById("targetMiles").innerHTML = dailyTarget
     document.getElementById("milesCycled").innerHTML = milesToDate
     document.getElementById("milesPerDay").innerHTML = dailyMilage.toFixed(2)
+    document.getElementById("milesPerWeek").innerHTML = (dailyMilage*7).toFixed(2)
     document.getElementById("differance").innerHTML = Math.abs(differance)
     
     
@@ -72,7 +73,8 @@ function updateData(milesToDate){
     }
     
     var percentComplete = Math.min(Math.floor((milesToDate/target)*100), 100)
-    console.log(percentComplete)
+    console.log("Completed: " + percentComplete +"%")
+    document.getElementById("percent").innerHTML = ((milesToDate/target)*100).toFixed(1) + "%"
     document.getElementById("myBar").style.width=percentComplete+"%"
     var milesSinceLockdown = 7212 + milesToDate
     document.getElementById("milesCycledSinceLockdown").innerHTML = milesSinceLockdown
