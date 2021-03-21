@@ -355,6 +355,31 @@ app.controller('tileController', function() {
             image:'images/binky.jpg',
             title:"16/3 - Binky",
             category: ['cuddle']
+        },
+        {
+            image:'images/splodge.jpg',
+            title:"17/3 - Splodge",
+            category: ['cuddle']
+        },
+        {
+            image:'images/fluffy.jpg',
+            title:"18/3 - Fluffy",
+            category: ['cuddle']
+        },
+        {
+            image:'images/tamzin.jpg',
+            title:"19/3 - Tamzin",
+            category: ['cuddle']
+        },
+        {
+            image:'images/ocean.jpg',
+            title:"20/3 - Ocean",
+            category: ['cuddle']
+        },
+        {
+            image:'images/shelly.jpg',
+            title:"21/3 - Shelly",
+            category: ['cuddle']
         }
     ]
     this.weeks=weeks;
