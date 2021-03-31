@@ -187,8 +187,8 @@ app.controller('tileController', function() {
             category: ['cuddle']
         },
         {
-            image:'images/tamzin.jpg',
-            title:'11/2 - Tamzin',
+            image:'images/tamsin.jpg',
+            title:'11/2 - Tamsin',
             category: ['cuddle']
         },
         {
@@ -367,8 +367,8 @@ app.controller('tileController', function() {
             category: ['cuddle']
         },
         {
-            image:'images/tamzin.jpg',
-            title:"19/3 - Tamzin",
+            image:'images/tamsin.jpg',
+            title:"19/3 - Tamsin",
             category: ['cuddle']
         },
         {
@@ -399,6 +399,41 @@ app.controller('tileController', function() {
         {
             image:'images/wise.jpg',
             title:"25/3 - Wise",
+            category: ['cuddle']
+        },
+        {
+            image:'images/addoandthomas.jpg',
+            title:"26/3 - Addo and Thomas",
+            category: ['cuddle']
+        },
+        {
+            image:'images/rozandtamsin.jpg',
+            title:"27/3 - Roz and Tamsin",
+            category: ['cuddle']
+        },
+        {
+            image:'images/landauandlamai.jpg',
+            title:"28/3 - Landau and Lamai",
+            category: ['cuddle']
+        },
+        {
+            image:'images/sugarcube.jpg',
+            title:"29/3 - Sugarcube",
+            category: ['cuddle']
+        },
+        {
+            image:'images/kittywink.jpg',
+            title:"30/3 - Kittywink",
+            category: ['cuddle']
+        },
+        {
+            image:'images/passion.jpg',
+            title:"31/3 - Passion",
+            category: ['cuddle']
+        },
+        {
+            image:'images/bertie.jpg',
+            title:"1/4 - Bertie",
             category: ['cuddle']
         }
     ]
