@@ -435,6 +435,31 @@ app.controller('tileController', function() {
             image:'images/bertie.jpg',
             title:"1/4 - Bertie",
             category: ['cuddle']
+        },
+        {
+            image:'images/hollyandsqueaky.jpg',
+            title:"2/4 - Holly and Squeaky",
+            category: ['cuddle']
+        },
+        {
+            image:'images/jibberbunny.jpg',
+            title:"3/4 - Jibber Bunny",
+            category: ['cuddle']
+        },
+        {
+            image:'images/bunnywunny.jpg',
+            title:"4/4 - Bunny Wunny",
+            category: ['cuddle']
+        },
+        {
+            image:'images/bunny.jpg',
+            title:"5/4 - Bunny",
+            category: ['cuddle']
+        },
+        {
+            image:'images/peekaboo.jpg',
+            title:"6/4 - Peekaboo",
+            category: ['cuddle']
         }
     ]
     this.weeks=weeks;
