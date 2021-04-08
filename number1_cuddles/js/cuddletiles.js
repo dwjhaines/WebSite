@@ -460,6 +460,16 @@ app.controller('tileController', function() {
             image:'images/peekaboo.jpg',
             title:"6/4 - Peekaboo",
             category: ['cuddle']
+        },
+        {
+            image:'images/peers.jpg',
+            title:"7/4 - Peers",
+            category: ['cuddle']
+        },
+        {
+            image:'images/oasis.jpg',
+            title:"8/4 - Oasis",
+            category: ['cuddle']
         }
     ]
     this.weeks=weeks;
