@@ -3,7 +3,7 @@ app.controller('tileController', function() {
     var trips=[ 
         {
             link:'https://photos.app.goo.gl/fSyKAewVvC2r8VJb7',
-            image:'images/fence-tile.jpg',
+            image:'images/backfence-tile.jpg',
             title:'Back Fence',
             category: ['misc']
         },
