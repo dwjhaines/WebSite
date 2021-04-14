@@ -470,6 +470,36 @@ app.controller('tileController', function() {
             image:'images/oasis.jpg',
             title:"8/4 - Oasis",
             category: ['cuddle']
+        },
+        {
+            image:'images/scoot.jpg',
+            title:"9/4 - Scoot",
+            category: ['cuddle']
+        },
+        {
+            image:'images/siggy.jpg',
+            title:"10/4 - Siggy",
+            category: ['cuddle']
+        },
+        {
+            image:'images/cottonsocks.jpg',
+            title:"11/4 - Cottonsocks",
+            category: ['cuddle']
+        },
+        {
+            image:'images/cheddar.jpg',
+            title:"12/4 - Cheddar",
+            category: ['cuddle']
+        },
+        {
+            image:'images/ziza.jpg',
+            title:"13/4 - Ziza",
+            category: ['cuddle']
+        },
+        {
+            image:'images/toots.jpg',
+            title:"14/4 - Toots",
+            category: ['cuddle']
         }
     ]
     this.weeks=weeks;
