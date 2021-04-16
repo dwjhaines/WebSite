@@ -500,8 +500,20 @@ app.controller('tileController', function() {
             image:'images/toots.jpg',
             title:"14/4 - Toots",
             category: ['cuddle']
+        },
+        {
+            image:'images/trotters.jpg',
+            title:"15/4 - Trotters",
+            category: ['cuddle']
+        },
+        {
+            image:'images/gumgum.jpg',
+            title:"16/4 - Gumgum",
+            category: ['cuddle']
         }
     ]
     this.weeks=weeks;
 });
+
+
 

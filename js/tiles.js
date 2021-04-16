@@ -8,15 +8,15 @@ app.controller('tileController', function() {
             category: ['misc']
         },
         {
-            link:'https://photos.app.goo.gl/KYZAnk2k9r1gySfaA',
-            image:'images/lockdown-2021-tile.jpg',
-            title:'Lockdown 2021',
-            category: ['misc']
-        },
-        {
             link:'https://photos.app.goo.gl/iajs1pe6TLrjcWBNA',
             image:'images/spare-room-tile.jpg',
             title:'Spare Room',
+            category: ['misc']
+        },
+        {
+            link:'https://photos.app.goo.gl/KYZAnk2k9r1gySfaA',
+            image:'images/lockdown-2021-tile.jpg',
+            title:'Lockdown 2021',
             category: ['misc']
         }, 
         {
@@ -816,7 +816,13 @@ app.controller('tileController', function() {
             image:'world_trip_1994/images/tiles/week04-tile.JPG',
             title:'World Trip 1994/5',
             category: ['travel']
-         }, 
+        }, 
+        {
+            link:'https://photos.app.goo.gl/qCJVTyTmCC9jitKa7',
+            image:'images/morocco-tile.jpg',
+            title:'Morocco 1993',
+            category: ['travel']
+        }, 
         {
             link:'world_trip_1989/index-1989.html',
             image:'world_trip_1989/images/tiles/WT1989-tile.jpg',
