@@ -510,6 +510,21 @@ app.controller('tileController', function() {
             image:'images/gumgum.jpg',
             title:"16/4 - Gumgum",
             category: ['cuddle']
+        },
+        {
+            image:'images/bracken.jpg',
+            title:"17/4 - Bracken",
+            category: ['cuddle']
+        },
+        {
+            image:'images/truffles.jpg',
+            title:"18/4 - Truffles",
+            category: ['cuddle']
+        },
+        {
+            image:'images/needles.jpg',
+            title:"19/4 - Needles",
+            category: ['cuddle']
         }
     ]
     this.weeks=weeks;
