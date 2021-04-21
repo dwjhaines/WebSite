@@ -525,6 +525,41 @@ app.controller('tileController', function() {
             image:'images/needles.jpg',
             title:"19/4 - Needles",
             category: ['cuddle']
+        },
+        {
+            image:'images/big_passion.jpg',
+            title:"20/4 - Big Passion",
+            category: ['cuddle']
+        },
+        {
+            image:'images/giggles.jpg',
+            title:"21/4 - Giggles",
+            category: ['cuddle']
+        },
+        {
+            image:'images/.jpg',
+            title:"22/4 - ",
+            category: ['cuddle']
+        },
+        {
+            image:'images/.jpg',
+            title:"23/4 - ",
+            category: ['cuddle']
+        },
+        {
+            image:'images/.jpg',
+            title:"24/4 - ",
+            category: ['cuddle']
+        },
+        {
+            image:'images/.jpg',
+            title:"25/4 - ",
+            category: ['cuddle']
+        },
+        {
+            image:'images/.jpg',
+            title:"26/4 - ",
+            category: ['cuddle']
         }
     ]
     this.weeks=weeks;
