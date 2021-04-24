@@ -547,8 +547,8 @@ app.controller('tileController', function() {
             category: ['cuddle']
         },
         {
-            image:'images/.jpg',
-            title:"24/4 - ",
+            image:'images/odell.jpg',
+            title:"24/4 - Odell",
             category: ['cuddle']
         },
         {
