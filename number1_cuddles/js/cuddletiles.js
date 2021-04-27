@@ -552,13 +552,13 @@ app.controller('tileController', function() {
             category: ['cuddle']
         },
         {
-            image:'images/.jpg',
-            title:"25/4 - ",
+            image:'images/bertie.jpg',
+            title:"25/4 - Bertie",
             category: ['cuddle']
         },
         {
-            image:'images/.jpg',
-            title:"26/4 - ",
+            image:'images/dave.jpg',
+            title:"26/4 - Dave",
             category: ['cuddle']
         }
     ]
