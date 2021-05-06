@@ -525,7 +525,7 @@ app.controller('tileController', function() {
         }, 
         {
             link:'https://photos.app.goo.gl/CVRLWc3FsSCgE7jt5',
-            image:'images/belgium-2008-tile.JPG',
+            image:'images/belgium-2008-tile.jpg',
             title:'Brussels/Ghent 2008',
             category: ['beer']
         }, 
