@@ -2,6 +2,12 @@ var app = angular.module('tripApp',[]);
 app.controller('tileController', function() {
     var trips=[ 
         {
+            link:'https://photos.app.goo.gl/F21Es9pVPi7SksX66',
+            image:'images/middlesbrough-tile.jpg',
+            title:'Middlesbrough 2021',
+            category: ['football']
+        },
+        {
             link:'https://photos.app.goo.gl/fSyKAewVvC2r8VJb7',
             image:'images/backfence-tile.jpg',
             title:'Back Fence',
