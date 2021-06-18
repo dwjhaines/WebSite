@@ -3,7 +3,7 @@ app.controller('tileController', function() {
     var trips=[ 
         {
             link:'euro2020.html',
-            image:'images/euro2020-tile.jpg',
+            image:'images/euro2020-tile-2.jpg',
             title:'Euro 2020',
             category: ['football']
         },
