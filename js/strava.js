@@ -78,7 +78,7 @@ function updateData(milesToDate){
     document.getElementById("myBar").style.width=percentComplete+"%"
     var milesSinceLockdown = 7212 + milesToDate
     document.getElementById("milesCycledSinceLockdown").innerHTML = milesSinceLockdown
-    var milesSinceChainChanged = milesToDate - 2409 // 2409 miles done this year when chain was last changed.
+    var milesSinceChainChanged = milesToDate - 3948 // 3948 miles done this year when chain was last changed.
     if (milesSinceChainChanged > 1250){
         document.getElementById("milesSinceChainReplaced").style.color="red";
         document.getElementById("milesSinceChainReplaced").innerHTML = "******** " + milesSinceChainChanged + " ********"
