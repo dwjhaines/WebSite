@@ -3,7 +3,7 @@ app.controller('tileController', function() {
     var trips=[ 
         {
             link:'bristol-2021.html',
-            image:'images/bristol-tile.jpg',
+            image:'images/bristol-2021-tile.jpg',
             title:'Bristol 2021',
             category: ['travel', 'beer']
         },
