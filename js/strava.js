@@ -50,6 +50,7 @@ function updateData(milesToDate){
     
     var differance = milesToDate - dailyTarget
     var dailyMilage = milesToDate / days
+    var milesToGo = target - milesToDate
 
     document.getElementById("numberOfDays").innerHTML = days
     document.getElementById("targetMiles").innerHTML = dailyTarget
@@ -76,6 +77,7 @@ function updateData(milesToDate){
     console.log("Completed: " + percentComplete +"%")
     document.getElementById("percent").innerHTML = ((milesToDate/target)*100).toFixed(1) + "%"
     document.getElementById("myBar").style.width=percentComplete+"%"
+    document.getElementById("milesToGo").innerHTML = milesToGo
     var milesSinceLockdown = 7212 + milesToDate
     document.getElementById("milesCycledSinceLockdown").innerHTML = milesSinceLockdown
     var milesSinceChainChanged = milesToDate - 3948 // 3948 miles done this year when chain was last changed.
