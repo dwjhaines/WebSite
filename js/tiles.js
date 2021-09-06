@@ -8,6 +8,12 @@ app.controller('tileController', function() {
             category: ['beer', 'travel']
         },
         {
+            link:'https://photos.app.goo.gl/gcwD8LLQRqnFwni69',
+            image:'images/london-animals-tile.jpg',
+            title:'London Animals',
+            category: ['beer']
+        },
+        {
             link:'bristol-2021.html',
             image:'images/bristol-2021-tile.jpg',
             title:'Bristol 2021',
