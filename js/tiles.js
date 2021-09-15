@@ -3,7 +3,7 @@ app.controller('tileController', function() {
     var trips=[ 
         {
             link:'germany-2021.html',
-            image:'images/germany-2021-tile.JPG',
+            image:'images/germany-2021-tile.jpg',
             title:'Germany 2021',
             category: ['beer', 'travel']
         },
