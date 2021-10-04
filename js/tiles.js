@@ -69,7 +69,7 @@ app.controller('tileController', function() {
         }, 
         {
             link:'germany-2020.html',
-            image:'images/germany-2020-tile.jpg',
+            image:'images/germany-2020-tile-2.jpg',
             title:'Germany 2020',
             category: ['beer', 'travel']
         },
