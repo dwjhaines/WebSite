@@ -48,28 +48,28 @@ function updateData(milesToDate){
     // Calculate how many miles should have been done by now
     var dailyTarget = Math.round(target*days/numberOfDays)
     
-    var differance = milesToDate - dailyTarget
+    var difference = milesToDate - dailyTarget
     var dailyMilage = milesToDate / days
-    var milesToGo = target - milesToDate
+    var milesToGo = Math.max((target - milesToDate), 0);
 
     document.getElementById("numberOfDays").innerHTML = days
     document.getElementById("targetMiles").innerHTML = dailyTarget
     document.getElementById("milesCycled").innerHTML = milesToDate
     document.getElementById("milesPerDay").innerHTML = dailyMilage.toFixed(2)
     document.getElementById("milesPerWeek").innerHTML = (dailyMilage*7).toFixed(2)
-    document.getElementById("differance").innerHTML = Math.abs(differance)
+    document.getElementById("difference").innerHTML = Math.abs(difference)
     
     
-    if (differance < 0){ // behind target
+    if (difference < 0){ // behind target
         document.getElementById("aheadOrBehind").innerHTML = "miles behind target"
         document.getElementById("result").style.backgroundColor="#ffb7ba";
-        document.getElementById("differance").style.color="red";
+        document.getElementById("difference").style.color="red";
         document.getElementById("aheadOrBehind").style.color="red";
     }
     else { // ahead of target
         document.getElementById("aheadOrBehind").innerHTML = "miles ahead of target"
         document.getElementById("result").style.backgroundColor="#cafdc8";
-        document.getElementById("differance").style.color="green";
+        document.getElementById("difference").style.color="green";
         document.getElementById("aheadOrBehind").style.color="green";
     }
     
