@@ -36,10 +36,10 @@ async function getMilage(){
 
 // Function that gets passed the number of miles so far this year, does the calculations and updates the web page.
 function updateData(milesToDate){
-    var target = 7500 // Number of miles
+    var target = 5000 // Number of miles
     var numberOfDays = 365 // Number of days to achieve the target
     var oneDay = 24 * 60 * 60 * 1000; // Number of miliseconds in 24 hours (js counts time in ms)
-    var startDate = new Date(2021, 0, 1, 0, 0, 0, 0); // Midnight at the start of the year
+    var startDate = new Date(2022, 0, 1, 0, 0, 0, 0); // Midnight at the start of the year
     var todaysDate = new Date() //Todays date/time
 
     // Calculate number of days since start date. Round up (ceil) so as soon as day starts, it gets added.
@@ -78,9 +78,9 @@ function updateData(milesToDate){
     document.getElementById("percent").innerHTML = percentComplete + "%"
     document.getElementById("myBar").style.width=percentComplete+"%"
     document.getElementById("milesToGo").innerHTML = milesToGo
-    var milesSinceLockdown = 7212 + milesToDate
+    var milesSinceLockdown = 14847 + milesToDate 
     document.getElementById("milesCycledSinceLockdown").innerHTML = milesSinceLockdown
-    var milesSinceChainChanged = milesToDate - 6405 // 6405 miles done this year when chain was last changed.
+    var milesSinceChainChanged = milesToDate // + 1229 (Chain changed before first ride of 2022)
     if (milesSinceChainChanged > 1250){
         document.getElementById("milesSinceChainReplaced").style.color="red";
         document.getElementById("milesSinceChainReplaced").innerHTML = "******** " + milesSinceChainChanged + " ********"
