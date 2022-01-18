@@ -38,9 +38,9 @@ async function getMilage(){
 function updateData(milesToDate){
     var target = 5000 // Number of miles
     var numberOfDays = 365 // Number of days to achieve the target
-    var oneDay = 24 * 60 * 60 * 1000; // Number of miliseconds in 24 hours (js counts time in ms)
+    var oneDay = 24 * 60 * 60 * 1000; // Number of milliseconds in 24 hours (js counts time in ms)
     var startDate = new Date(2022, 0, 1, 0, 0, 0, 0); // Midnight at the start of the year
-    var todaysDate = new Date() //Todays date/time
+    var todaysDate = new Date() //Today's date/time
 
     // Calculate number of days since start date. Round up (ceil) so as soon as day starts, it gets added.
     var days = Math.ceil(Math.abs((startDate.getTime() - todaysDate.getTime()) / (oneDay)));
