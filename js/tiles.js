@@ -2,6 +2,12 @@ var app = angular.module('tripApp',[]);
 app.controller('tileController', function() {
     var trips=[ 
         {
+            link:'bonaire-2022.html',
+            image:'images/bonaire-2021-tile.jpg',
+            title:'Bonaire 2022',
+            category: ['diving', 'travel']
+        },
+        {
             link:'france-2022.html',
             image:'images/france-2022-tile.jpg',
             title:'France 2022',
