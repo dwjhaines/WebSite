@@ -3,7 +3,7 @@ app.controller('tileController', function() {
     var trips=[ 
         {
             link:'bonaire-2022.html',
-            image:'images/bonaire-2021-tile.jpg',
+            image:'images/bonaire-2022-tile.jpg',
             title:'Bonaire 2022',
             category: ['diving', 'travel']
         },
