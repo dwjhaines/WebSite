@@ -2,6 +2,12 @@ var app = angular.module('tripApp',[]);
 app.controller('tileController', function() {
     var trips=[ 
         {
+            link:'https://photos.app.goo.gl/UNTbmHaYzgpVBXpo7',
+            image:'images/play-off-2022-tile.jpg',
+            title:'Play-off Final',
+            category: ['football']
+        },
+        {
             link:'bonaire-2022.html',
             image:'images/bonaire-2022-tile.jpg',
             title:'Bonaire 2022',
