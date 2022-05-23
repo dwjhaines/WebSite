@@ -36,7 +36,7 @@ async function getMilage(){
 
 // Function that gets passed the number of miles so far this year, does the calculations and updates the web page.
 function updateData(milesToDate){
-    var target = 5000 // Number of miles
+    var target = 3250 // Number of miles
     var numberOfDays = 365 // Number of days to achieve the target
     var oneDay = 24 * 60 * 60 * 1000; // Number of milliseconds in 24 hours (js counts time in ms)
     var startDate = new Date(2022, 0, 1, 0, 0, 0, 0); // Midnight at the start of the year
