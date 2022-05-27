@@ -2,6 +2,12 @@ var app = angular.module('tripApp',[]);
 app.controller('tileController', function() {
     var trips=[ 
         {
+            link:'https://photos.app.goo.gl/CvYL8fU8YbfmSFD49',
+            image:'images/brixham-2022-tile.jpg',
+            title:'Brixham 2022',
+            category: ['travel']
+        },
+        {
             link:'https://photos.app.goo.gl/UNTbmHaYzgpVBXpo7',
             image:'images/play-off-2022-tile.jpg',
             title:'Play-off Final',
