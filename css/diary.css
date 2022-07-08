@@ -400,6 +400,8 @@ body {
       background-color: #8f807f;
       padding-top: 6px;
       padding-bottom: 6px;
+      padding-left: 15px;
+      padding-right: 15px;
   }
   
   .footer-row a:visited,
