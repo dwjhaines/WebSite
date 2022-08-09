@@ -8,6 +8,12 @@ app.controller('tileController', function() {
             category: ['beer']
         },
         {
+            link:'https://photos.app.goo.gl/bUEpHYiM2uNs2gZr7',
+            image:'images/shed-tile.jpg',
+            title:'Shed',
+            category: ['misc']
+        },
+        {
             link:'germany-2022.html',
             image:'images/germany-2022-tile.jpg',
             title:'Germany 2022',
