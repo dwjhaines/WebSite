@@ -168,12 +168,18 @@ app.controller('tileController', function() {
             image:'images/belgium-2019-tile.JPG',
             title:'Brussels 2019',
             category: ['beer']
-         },
-		 {
+        },
+        {
             link:'pragueandsofia.html',
             image:'images/praguesofia-tile.JPG',
             title:'Prague and Sofia',
             category: ['football']
+        }, 
+        {
+            link:'https://photos.app.goo.gl/S2hHsNyGwxf3xvgq7',
+            image:'images/munich-2019-tile.jpg',
+            title:'Munich 2019',
+            category: ['beer']
         }, 
         {
             link:'world_trip_2018/index-2018.html',
