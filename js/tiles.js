@@ -2,6 +2,12 @@ var app = angular.module('tripApp',[]);
 app.controller('tileController', function() {
     var trips=[ 
         {
+            link:'greeceanditaly.html',
+            image:'images/greece-tile.jpg',
+            title:'Greece and Italy 2022',
+            category: ['travel']
+        },
+        {
             link:'https://photos.app.goo.gl/aCeBnLCZf1r93RHX7',
             image:'images/nottingham-ale-trail-tile.jpg',
             title:'Nottingham Ale Trail',
