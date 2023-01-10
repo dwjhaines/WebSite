@@ -926,6 +926,12 @@ app.controller('tileController', function() {
             category: ['beer']
          }, 
         {
+            link:'https://photos.app.goo.gl/Qw4gYiBh51vYGUiL8',
+            image:'images/euro-disney-tile.jpg',
+            title:'Euro Disney',
+            category: ['misc']
+         }, 
+        {
             link:'https://photos.app.goo.gl/MhrDZkv1zDWpCTMw8',
             image:'images/usa-1997-tile.jpg',
             title:'USA 1997',
