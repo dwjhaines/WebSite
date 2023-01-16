@@ -914,6 +914,12 @@ app.controller('tileController', function() {
             category: ['diving']
         }, 
         {
+            link:'https://photos.app.goo.gl/XjHAjG3uw932uyY7A',
+            image:'images/croatia-2001-tile.jpg',
+            title:'Croatia 2001',
+            category: ['travel']
+         }, 
+        {
             link:'world_trip_2000/index-2000.html',
             image:'images/wt2000-tile.jpg',
             title:'World Trip 2000/01',
