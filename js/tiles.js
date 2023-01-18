@@ -897,7 +897,7 @@ app.controller('tileController', function() {
         },	
         {
             link:'https://photos.app.goo.gl/AZ55VATVUXNasSR9A',
-            image:'images/berlin-2001-tile.JPG',
+            image:'images/berlin-2001-tile.jpg',
             title:'Berlin 2001',
             category: ['beer']
         },	
