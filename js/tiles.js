@@ -867,7 +867,7 @@ app.controller('tileController', function() {
         }, 
         {
             link:'https://photos.app.goo.gl/Nxa8w888m8tVZRSn8',
-            image:'images/new-york-2002-tile.JPG',
+            image:'images/new-york-2002-tile.jpg',
             title:'New York 2002',
             category: ['travel']
         }, 
@@ -903,7 +903,7 @@ app.controller('tileController', function() {
         },
         {
             link:'https://photos.app.goo.gl/Q8hBHrKXtdwZRCMm9',
-            image:'images/thailand-2002-tile.JPG',
+            image:'images/thailand-2002-tile.jpg',
             title:'Thailand 2002',
             category: ['travel', 'diving']
         },
