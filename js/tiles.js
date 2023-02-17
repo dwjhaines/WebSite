@@ -866,6 +866,12 @@ app.controller('tileController', function() {
             category: ['beer']
         }, 
         {
+            link:'https://photos.app.goo.gl/Nxa8w888m8tVZRSn8',
+            image:'images/new-york-2002-tile.JPG',
+            title:'New York 2002',
+            category: ['travel']
+        }, 
+        {
             link:'https://photos.app.goo.gl/AQS70lzoq2ZFZ17C2',
             image:'images/ghent-2002-tile.JPG',
             title:'Ghent 2002',
@@ -886,15 +892,21 @@ app.controller('tileController', function() {
         {
             link:'https://photos.app.goo.gl/0jUYrWLNW7v1gtKF3',
             image:'images/easter-2002-tile.JPG',
-            title:'Easter 2002',
-            category: ['beer']
+            title:'Germany/Austria 2002',
+            category: ['beer', 'travel']
         },
         {
             link:'https://photos.app.goo.gl/JJZdOVAtGg8CSdbM2',
             image:'images/rothenberg-tile.JPG',
             title:'Rothenberg 2002',
             category: ['beer']
-        },	
+        },
+        {
+            link:'https://photos.app.goo.gl/Q8hBHrKXtdwZRCMm9',
+            image:'images/thailand-2002-tile.JPG',
+            title:'Thailand 2002',
+            category: ['travel', 'diving']
+        },
         {
             link:'https://photos.app.goo.gl/AZ55VATVUXNasSR9A',
             image:'images/berlin-2001-tile.jpg',
