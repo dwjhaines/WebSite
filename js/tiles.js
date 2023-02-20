@@ -860,6 +860,12 @@ app.controller('tileController', function() {
             category: ['beer']
         }, 
         {
+            link:'https://photos.app.goo.gl/ozQm6a1ix4VbjAvx9',
+            image:'images/thailand-2003-tile.jpg',
+            title:'Thailand 2003',
+            category: ['travel', 'diving']
+        }, 
+        {
             link:'https://photos.app.goo.gl/46AVrHoLa7VmSuq46',
             image:'images/dublin-2003-tile.JPG',
             title:'Dublin 2003',
