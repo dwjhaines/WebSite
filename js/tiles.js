@@ -812,7 +812,7 @@ app.controller('tileController', function() {
             category: ['beer']
         }, 
         {
-            link:'https://photos.app.goo.gl/QHF3CjHaTQJDx8Fn6',
+            link:'https://photos.app.goo.gl/h79Jy5FNjsgaMiJX7',
             image:'images/denmark-2004-tile.jpg',
             title:'Sweden & Denmark',
             category: ['football']
