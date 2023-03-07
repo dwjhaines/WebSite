@@ -1044,7 +1044,13 @@ app.controller('tileController', function() {
             image:'images/ir1984-tile.jpg',
             title:'Inter Rail 1984',
             category: ['travel']
-         }
+        },
+        {
+            link:'https://photos.app.goo.gl/jaH1t8bVAQ81nScT6',
+            image:'images/clyne-2nd-year-tile.jpg',
+            title:'Clyne - 2nd Year',
+            category: ['misc']
+        } 
     ]
     this.trips=trips;
 });
