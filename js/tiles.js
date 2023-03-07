@@ -1038,7 +1038,19 @@ app.controller('tileController', function() {
             image:'images/ir1985-tile.jpg',
             title:'Inter Rail 1985',
             category: ['travel']
-         }, 
+        },
+        {
+            link:'https://photos.app.goo.gl/7zBaHQfvBCNJYjUY8',
+            image:'images/ireland-1984-tile.jpg',
+            title:'Ireland 1984',
+            category: ['beer']
+        },
+        {
+            link:'https://photos.app.goo.gl/47bQyQZJGj92R1aP9',
+            image:'images/clyne-3rd-year-tile.jpg',
+            title:'Clyne - 3rd Year',
+            category: ['misc']
+        }, 
         {
             link:'inter_rail_1984/index-1984.html',
             image:'images/ir1984-tile.jpg',
