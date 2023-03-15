@@ -2,6 +2,12 @@ var app = angular.module('tripApp',[]);
 app.controller('tileController', function() {
     var trips=[ 
         {
+            link:'italy-2023.html',
+            image:'images/italy-2023-tile.jpg',
+            title:'Italy 2023',
+            category: ['travel', 'football']
+        },
+        {
             link:'bruges-2022.html',
             image:'images/bruges-2022-tile.jpg',
             title:'Bruges 2022',
@@ -1040,7 +1046,7 @@ app.controller('tileController', function() {
             category: ['travel']
         },
         {
-            link:'https://photos.app.goo.gl/7zBaHQfvBCNJYjUY8',
+            link:'https://photos.app.goo.gl/7zBaHQfvBCNJYjUY8 ',
             image:'images/ireland-1984-tile.jpg',
             title:'Ireland 1984',
             category: ['beer']
