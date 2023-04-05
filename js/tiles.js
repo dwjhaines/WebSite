@@ -1026,19 +1026,25 @@ app.controller('tileController', function() {
             image:'images/ir1988-tile.jpg',
             title:'Inter Rail 1988',
             category: ['travel']
-         }, 
+        }, 
         {
             link:'inter_rail_1987/index-1987.html',
             image:'images/ir1987-tile.jpg',
             title:'Inter Rail 1987',
             category: ['travel']
-         }, 
+        }, 
         {
             link:'europe_1986/index-1986.html',
             image:'images/europe86-tile.jpg',
             title:'Europe 1986',
             category: ['travel']
-         }, 
+        }, 
+        {
+            link:'https://photos.app.goo.gl/BhUyWDNQx1yHTKHo6',
+            image:'images/1985-1986-tile.jpg',
+            title:'1985/86 - Gowerton',
+            category: ['misc']
+        }, 
         {
             link:'inter_rail_1985/index-1985.html',
             image:'images/ir1985-tile.jpg',
