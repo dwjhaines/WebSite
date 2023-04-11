@@ -820,7 +820,7 @@ app.controller('tileController', function() {
         {
             link:'https://photos.app.goo.gl/h79Jy5FNjsgaMiJX7',
             image:'images/denmark-2004-tile.jpg',
-            title:'Sweden & Denmark',
+            title:'Sweden & Denmark 2004',
             category: ['football']
         }, 
         {
@@ -1010,17 +1010,23 @@ app.controller('tileController', function() {
             category: ['travel']
         }, 
         {
+            link:'https://photos.app.goo.gl/y1HjqBwUiyRAHWEq8',
+            image:'images/1990-tile.jpg',
+            title:'1990',
+            category: ['misc']
+        }, 
+        {
             link:'world_trip_1989/index-1989.html',
             image:'world_trip_1989/images/tiles/WT1989-tile.jpg',
             title:'World Trip 1989/90',
             category: ['travel']
-         }, 
+        }, 
         {
             link:'https://photos.app.goo.gl/a23Wf1pAtCHgXCYr9',
             image:'images/sydney-tile.jpg',
             title:'Sydney 1989',
             category: ['beer']
-         }, 
+        }, 
         {
             link:'https://photos.app.goo.gl/CGsTgJuDy2rL2zwX6',
             image:'images/ir1988-tile.jpg',
