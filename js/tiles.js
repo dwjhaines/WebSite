@@ -1016,9 +1016,9 @@ app.controller('tileController', function() {
             category: ['beer']
         }, 
         {
-            link:'',
+            link:'https://photos.app.goo.gl/HsgdDznoy2wmaZNB8',
             image:'images/ir1991-tile.jpg',
-            title:'Inter Rail 1991',https://photos.app.goo.gl/HsgdDznoy2wmaZNB8
+            title:'Inter Rail 1991',
             category: ['travel']
         }, 
         {
