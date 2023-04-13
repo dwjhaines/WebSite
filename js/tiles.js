@@ -1010,6 +1010,30 @@ app.controller('tileController', function() {
             category: ['travel']
         }, 
         {
+            link:'https://photos.app.goo.gl/cXtdVHZRvgKBXgT5A',
+            image:'images/turkey-1992-tile.jpg',
+            title:'Turkey 1992',
+            category: ['travel']
+        }, 
+        {
+            link:'https://photos.app.goo.gl/hyWc12NwhHViZ22U7',
+            image:'images/tunisia-1992-tile.jpg',
+            title:'Tunisia 1992',
+            category: ['travel']
+        }, 
+        {
+            link:'https://photos.app.goo.gl/oJzRXG52pGAfWUGKA',
+            image:'images/1992-tile.jpg',
+            title:'1992',
+            category: ['misc']
+        }, 
+        {
+            link:'https://photos.app.goo.gl/bJKgtJpppj6WykPK9',
+            image:'images/tenerife-1991-tile.jpg',
+            title:'Tenerife 1991',
+            category: ['beer']
+        }, 
+        {
             link:'https://photos.app.goo.gl/GHxAQTp6BZUo5j1X8',
             image:'images/munich-1991-tile.jpg',
             title:'Munich 1991',

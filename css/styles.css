@@ -396,6 +396,8 @@ span.tiles{
   padding-top:2px;
 }
 
+hr { background-color: black; height: 2px; border: 0; }
+
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   #diving-tile, #travel-tile, #football-tile, #beer-tile, #cycling-tile, #lockdown-tile{
