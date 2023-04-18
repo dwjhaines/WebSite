@@ -2,6 +2,12 @@ var app = angular.module('tripApp',[]);
 app.controller('tileController', function() {
     var trips=[ 
         {
+            link:'hungary-2023.html',
+            image:'images/hungary-2023-tile.jpg',
+            title:'Hungary 2023',
+            category: ['travel']
+        },
+        {
             link:'italy-2023.html',
             image:'images/italy-2023-tile.jpg',
             title:'Italy 2023',
@@ -982,8 +988,8 @@ app.controller('tileController', function() {
         {
             link:'https://photos.app.goo.gl/Qw4gYiBh51vYGUiL8',
             image:'images/euro-disney-tile.jpg',
-            title:'Euro Disney',
-            category: ['misc']
+            title:'Euro Disney 1998',
+            category: ['travel']
          }, 
         {
             link:'https://photos.app.goo.gl/MhrDZkv1zDWpCTMw8',
@@ -1008,6 +1014,18 @@ app.controller('tileController', function() {
             image:'images/morocco-tile.jpg',
             title:'Morocco 1993',
             category: ['travel']
+        }, 
+        {
+            link:'https://photos.app.goo.gl/ESDGtxCLw4ngebUA6',
+            image:'images/cyprus-1993-tile.jpg',
+            title:'Cyprus 1993',
+            category: ['travel', 'beer']
+        }, 
+        {
+            link:'https://photos.app.goo.gl/syhoPpvcngKpA7iNA',
+            image:'images/1993-tile.jpg',
+            title:'1993',
+            category: ['misc']
         }, 
         {
             link:'https://photos.app.goo.gl/cXtdVHZRvgKBXgT5A',
