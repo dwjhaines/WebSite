@@ -1010,6 +1010,12 @@ app.controller('tileController', function() {
             category: ['travel']
         }, 
         {
+            link:'https://photos.app.goo.gl/uHBborN6VAwMfmf2A',
+            image:'images/1994-tile.jpg',
+            title:'1994',
+            category: ['misc']
+        }, 
+        {
             link:'https://photos.app.goo.gl/qCJVTyTmCC9jitKa7',
             image:'images/morocco-tile.jpg',
             title:'Morocco 1993',
