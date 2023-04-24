@@ -972,13 +972,19 @@ app.controller('tileController', function() {
             image:'images/wt2001-sessions-tile.jpg',
             title:'2000/01 - Sessions',
             category: ['beer']
-         }, 
+        }, 
         {
             link:'https://photos.app.goo.gl/7xquor7XAiC75vRs9',
             image:'images/spain-1999-tile.jpg',
             title:'Spain/Portugal 1999',
             category: ['travel']
-         }, 
+        }, 
+        {
+            link:'https://photos.app.goo.gl/oopTX3H6nXKTPsYz7',
+            image:'images/budapest-1999-tile.jpg',
+            title:'Budapest 1999',
+            category: ['travel', 'beer']
+        }, 
         {
             link:'https://photos.app.goo.gl/gNTEwvGSeMX6QFXJ9',
             image:'images/spain-1998-tile.jpg',
