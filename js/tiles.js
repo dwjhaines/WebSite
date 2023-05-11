@@ -996,19 +996,31 @@ app.controller('tileController', function() {
             image:'images/euro-disney-tile.jpg',
             title:'Euro Disney 1998',
             category: ['travel']
-         }, 
+        }, 
         {
             link:'https://photos.app.goo.gl/MhrDZkv1zDWpCTMw8',
             image:'images/usa-1997-tile.jpg',
             title:'USA 1997',
             category: ['travel']
-         }, 
+        }, 
         {
             link:'https://photos.app.goo.gl/XZ7WbxQdhojjxMfbA',
             image:'images/wedding-tile.jpg',
             title:'Our Wedding',
             category: ['misc']
-         }, 
+        }, 
+        {
+            link:'https://photos.app.goo.gl/rf6augzz7adoFHGH8',
+            image:'images/1996-tile.jpg',
+            title:'1996',
+            category: ['misc']
+        }, 
+        {
+            link:'https://photos.app.goo.gl/wS7Jazf64mxpqYSC8',
+            image:'images/1995-tile.jpg',
+            title:'1995',
+            category: ['misc']
+        }, 
         {
             link:'world_trip_1994/index-1994.html',
             image:'world_trip_1994/images/tiles/week04-tile.JPG',
