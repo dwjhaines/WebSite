@@ -998,6 +998,12 @@ app.controller('tileController', function() {
             category: ['travel']
         }, 
         {
+            link:'https://photos.app.goo.gl/UUVz6rwJ13cnGDvb6',
+            image:'images/1997-tile.jpg',
+            title:'1997',
+            category: ['misc']
+        }, 
+        {
             link:'https://photos.app.goo.gl/MhrDZkv1zDWpCTMw8',
             image:'images/usa-1997-tile.jpg',
             title:'USA 1997',
@@ -1008,6 +1014,12 @@ app.controller('tileController', function() {
             image:'images/wedding-tile.jpg',
             title:'Our Wedding',
             category: ['misc']
+        }, 
+        {
+            link:'https://photos.app.goo.gl/fMcepxx446c4jsdD9',
+            image:'images/germany-1997-tile.jpg',
+            title:'Germany 1997',
+            category: ['beer']
         }, 
         {
             link:'https://photos.app.goo.gl/rf6augzz7adoFHGH8',
