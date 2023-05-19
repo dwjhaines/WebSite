@@ -986,17 +986,35 @@ app.controller('tileController', function() {
             category: ['travel', 'beer']
         }, 
         {
+            link:'https://photos.app.goo.gl/G6yPi6BGjcLttXdv7',
+            image:'images/1998-tile.jpg',
+            title:'1998',
+            category: ['misc']
+        }, 
+        {
             link:'https://photos.app.goo.gl/gNTEwvGSeMX6QFXJ9',
             image:'images/spain-1998-tile.jpg',
             title:'Spain 1998',
             category: ['travel']
-         }, 
+        }, 
         {
             link:'https://photos.app.goo.gl/Qw4gYiBh51vYGUiL8',
             image:'images/euro-disney-tile.jpg',
             title:'Euro Disney 1998',
             category: ['travel']
         }, 
+        {
+            link:'https://photos.app.goo.gl/U58rKpRGz2R1Ejq38',
+            image:'images/prague-1998-tile.jpg',
+            title:'Prague 1998',
+            category: ['beer']
+        }, 
+        {
+            link:'https://photos.app.goo.gl/WJfvTr428dS8a5br6',
+            image:'images/thailand-1998-tile.jpg',
+            title:'Thailand 1998',
+            category: ['travel', 'diving']
+        },
         {
             link:'https://photos.app.goo.gl/UUVz6rwJ13cnGDvb6',
             image:'images/1997-tile.jpg',
@@ -1027,6 +1045,12 @@ app.controller('tileController', function() {
             title:'1996',
             category: ['misc']
         }, 
+        {
+            link:'https://photos.app.goo.gl/cL2t2aS6nm9FsstbA',
+            image:'images/thailand-1996-tile.jpg',
+            title:'Thailand 1996',
+            category: ['travel', 'diving']
+        },
         {
             link:'https://photos.app.goo.gl/wS7Jazf64mxpqYSC8',
             image:'images/1995-tile.jpg',
