@@ -69,14 +69,6 @@ div.jumbotron{
     top:-50px
 }
 
-#diving-tile, #travel-tile, #football-tile, #beer-tile, #cycling-tile, #lockdown-tile{
-  height: 200px;
-  width: 100%;
-  margin-bottom: 15px;
-  position: relative;
-  border: 2px solid #3F0C1F;
-  overflow: hidden;
-}
 #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile{
   height: 200px;
   width: 100%;
@@ -207,35 +199,10 @@ div.jumbotron{
   margin-left: 0px;
 }
 
-#diving-tile:hover, #travel-tile:hover, #football-tile:hover, #beer-tile:hover, #cycling-tile, #lockdown-tile:hover,
 #sa-week-1-tile:hover, #sa-week-2-tile:hover, #sa-week-3-tile:hover, #sa-week-4-tile:hover , #sa-photos-tile:hover, #framce-photos-tile:hover, #brazil-photos-tile-1:hover, #brazil-photos-tile-2:hover, #photos-2012-tile:hover, #photos-2018-tile:hover, #poland-photos-tile:hover, #indo-photos-tile:hover, #praguesofia-photos-tile, euro2020-photos-tile{
   box-shadow: 0 1px 5px 1px #121212;
 }
 
-#diving-tile {
-  background: url('../images/diving-tile.JPG') no-repeat;
-  background-position: center;
-}
-#travel-tile {
-  background: url('../images/travel-tile.JPG') no-repeat;
-  background-position: center;
-}
-#football-tile {
-  background: url('../images/football-tile.JPG') no-repeat;
-  background-position: center;
-}
-#beer-tile {
-  background: url('../images/beer-tile.JPG') no-repeat;
-  background-position: center;
-}
-#cycling-tile {
-  background: url('../images/cycling-tile.JPG') no-repeat;
-  background-position: center;
-}
-#lockdown-tile {
-  background: url('../images/lockdown-tile.jpg') no-repeat;
-  background-position: center;
-}
 #sa-week-1-tile {
   background: url('../south_africa/Photos/week-1.JPG') no-repeat;
   background-position: center;
@@ -300,7 +267,6 @@ div.jumbotron{
   background: url('../world_trip_2018/images/2018-photos-tile.JPG') no-repeat;
   background-position: center;
 }
-#diving-tile span, #travel-tile span, #football-tile span, #beer-tile span, #cycling-tile span, #lockdown-tile span,
 #sa-week-1-tile span, #sa-week-2-tile span, #sa-week-3-tile span, #sa-week-4-tile span, #sa-photos-tile span, #france-photos-tile span, #myanmar-photos-tile span, #thailand-photos-tile span, #brazil-photos-tile-1 span, #brazil-photos-tile-2 span, #poland-photos-tile span, #indo-photos-tile span, #praguesofia-photos-tile span, #photos-2012-tile span, #photos-2018-tile span, #euro2020-photos-tile span{
   position: absolute;
   bottom: 0;
@@ -400,10 +366,6 @@ hr { background-color: black; height: 2px; border: 0; }
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-  #diving-tile, #travel-tile, #football-tile, #beer-tile, #cycling-tile, #lockdown-tile{
-    margin-top:50px;
-  }
-  
   #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile, 
   #sa-photos-tile, #france-photos-tile, #myanmar-photos-tile, #thailand-photos-tile, #brazil-photos-tile-1, #brazil-photos-tile-2, #poland-photos-tile, #indo-photos-tile, #praguesofia-photos-tile, #photos-2012-tile, #photos-2018-tile, #euro2020-photos-tile
   {
@@ -422,9 +384,6 @@ hr { background-color: black; height: 2px; border: 0; }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px)  {
-  #diving-tile, #travel-tile, #football-tile, #beer-tile, #cycling-tile, #lockdown-tile{
-    margin-top:30px;
-  }
   #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile, 
   #sa-photos-tile, #france-photos-tile, #myanmar-photos-tile, #thailand-photos-tile, #brazil-photos-tile-1, #brazil-photos-tile-2, #poland-photos-tile, #indo-photos-tile, #praguesofia-photos-tile, #photos-2012-tile, #photos-2018-tile, #euro2020-photos-tile
   {
@@ -443,9 +402,6 @@ hr { background-color: black; height: 2px; border: 0; }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  #diving-tile, #travel-tile, #football-tile, #beer-tile, #cycling-tile, #lockdown-tile{
-    margin-top: 20px;
-  }
   div.tiles{
     margin-top: 20px;
   }
@@ -474,13 +430,7 @@ hr { background-color: black; height: 2px; border: 0; }
     background-image: url("../images/Bonaire2.JPG");
     height:150px;
   }
-  
-  #diving-tile, #travel-tile, #football-tile, #beer-tile, #cycling-tile, #lockdown-tile{
-    margin-top:10px;
-    width: 280px;
-    margin-left: auto ;
-    margin-right: auto ;
-  }
+
   #sa-week-1-tile, #sa-week-2-tile, #sa-week-3-tile, #sa-week-4-tile, 
   #sa-photos-tile, #france-photos-tile, #myanmar-photos-tile, #thailand-photos-tile, #brazil-photos-tile-1, #brazil-photos-tile-2, #poland-photos-tile, #indo-photos-tile, #praguesofia-photos-tile, #photos-2012-tile, #photos-2018-tile, #euro2020-photos-tile
   {

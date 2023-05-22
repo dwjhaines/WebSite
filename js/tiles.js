@@ -2,6 +2,12 @@ var app = angular.module('tripApp',[]);
 app.controller('tileController', function() {
     var trips=[ 
         {
+            link:'europe-2023.html',
+            image:'images/europe-2023-tile.jpg',
+            title:'Europe 2023',
+            category: ['travel']
+        },
+        {
             link:'hungary-2023.html',
             image:'images/hungary-2023-tile.jpg',
             title:'Hungary 2023',
@@ -989,7 +995,7 @@ app.controller('tileController', function() {
             link:'https://photos.app.goo.gl/G6yPi6BGjcLttXdv7',
             image:'images/1998-tile.jpg',
             title:'1998',
-            category: ['misc']
+            category: ['old']
         }, 
         {
             link:'https://photos.app.goo.gl/gNTEwvGSeMX6QFXJ9',
@@ -1019,7 +1025,7 @@ app.controller('tileController', function() {
             link:'https://photos.app.goo.gl/UUVz6rwJ13cnGDvb6',
             image:'images/1997-tile.jpg',
             title:'1997',
-            category: ['misc']
+            category: ['old']
         }, 
         {
             link:'https://photos.app.goo.gl/MhrDZkv1zDWpCTMw8',
@@ -1043,7 +1049,7 @@ app.controller('tileController', function() {
             link:'https://photos.app.goo.gl/rf6augzz7adoFHGH8',
             image:'images/1996-tile.jpg',
             title:'1996',
-            category: ['misc']
+            category: ['old']
         }, 
         {
             link:'https://photos.app.goo.gl/cL2t2aS6nm9FsstbA',
@@ -1055,7 +1061,7 @@ app.controller('tileController', function() {
             link:'https://photos.app.goo.gl/wS7Jazf64mxpqYSC8',
             image:'images/1995-tile.jpg',
             title:'1995',
-            category: ['misc']
+            category: ['old']
         }, 
         {
             link:'world_trip_1994/index-1994.html',
@@ -1067,7 +1073,7 @@ app.controller('tileController', function() {
             link:'https://photos.app.goo.gl/uHBborN6VAwMfmf2A',
             image:'images/1994-tile.jpg',
             title:'1994',
-            category: ['misc']
+            category: ['old']
         }, 
         {
             link:'https://photos.app.goo.gl/qCJVTyTmCC9jitKa7',
@@ -1085,7 +1091,7 @@ app.controller('tileController', function() {
             link:'https://photos.app.goo.gl/syhoPpvcngKpA7iNA',
             image:'images/1993-tile.jpg',
             title:'1993',
-            category: ['misc']
+            category: ['old']
         }, 
         {
             link:'https://photos.app.goo.gl/cXtdVHZRvgKBXgT5A',
@@ -1103,7 +1109,7 @@ app.controller('tileController', function() {
             link:'https://photos.app.goo.gl/oJzRXG52pGAfWUGKA',
             image:'images/1992-tile.jpg',
             title:'1992',
-            category: ['misc']
+            category: ['old']
         }, 
         {
             link:'https://photos.app.goo.gl/bJKgtJpppj6WykPK9',
@@ -1127,13 +1133,13 @@ app.controller('tileController', function() {
             link:'https://photos.app.goo.gl/ypxPKrbkcsxfEben7',
             image:'images/1991-tile.jpg',
             title:'1991',
-            category: ['misc']
+            category: ['old']
         }, 
         {
             link:'https://photos.app.goo.gl/y1HjqBwUiyRAHWEq8',
             image:'images/1990-tile.jpg',
             title:'1990',
-            category: ['misc']
+            category: ['old']
         }, 
         {
             link:'world_trip_1989/index-1989.html',
@@ -1169,7 +1175,7 @@ app.controller('tileController', function() {
             link:'https://photos.app.goo.gl/BhUyWDNQx1yHTKHo6',
             image:'images/1985-1986-tile.jpg',
             title:'1985/86 - Gowerton',
-            category: ['misc']
+            category: ['old']
         }, 
         {
             link:'inter_rail_1985/index-1985.html',
@@ -1187,7 +1193,7 @@ app.controller('tileController', function() {
             link:'https://photos.app.goo.gl/47bQyQZJGj92R1aP9',
             image:'images/clyne-3rd-year-tile.jpg',
             title:'Clyne - 3rd Year',
-            category: ['misc']
+            category: ['old']
         }, 
         {
             link:'inter_rail_1984/index-1984.html',
@@ -1199,8 +1205,51 @@ app.controller('tileController', function() {
             link:'https://photos.app.goo.gl/jaH1t8bVAQ81nScT6',
             image:'images/clyne-2nd-year-tile.jpg',
             title:'Clyne - 2nd Year',
-            category: ['misc']
-        } 
+            category: ['old']
+        },
+        // Tiles for home page. Do not delete
+        {
+            link:'diving.html',
+            image:'images/diving-tile.JPG',
+            title:'Diving',
+            category: ['homepage']
+        },
+        {
+            link:'travel.html',
+            image:'images/travel-tile.JPG',
+            title:'Travel',
+            category: ['homepage']
+        },
+        {
+            link:'football.html',
+            image:'images/football-tile.JPG',
+            title:'Football',
+            category: ['homepage']
+        },
+        {
+            link:'beer.html',
+            image:'images/beer-tile.JPG',
+            title:'Beer',
+            category: ['homepage']
+        },
+        {
+            link:'cycling.html',
+            image:'images/cycling-tile.JPG',
+            title:'Cycling',
+            category: ['homepage']
+        },
+        {
+            link:'misc.html',
+            image:'images/lockdown-tile.jpg',
+            title:'Miscellaneous',
+            category: ['homepage']
+        },
+        {
+            link:'archive.html',
+            image:'images/archive-tile.jpg',
+            title:'Archive',
+            category: ['homepage']
+        }
     ]
     this.trips=trips;
 });
