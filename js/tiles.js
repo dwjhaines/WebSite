@@ -998,6 +998,12 @@ app.controller('tileController', function() {
             category: ['old']
         }, 
         {
+            link:'https://photos.app.goo.gl/ydD8QWrKXt3efqFi8',
+            image:'images/belgium-1998-tile.jpg',
+            title:'Belgium 1998',
+            category: ['beer']
+        }, 
+        {
             link:'https://photos.app.goo.gl/gNTEwvGSeMX6QFXJ9',
             image:'images/spain-1998-tile.jpg',
             title:'Spain 1998',
@@ -1019,7 +1025,7 @@ app.controller('tileController', function() {
             link:'https://photos.app.goo.gl/WJfvTr428dS8a5br6',
             image:'images/thailand-1998-tile.jpg',
             title:'Thailand 1998',
-            category: ['travel', 'diving']
+            category: ['travel']
         },
         {
             link:'https://photos.app.goo.gl/UUVz6rwJ13cnGDvb6',
@@ -1055,7 +1061,7 @@ app.controller('tileController', function() {
             link:'https://photos.app.goo.gl/cL2t2aS6nm9FsstbA',
             image:'images/thailand-1996-tile.jpg',
             title:'Thailand 1996',
-            category: ['travel', 'diving']
+            category: ['travel']
         },
         {
             link:'https://photos.app.goo.gl/wS7Jazf64mxpqYSC8',
