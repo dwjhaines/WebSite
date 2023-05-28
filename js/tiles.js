@@ -998,6 +998,12 @@ app.controller('tileController', function() {
             category: ['old']
         }, 
         {
+            link:'https://photos.app.goo.gl/ueG7hnUDbpYdRgef7',
+            image:'images/nuremberg-1998-tile.jpg',
+            title:'Nuremberg 1998',
+            category: ['beer']
+        }, 
+        {
             link:'https://photos.app.goo.gl/ydD8QWrKXt3efqFi8',
             image:'images/belgium-1998-tile.jpg',
             title:'Belgium 1998',
