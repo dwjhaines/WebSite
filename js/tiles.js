@@ -986,6 +986,12 @@ app.controller('tileController', function() {
             category: ['travel']
         }, 
         {
+            link:'https://photos.app.goo.gl/ueG7hnUDbpYdRgef7',
+            image:'images/nuremberg-1998-tile.jpg',
+            title:'Nuremberg 1999',
+            category: ['beer']
+        }, 
+        {
             link:'https://photos.app.goo.gl/oopTX3H6nXKTPsYz7',
             image:'images/budapest-1999-tile.jpg',
             title:'Budapest 1999',
@@ -996,12 +1002,6 @@ app.controller('tileController', function() {
             image:'images/1998-tile.jpg',
             title:'1998',
             category: ['old']
-        }, 
-        {
-            link:'https://photos.app.goo.gl/ueG7hnUDbpYdRgef7',
-            image:'images/nuremberg-1998-tile.jpg',
-            title:'Nuremberg 1998',
-            category: ['beer']
         }, 
         {
             link:'https://photos.app.goo.gl/ydD8QWrKXt3efqFi8',
