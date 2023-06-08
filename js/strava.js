@@ -31,8 +31,9 @@ async function getMilage(){
     var distanceInMiles = Math.floor(distanceInMetres * 0.000621371192)
     console.log("Distance so far in miles: " + distanceInMiles)
     // Call the updateData function to update the web page.
-    updateData(distanceInMiles)
-}
+    // updateData(distanceInMiles) No need to call the function as none of this is used anymore 
+    document.getElementById("milesCycled").innerHTML = distanceInMiles - 68
+} 
 
 // Function that gets passed the number of miles so far this year, does the calculations and updates the web page.
 function updateData(milesToDate){
@@ -54,7 +55,7 @@ function updateData(milesToDate){
 
     //document.getElementById("numberOfDays").innerHTML = days
     //document.getElementById("targetMiles").innerHTML = dailyTarget
-    document.getElementById("milesCycled").innerHTML = milesToDate - 68.3
+    document.getElementById("milesCycled").innerHTML = milesToDate - 68
     //document.getElementById("milesPerDay").innerHTML = dailyMilage.toFixed(2)
     //document.getElementById("milesPerWeek").innerHTML = (dailyMilage*7).toFixed(2)
     //` document.getElementById("difference").innerHTML = Math.abs(difference)
