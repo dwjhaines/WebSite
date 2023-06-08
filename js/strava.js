@@ -39,7 +39,7 @@ function updateData(milesToDate){
     var target = 3250 // Number of miles
     var numberOfDays = 365 // Number of days to achieve the target
     var oneDay = 24 * 60 * 60 * 1000; // Number of milliseconds in 24 hours (js counts time in ms)
-    var startDate = new Date(2022, 0, 1, 0, 0, 0, 0); // Midnight at the start of the year
+    var startDate = new Date(2023, 0, 1, 0, 0, 0, 0); // Midnight at the start of the year
     var todaysDate = new Date() //Today's date/time
 
     // Calculate number of days since start date. Round up (ceil) so as soon as day starts, it gets added.
@@ -52,12 +52,12 @@ function updateData(milesToDate){
     var dailyMilage = milesToDate / days
     var milesToGo = Math.max((target - milesToDate), 0);
 
-    document.getElementById("numberOfDays").innerHTML = days
-    document.getElementById("targetMiles").innerHTML = dailyTarget
-    document.getElementById("milesCycled").innerHTML = milesToDate
-    document.getElementById("milesPerDay").innerHTML = dailyMilage.toFixed(2)
-    document.getElementById("milesPerWeek").innerHTML = (dailyMilage*7).toFixed(2)
-    document.getElementById("difference").innerHTML = Math.abs(difference)
+    //document.getElementById("numberOfDays").innerHTML = days
+    //document.getElementById("targetMiles").innerHTML = dailyTarget
+    document.getElementById("milesCycled").innerHTML = milesToDate - 68.3
+    //document.getElementById("milesPerDay").innerHTML = dailyMilage.toFixed(2)
+    //document.getElementById("milesPerWeek").innerHTML = (dailyMilage*7).toFixed(2)
+    //` document.getElementById("difference").innerHTML = Math.abs(difference)
     
     
     if (difference < 0){ // behind target
