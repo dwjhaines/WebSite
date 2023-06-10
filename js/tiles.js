@@ -2,7 +2,7 @@ var app = angular.module('tripApp',[]);
 app.controller('tileController', function() {
     var trips=[ 
         {
-            link:'europe-2023.html',
+            link:'europe_2023/index-2023.html',
             image:'images/europe-2023-tile.jpg',
             title:'Europe 2023',
             category: ['travel']
