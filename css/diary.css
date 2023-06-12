@@ -397,7 +397,7 @@ body {
   }
   
   div.footer-row{
-      background-color: #8f807f;
+      background-color: #ffffff;
       padding-top: 6px;
       padding-bottom: 6px;
       padding-left: 15px;
@@ -406,7 +406,7 @@ body {
   
   .footer-row a:visited,
   .footer-row a:link{
-      color:lightgrey;
+      color:black;
   }  
   
   .footer-row a:hover{
