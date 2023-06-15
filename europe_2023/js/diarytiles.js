@@ -12,6 +12,12 @@ app.controller('tileController', function() {
             image:'images/tiles/week02-tile.jpg',
             title:'Week 2',
             category: ['diary']
+        },
+        {
+            link:'week-03.html',
+            image:'images/tiles/week03-tile.jpg',
+            title:'Week 3',
+            category: ['diary']
         }
     ]
     this.weeks=weeks;
