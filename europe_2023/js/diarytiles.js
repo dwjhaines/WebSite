@@ -18,6 +18,18 @@ app.controller('tileController', function() {
             image:'images/tiles/week03-tile.jpg',
             title:'Week 3',
             category: ['diary']
+        },
+        {
+            link:'https://photos.app.goo.gl/nEyTiuGoyZRH9bbF9',
+            image:'images/tiles/week01-tile.jpg',
+            title:'1. Europe',
+            category: ['photos']
+        },
+        {
+            link:'https://photos.app.goo.gl/zSSKLu8iGrZhBqxW6',
+            image:'images/tiles/photos-pt2-tile.jpg',
+            title:'2. Georgia',
+            category: ['photos']
         }
     ]
     this.weeks=weeks;
