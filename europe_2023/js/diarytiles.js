@@ -33,7 +33,7 @@ app.controller('tileController', function() {
         },
         {
             link:'https://photos.app.goo.gl/zSSKLu8iGrZhBqxW6',
-            image:'images/tiles/photos-pt2-tile.jpg',
+            image:'images/tiles/week04-tile.jpg',
             title:'2. Georgia',
             category: ['photos']
         }
