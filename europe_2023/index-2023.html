@@ -67,7 +67,7 @@
     <!-- Main Container (Grid) -->
     <div class="container">  
         <div class="row row-content" ng-controller="tileController as tileCtrl">
-            <div class="col-md-3 col-sm-6 col-xs-12" ng-repeat="week in tileCtrl.weeks | filter:'diary'">
+            <div class="col-md-4 col-sm-6 col-xs-12" ng-repeat="week in tileCtrl.weeks | filter:'diary'">
                 <a href="{{week.link}}">
                     <div class="newtiles" style="background-image: url({{week.image}})">
                         <span class="newtiles">{{week.title}}</span>
