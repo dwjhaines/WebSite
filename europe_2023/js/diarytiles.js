@@ -38,6 +38,12 @@ app.controller('tileController', function() {
             category: ['diary']
         },
         {
+            link:'week-07.html',
+            image:'images/tiles/week07-tile.jpg',
+            title:'Week 7',
+            category: ['diary']
+        },
+        {
             link:'https://photos.app.goo.gl/nEyTiuGoyZRH9bbF9',
             image:'images/tiles/week01-tile.jpg',
             title:'1. Europe',
@@ -47,6 +53,12 @@ app.controller('tileController', function() {
             link:'https://photos.app.goo.gl/zSSKLu8iGrZhBqxW6',
             image:'images/tiles/week04-tile.jpg',
             title:'2. Georgia',
+            category: ['photos']
+        },
+        {
+            link:'https://photos.app.goo.gl/CuWzGTW7y2eNVfNY7',
+            image:'images/tiles/photos-pt3-tile.jpg',
+            title:'3. Germany/Austria',
             category: ['photos']
         }
     ]
