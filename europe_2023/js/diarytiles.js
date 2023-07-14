@@ -46,7 +46,7 @@ app.controller('tileController', function() {
         {
             link:'https://photos.app.goo.gl/nEyTiuGoyZRH9bbF9',
             image:'images/tiles/week01-tile.jpg',
-            title:'1. Europe',
+            title:'1. Germany',
             category: ['photos']
         },
         {
