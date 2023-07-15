@@ -57,7 +57,7 @@ app.controller('tileController', function() {
         },
         {
             link:'https://photos.app.goo.gl/CuWzGTW7y2eNVfNY7',
-            image:'images/tiles/photos-pt3-tile.jpg',
+            image:'images/tiles/week07-tile.jpg',
             title:'3. Germany/Austria',
             category: ['photos']
         }
