@@ -44,6 +44,18 @@ app.controller('tileController', function() {
             category: ['diary']
         },
         {
+            link:'week-08.html',
+            image:'images/tiles/week08-tile.jpg',
+            title:'Week 8',
+            category: ['diary']
+        },
+        {
+            link:'week-09.html',
+            image:'images/tiles/week09-tile.jpg',
+            title:'Week 9',
+            category: ['diary']
+        },
+        {
             link:'https://photos.app.goo.gl/nEyTiuGoyZRH9bbF9',
             image:'images/tiles/week01-tile.jpg',
             title:'1. Germany',
