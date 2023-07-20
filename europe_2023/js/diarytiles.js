@@ -72,6 +72,12 @@ app.controller('tileController', function() {
             image:'images/tiles/week07-tile.jpg',
             title:'3. Germany/Austria',
             category: ['photos']
+        },
+        {
+            link:'',
+            image:'images/tiles/week00-tile.jpg',
+            title:'4. Luxembourg/Belgium',
+            category: ['photos']
         }
     ]
     this.weeks=weeks;
