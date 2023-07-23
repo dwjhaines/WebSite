@@ -74,8 +74,8 @@ app.controller('tileController', function() {
             category: ['photos']
         },
         {
-            link:'',
-            image:'images/tiles/week00-tile.jpg',
+            link:'https://photos.app.goo.gl/GBGqrGG3HFZkJ52R6',
+            image:'images/tiles/week08-tile.jpg',
             title:'4. Luxembourg/Belgium',
             category: ['photos']
         }
