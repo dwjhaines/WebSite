@@ -1,5 +1,5 @@
 p.diary-text{
-  font-size: 15px;
+  font-size: 90%;
   text-align:justify;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   line-height: 1.4;
@@ -8,7 +8,7 @@ p.diary-text{
 
 span.diary-date{
   font-weight: bold; 
-  font-size:18px;
+  font-size:110%;
 }
 
 div.diary-photo-centre{
