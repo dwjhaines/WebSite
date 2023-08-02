@@ -1,0 +1,47 @@
+p.diary-text{
+  font-size: 15px;
+  text-align:justify;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.4;
+  color: #333;
+}
+
+span.diary-date{
+  font-weight: bold; 
+  font-size:18px;
+}
+
+div.diary-photo-centre{
+  display: table;
+  margin-left:auto;
+  margin-right:auto;
+  height:auto;
+}
+
+body {
+      font: 16px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+
+  div.footer-row{
+      background-color: #ffffff;
+      padding-top: 6px;
+      padding-bottom: 6px;
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+  
+  .footer-row a:visited,
+  .footer-row a:link{
+      color:black;
+  }  
+  
+  .footer-row a:hover{
+      color:darkgrey;
+      text-decoration: none;
+  } 
+  
+}
