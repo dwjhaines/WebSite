@@ -1,7 +1,7 @@
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   p.diary-text{
-    font-size: 120%;
+    font-size: 90%;
     text-align:justify;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 1.4;
