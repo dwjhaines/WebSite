@@ -2,6 +2,18 @@ var app = angular.module('tripApp',[]);
 app.controller('tileController', function() {
     var trips=[ 
         {
+            link:'https://photos.app.goo.gl/xFoYza1VtHQaGJtRA',
+            image:'europe_2023/images/tiles/week09-tile.jpg',
+            title:'Belgium 2023',
+            category: ['beer']
+        },
+        {
+            link:'https://photos.app.goo.gl/Uum2dk6FbuKJrP926',
+            image:'images/nuremberg-2023-tile.jpg',
+            title:'Nuremberg 2023',
+            category: ['beer']
+        },
+        {
             link:'europe_2023/index-2023.html',
             image:'images/europe-2023-tile.jpg',
             title:'Europe 2023',
