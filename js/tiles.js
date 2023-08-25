@@ -986,21 +986,15 @@ app.controller('tileController', function() {
             category: ['old']
         }, 
         {
-            link:'https://photos.app.goo.gl/D1VnoyKZDpLDW1oXA',
-            image:'images/belgium-1999-tile.jpg',
-            title:'Belgium 1999',
-            category: ['beer']
-        }, 
-        {
-            link:'https://photos.app.goo.gl/7xquor7XAiC75vRs9',
-            image:'images/spain-1999-tile.jpg',
-            title:'Spain/Portugal 1999',
-            category: ['travel']
-        }, 
-        {
             link:'https://photos.app.goo.gl/ueG7hnUDbpYdRgef7',
             image:'images/nuremberg-1998-tile.jpg',
             title:'Nuremberg 1999',
+            category: ['beer']
+        }, 
+        {
+            link:'https://photos.app.goo.gl/D1VnoyKZDpLDW1oXA',
+            image:'images/belgium-1999-tile.jpg',
+            title:'Belgium 1999',
             category: ['beer']
         }, 
         {
@@ -1008,6 +1002,12 @@ app.controller('tileController', function() {
             image:'images/budapest-1999-tile.jpg',
             title:'Budapest 1999',
             category: ['travel', 'beer']
+        }, 
+        {
+            link:'https://photos.app.goo.gl/7xquor7XAiC75vRs9',
+            image:'images/spain-1999-tile.jpg',
+            title:'Spain/Portugal 1999',
+            category: ['travel']
         }, 
         {
             link:'https://photos.app.goo.gl/GZkZjrD44zDq71rY8',
