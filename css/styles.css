@@ -5,8 +5,8 @@ body {
 }
 
 div.jumbotron{
-  background-image: url("../images/Bonaire1.JPG");
-  height:250px;
+  background-image: url("../images/Bonaire3.JPG");
+  height:150px;
   padding-top:0;
   margin-top:0;
 }
@@ -34,7 +34,7 @@ div.jumbotron{
 
 .navbar-header{
   color:lightgrey;
-  height: 20px;
+  height: 16px;
   padding-top: 8px;
   font-size: 1.6em;
 
