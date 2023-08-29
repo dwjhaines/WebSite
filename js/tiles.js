@@ -2,6 +2,12 @@ var app = angular.module('tripApp',[]);
 app.controller('tileController', function() {
     var trips=[ 
         {
+            link:'polandandgreece.html',
+            image:'images/greece-2023-tile.jpg',
+            title:'Poland and Greece 2023',
+            category: ['travel']
+        },
+        {
             link:'https://photos.app.goo.gl/xFoYza1VtHQaGJtRA',
             image:'europe_2023/images/tiles/week09-tile.jpg',
             title:'Belgium 2023',
@@ -944,12 +950,6 @@ app.controller('tileController', function() {
             category: ['travel', 'diving']
         },
         {
-            link:'https://photos.app.goo.gl/AZ55VATVUXNasSR9A',
-            image:'images/berlin-2001-tile.jpg',
-            title:'Berlin 2001',
-            category: ['beer']
-        },	
-        {
             link:'log-book-1.html',
             image:'images/log-book-tile.JPG',
             title:'1 - 1000',
@@ -968,6 +968,24 @@ app.controller('tileController', function() {
             category: ['diving']
         }, 
         {
+            link:'https://photos.app.goo.gl/v8zypYQdWGnEZHpA6',
+            image:'images/2001-tile.jpg',
+            title:'2001',
+            category: ['old']
+        }, 
+        {
+            link:'https://photos.app.goo.gl/3uFcC1hvGKE4ygHT7',
+            image:'images/nye-2001-tile.jpg',
+            title:'New Years Eve 2001',
+            category: ['beer']
+        }, 
+        {
+            link:'https://photos.app.goo.gl/AZ55VATVUXNasSR9A',
+            image:'images/berlin-2001-tile.jpg',
+            title:'Berlin 2001',
+            category: ['beer']
+        },	
+        {
             link:'https://photos.app.goo.gl/MGiz8YVcXXEDAhvY6',
             image:'images/syria-2001-tile.jpg',
             title:'Syria 2001',
@@ -980,11 +998,23 @@ app.controller('tileController', function() {
             category: ['travel']
         }, 
         {
+            link:'https://photos.app.goo.gl/GhD39qzZyz2aAMXF9',
+            image:'images/belgium-2001-tile.jpg',
+            title:'Belgium 2001',
+            category: ['beer']
+        }, 
+        {
+            link:'https://photos.app.goo.gl/7w6rx3UsJtvdL9rS6',
+            image:'images/munich-2001-tile.jpg',
+            title:'Munich 2001',
+            category: ['beer']
+        }, 
+        {
             link:'world_trip_2000/index-2000.html',
             image:'images/wt2000-tile.jpg',
             title:'World Trip 2000/01',
             category: ['travel']
-         }, 
+        }, 
         {
             link:'https://photos.app.goo.gl/W9wdJ8hQMqGh3c5E8',
             image:'images/wt2001-sessions-tile.jpg',
