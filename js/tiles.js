@@ -975,7 +975,7 @@ app.controller('tileController', function() {
         }, 
         {
             link:'https://photos.app.goo.gl/3uFcC1hvGKE4ygHT7',
-            image:'images/nye-2001-tile.jpg',
+            image:'images/nye-2001-tile2.jpg',
             title:'New Years Eve 2001',
             category: ['beer']
         }, 
