@@ -909,7 +909,7 @@ app.controller('tileController', function() {
         }, 
         {
             link:'https://photos.app.goo.gl/52yzMF5pwnZd5xc5A',
-            image:'images/lewes-2003-tile.JPG',
+            image:'images/lewes-2003-tile.jpg',
             title:'Lewes 2003',
             category: ['beer']
         }, 
@@ -963,7 +963,7 @@ app.controller('tileController', function() {
         }, 
         {
             link:'https://photos.app.goo.gl/uNT2tAsTKqav4nxn8',
-            image:'images/lewes-2002-tile.JPG',
+            image:'images/lewes-2002-tile.jpg',
             title:'Lewes 2002',
             category: ['beer']
         }, 
