@@ -855,7 +855,7 @@ app.controller('tileController', function() {
         },  
         {
             link:'https://photos.app.goo.gl/v8KJAoeMjsfZYJ2L9',
-            image:'images/lords-2004-tile.JPG',
+            image:'images/lords-2004-tile.jpg',
             title:'Lords 2004',
             category: ['beer']
         },  
