@@ -324,9 +324,9 @@ app.controller('tileController', function() {
             image:'images/slovakia-tile.JPG',
             title:'Slovakia v England',
             category: ['football']
-        }, 
+        },
         {
-            link:'https://photos.app.goo.gl/RGaeOtltzzoCdaDl1w',
+            link:'https://photos.app.goo.gl/RGaeOtltzzoCdaDl1',
             image:'images/leuven-tile.JPG',
             title:'Leuven 2016',
             category: ['beer']
