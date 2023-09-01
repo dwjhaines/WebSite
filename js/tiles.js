@@ -351,7 +351,7 @@ app.controller('tileController', function() {
         },
         {
             link:'https://goo.gl/photos/LDK3N4h2JvaCsdZi7',
-            image:'images/thailand-tile.JPG',
+            image:'images/thailand-2015-tile.jpg',
             title:'Thailand 2015',
             category: ['diving', 'travel']
         },
@@ -800,6 +800,12 @@ app.controller('tileController', function() {
             category: ['beer']
         },  					 
         {
+            link:'https://photos.app.goo.gl/6FQBN8q3UWkyiaGS7',
+            image:'images/2004-tile.jpg',
+            title:'2004',
+            category: ['old']
+        }, 
+        {
             link:'https://photos.app.goo.gl/L3wSWGCTbzsN3XSD7',
             image:'images/maldives-2004-tile.jpg',
             title:'Maldives 2004',
@@ -825,6 +831,12 @@ app.controller('tileController', function() {
         },
         {
             link:'https://goo.gl/photos/XefCRHovogrPgnV18',
+            image:'images/thailand-2004-tile.jpg',
+            title:'Thailand 2004',
+            category: ['diving', 'travel']
+        },
+        {
+            link:'https://goo.gl/photos/XefCRHovogrPgnV18',
             image:'images/portugal-tile.JPG',
             title:'Portugal 2004',
             category: ['football', 'travel']
@@ -839,6 +851,12 @@ app.controller('tileController', function() {
             link:'https://goo.gl/photos/ifRofQvGsShUS2hz9',
             image:'images/gower-2004-tile.JPG',
             title:'Gower 2004',
+            category: ['beer']
+        },  
+        {
+            link:'https://photos.app.goo.gl/v8KJAoeMjsfZYJ2L9',
+            image:'images/lords-2004-tile.JPG',
+            title:'Lords 2004',
             category: ['beer']
         },  
         {
