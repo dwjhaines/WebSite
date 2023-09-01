@@ -855,7 +855,7 @@ app.controller('tileController', function() {
         },  
         {
             link:'https://photos.app.goo.gl/v8KJAoeMjsfZYJ2L9',
-            image:'images/lords-2004-tile2.jpg',
+            image:'images/lords-2004-tile.jpg',
             title:'Lords 2004',
             category: ['beer']
         },  
@@ -909,7 +909,7 @@ app.controller('tileController', function() {
         }, 
         {
             link:'https://photos.app.goo.gl/52yzMF5pwnZd5xc5A',
-            image:'images/lewes-2003-tile2.jpg',
+            image:'images/lewes-2003-tile.jpg',
             title:'Lewes 2003',
             category: ['beer']
         }, 
@@ -963,7 +963,7 @@ app.controller('tileController', function() {
         }, 
         {
             link:'https://photos.app.goo.gl/uNT2tAsTKqav4nxn8',
-            image:'images/lewes-2002-tile2.jpg',
+            image:'images/lewes-2002-tile.jpg',
             title:'Lewes 2002',
             category: ['beer']
         }, 
