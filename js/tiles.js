@@ -758,6 +758,12 @@ app.controller('tileController', function() {
             category: ['travel', 'football']
         },
         {
+            link:'https://photos.app.goo.gl/ThR62PxLJV8EZJQ29',
+            image:'images/2005-tile.jpg',
+            title:'2005',
+            category: ['old']
+        }, 
+        {
             link:'https://photos.app.goo.gl/2CqMjIHRaMFy8Kqr2',
             image:'images/belgium-dec-2005-tile.JPG',
             title:'Belgium Dec 2005',
@@ -793,6 +799,12 @@ app.controller('tileController', function() {
             title:'USA 2005',
             category: ['football']
         },  					 
+        {
+            link:'https://photos.app.goo.gl/Vz5jnUrq89bvBX7V6',
+            image:'images/thailand-2005-tile.jpg',
+            title:'Thailand 2005',
+            category: ['diving', 'travel']
+        },
         {
             link:'https://photos.app.goo.gl/O1xSeaa5YQNU0HDo2',
             image:'images/hanover-2005-tile.JPG',
