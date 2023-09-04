@@ -32,7 +32,7 @@ async function getMilage(){
     console.log("Distance so far in miles: " + distanceInMiles)
     // Call the updateData function to update the web page.
     // updateData(distanceInMiles) No need to call the function as none of this is used anymore 
-    document.getElementById("milesCycled").innerHTML = distanceInMiles - 945
+    document.getElementById("milesCycled").innerHTML = distanceInMiles
 } 
 
 // Function that gets passed the number of miles so far this year, does the calculations and updates the web page.
