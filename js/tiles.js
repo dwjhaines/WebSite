@@ -3,7 +3,7 @@ app.controller('tileController', function() {
     var trips=[ 
         {
             link:'polandandgreece.html',
-            image:'images/greece-2023-tile.jpg',
+            image:'images/poland-2023-tile.jpg',
             title:'Poland and Greece 2023',
             category: ['travel']
         },
