@@ -1417,6 +1417,12 @@ app.controller('tileController', function() {
             image:'images/archive-tile.jpg',
             title:'Archive',
             category: ['homepage']
+        },
+        {
+            link:'index_gs.html',
+            image:'images/grayscale/grayscale-tile.jpg',
+            title:'Grayscale',
+            category: ['homepage']
         }
     ]
     this.trips=trips;
