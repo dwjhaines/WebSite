@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="tripApp">
+<html lang="en">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>dwjhaines</title>
-        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -20,13 +20,17 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container px-4 px-lg-5">
-
+                <a class="nav-link" href="#page-top">Home</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="travel_gs.html">Travel</a></li>
+                        <li class="nav-item"><a class="nav-link" href="travel.html">Travel</a></li>
                         <li class="nav-item"><a class="nav-link" href="diving.html">Diving</a></li>
-                        <li class="nav-item"><a class="nav-link" href="beer.html">Beer</a></li>
                         <li class="nav-item"><a class="nav-link" href="football.html">Football</a></li>
+                        <li class="nav-item"><a class="nav-link" href="beer.html">Beer</a></li>
                     </ul>
                 </div>
             </div>
@@ -37,18 +41,28 @@
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
                         <h1 class="mx-auto my-0 text-lowercase">dwjhaines</h1>
-                        
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5">@gmail.com</h2>
                     </div>
-                    
                 </div>
             </div>
         </header>
-
-        <!-- Projects-->
-        <section class="projects-section bg-black" id="projects">
+        <!-- About-->
+        <section class="about-section text-center" id="about">
             <div class="container px-4 px-lg-5">
-                <!-- Featured Project Row
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="text-white mb-4">Built with Bootstrap 5</h2>
+                        <p class="text-white-50">
+                            Grayscale is a free Bootstrap theme.
+                            The theme is open source, and you can use it for any purpose, personal or commercial.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Projects-->
+        <section class="projects-section bg-light" id="projects">
+            <div class="container px-4 px-lg-5">
+                <!-- Featured Project Row-->
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
                     <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="images/grayscale/bg-masthead.jpg" alt="..." /></div>
                     <div class="col-xl-4 col-lg-5">
@@ -57,7 +71,7 @@
                             <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
                         </div>
                     </div>
-                </div>-->
+                </div>
                 <!-- Project One Row-->
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
                     <div class="col-lg-6"><img class="img-fluid" src="images/grayscale/demo-image-01.jpg" alt="..." /></div>
@@ -88,11 +102,10 @@
                 </div>
             </div>
         </section>
-
+        
         <!-- Contact-->
         <section class="contact-section bg-black">
             <div class="container px-4 px-lg-5">
-              
                 <div class="social d-flex justify-content-center">
                     <a class="mx-2" href="https://facebook.com/dwjhaines"><i class="fab fa-facebook-f"></i></a>
                     <a class="mx-2" href="https://www.youtube.com/user/dwjhaines"><i class="fab fa-youtube"></i></a>
@@ -110,7 +123,5 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-        <script src="angular/angular.min.js"></script>
-        <script src="js/tiles.js"></script>
     </body>
 </html>
