@@ -11120,7 +11120,7 @@ body {
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 1rem 0;
 }
 .projects-section .featured-text {
   padding: 2rem;
@@ -11128,7 +11128,7 @@ body {
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5re;
   }
 }
 .projects-section .project-text {
@@ -11161,7 +11161,7 @@ body {
 }
 
 .contact-section {
-  padding-top: 5rem;
+  padding-top: 1rem;
 }
 .contact-section .card {
   border: 0;
@@ -11180,7 +11180,7 @@ body {
   width: 3rem;
 }
 .contact-section .social {
-  margin-top: 5rem;
+  margin-top: 1rem;
 }
 .contact-section .social a {
   text-align: center;
@@ -11199,9 +11199,9 @@ body {
 }
 
 .footer {
-  padding: 5rem 0;
+  padding: 1rem 0;
 }
 
-.tiles {
+.tiles-gs {
   width: 10%;
 }
