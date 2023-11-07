@@ -758,10 +758,28 @@ app.controller('tileController', function() {
             category: ['travel']
         }, 
         {
+            link:'https://photos.app.goo.gl/oyoYcykhYCHVfVPQ6',
+            image:'images/2006-tile.jpg',
+            title:'2006',
+            category: ['old']
+        }, 
+        {
             link:'https://goo.gl/photos/YVwMZc1BPu2iZhbC6',
             image:'images/germany-2006-tile.JPG',
             title:'Germany 2006',
             category: ['travel', 'football']
+        },
+        {
+            link:'',
+            image:'images/thailand-2006-tile.JPG',
+            title:'Thailand 2006',
+            category: ['diving', 'travel']
+        },
+        {
+            link:'https://photos.app.goo.gl/uxDaj7NAr8aYhpvx8',
+            image:'images/oxford-2006-tile.JPG',
+            title:'Oxford 2006',
+            category: ['beer']
         },
         {
             link:'https://photos.app.goo.gl/ThR62PxLJV8EZJQ29',
