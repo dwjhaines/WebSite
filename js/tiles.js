@@ -771,13 +771,13 @@ app.controller('tileController', function() {
         },
         {
             link:'',
-            image:'images/thailand-2006-tile.JPG',
+            image:'images/thailand-2006-tile.jpg',
             title:'Thailand 2006',
             category: ['diving', 'travel']
         },
         {
             link:'https://photos.app.goo.gl/uxDaj7NAr8aYhpvx8',
-            image:'images/oxford-2006-tile.JPG',
+            image:'images/oxford-2006-tile.jpg',
             title:'Oxford 2006',
             category: ['beer']
         },
