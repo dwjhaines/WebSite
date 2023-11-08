@@ -740,15 +740,39 @@ app.controller('tileController', function() {
             category: ['beer']
         },   
         {
+            link:'https://photos.app.goo.gl/ykMfSLcdV8qgYBit8',
+            image:'images/2007-tile.jpg',
+            title:'2007',
+            category: ['old']
+        }, 
+        {
+            link:'https://photos.app.goo.gl/dgX3n9jtphLARBto6',
+            image:'images/egypt-2007-tile.JPG',
+            title:'Egypt 2007',
+            category: ['diving', 'travel']
+        },
+        {
             link:'https://photos.app.goo.gl/qKX1E0ALTjnx3m9L2',
             image:'images/brussels-2007-tile.JPG',
             title:'Brussels 2007',
             category: ['beer']
         },
         {
+            link:'https://photos.app.goo.gl/1oAwXSNgjDg53PeB9',
+            image:'images/vienna-2007-tile.jpg',
+            title:'Vienna 2007',
+            category: ['football', 'travel']
+        }, 
+        {
+            link:'https://photos.app.goo.gl/rsXDPq5J4XFgtAma9',
+            image:'images/konstanz-2007-tile.jpg',
+            title:'Konstanz 2007',
+            category: ['travel']
+        }, 
+        {
             link:'https://goo.gl/photos/wKJd7BpZzBfu2Gd39',
             image:'images/moscow-tile.JPG',
-            title:'Russia v England',
+            title:'Moscow 2007',
             category: ['football', 'travel']
         }, 
         {
@@ -797,7 +821,7 @@ app.controller('tileController', function() {
             link:'https://photos.app.goo.gl/88FZ4ftGT56iy2st7',
             image:'images/egypt-2005-tile.JPG',
             title:'Egypt 2005',
-            category: ['diving']
+            category: ['diving', 'travel']
         },
         {
             link:'https://photos.app.goo.gl/xWdDGQNYdCamav5s6',
@@ -1438,8 +1462,8 @@ app.controller('tileController', function() {
         },
         {
             link:'index_gs.html',
-            image:'images/grayscale/grayscale-tile.jpg',
-            title:'Grayscale',
+            image:'images/new-site/new-tile.jpg',
+            title:'New Site',
             category: ['homepage']
         }
     ]
