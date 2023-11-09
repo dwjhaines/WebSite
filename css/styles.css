@@ -286,7 +286,7 @@ div.newtiles{
   width: 100%;
   margin-bottom: 15px;
   position: relative;
-  border: 2px solid #3F0C1F;
+  border: 2px solid #000000;
   overflow: hidden;
   background-position: center;
 }

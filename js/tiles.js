@@ -252,13 +252,19 @@ app.controller('tileController', function() {
             image:'images/hoggy-tile.jpg',
             title:'Hoggy\'s 50th',
             category: ['beer']
-         },
+     },
+		 {
+            link:'https://photos.app.goo.gl/sza12GCxZzVcw9ys7',
+            image:'images/russia-2018-tile.JPG',
+            title:'Russia 2018',
+            category: ['football']
+     },
 		 {
             link:'https://photos.app.goo.gl/dYngfhi6RLfwe20C3',
             image:'images/london-2018-tile.JPG',
             title:'London 2018',
             category: ['beer']
-         },
+     },
 		 {
             link:'https://photos.app.goo.gl/J3BuVc50tQ6dlGwG3',
             image:'images/thailand-2018-2-tile.JPG',
