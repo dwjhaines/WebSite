@@ -692,6 +692,12 @@ app.controller('tileController', function() {
             category: ['beer']
         },
         {
+            link:'https://photos.app.goo.gl/EC8VQ4bJc9W14mjq5',
+            image:'images/2008-tile.jpg',
+            title:'2008',
+            category: ['old']
+        }, 
+        {
             link:'https://photos.app.goo.gl/PYCrZistPCzoJMTs2',
             image:'images/mexico-2008-tile.JPG',
             title:'Mexico 2008',
@@ -744,6 +750,12 @@ app.controller('tileController', function() {
             image:'images/munich-2008-tile.JPG',
             title:'Munich 2008',
             category: ['beer']
+        },   
+        {
+            link:'https://photos.app.goo.gl/reAef3HmTZ2EEqhC7',
+            image:'images/bonaire-2008-tile.JPG',
+            title:'Bonaire 2008',
+            category: ['diving']
         },   
         {
             link:'https://photos.app.goo.gl/ykMfSLcdV8qgYBit8',
