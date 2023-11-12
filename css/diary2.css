@@ -9,6 +9,16 @@
   }
 }
 
+@media (min-width: 1200px) {
+  p.diary-text-gs{
+    font-size: 90%;
+    text-align:justify;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.4;
+    color: #d1c1be;
+  }
+}
+
 @media (max-width: 1199px) {
   p.diary-text{
     font-size: 100%;
@@ -16,6 +26,16 @@
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 1.4;
     color: #333;
+  }
+}
+
+@media (max-width: 1199px) {
+  p.diary-text-gs{
+    font-size: 100%;
+    text-align:justify;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.4;
+    color: #d1c1be;
   }
 }
 
