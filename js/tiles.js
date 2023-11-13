@@ -261,7 +261,7 @@ app.controller('tileController', function() {
      },
 		 {
             link:'https://photos.app.goo.gl/sza12GCxZzVcw9ys7',
-            image:'images/russia-2018-tile.JPG',
+            image:'images/russia-2018-tile.jpg',
             title:'Russia 2018',
             category: ['football']
      },
@@ -777,7 +777,7 @@ app.controller('tileController', function() {
         },   
         {
             link:'https://photos.app.goo.gl/reAef3HmTZ2EEqhC7',
-            image:'images/bonaire-2008-tile.JPG',
+            image:'images/bonaire-2008-tile.jpg',
             title:'Bonaire 2008',
             category: ['diving']
         },   
@@ -789,7 +789,7 @@ app.controller('tileController', function() {
         }, 
         {
             link:'https://photos.app.goo.gl/dgX3n9jtphLARBto6',
-            image:'images/egypt-2007-tile.JPG',
+            image:'images/egypt-2007-tile.jpg',
             title:'Egypt 2007',
             category: ['diving', 'travel']
         },
