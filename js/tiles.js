@@ -709,7 +709,7 @@ app.controller('tileController', function() {
             title:'Bonaire 2009',
             category: ['diving']
         },   
-        {jpg
+        {
             link:'https://photos.app.goo.gl/sPXmKCCou3rxNAvK8',
             image:'images/spain-2009-tile.jpg',
             title:'Spain 2009',
