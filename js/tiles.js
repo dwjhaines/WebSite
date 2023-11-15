@@ -8,6 +8,12 @@ app.controller('tileController', function() {
             category: ['football']
         },
         {
+            link:'https://photos.app.goo.gl/mdPUstET9mqxYejD6',
+            image:'images/malaga-2023-tile.jpg',
+            title:'Malaga 2023',
+            category: ['travel']
+        },
+        {
             link:'munich-2023.html',
             image:'images/munich-2023-tile.jpg',
             title:'Munich 2023',
