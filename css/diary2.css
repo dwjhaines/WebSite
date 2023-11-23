@@ -11,7 +11,7 @@
 
 @media (min-width: 1200px) {
   p.diary-text-gs{
-    font-size: 90%;
+    font-size: 80%;
     text-align:justify;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 1.4;
@@ -31,7 +31,7 @@
 
 @media (max-width: 1199px) {
   p.diary-text-gs{
-    font-size: 100%;
+    font-size: 85%;
     text-align:justify;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 1.4;
