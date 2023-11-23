@@ -5,7 +5,7 @@ app.controller('tileController', function() {
             link:'skopje-2023.html',
             image:'images/skopje-2023-tile.jpg',
             title:'Skopje 2023',
-            category: ['football']
+            category: ['football', 'travel']
         },
         {
             link:'https://photos.app.goo.gl/mdPUstET9mqxYejD6',
