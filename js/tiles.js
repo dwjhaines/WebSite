@@ -669,7 +669,7 @@ app.controller('tileController', function() {
         },
         {
             link:'https://photos.app.goo.gl/YNaYPFJspHDyXoKA7',
-            image:'images/basle-2010-tile.JPG',
+            image:'images/basle-2010-tile.jpg',
             title:'Basle 2010',
             category: ['football', 'travel']
         },
