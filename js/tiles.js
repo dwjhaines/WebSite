@@ -644,6 +644,12 @@ app.controller('tileController', function() {
             category: ['diving', 'travel']
         },
         {
+            link:'https://photos.app.goo.gl/nGmg8GFjMusgC5pg8',
+            image:'images/cardiff-2011-tile.jpg',
+            title:'Cardiff 2011',
+            category: ['football']
+        },
+        {
             link:'https://photos.app.goo.gl/wus8TuMxUMq6RYbA7',
             image:'images/2010-tile.jpg',
             title:'2010',
@@ -663,7 +669,7 @@ app.controller('tileController', function() {
         },
         {
             link:'https://goo.gl/photos/4henEyoTxXrtrhHv5',
-            image:'images/egypt-2010-tile.jpg',
+            image:'images/egypt-2010-tile1.jpg',
             title:'Egypt 2010',
             category: ['diving', 'travel']
         },
