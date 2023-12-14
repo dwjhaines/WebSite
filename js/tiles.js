@@ -572,6 +572,12 @@ app.controller('tileController', function() {
             category: ['diving', 'travel']
         },
         {
+            link:'https://photos.app.goo.gl/7EtGQqpri8fepei59',
+            image:'images/2012-tile.jpg',
+            title:'2012',
+            category: ['old']
+        }, 
+        {
             link:'world_trip_2012/index-2012.html',
             image:'images/moalboal-tile.JPG',
             title:'2012 World Trip',
@@ -584,17 +590,23 @@ app.controller('tileController', function() {
             category: ['travel', 'football']
         },
         {
+            link:'https://goo.gl/photos/RucVzMktRi7uVmYW9',
+            image:'images/munich-2012-tile.JPG',
+            title:'Munich 2012',
+            category: ['beer']
+        },	
+        {
             link:'https://photos.app.goo.gl/oKJ8D5HbYNjcWMa37',
             image:'images/bulgaria-2011-tile.JPG',
             title:'Bulgaria v England',
             category: ['football']
         }, 
         {
-            link:'https://goo.gl/photos/RucVzMktRi7uVmYW9',
-            image:'images/munich-2012-tile.JPG',
-            title:'Munich 2012',
-            category: ['beer']
-        },	
+            link:'https://photos.app.goo.gl/4hCsL7Z82qh1kf8r5',
+            image:'images/2011-tile.jpg',
+            title:'2011',
+            category: ['old']
+        }, 
         {
             link:'https://goo.gl/photos/br9u2iTg3Z7XnZjKA',
             image:'images/thailand-2011-tile.JPG',
@@ -621,7 +633,7 @@ app.controller('tileController', function() {
         },
         {
             link:'https://goo.gl/photos/d54N1h4YD3fV6kfP6',
-            image:'images/malaysia-tile.JPG',
+            image:'images/malaysia-2011-tile.jpg',
             title:'Malaysia 2011',
             category: ['diving', 'travel']
         },
