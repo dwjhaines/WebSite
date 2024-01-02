@@ -518,6 +518,12 @@ app.controller('tileController', function() {
             category: ['football']
         },
         {
+            link:'https://photos.app.goo.gl/6o1bAe7SEEztVbXs5',
+            image:'images/2013-tile.jpg',
+            title:'2013',
+            category: ['old']
+        }, 
+        {
             link:'https://goo.gl/photos/owFVQPsQUik97B6X9',
             image:'images/belize-tile.JPG',
             title:'Belize 2013',
@@ -545,6 +551,12 @@ app.controller('tileController', function() {
             link:'https://goo.gl/photos/qLTw7mfiffp8YzGVA',
             image:'images/valencia-tile.JPG',
             title:'Valencia v Swansea',
+            category: ['beer', 'football']
+        },                       
+        {
+            link:'https://photos.app.goo.gl/Hh4Lux6SHYMaseZU7',
+            image:'images/ukraine-2013-tile.jpg',
+            title:'Kiev 2013',
             category: ['beer', 'football']
         },                       
         {
