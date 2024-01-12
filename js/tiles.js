@@ -2,6 +2,12 @@ var app = angular.module('tripApp',[]);
 app.controller('tileController', function() {
     var trips=[ 
         {
+            link:'malaysiaandthailand.html',
+            image:'images/malaysia-2024-tile.jpg',
+            title:'Malaysia/Thailand 2024',
+            category: ['travel']
+        },
+        {
             link:'60th-cathy.html',
             image:'images/cathy-60th-tile.jpg',
             title:'Cathy\'s 60th',
@@ -446,7 +452,13 @@ app.controller('tileController', function() {
             category: ['beer']
         },
         {
-            link:'https://goo.gl/photos/JHWAv7B591zSTGr48',
+            link:'https://photos.app.goo.gl/6o1bAe7SEEztVbXs5',
+            image:'images/2014-tile.jpg',
+            title:'2014',
+            category: ['old']
+        }, 
+        {
+            link:'https://photos.app.goo.gl/7KR5jdVyCRhrFJfE7',
             image:'images/bonaire-2014-tile.JPG',
             title:'Bonaire 2014',
             category: ['diving']
@@ -474,6 +486,12 @@ app.controller('tileController', function() {
             image:'images/tallinn-tile.JPG',
             title:'Estonia v England',
             category: ['football']
+        },                       
+        {
+            link:'https://photos.app.goo.gl/jTM4jKsBdDdbby9V8',
+            image:'images/basle-2014-tile.jpg',
+            title:'Marburg/Basle 2014',
+            category: ['football', 'travel']
         },                       
         {
             link:'brazil.html',
