@@ -926,7 +926,7 @@ app.controller('tileController', function() {
             category: ['travel', 'football']
         },
         {
-            link:'',
+            link:'https://photos.app.goo.gl/uAKTNw1Mg4Ec4Njj8',
             image:'images/thailand-2006-tile.jpg',
             title:'Thailand 2006',
             category: ['diving', 'travel']
@@ -1022,7 +1022,7 @@ app.controller('tileController', function() {
             category: ['football', 'travel']
         },
         {
-            link:'https://goo.gl/photos/XefCRHovogrPgnV18',
+            link:'',
             image:'images/thailand-2004-tile.jpg',
             title:'Thailand 2004',
             category: ['diving', 'travel']
