@@ -1022,7 +1022,7 @@ app.controller('tileController', function() {
             category: ['football', 'travel']
         },
         {
-            link:'',
+            link:'https://photos.app.goo.gl/obECV26Fk4TLs66Z7',
             image:'images/thailand-2004-tile.jpg',
             title:'Thailand 2004',
             category: ['diving', 'travel']
