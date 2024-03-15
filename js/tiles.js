@@ -392,6 +392,12 @@ app.controller('tileController', function() {
             category: ['beer', 'travel', 'football']
         },
         {
+            link:'',
+            image:'images/2015-tile.jpg',
+            title:'2015',
+            category: ['old']
+        }, 
+        {
             link:'https://goo.gl/photos/LDK3N4h2JvaCsdZi7',
             image:'images/thailand-2015-tile.jpg',
             title:'Thailand 2015',
@@ -403,6 +409,12 @@ app.controller('tileController', function() {
             title:'Spain v England',
             category: ['beer', 'football']
         }, 
+        {
+            link:'https://photos.app.goo.gl/swozhHD2UavF6E6W8',
+            image:'images/turtle1-tile.jpg',
+            title:'Turtle 1',
+            category: ['diving']
+        },
         {
             link:'https://goo.gl/photos/8barMhKNdbdqRNxe7',
             image:'images/bonaire-2015-tile.JPG',
