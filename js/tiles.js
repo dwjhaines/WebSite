@@ -350,6 +350,12 @@ app.controller('tileController', function() {
             category: ['beer', 'travel', 'football']
         },
         {
+            link:'https://photos.app.goo.gl/7zswuWAMeW23of836',
+            image:'images/2016-tile.jpg',
+            title:'2016',
+            category: ['old']
+        }, 
+        {
             link:'https://goo.gl/photos/An7H2jwyCpCyvJZd7',
             image:'images/thailand-2016-tile.JPG',
             title:'Thailand 2016',
@@ -392,7 +398,7 @@ app.controller('tileController', function() {
             category: ['beer', 'travel', 'football']
         },
         {
-            link:'',
+            link:'https://photos.app.goo.gl/aPB2XPp86Pu7VrR77',
             image:'images/2015-tile.jpg',
             title:'2015',
             category: ['old']
