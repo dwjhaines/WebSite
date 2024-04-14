@@ -26,71 +26,21 @@ async function getMilage(){
     const json_activity = await response_activity.json();
     console.log(json_activity)
     
-    // The activity info from Strava is another JSON structure. Extract the year-to-date distance and convert from m to miles.
+    // The activity info from Strava is another JSON structure. Extract the year-to-date data and convert units.
+    var numberOfRides  = json_activity.ytd_ride_totals.count
+    var elevationInMetres = json_activity.ytd_ride_totals.elevation_gain   
     var distanceInMetres = json_activity.ytd_ride_totals.distance
+    var timeInSeconds = json_activity.ytd_ride_totals.moving_time
+    
+    var elevationInFeet = Math.floor(elevationInMetres * 3.280839895)
     var distanceInMiles = Math.floor(distanceInMetres * 0.000621371192)
     console.log("Distance so far in miles: " + distanceInMiles)
-    // Call the updateData function to update the web page.
-    // updateData(distanceInMiles) No need to call the function as none of this is used anymore 
+    console.log("Elevation so far in feet: " + elevationInFeet)
+    console.log("Number of rides: " + numberOfRides)
+    console.log("Time in seconds: " + timeInSeconds)
+
     document.getElementById("milesCycled").innerHTML = distanceInMiles
 } 
-
-// Function that gets passed the number of miles so far this year, does the calculations and updates the web page.
-function updateData(milesToDate){
-    var target = 3250 // Number of miles
-    var numberOfDays = 365 // Number of days to achieve the target
-    var oneDay = 24 * 60 * 60 * 1000; // Number of milliseconds in 24 hours (js counts time in ms)
-    var startDate = new Date(2023, 0, 1, 0, 0, 0, 0); // Midnight at the start of the year
-    var todaysDate = new Date() //Today's date/time
-
-    // Calculate number of days since start date. Round up (ceil) so as soon as day starts, it gets added.
-    var days = Math.ceil(Math.abs((startDate.getTime() - todaysDate.getTime()) / (oneDay)));
-    
-    // Calculate how many miles should have been done by now
-    var dailyTarget = Math.round(target*days/numberOfDays)
-    
-    var difference = milesToDate - dailyTarget
-    var dailyMilage = milesToDate / days
-    var milesToGo = Math.max((target - milesToDate), 0);
-
-    //document.getElementById("numberOfDays").innerHTML = days
-    //document.getElementById("targetMiles").innerHTML = dailyTarget
-    document.getElementById("milesCycled").innerHTML = milesToDate - 68
-    //document.getElementById("milesPerDay").innerHTML = dailyMilage.toFixed(2)
-    //document.getElementById("milesPerWeek").innerHTML = (dailyMilage*7).toFixed(2)
-    //` document.getElementById("difference").innerHTML = Math.abs(difference)
-    
-    
-    if (difference < 0){ // behind target
-        document.getElementById("aheadOrBehind").innerHTML = "miles behind target"
-        document.getElementById("result").style.backgroundColor="#ffb7ba";
-        document.getElementById("difference").style.color="red";
-        document.getElementById("aheadOrBehind").style.color="red";
-    }
-    else { // ahead of target
-        document.getElementById("aheadOrBehind").innerHTML = "miles ahead of target"
-        document.getElementById("result").style.backgroundColor="#cafdc8";
-        document.getElementById("difference").style.color="green";
-        document.getElementById("aheadOrBehind").style.color="green";
-    }
-    
-    var percentComplete = Math.min(Math.floor((milesToDate/target)*100), 100)
-    console.log("Completed: " + percentComplete +"%")
-    document.getElementById("percent").innerHTML = percentComplete + "%"
-    document.getElementById("myBar").style.width=percentComplete+"%"
-    document.getElementById("milesToGo").innerHTML = milesToGo
-    var milesSinceLockdown = 14847 + milesToDate 
-    document.getElementById("milesCycledSinceLockdown").innerHTML = milesSinceLockdown
-    var milesSinceChainChanged = milesToDate // + 1229 (Chain changed before first ride of 2022)
-    if (milesSinceChainChanged > 1250){
-        document.getElementById("milesSinceChainReplaced").style.color="red";
-        document.getElementById("milesSinceChainReplaced").innerHTML = "******** " + milesSinceChainChanged + " ********"
-    }
-    else{
-        document.getElementById("milesSinceChainReplaced").innerHTML = milesSinceChainChanged
-    }
-    
-}
 
 
 
