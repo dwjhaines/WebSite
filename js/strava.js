@@ -33,14 +33,25 @@ async function getMilage(){
     var timeInSeconds = json_activity.ytd_ride_totals.moving_time
     
     var elevationInFeet = Math.floor(elevationInMetres * 3.280839895)
+    elevationInFeet += " ft"
     var distanceInMiles = Math.floor(distanceInMetres * 0.000621371192)
+    distanceInMiles += " miles"
     console.log("Distance so far in miles: " + distanceInMiles)
     console.log("Elevation so far in feet: " + elevationInFeet)
     console.log("Number of rides: " + numberOfRides)
     console.log("Time in seconds: " + timeInSeconds)
 
     document.getElementById("milesCycled").innerHTML = distanceInMiles
-} 
+    document.getElementById("count").innerHTML = numberOfRides
+    document.getElementById("elevation").innerHTML = elevationInFeet
+    document.getElementById("time").innerHTML = convertSecondsToHoursAndMinutes(timeInSeconds)
+}
+
+function convertSecondsToHoursAndMinutes(seconds) {
+    var hours = Math.floor(seconds / 3600);
+    var minutes = Math.floor((seconds % 3600) / 60);
+    return hours + " h " + minutes + " m";
+}
 
 
 

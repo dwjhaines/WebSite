@@ -53,13 +53,45 @@ hr.strava {
 
 .white-box {
     width: 300px;
-    height: 110px;
+    height: 90px;
     background-color: white;
     border: 1px solid #ef560f;
     padding: 6px;
     margin-bottom: 6px;
     border-radius: 3px; /* Rounded corners */
+    }
+    
+.stats-box {
+    display: flex; /* Use Flexbox */
+    flex-wrap: wrap; /* Allow items to wrap into multiple rows */
 }
+    
+.column {
+    width: calc(25% - 5px); /* Calculate 25% width for each column with a 10px margin between them */
+    margin-right: 5px; /* Margin between columns */
+}
+
+.column:last-child {
+    margin-right: 0; /* Remove margin from the last column */
+}
+
+.stat-text {
+	font-size: 10px;
+  text-align: left;
+}
+.data-text {
+	font-size: 11px;
+  text-align: left;
+}
+
+p.stat-text {
+  margin-bottom: 1px;
+}
+
+p.data-text {
+  margin-top: 0px;
+}
+
 
 /* The following is all copied from the Strava css file */
 

@@ -2,6 +2,12 @@ var app = angular.module('tripApp',[]);
 app.controller('tileController', function() {
     var trips=[ 
         {
+            link:'https://www.google.com/maps/d/viewer?mid=1vLp7v9qcv8vi92yLaEBwqko7nc0IO68&ll=51.50728362785999%2C-0.10976019218563504&z=14',
+            image:'images/my-60th-tile.jpg',
+            title:'My 60th',
+            category: ['beer', '60th']
+        },
+        {
             link:'https://photos.app.goo.gl/GNPcD9to4XT2MfFD9',
             image:'images/roz-60th-tile.jpg',
             title:'Roz\'s 60th',
