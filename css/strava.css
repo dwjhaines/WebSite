@@ -9,7 +9,7 @@ hr.strava {
 .stravaHeader{
     font-family: -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple";
     color: #007FB6;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -46,9 +46,12 @@ hr.strava {
 .stravaText{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #666666;
-    font-size:12px;
+    font-size:10px;
     font-weight: 300;
     margin-bottom: 0px;
+    margin-top:0px;
+    text-align: left;
+    padding-left:5px;
 }
 
 .white-box {
@@ -59,20 +62,34 @@ hr.strava {
     padding: 6px;
     margin-bottom: 6px;
     border-radius: 3px; /* Rounded corners */
-    }
+}
+    
+.white-box-europe {
+    width: 300px;
+    height: 105px;
+    background-color: white;
+    border: 1px solid #ef560f;
+    padding: 6px;
+    margin-bottom: 6px;
+    border-radius: 3px; /* Rounded corners */
+}
     
 .stats-box {
     display: flex; /* Use Flexbox */
     flex-wrap: wrap; /* Allow items to wrap into multiple rows */
+    padding-left:5px;
 }
     
 .column {
-    width: calc(25% - 5px); /* Calculate 25% width for each column with a 10px margin between them */
+    width: 75px; /* Calculate 25% width for each column with a 5px margin between them */
     margin-right: 5px; /* Margin between columns */
 }
 
 .column:last-child {
     margin-right: 0; /* Remove margin from the last column */
+}
+.column:first-child {
+  width: 40px;
 }
 
 .stat-text {

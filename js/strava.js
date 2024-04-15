@@ -41,10 +41,16 @@ async function getMilage(){
     console.log("Number of rides: " + numberOfRides)
     console.log("Time in seconds: " + timeInSeconds)
 
-    document.getElementById("milesCycled").innerHTML = distanceInMiles
+    document.getElementById("miles-cycled").innerHTML = distanceInMiles
     document.getElementById("count").innerHTML = numberOfRides
     document.getElementById("elevation").innerHTML = elevationInFeet
     document.getElementById("time").innerHTML = convertSecondsToHoursAndMinutes(timeInSeconds)
+    
+    // Same four variables but for the 2024 European trip
+    document.getElementById("euro-miles-cycled").innerHTML = 0 //distanceInMiles - x
+    document.getElementById("euro-count").innerHTML = 0 // numberOfRides - x
+    document.getElementById("euro-elevation").innerHTML = 0 // elevationInFeet -
+    document.getElementById("euro-time").innerHTML = 0 //convertSecondsToHoursAndMinutes(timeInSeconds - )
 }
 
 function convertSecondsToHoursAndMinutes(seconds) {
