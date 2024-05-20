@@ -1,10 +1,13 @@
 var app = angular.module('tripApp',[]);
 app.controller('tileController', function() {
     var trips=[ 
-        
-		
-		
 		{
+            link:'europe_2024/index-2024.html',
+            image:'images/europe-2024-tile.jpg',
+            title:'Europe 2024',
+            category: ['travel']
+        },
+        {
             link:'https://photos.app.goo.gl/YpzMipGwrTfHQUEF7',
             image:'images/dave-60th-tile.jpg',
             title:'Dave\'s 60th',
