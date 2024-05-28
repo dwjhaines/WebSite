@@ -33,30 +33,29 @@ async function getMilage(){
     var timeInSeconds = json_activity.ytd_ride_totals.moving_time
     
     var elevationInFeet = Math.floor(elevationInMetres * 3.280839895)
-    elevationInFeet += " ft"
     var distanceInMiles = Math.floor(distanceInMetres * 0.000621371192)
-    distanceInMiles += " miles"
+
     console.log("Distance so far in miles: " + distanceInMiles)
     console.log("Elevation so far in feet: " + elevationInFeet)
     console.log("Number of rides: " + numberOfRides)
     console.log("Time in seconds: " + timeInSeconds)
 
-    document.getElementById("miles-cycled").innerHTML = distanceInMiles
+    document.getElementById("miles-cycled").innerHTML = distanceInMiles + "miles"
     document.getElementById("count").innerHTML = numberOfRides
-    document.getElementById("elevation").innerHTML = elevationInFeet
+    document.getElementById("elevation").innerHTML = elevationInFeet + "ft"
     document.getElementById("time").innerHTML = convertSecondsToHoursAndMinutes(timeInSeconds)
     
     // Same four variables but for the 2024 European trip
-    document.getElementById("euro-miles-cycled").innerHTML = 0 //distanceInMiles - x
-    document.getElementById("euro-count").innerHTML = 0 // numberOfRides - x
-    document.getElementById("euro-elevation").innerHTML = 0 // elevationInFeet -
-    document.getElementById("euro-time").innerHTML = 0 //convertSecondsToHoursAndMinutes(timeInSeconds - )
+    document.getElementById("euro-miles-cycled").innerHTML = (distanceInMiles - 112) + "miles"
+    document.getElementById("euro-count").innerHTML = numberOfRides - 5
+    document.getElementById("euro-elevation").innerHTML = (elevationInFeet - 4730) + "ft"
+    document.getElementById("euro-time").innerHTML = convertSecondsToHoursAndMinutes(timeInSeconds - 34953)
 }
 
 function convertSecondsToHoursAndMinutes(seconds) {
     var hours = Math.floor(seconds / 3600);
     var minutes = Math.floor((seconds % 3600) / 60);
-    return hours + " h " + minutes + " m";
+    return hours + "h " + minutes + "m";
 }
 
 
