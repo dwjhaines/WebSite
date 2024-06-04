@@ -3,7 +3,7 @@ app.controller('tileController', function() {
     var trips=[ 
 		{
             link:'europe_2024/index-2024.html',
-            image:'europe_2024/images/tiles/week01-tile.jpg',
+            image:'europe_2024/images/tiles/europe-2024-tile.jpg',
             title:'Europe 2024',
             category: ['travel']
         },
