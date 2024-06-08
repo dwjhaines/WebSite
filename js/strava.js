@@ -46,7 +46,7 @@ async function getMilage(){
     document.getElementById("time").innerHTML = convertSecondsToHoursAndMinutes(timeInSeconds)
     
     // Same four variables but for the 2024 European trip
-    document.getElementById("euro-miles-cycled").innerHTML = (distanceInMiles - 112) + "miles"
+    document.getElementById("euro-miles-cycled").innerHTML = (distanceInMiles - 113) + "miles"
     document.getElementById("euro-count").innerHTML = numberOfRides - 5
     document.getElementById("euro-elevation").innerHTML = (elevationInFeet - 4730) + "ft"
     document.getElementById("euro-time").innerHTML = convertSecondsToHoursAndMinutes(timeInSeconds - 34953)
