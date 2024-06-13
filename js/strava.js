@@ -50,6 +50,11 @@ async function getMilage(){
     document.getElementById("euro-count").innerHTML = numberOfRides - 5
     document.getElementById("euro-elevation").innerHTML = (elevationInFeet - 4730) + "ft"
     document.getElementById("euro-time").innerHTML = convertSecondsToHoursAndMinutes(timeInSeconds - 34953)
+    var today = new Date();
+    var start_date = new Date('2024-05-30');
+    var timeinmilisec = today.getTime() - start_date.getTime();
+    var number_of_days = ( Math.floor(timeinmilisec / (1000 * 60 * 60 * 24)) );
+    console.log((distanceInMiles - 113)/number_of_days)
 }
 
 function convertSecondsToHoursAndMinutes(seconds) {
