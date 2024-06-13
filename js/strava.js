@@ -54,8 +54,9 @@ async function getMilage(){
     var start_date = new Date('2024-05-30');
     var timeinmilisec = today.getTime() - start_date.getTime();
     var number_of_days = ( Math.floor(timeinmilisec / (1000 * 60 * 60 * 24)) );
-    console.log((distanceInMiles - 113)/number_of_days)
-}
+    var average = (Math.round((distanceInMiles - 113)*10/number_of_days))/10
+    document.getElementById("miles-per-day").innerHTML = average
+} 
 
 function convertSecondsToHoursAndMinutes(seconds) {
     var hours = Math.floor(seconds / 3600);

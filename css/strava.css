@@ -66,7 +66,7 @@ hr.strava {
     
 .white-box-europe {
     width: 300px;
-    height: 105px;
+    height: 150px;
     background-color: white;
     border: 1px solid #ef560f;
     padding: 6px;
@@ -83,6 +83,10 @@ hr.strava {
 .column {
     width: 75px; /* Calculate 25% width for each column with a 5px margin between them */
     margin-right: 5px; /* Margin between columns */
+}
+.column-wide {
+    width: 150px; 
+    margin-right: 5px;
 }
 
 .column:last-child {
