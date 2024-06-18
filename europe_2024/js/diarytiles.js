@@ -26,7 +26,7 @@ app.controller('tileController', function() {
             category: ['photos']
         },
         {
-            link:'',
+            link:'https://photos.app.goo.gl/PujgwZVXzhea5bUSA',
             image:'images/tiles/week04-tile.jpg',
             title:'2. Euro 2024',
             category: ['photos']
