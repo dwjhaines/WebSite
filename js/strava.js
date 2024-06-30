@@ -56,7 +56,13 @@ async function getMilage(){
     var number_of_days = ( Math.floor(timeinmilisec / (1000 * 60 * 60 * 24)) );
     var average = (Math.round((distanceInMiles - 113)*10/number_of_days))/10
     document.getElementById("miles-per-day").innerHTML = average
+    
+    var percentComplete = Math.min(Math.floor(((distanceInMiles - 113)/1000)*100), 100)
+    console.log(percentComplete)
+    document.getElementById("myBar").style.width=percentComplete+"%"
 } 
+
+
 
 function convertSecondsToHoursAndMinutes(seconds) {
     var hours = Math.floor(seconds / 3600);

@@ -113,7 +113,17 @@ p.data-text {
   margin-top: 0px;
 }
 
+/* Progress Bar Parameters*/
+#myProgress {
+  width: 100%;
+  background-color: red;
+}
 
+#myBar {
+  width: 0%;
+  height: 10px;
+  background-color: green;
+}
 /* The following is all copied from the Strava css file */
 
 .footer .branding {
