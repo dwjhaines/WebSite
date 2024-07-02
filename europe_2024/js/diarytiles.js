@@ -32,6 +32,12 @@ app.controller('tileController', function() {
             category: ['diary']
         },
         {
+            link:'week-06.html',
+            image:'images/tiles/week06-tile.jpg',
+            title:'Week 6',
+            category: ['diary']
+        },
+        {
             link:'https://photos.app.goo.gl/Ay1Yw1Qh4LPvjkda7',
             image:'images/tiles/week01-tile.jpg',
             title:'1. Germany/Italy',
@@ -39,7 +45,7 @@ app.controller('tileController', function() {
         },
         {
             link:'https://photos.app.goo.gl/PujgwZVXzhea5bUSA',
-            image:'images/tiles/week04-tile.jpg',
+            image:'images/tiles/euro24-tile.jpg',
             title:'2. Euro 2024',
             category: ['photos']
         },
