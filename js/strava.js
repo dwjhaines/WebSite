@@ -52,14 +52,15 @@ async function getMilage(){
     document.getElementById("euro-time").innerHTML = convertSecondsToHoursAndMinutes(timeInSeconds - 34953)
     var today = new Date();
     var start_date = new Date('2024-05-30');
+    var target = 1000
     var timeinmilisec = today.getTime() - start_date.getTime();
     var number_of_days = ( Math.floor(timeinmilisec / (1000 * 60 * 60 * 24)) );
     var average = (Math.round((distanceInMiles - 113)*10/number_of_days))/10
     document.getElementById("miles-per-day").innerHTML = average
     
-    var percentComplete = Math.min(Math.floor(((distanceInMiles - 113)/1000)*100), 100)
+    var percentComplete = Math.min(Math.floor(((distanceInMiles - 113)/target)*100), 100)
     console.log(percentComplete)
-    document.getElementById("myBar").style.width=percentComplete+"%"
+    document.getElementById("myBar").style.width=Math.floor(percentComplete)+"%"
 } 
 
 
