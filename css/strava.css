@@ -113,10 +113,10 @@ p.data-text {
   margin-top: 0px;
 }
 
-/* Progress Bar Parameters*/
+/* Progress Bar Parameters - changed from green to red as 100% completed*/
 #myProgress {
   width: 100%;
-  background-color: red;
+  background-color: green;
 }
 
 #myBar {
