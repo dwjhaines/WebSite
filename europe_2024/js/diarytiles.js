@@ -62,8 +62,8 @@ app.controller('tileController', function() {
             category: ['photos']
         },
         {
-            link:'',
-            image:'images/tiles/week07-tile.jpg',
+            link:'https://photos.app.goo.gl/BEwHkEm2qXzFhZPDA',
+            image:'images/tiles/week08-tile.jpg',
             title:'3. Germany/Belgium',
             category: ['photos']
         }
