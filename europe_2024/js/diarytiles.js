@@ -57,14 +57,20 @@ app.controller('tileController', function() {
         },
         {
             link:'https://photos.app.goo.gl/PujgwZVXzhea5bUSA',
-            image:'images/tiles/euro24-tile.jpg',
-            title:'2. Euro 2024',
+            image:'images/tiles/euro24-1-tile.jpg',
+            title:'2. Euro 2024 Pt1',
+            category: ['photos']
+        },
+        {
+            link:'https://photos.app.goo.gl/NDKibn38FwBpN8ee6',
+            image:'images/tiles/euro24-2-tile.jpg',
+            title:'3. Euro 2024 Pt2',
             category: ['photos']
         },
         {
             link:'https://photos.app.goo.gl/BEwHkEm2qXzFhZPDA',
             image:'images/tiles/week08-tile.jpg',
-            title:'3. Germany/Belgium',
+            title:'4. Germany/Belgium',
             category: ['photos']
         }
     ]

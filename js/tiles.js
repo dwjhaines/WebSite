@@ -8,6 +8,12 @@ app.controller('tileController', function() {
             category: ['travel']
         },
         {
+            link:'https://photos.app.goo.gl/JdLu4QKdc1hUu6QeA',
+            image:'images/euro2024-tile.jpg',
+            title:'Euro 2024',
+            category: ['football']
+        },
+        {
             link:'https://photos.app.goo.gl/YpzMipGwrTfHQUEF7',
             image:'images/dave-60th-tile.jpg',
             title:'Dave\'s 60th',
