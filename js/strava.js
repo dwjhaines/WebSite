@@ -45,20 +45,21 @@ async function getMilage(){
     document.getElementById("elevation").innerHTML = elevationInFeet + "ft"
     document.getElementById("time").innerHTML = convertSecondsToHoursAndMinutes(timeInSeconds)
     
-    // Same four variables but for the 2024 European trip
-    document.getElementById("challenge-miles-cycled").innerHTML = (distanceInMiles - 1114) + "miles"
+    // Same four variables but for the 2024 1250 mile challenge
+	var start_milage = 1114;
+    document.getElementById("challenge-miles-cycled").innerHTML = (distanceInMiles - start_milage) + "miles"
     document.getElementById("challenge-count").innerHTML = numberOfRides - 51
     document.getElementById("challenge-elevation").innerHTML = (elevationInFeet - 20009) + "ft"
     document.getElementById("challenge-time").innerHTML = convertSecondsToHoursAndMinutes(timeInSeconds - 377040)
     var today = new Date();
-    var start_date = new Date('2024-07-23');
-    var target = 1000
+    var start_date = new Date('2024-07-24');
+    var target = 1250;
     var timeinmilisec = today.getTime() - start_date.getTime();
     var number_of_days = ( Math.floor(timeinmilisec / (1000 * 60 * 60 * 24)) );
-    var average = (Math.round((distanceInMiles - 1114)*10/number_of_days))/10
+    var average = (Math.round((distanceInMiles - start_milage)*10/number_of_days))/10
     document.getElementById("miles-per-day").innerHTML = average
     
-    var percentComplete = Math.min(Math.floor(((distanceInMiles - 1114)/target)*100), 100)
+    var percentComplete = Math.min(Math.floor(((distanceInMiles - start_milage)/target)*100), 100)
     console.log(percentComplete)
     document.getElementById("myBar").style.width=Math.floor(percentComplete)+"%"
 } 
