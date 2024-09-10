@@ -14,6 +14,12 @@ app.controller('tileController', function() {
             category: ['travel', 'football','beer']
         },
         {
+            link:'prostate-cancer.html',
+            image:'images/prostate-tile.jpg',
+            title:'Prostate Cancer',
+            category: ['hidden']
+        },
+        {
             link:'europe_2024/index-2024.html',
             image:'europe_2024/images/tiles/week03-tile.jpg',
             title:'Europe 2024',
