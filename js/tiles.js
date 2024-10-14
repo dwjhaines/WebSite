@@ -3,7 +3,7 @@ app.controller('tileController', function() {
     var trips=[ 
         {
             link:'finland-2024.html',
-            image:'images/greece2024/finland-2024-tile.jpg',
+            image:'images/finland2024/finland-2024-tile.jpg',
             title:'Estonia & Finland 2024',
             category: ['travel', 'beer']
         },
