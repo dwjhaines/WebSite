@@ -2,8 +2,14 @@ var app = angular.module('tripApp',[]);
 app.controller('tileController', function() {
     var trips=[ 
         {
+            link:'https://photos.app.goo.gl/bMbBHnJnBgjfAcgW8',
+            image:'images/finland2024/estonia-2024-tile.jpg',
+            title:'Estonia & Finland 2024',
+            category: ['football']
+        },
+        {
             link:'finland-2024.html',
-            image:'images/finland2024/finland-2024-tile.jpg',
+            image:'images/finland2024/estonia-2024-tile.jpg',
             title:'Estonia & Finland 2024',
             category: ['travel', 'beer']
         },
