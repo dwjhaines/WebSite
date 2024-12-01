@@ -2,6 +2,12 @@ var app = angular.module('tripApp',[]);
 app.controller('tileController', function() {
     var trips=[ 
         {
+            link:'https://photos.app.goo.gl/JBxA8zDuQgmUAKnd9',
+            image:'images/paddington-tile.jpg',
+            title:'London - November 2024',
+            category: ['beer']
+        },
+        {
             link:'https://photos.app.goo.gl/bMbBHnJnBgjfAcgW8',
             image:'images/finland2024/estonia-2024-tile.jpg',
             title:'Estonia & Finland 2024',
@@ -12,7 +18,7 @@ app.controller('tileController', function() {
             image:'images/finland2024/estonia-2024-tile.jpg',
             title:'Estonia & Finland 2024',
             category: ['travel', 'beer']
-        },
+				},
         {
             link:'greece-2024.html',
             image:'images/greece2024/greece-2024-tile.jpg',
