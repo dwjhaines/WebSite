@@ -218,6 +218,12 @@ app.controller('tileController', function() {
             category: ['football']
         },
         {
+            link:'hospital.html',
+            image:'images/prostate-tile.jpg',
+            title:'Hospital 2022',
+            category: ['hidden']
+        },
+        {
             link:'bonaire-2022.html',
             image:'images/bonaire-2022-tile.jpg',
             title:'Bonaire 2022',
