@@ -2,6 +2,12 @@ var app = angular.module('tripApp',[]);
 app.controller('tileController', function() {
     var trips=[ 
         {
+            link:'https://photos.app.goo.gl/WkgpqNP3nja4nAzo7',
+            image:'images/play-off-2025-tile.jpg',
+            title:'Play-off Final 2025',
+            category: ['football']
+        },
+        {
             link:'munich-2025.html',
             image:'images/munich-2025-tile.jpg',
             title:'Munich 2025',
@@ -226,7 +232,7 @@ app.controller('tileController', function() {
         {
             link:'https://photos.app.goo.gl/UNTbmHaYzgpVBXpo7',
             image:'images/play-off-2022-tile.jpg',
-            title:'Play-off Final',
+            title:'Play-off Final 2022',
             category: ['football']
         },
         {
