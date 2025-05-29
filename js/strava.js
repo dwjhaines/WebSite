@@ -46,11 +46,11 @@ async function getMilage(){
     document.getElementById("time").innerHTML = convertSecondsToHoursAndMinutes(timeInSeconds)
     
     // Same four variables but for the 2024 1250 mile challenge
-	var start_milage = 1114;
+	var start_milage = 97;
     document.getElementById("challenge-miles-cycled").innerHTML = (distanceInMiles - start_milage) + "miles"
-    document.getElementById("challenge-count").innerHTML = numberOfRides - 51
-    document.getElementById("challenge-elevation").innerHTML = (elevationInFeet - 20009) + "ft"
-    document.getElementById("challenge-time").innerHTML = convertSecondsToHoursAndMinutes(timeInSeconds - 377040)
+    document.getElementById("challenge-count").innerHTML = numberOfRides - 6
+    document.getElementById("challenge-elevation").innerHTML = (elevationInFeet - 3826) + "ft"
+    document.getElementById("challenge-time").innerHTML = convertSecondsToHoursAndMinutes(timeInSeconds - 34350)
     var today = new Date();
     var start_date = new Date('2024-07-23');
     var target = 1000;
