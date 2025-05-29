@@ -52,7 +52,7 @@ async function getMilage(){
     document.getElementById("challenge-elevation").innerHTML = (elevationInFeet - 3826) + "ft"
     document.getElementById("challenge-time").innerHTML = convertSecondsToHoursAndMinutes(timeInSeconds - 34350)
     var today = new Date();
-    var start_date = new Date('2024-07-23');
+    var start_date = new Date('2025-06-01');
     var target = 1000;
     var timeinmilisec = today.getTime() - start_date.getTime();
     var number_of_days = ( Math.floor(timeinmilisec / (1000 * 60 * 60 * 24)) );
