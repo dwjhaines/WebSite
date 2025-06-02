@@ -6,7 +6,7 @@ app.controller('tileController', function() {
             image:'images/tiles/week01-tile.jpg',
             title:'Week 1',
             category: ['diary']
-        }/*,
+        },/*
         {
             link:'week-02.html',
             image:'images/tiles/week02-tile.jpg',
@@ -48,13 +48,13 @@ app.controller('tileController', function() {
             image:'images/tiles/week08-tile.jpg',
             title:'Week 8',
             category: ['diary']
-        },
+        },*/
         {
-            link:'https://photos.app.goo.gl/Ay1Yw1Qh4LPvjkda7',
+            link:'https://photos.app.goo.gl/ZPgwjT9Lk4viDN7G8',
             image:'images/tiles/week01-tile.jpg',
-            title:'1. Germany/Italy',
+            title:'1. Europe Part 1',
             category: ['photos']
-        },
+        }/*,
         {
             link:'https://photos.app.goo.gl/PujgwZVXzhea5bUSA',
             image:'images/tiles/euro24-1-tile.jpg',
