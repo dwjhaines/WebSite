@@ -52,7 +52,7 @@ app.controller('tileController', function() {
         {
             link:'https://photos.app.goo.gl/ZPgwjT9Lk4viDN7G8',
             image:'images/tiles/week01-tile.jpg',
-            title:'1. Europe Part 1',
+            title:'1. Europe 2025 Part 1',
             category: ['photos']
         }/*,
         {
