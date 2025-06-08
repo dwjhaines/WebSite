@@ -45,7 +45,7 @@ async function getMilage(){
     document.getElementById("elevation").innerHTML = elevationInFeet + "ft"
     document.getElementById("time").innerHTML = convertSecondsToHoursAndMinutes(timeInSeconds)
     
-    // Same four variables but for the 2024 1250 mile challenge
+    // Same four variables but for the 2025 1250 mile challenge
 	var start_milage = 97;
     document.getElementById("challenge-miles-cycled").innerHTML = (distanceInMiles - start_milage) + "miles"
     document.getElementById("challenge-count").innerHTML = numberOfRides - 6
@@ -53,7 +53,7 @@ async function getMilage(){
     document.getElementById("challenge-time").innerHTML = convertSecondsToHoursAndMinutes(timeInSeconds - 34350)
     var today = new Date();
     var start_date = new Date('2025-06-01');
-    var target = 1000;
+    var target = 500;
     var timeinmilisec = today.getTime() - start_date.getTime();
     var number_of_days = ( Math.floor(timeinmilisec / (1000 * 60 * 60 * 24)) );
     var average = (Math.round((distanceInMiles - start_milage)*10/number_of_days))/10
