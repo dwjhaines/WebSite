@@ -52,27 +52,15 @@ app.controller('tileController', function() {
         {
             link:'https://photos.app.goo.gl/ZPgwjT9Lk4viDN7G8',
             image:'images/tiles/week01-tile.jpg',
-            title:'1. Europe 2025 Part 1',
-            category: ['photos']
-        }/*,
-        {
-            link:'https://photos.app.goo.gl/PujgwZVXzhea5bUSA',
-            image:'images/tiles/euro24-1-tile.jpg',
-            title:'2. Euro 2024 Pt1',
+            title:'1. Kingsclere to Slovakia',
             category: ['photos']
         },
         {
-            link:'https://photos.app.goo.gl/NDKibn38FwBpN8ee6',
-            image:'images/tiles/euro24-2-tile.jpg',
-            title:'3. Euro 2024 Pt2',
+            link:'',
+            image:'images/tiles/week04-tile.jpg',
+            title:'2. Euro 2025',
             category: ['photos']
         },
-        {
-            link:'https://photos.app.goo.gl/BEwHkEm2qXzFhZPDA',
-            image:'images/tiles/week08-tile.jpg',
-            title:'4. Germany/Belgium',
-            category: ['photos']
-        }*/
     ]
     this.weeks=weeks;
 });
