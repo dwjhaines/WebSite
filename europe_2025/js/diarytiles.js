@@ -56,7 +56,7 @@ app.controller('tileController', function() {
             category: ['photos']
         },
         {
-            link:'',
+            link:'https://photos.app.goo.gl/S3Ln9R5ZQ5YpAFDx6',
             image:'images/tiles/week04-tile.jpg',
             title:'2. Euro 2025',
             category: ['photos']
