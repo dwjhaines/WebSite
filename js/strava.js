@@ -53,7 +53,7 @@ async function getMilage(){
     document.getElementById("challenge-time").innerHTML = convertSecondsToHoursAndMinutes(timeInSeconds - 34350)
     var today = new Date();
     var start_date = new Date('2025-06-01');
-    var target = 500;
+    var target = 750;
     var timeinmilisec = today.getTime() - start_date.getTime();
     var number_of_days = ( Math.floor(timeinmilisec / (1000 * 60 * 60 * 24)) );
     var average = (Math.round((distanceInMiles - start_milage)*10/number_of_days))/10
