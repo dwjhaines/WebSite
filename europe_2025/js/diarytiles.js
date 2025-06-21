@@ -18,13 +18,13 @@ app.controller('tileController', function() {
             image:'images/tiles/week03-tile.jpg',
             title:'Week 3',
             category: ['diary']
-        },/*
+        },
         {
             link:'week-04.html',
             image:'images/tiles/week04-tile.jpg',
             title:'Week 4',
             category: ['diary']
-        },
+        },/*
         {
             link:'week-05.html',
             image:'images/tiles/week05-tile.jpg',
