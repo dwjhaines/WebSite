@@ -55,7 +55,7 @@ async function getMilage(){
     var start_date = new Date('2025-06-01');
     var target = 750;
     var timeinmilisec = today.getTime() - start_date.getTime();
-    var number_of_days = ( Math.floor(timeinmilisec / (1000 * 60 * 60 * 24)) );
+    var number_of_days = ( Math.floor(timeinmilisec / (1000 * 60 * 60 * 24)) + 1);
     var average = (Math.round((distanceInMiles - start_milage)*10/number_of_days))/10
     document.getElementById("miles-per-day").innerHTML = average
     
