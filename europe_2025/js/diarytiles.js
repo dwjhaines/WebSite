@@ -62,9 +62,9 @@ app.controller('tileController', function() {
             category: ['photos']
         },
         {
-            link:'',
+            link:'https://photos.app.goo.gl/znLJgymBvK2dfHZx9',
             image:'images/tiles/euro3-tile.jpg',
-            title:'3. Springsteen',
+            title:'3. Slovakia to Milan',
             category: ['photos']
         },
     ]
