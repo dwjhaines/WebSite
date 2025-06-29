@@ -24,13 +24,13 @@ app.controller('tileController', function() {
             image:'images/tiles/week04-tile.jpg',
             title:'Week 4',
             category: ['diary']
-        },/*
+        },
         {
             link:'week-05.html',
             image:'images/tiles/week05-tile.jpg',
             title:'Week 5',
             category: ['diary']
-        },
+        },/*
         {
             link:'week-06.html',
             image:'images/tiles/week06-tile.jpg',
@@ -59,6 +59,12 @@ app.controller('tileController', function() {
             link:'https://photos.app.goo.gl/S3Ln9R5ZQ5YpAFDx6',
             image:'images/tiles/euros-tile.jpg',
             title:'2. Euro 2025',
+            category: ['photos']
+        },
+        {
+            link:'',
+            image:'images/tiles/euro3-tile.jpg',
+            title:'3. Springsteen',
             category: ['photos']
         },
     ]
