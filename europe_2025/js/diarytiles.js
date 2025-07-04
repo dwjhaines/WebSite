@@ -30,13 +30,13 @@ app.controller('tileController', function() {
             image:'images/tiles/week05-tile.jpg',
             title:'Week 5',
             category: ['diary']
-        },/*
+        },
         {
             link:'week-06.html',
             image:'images/tiles/week06-tile.jpg',
             title:'Week 6',
             category: ['diary']
-        },
+        },/*
         {
             link:'week-07.html',
             image:'images/tiles/week07-tile.jpg',
@@ -63,10 +63,16 @@ app.controller('tileController', function() {
         },
         {
             link:'https://photos.app.goo.gl/znLJgymBvK2dfHZx9',
-            image:'images/tiles/euro3-tile.jpg',
+            image:'images/tiles/week05-tile.jpg',
             title:'3. Slovakia to Milan',
             category: ['photos']
         },
+        {
+            link:'',
+            image:'images/tiles/euro3-tile.jpg',
+            title:'4. Böblingen to Kingsclere',
+            category: ['photos']
+        }
     ]
     this.weeks=weeks;
 });
