@@ -63,14 +63,14 @@ app.controller('tileController', function() {
         },
         {
             link:'https://photos.app.goo.gl/znLJgymBvK2dfHZx9',
-            image:'images/tiles/week05-tile.jpg',
+            image:'images/tiles/week05`                                                             -tile.jpg',
             title:'3. Slovakia to Milan',
             category: ['photos']
         },
         {
             link:'',
             image:'images/tiles/euro3-tile.jpg',
-            title:'4. Böblingen to Kingsclere',
+            title:'4. Lots of Cycling',
             category: ['photos']
         }
     ]
