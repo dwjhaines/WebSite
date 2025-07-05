@@ -52,7 +52,7 @@ app.controller('tileController', function() {
         {
             link:'https://photos.app.goo.gl/ZPgwjT9Lk4viDN7G8',
             image:'images/tiles/week01-tile.jpg',
-            title:'1. Kingsclere to Slovakia',
+            title:'1. A Long Drive',
             category: ['photos']
         },
         {
@@ -63,14 +63,14 @@ app.controller('tileController', function() {
         },
         {
             link:'https://photos.app.goo.gl/znLJgymBvK2dfHZx9',
-            image:'images/tiles/week05`                                                             -tile.jpg',
+            image:'images/tiles/week05-tile.jpg',
             title:'3. Slovakia to Milan',
             category: ['photos']
         },
         {
-            link:'',
+            link:'https://photos.app.goo.gl/ViSNCRiu619sFVMB7',
             image:'images/tiles/euro3-tile.jpg',
-            title:'4. Lots of Cycling',
+            title:'4. Beers, Bikes and Rivers',
             category: ['photos']
         }
     ]
