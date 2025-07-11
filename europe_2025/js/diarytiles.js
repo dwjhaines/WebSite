@@ -36,13 +36,13 @@ app.controller('tileController', function() {
             image:'images/tiles/week06-tile.jpg',
             title:'Week 6',
             category: ['diary']
-        },/*
+        },
         {
             link:'week-07.html',
             image:'images/tiles/week07-tile.jpg',
             title:'Week 7',
             category: ['diary']
-        },
+        },/*
         {
             link:'week-08.html',
             image:'images/tiles/week08-tile.jpg',
