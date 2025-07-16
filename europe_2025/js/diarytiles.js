@@ -69,7 +69,7 @@ app.controller('tileController', function() {
         },
         {
             link:'https://photos.app.goo.gl/ViSNCRiu619sFVMB7',
-            image:'images/tiles/euro3-tile.jpg',
+            image:'images/tiles/main-tile.jpg',
             title:'4. Beers, Bikes and Rivers',
             category: ['photos']
         }
