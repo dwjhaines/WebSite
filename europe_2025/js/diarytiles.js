@@ -44,12 +44,6 @@ app.controller('tileController', function() {
             category: ['diary']
         },
         {
-            link:'week-08.html',
-            image:'images/tiles/week08-tile.jpg',
-            title:'Week 8',
-            category: ['diary']
-        },
-        {
             link:'https://photos.app.goo.gl/ZPgwjT9Lk4viDN7G8',
             image:'images/tiles/week01-tile.jpg',
             title:'1. A Long Drive',
