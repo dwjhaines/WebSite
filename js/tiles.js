@@ -2,12 +2,17 @@ var app = angular.module('tripApp',[]);
 app.controller('tileController', function() {
     var trips=[ 
         {
+            link:'https://photos.app.goo.gl/guDx69tkNgxV7Uyi8',
+            image:'images/london-turtles-tile.jpg',
+            title:'London Turtles',
+            category: ['misc']
+        },
+        {
             link:'broken-leg.html',
             image:'images/broken-leg-tile.jpg',
             title:'Broken Leg',
             category: ['hidden']
         },
-        
 				{
             link:'europe_2025/index-2025.html',
             image:'europe_2025/images/tiles/week01-tile.jpg',
