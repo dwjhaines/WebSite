@@ -261,8 +261,8 @@ app.controller('tileController', function() {
         },
         {
             link:'hospital.html',
-            image:'images/prostate-tile.jpg',
-            title:'Hospital 2022',
+            image:'images/hospital-tile.jpg',
+            title:'Pneumonia 2022',
             category: ['hidden']
         },
         {
