@@ -3,7 +3,7 @@ app.controller('tileController', function() {
     var trips=[ 
         {
             link:'pubs_2025/2025_pubs.html',
-            image:'pubs_2025/2025-pubs-tile.jpg',
+            image:'pubs_2025/images/2025-pubs-tile.jpg',
             title:'Pub List 2025',
             category: ['beer']
         },
