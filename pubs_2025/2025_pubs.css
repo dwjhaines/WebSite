@@ -24,7 +24,6 @@
  }
  tr:nth-child(even){background-color: #d4cafc;}
  tr:nth-child(odd){background-color: #ffffff;}
- tr:hover {background-color: #beaffa;}
  th {
  padding-top: 12px;
  padding-bottom: 12px;
@@ -41,7 +40,7 @@
  }
  /* Style the buttons inside the tab */
  .tab button {
- background-color: #def543;
+ background-color: #e1e1e6;
  width: 20%;
 
  border: none;
@@ -54,11 +53,11 @@
  }
  /* Change background color of buttons on hover */
  .tab button:hover {
- background-color: #abc543;
+ background-color: #c9c9f5;
  }
  /* Create an active/current tablink class */
  .tab button.active {
- background-color: #abc543;
+ background-color: #70709c;
  }
  /* Style the tab content */
  .tabcontent {
