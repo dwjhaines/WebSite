@@ -2,6 +2,12 @@ var app = angular.module('tripApp',[]);
 app.controller('tileController', function() {
     var trips=[ 
         {
+            link:'https://photos.app.goo.gl/YUE99e9Kfe24CisE6',
+            image:'images/upside-down-house-tile.jpg',
+            title:'Upside Down House',
+            category: ['misc']
+        },
+        {
             link:'albania-2025.html',
             image:'images/albania2025/albania-tile.jpg',
             title:'Albania 2025',
