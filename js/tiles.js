@@ -1364,7 +1364,7 @@ app.controller('tileController', function() {
             category: ['travel', 'diving']
         },
         {
-            link:'log-book-1.html',
+            link:'dive_logs/log-book-1.html',
             image:'images/log-book-tile.JPG',
             title:'1 - 1000',
             category: ['diving']
