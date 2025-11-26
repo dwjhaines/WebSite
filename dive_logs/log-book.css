@@ -32,4 +32,8 @@
  background-color: #0f0145;
  color: white;
  }
+ 
+ div.tablecontainer {
+  overflow-x: auto;
+}
 
