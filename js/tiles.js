@@ -1370,13 +1370,13 @@ app.controller('tileController', function() {
             category: ['diving']
         },	
         {
-            link:'log-book-2.html',
+            link:'dive_logs/log-book-2.html',
             image:'images/log-book-tile.JPG',
             title:'1001 - 2000',
             category: ['diving']
         },	
         {
-            link:'log-book-3.html',
+            link:'dive_logs/log-book-3.html',
             image:'images/log-book-tile.JPG',
             title:'2001 - 3000',
             category: ['diving']
