@@ -3,7 +3,7 @@ app.controller('tileController', function() {
     var trips=[ 
         {
             link:'ghent-aachen-2025.html',
-            image:'ghent-aachen-2025/images/ghent-aachen-2025-tile.jpg',
+            image:'images/ghent-aachen-2025/ghent-aachen-2025-tile.jpg',
             title:'Ghent/Aachen 2025',
             category: ['beer', 'travel']
         },
