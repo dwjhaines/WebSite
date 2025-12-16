@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -97,8 +98,7 @@
               <th style='width:194pt'>Pub Name</th>
               <th style='width:100pt'>Location</th>
               <th style='width:22pt'></th>
-            </tr>
-            <tr>
+            </tr>n            <tr>
               <td>1</td>
               <td>1/1/25</td>
               <td>The John Jacques</td>
@@ -2440,72 +2440,6 @@
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     <script src="../angular/angular.min.js"></script>
     <script src="../js/tiles.js"></script>
-    <script>
-      function openPubList(evt, listName) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-          tabcontent[i].style.display = "none";
-        }
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-          tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-        document.getElementById(listName).style.display = "block";
-        evt.currentTarget.className += " active";
-      }
-      // Get the element with id="defaultOpen" and click on it
-      document.getElementById("defaultOpen").click();
-    </script>
-		<script>
-			let wOnly = false;
-
-			function normalizeText(text) {
-				return text
-					.toLowerCase()
-					.normalize("NFD")
-					.replace(/[\u0300-\u036f]/g, "");
-			}
-
-			function toggleWFilter() {
-				wOnly = !wOnly;
-				filterTables();
-			}
-
-			function filterTables() {
-				const filter = normalizeText(
-					document.getElementById("tableSearch").value
-				);
-
-				const tables = document.getElementsByClassName("searchable-table");
-
-				for (let t = 0; t < tables.length; t++) {
-					const rows = tables[t].getElementsByTagName("tr");
-
-					for (let i = 1; i < rows.length; i++) {
-						const cells = rows[i].getElementsByTagName("td");
-						let rowText = "";
-						let lastCellText = "";
-
-						for (let j = 0; j < cells.length; j++) {
-							rowText += normalizeText(cells[j].textContent);
-						}
-
-						if (cells.length > 0) {
-							lastCellText = cells[cells.length - 1].textContent.trim();
-						}
-
-						const matchesSearch = rowText.includes(filter);
-						const matchesW = !wOnly || lastCellText === "W";
-
-						rows[i].style.display =
-							matchesSearch && matchesW ? "" : "none";
-					}
-				}
-			}
-			</script>
-
-
-
+    <script src = "pubs.js"></script>
   </body>
 </html>
