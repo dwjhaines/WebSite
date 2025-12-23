@@ -20,8 +20,8 @@ app.controller('tileController', function() {
             category: ['football']
         },
         {
-            link:'pubs_2025/2025_pubs.html',
-            image:'pubs_2025/images/2025-pubs-tile.jpg',
+            link:'pubs/2025_pubs.html',
+            image:'pubs/images/2025-pubs-tile.jpg',
             title:'Pub List 2025',
             category: ['beer']
         },
