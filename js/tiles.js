@@ -2,6 +2,12 @@ var app = angular.module('tripApp',[]);
 app.controller('tileController', function() {
     var trips=[ 
         {
+            link:'pubs/2026_pubs.html',
+            image:'pubs/images/2025-pubs-tile.jpg',
+            title:'Pub List 2026',
+            category: ['beer']
+        },
+        {
             link:'ghent-aachen-2025.html',
             image:'images/ghent-aachen-2025/ghent-aachen-2025-tile.jpg',
             title:'Ghent/Aachen 2025',
@@ -18,12 +24,6 @@ app.controller('tileController', function() {
             image:'images/albania2025/albania-tile.jpg',
             title:'Albania 2025',
             category: ['football']
-        },
-        {
-            link:'pubs/2025_pubs.html',
-            image:'pubs/images/2025-pubs-tile.jpg',
-            title:'Pub List 2025',
-            category: ['beer']
         },
         {
             link:'greece-2025.html',
@@ -72,6 +72,12 @@ app.controller('tileController', function() {
             image:'seasia_2025/images/seasia-2025-tile.jpg',
             title:'S.E. Asia 2025',
             category: ['travel']
+        },
+        {
+            link:'pubs/2025_pubs.html',
+            image:'pubs/images/2025-pubs-tile.jpg',
+            title:'Pub List 2025',
+            category: ['beer']
         },
         {
             link:'https://photos.app.goo.gl/JBxA8zDuQgmUAKnd9',
