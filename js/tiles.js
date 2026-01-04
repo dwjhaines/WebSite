@@ -9,7 +9,7 @@ app.controller('tileController', function() {
         },
         {
             link:'pubs/2026_pubs.html',
-            image:'pubs/images/2025-pubs-tile.jpg',
+            image:'pubs/images/2026-pubs-tile.jpg',
             title:'Pub List 2026',
             category: ['beer']
         },
