@@ -2,7 +2,7 @@ var app = angular.module('diaryApp',[]);
 app.controller('tileController', function() {
     var weeks=[
         {
-            link:'https://photos.app.goo.gl/ghqBDUCAH2xH8iLQA',
+            link:'https://photos.app.goo.gl/kkEQDtzf5zGxiJej9',
             image:'images/part1-tile.jpg',
             title:'1. Malaysia and Thailand',
             category: ['photos']
