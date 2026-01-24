@@ -8,7 +8,7 @@ app.controller('tileController', function() {
             category: ['photos']
         },
         {
-            link:'https://photos.app.goo.gl/cQcvoLkvVJRnwuKm9',
+            link:'https://photos.app.goo.gl/U5vQXLRgbhMCJkdcA',
             image:'images/part2-tile.jpg',
             title:'2. The Similans',
             category: ['photos']
