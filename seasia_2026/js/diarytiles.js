@@ -14,13 +14,13 @@ app.controller('tileController', function() {
             category: ['photos']
         },
         {
-            link:'https://photos.app.goo.gl/Hsqmk8WEjnsUq7h29',
+            link:'https://photos.app.goo.gl/81ZvziaZCeAjpNSLA',
             image:'images/part3-tile.jpg',
             title:'3. Thailand and Laos',
             category: ['photos']
         },
         {
-            link:'https://photos.app.goo.gl/e5P85csCfnRBxmGc8',
+            link:'',
             image:'images/part4-tile.jpg',
             title:'4. Thailand',
             category: ['photos']
