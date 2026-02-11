@@ -24,6 +24,30 @@ app.controller('tileController', function() {
             image:'images/part4-tile.jpg',
             title:'4. Thailand',
             category: ['photos']
+        },
+				{
+            link:'part1.html',
+            image:'images/part1-tile.jpg',
+            title:'1. Malaysia and Thailand',
+            category: ['diary']
+        },
+        {
+            link:'part2.html',
+            image:'images/part2-tile.jpg',
+            title:'2. The Similans',
+            category: ['diary']
+        },
+        {
+            link:'part3.html',
+            image:'images/part3-tile.jpg',
+            title:'3. Thailand and Laos',
+            category: ['diary']
+        },
+        {
+            link:'part4.html',
+            image:'images/part4-tile.jpg',
+            title:'4. Thailand',
+            category: ['diary']
         }
     ]
     this.weeks=weeks;

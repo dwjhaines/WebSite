@@ -1,676 +1,99 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="tripApp">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>S. E. Asia 2026</title>
-    <link rel="icon" type="image/x-icon" href="../favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="../css/styles.css" rel="stylesheet" />
-    <link href="../css/diary2.css" rel="stylesheet">
-    <link href="../css/grayscale.css" rel="stylesheet" />
-    <style>
-      .masthead {
-      position: relative;
-      width: 100%;
-      height: auto;
-      min-height: 35rem;
-      padding: 15rem 0;
-      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("images/bg-masthead-seasia26.jpg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-attachment: scroll;
-      background-size: cover;
-      }
-    </style>
-  </head>
-  <body class="bg-dark" id="page-top">
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container px-4 px-lg-5">
-        <a class="nav-link" href="../index.html">Home</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="photos.html">Photos</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- Masthead-->
-    <header class="masthead">
-      <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
-        <div class="d-flex justify-content-center">
-          <div class="text-center">
-            <h1 class="mx-auto my-0">S. E. Asia</h1>
-            <h2 class="text-white-50 mx-auto mt-2">January/February 2026</h2>
+<html lang="en" ng-app="diaryApp">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>S. E. Asia 2026</title>
+        <link rel="icon" type="image/x-icon" href="../favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="../css/styles.css" rel="stylesheet" />
+        <link href="../css/grayscale.css" rel="stylesheet" />
+        <style>
+          .masthead {
+            position: relative;
+            width: 100%;
+            height: auto;
+            min-height: 35rem;
+            padding: 15rem 0;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("images/bg-masthead-seasia26-1.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+          }
+        </style>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="nav-link" href="../index.html">Home</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="photos.html">Photos</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+                <div class="d-flex justify-content-center">
+                    <div class="text-center">
+                        <h1 class="mx-auto my-0">S. E. Asia</h1>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5">January/February 2026</h2>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Projects-->
+        <section class="projects-section bg-dark" id="projects">
+        <div class="row gx-0 mx-5 mb-lg-0 justify-content-center">
+          <div class="row row-content" ng-controller="tileController as tileCtrl">
+            <div class="col-md-3 col-sm-6 col-xs-12" ng-repeat="week in tileCtrl.weeks | filter:'diary'">
+              <a href="{{week.link}}">
+                <div class="newtiles" style="background-image: url({{week.image}})">
+                  <span class="newtiles">{{week.title}}</span>
+                </div>
+              </a>
+            </div>
           </div>
-        </div>
-      </div>
-    </header>
-    <!-- Projects-->
-    <section class="bg-dark" id="projects">
-      <div class="container">
-        <p class="diary-text-gs">
-          <span class="diary-date">Tuesday 13th January</span>
-          We had booked a taxi to take us to Heathrow for 6am. Unlike the last couple of years, we were back to travelling with all our dive gear which would have made public transport a lot harder. We were up at 5 and were just about ready when the taxi turned up at 5:45. We were dropped at Terminal 4 about an hour later and were able to check straight in for our 10:25 Malaysian Airlines flight to KL. Terminal 4 was not too busy at that time of morning. We got through security fairly quickly and went for breakfast at The Olive Tree (the old Wetherspoons)
-        </p>
-        <p class="diary-text-gs">
-          After eating, we walked to the gate and were able to board by about 9:30. The flight was full but there were three of us in our row of three seats so no extra space for us this time. The flight left on time.
-        </p>
-        <p class="diary-text-gs">
-          Malaysia Airlines were fairly generous with their wine again and it was another reasonably enjoyable flight. We carried on drinking until just over the half-way point. I then dozed for a couple of hours while Roz watched a film. We were served breakfast a couple of hours before landing.
-				</p>
-				<p class="diary-text-gs">
-          <span class="diary-date">Wednesday 14th January</span>  
-					We landed at KLIA 40 minutes earlier than scheduled at 6:35 local time.
-        </p>
-        <p class="diary-text-gs">
-          We got the bus back to the main airport and got through immigration and security relatively smoothly. We then had a couple of hours to wait for our onward flight to Penang. This flight also departed on time and by 10:15, we had arrived in Penang. Luggage started appearing almost as soon as we were off the plane and by 11ish, we were in a taxi heading towards George Town. We were dropped at The Granite Luxury Hotel where we had booked a suite for two nights. Our room was not ready when we arrived which was not good news as we had been travelling for about 22 hours by this point and were both totally worn out. However, we were able to check in and wait in the "Relaxation Suite". This was basically a standard suite with the bed removed and the bedroom converted to another sitting room. We had a settee each and were both asleep just about as soon as we were in there.
-        </p>
-        <p class="diary-text-gs">
-          We were woken about an hour later to be told our room was ready. The room is excellent with a kitchen and lounge area and good views of The Komtar Tower which is just across the road from us. We put our things in the room, Roz had a shower and then we went straight out for breakfast, lunch or whatever meal we are up to now. We had planned to walk to the restaurant that we used to eat at when we stayed the other side of town but found a similar looking place just the other side of the Komtar. No rotis but we both had very good curries. We bought a few things for tonight and returned to the room for a couple of hours sleep.
-        </p>
-        <p class="diary-text-gs">
-          We were up and about by 5ish feeling remarkably refreshed. After showers, we had a few drinks in the room. Roz had bought a box of wine with her and we had also bought a litre of Bacardi from Heathrow. We went out just before 8. We walked to the top end of Lebuh Chulia and then walked down it looking a some of the places we have stayed on previous visits to Penang. We stopped for a drink at The Pokok and then continued to Sri Ananda Bahwan, our favourite restaurant here.
-        </p>
-        <div class="diary-photo-centre"><img
-          border="0"
-          width=100%;
-          src="images/seasia26_001.jpg">
-        </div>
-        <p class="diary-text-gs">
-          After excellent meals, we walked back to Lebuh Chulia where there is an area of quite lively bars. The drinks were quite reasonable so we had a couple of cocktails before getting a taxi back to the hotel.
-        </p>
-        <p class="diary-text-gs">
-          <span class="diary-date">Thursday 15th January</span>  
-					We had not had too much to drink last night so by 9, we were up and ready to go out for breakfast. We went back to where we had eaten lunch yesterday and finally had our first roti canai of the trip.
-        </p>
-        <p class="diary-text-gs">
-          We walked back to the hotel and then had an hour or so by the pool. The pool is an infinity pool with superb views of the Komtar tower and the rest of George Town. It is also very good for swimming in. The only downside is that it is North facing and neither the pool or the sun loungers get any sun at all. This is not too big an issue as we could not spend much time in the sun anyway at the moment.
-        </p>
-        <div class="diary-photo-centre"><img
-          border="0"
-          width=100%;
-          src="images/seasia26_002.jpg">
-        </div>
-        <p class="diary-text-gs">
-          At midday we went out for a walk round the china town area. We wanted to buy antibiotics as these always used to be really cheap in Malaysia but, after eventually finding a pharmacy, we found out that it is no longer possible to buy them over the counter here. We headed to the roti canai place that we always used to have lunch in but found this had closed - things not going well at this point! We headed back to the hotel and stopped somewhere else for lunch instead. Back at the hotel, we returned to the pool for another hour or so.
-        </p>
-        <div class="diary-photo-centre"><img
-          border="0"
-          width=100%;
-          src="images/seasia26_003.jpg">
-        </div>
-        <p class="diary-text-gs">
-          We had a similar evening to yesterday. We started with a few drinks in the room while booking flights for later in the trip. This all took quite a bit of time so I was already starting to feel a bit pissed by the time we left. We got a taxi to Sri Ananda Bahwan where we had very good meals again, this time with beer. After eating, we went to Reggae Bar in the same area we were in last night. They had a very good 7.5% NEIPA of which I had three while Roz had the same number of cocktails. We got a taxi back to the hotel at about 11:30.
-        </p>
-        <p class="diary-text-gs">
-          <span class="diary-date">Friday 16th January</span>  
-					We were a bit later getting up this morning but still went to the same restaurant as yesterday for breakfast. We were due to fly on the 13:45 Firefly flight to Phuket but had already been told yesterday that it would be leaving an hour later than scheduled. After eating, Roz went back to the pool while I stayed in the room.
-        </p>
-        <p class="diary-text-gs">
-          We checked out at midday and ordered a Grab taxi at about 12:30. The traffic was a bit heavier than it was going the other way but we were still at the airport with plenty of time. Check-in was very quick and we had an hour or so to wait for our flight which left on time (i.e. at about 14:45)
-        </p>
-        <p class="diary-text-gs">
-          We got through immigration reasonably smoothly and our luggage was waiting by the time we got downstairs. We had pre-booked a taxi to take us to Nai Yang. We had a bit of a wait for the driver to turn up but by about 4pm, we were dropped off at Isara Resort. We had not stayed here before but thought we should try somewhere new as Nai Yang Beach Resort is frequently full or too expensive. Isara is a much smaller, quieter resort with just 16 rooms. We have a large room a living room type area and a balcony. All seemed quite nice on first impression.
-        </p>
-        <p class="diary-text-gs">
-          After a bit of unpacking, we went out to buy ice-creams and drinks. We returned to the room and went for a bit of a swim before showers. We then started getting some of our dive gear ready for tomorrow.
-        </p>
-        <p class="diary-text-gs">
-          At about 6:30 we walked down and had a look round the beach area. We are staying almost immediately behind the Nai Yang Beach Resort, about a 10 minute walk from the beach. There had been a few changes in the area in front of the resort, mainly the addition of a couple more super-markets. Neither of us were bothered about eating out this evening so we bought take-away fried rice and returned to eat it on our balcony. Did not do a lot else for the rest of the evening apart from getting the cameras ready for tomorrow.
-        </p>
-        <p class="diary-text-gs">
-          <span class="diary-date">Saturday 17th January</span>  
-					After almost four years, it was time to start diving again. I had passed a dive medical in London in November and we had altered this trip so that it would include a one week live-aboard to The Similans. We go on the live-aboard in a weeks time but had decided it would be a good idea to do a couple of days diving to get used to everything again. The diving from Nai Yang is not the greatest but it is easy shallow diving which is exactly what we need after such a long break. 
-        </p>
-        <p class="diary-text-gs">
-          We were up by 7 and went for breakfast which was included with our room. After eating, we got our gear together and walked down to Sea Bees. This was our first time diving with Sea Bees although we had dived from this dive centre fifteen years ago when it was called Paradise Dive. We got there early so had a bit of waiting around but at about 9, we made our way over the road and onto the beach where the boat was waiting. 
-        </p>
-        <p class="diary-text-gs">
-          We were in a group of four divers plus the guide although I think we were the only two paying customers. One of the other divers was temporarily working for Sea Bees and the other was a relative of the owners. There was one other group of three divers as well as four snorkellers on the boat.
-        </p>
-        <p class="diary-text-gs">
-          First dive was at Koh Waeo about 20 minutes away. The dive was OK but the main thing was that we could both complete it without any problems. We are both a bit rusty when it came to using our cameras but the actual diving all felt very straightforward as soon as we were in the water. The second dive was at Stone Coral Garden, a site we had probably dived before but with a different name. All in all, the dives could not have gone much better.
-        </p>
-        <div class="diary-photo-centre"><img
-          border="0"
-          width=100%;
-          src="images/seasia26_005.jpg">
-        </div>
-        <p class="diary-text-gs">
-          We returned to the beach and washed our gear at the dive centre. We decided to do another couple of dives on Monday so left everything there and walked back to Isara. We had showers and went and had lunch in one of the supermarkets on the main road.
-        </p>
-        <p class="diary-text-gs">
-          After eating, Roz went back to the pool and I walked out to the airport. We had planned to hire a car for a couple of days prior to getting on the live-aboard and have a look round the Phang Nga area before driving up to Khao Lak. However, it was not clear whether or not I would need an international driving permit to pick up the hire car and I thought  should go and find out before we booked anything. It turns out that you do not need one to pick up the hire car but it is illegal to drive without one in Thailand. This was quite frustrating as it is totally pointless if you have a UK license and would appear to be law created purely to extract money in fines from people who don't realise it exists. Anyway, it meant that we will not be hiring a car and need to change our plans for the three nights from next Wednesday.
-        </p>
-        <div class="diary-photo-centre"><img
-          border="0"
-          width=100%;
-          src="images/seasia26_006.jpg">
-        </div>
-        <p class="diary-text-gs">
-          We started drinking at 7. A normal Thai session. We had a few drinks on the balcony before walking to Rotcharin Seafood. We drank a half bottle of Sang Som with the meal and then went to look for somewhere showing the Sunderland v Palace game. Tony Bar just round the corner from the restaurant already had it on when we got there. They did not have small bottles of Sang Som so we bought a litre for ฿1200. This did not work out too badly as it included ice and diet coke and kept us going until the end of the game. We watched the game with a local Sunderland supporter and I don't remember much about walking home!
-        </p>
-        <p class="diary-text-gs">
-          <span class="diary-date">Sunday 18th January</span>  
-					We did not do quite as much today as yesterday. We were later going to breakfast and then did not do a lot all day except for lying by the pool or in the room. We did not bother with lunch and did not make it out of the resort until about 6:30 when we went out to eat. Even then, we could not be bothered to walk to the beach but ate at Gold Digger Restaurant just round the corner from where we are staying. We walked out to the main road to stock up on soft drinks and snacks for tomorrow but that was it for today.
-        </p>
-        <p class="diary-text-gs">
-          <span class="diary-date">Monday 19th January</span>  
-					Today we did a repeat of the two dives we did on Saturday. We got to the dive centre at 8:30 and headed off to the boat again just after 9. There were a similar number of people on the boat although everyone was diving today. We were guided by Ham again.
-        </p>
-        <div class="diary-photo-centre"><img
-          border="0"
-          width=100%;
-          src="images/seasia26_007.jpg">
-        </div>
-        <p class="diary-text-gs">
-          The dives were both enjoyable enough again, particularly the second. Although this was probably not quite as nice a site as Ko Waeo, Roz managed to spot an octopus and Ham found a green turtle. It was not the best turtle sighting we have ever had but it was good to see one again anyway. When we got back to the beach, we left most of the dive gear with the dive centre and returned to the room for showers.
-        </p>
-        <p class="diary-text-gs">
-          We had lunch outside the supermarket and then had a couple of hours at the pool. We went out for a walk at 5ish as Roz wanted to buy something for her ears which are slightly blocked/swollen after this mornings dives.
-        </p>
-        <p class="diary-text-gs">
-          We started drinking again at 7. We had a few on the balcony before walking to the beach. Rotcharin Seafood had run out of food apparently so we could not eat there. Instead, we walked to Bank Restaurant a bit further along the beach. This did not work out too badly as the food was good and they were happy to leave us sat on the beach drinking when the restaurant closed.
-        </p>
-        <p class="diary-text-gs">
-          <span class="diary-date">Tuesday 20th January</span>  
-					Another quiet day without a lot to do. It was a bit cooler today than it has been so we were able to spend quite a bit of time at the pool. We did go back to collect our gear from the dive centre and Roz went out to get her nails done in the evening but that was about it for the day. When Roz got back, I went out and got take-away fried rice for tea.
-        </p>
-        <p class="diary-text-gs">
-          <span class="diary-date">Wednesday 21st January</span>  
-					We went to breakfast at 8:00 and then, after a bit of packing, went to the pool for a couple of hours. When we had discovered that we would not e able to hire a car, we had instead booked three nights at The Naithonburi Resort at Nai Thon beach. This is the next beach along from Nai Yang heading away from the airport and somewhere we had not been before.
-        </p>
-        <p class="diary-text-gs">
-          We checked out of Isara at midday and ordered a Grab taxi to take us to Nai Thon. We had a bit of a wait for the taxi but once there, it cost ฿200 instead of the ฿500 that all the taxi companies were charging. We got to The Naithonburi by about 12:30.
-        </p>
-        <p class="diary-text-gs">
-          We were told that our room would not be ready until 2pm. We left our luggage in reception and went for a look around the area. The beach was very nice and there was a good selection of shops and restaurants although there was not much evidence of places that we would be able to eat at on the beach. We had chocolate pancakes for lunch and returned to the resort. We got towels and went to sit by one of the pools while we waited for a room.
-        </p>
-        <p class="diary-text-gs">
-          While Isara had only had 16 rooms, The Naithonburi was a fair bit bigger with about 400.It has a couple of very nice pools with plenty of space covering a huge area. We were shown to our room at 2. It is another big room with a balcony with views of the back pool and also of the surrounding hills. All very nice for a few days. After unpacking, we returned to the front pool for the rest of the afternoon.
-        </p>
-        <div class="diary-photo-centre"><img
-          border="0"
-          width=100%;
-          src="images/seasia26_008.jpg">
-        </div>
-        <p class="diary-text-gs">
-          We had a few drinks in the evening. As usual we started on the balcony. There was still no sign of anywhere to eat on the beach when we went out so we ate at Wiwan's Restaurant on the other side of the road. Despite not being on the beach, this was a very nice restaurant with excellent food. They also sold Sang Som sets of which we managed to consume two before walking back to the hotel.
-        </p>
-        <p class="diary-text-gs">
-          <span class="diary-date">Thursday 22nd January</span>  
-					We were not too hungover today so after a very good breakfast, we were able to spend most of the day by the pool. Apart from a short walk out to buy provisions, did not do too much else all day.
-        </p>
-        <div class="diary-photo-centre"><img
-          border="0"
-          width=100%;
-          src="images/seasia26_009.jpg">
-        </div>
-        <p class="diary-text-gs">
-          In the evening, after our balcony drinks, we went out for our anniversary pizza. There are two pizza places in Nai Thon and we chose Pizza house 57. This proved to be a good choice as it was a nice place to sit, they let us bring our own Sang Som and we had very good pizzas.
-        </p>
-        <p class="diary-text-gs">
-          <span class="diary-date">Friday 23rd January</span>  
-					Another day spent mainly lying by the pool. We had leftover pizza for lunch and did not leave the resort until we went out to eat in the evening. We ate at Wiwan's and were back in the room not long after 8:30.
-        </p>
-        <p class="diary-text-gs">
-          <span class="diary-date">Saturday 24th January</span>  
-					We were awake early and were in breakfast by about 8:30 having already reserved our sun-loungers for the day. We spent most of the rest of the morning by the pool. We returned to the room at 11:15, finished packing and checked out by midday. We left most of our luggage in reception and returned to the pool until 3pm. We had booked a taxi to take us to the airport at 3:30 and it turned up about 15 minutes early. By 3:30 we had been dropped at International Arrivals where we were due to be picked up by Aggressor Adventures.
-        </p>
-        <p class="diary-text-gs">
-          Back in November when I passed my dive medical we had booked ourselves on a one week live-aboard to the Similans. We were picked up from the airport at about 4:30 and driven up the the Tap Lamu pier. Just before 6pm, we boarded the Thailand Aggressor. We were shown to our cabin and set up our equipment ready for tomorrow. After a bit of unpacking, we went upstairs where we were introduced to the crew and other passengers. We had a few briefings about the boat and the diving and also had our evening meal.
-        </p>
-        <p class="diary-text-gs">
-          The boat can take 16 customers but there are just 13 on board so there is plenty of space everywhere, particularly on the dive deck. There is a German couple, a Canadian couple one English bloke and everyone else is American. All the crew are Thai.
-        </p>
-        <p class="diary-text-gs">
-          We had a couple of glasses of wine with the meal but most people headed off to bed as soon as the final briefing was completed.
-        </p>
-        <p class="diary-text-gs">
-          <span class="diary-date">Sunday 25th January</span>  
-					We were up just before 6 and headed upstairs for breakfast 1. We were given a dive site briefing and then split into two groups. We were put in Group A with DJ (American), Alex (English) and Malik & Genevieve (Canadian) and today we were diving first with Bank as our guide.
-        </p>
-        <p class="diary-text-gs">
-          After the briefing, we went downstairs and got our gear on. Most of the diving on this trip will be from RIBs. Our group all got on the first one and were taken to the dive site - Zodiac - a few minutes away. We all got down without too many problems and it was a very good dive to start the trip. As soon as we got in the water, the difference between here and Nai Yang was huge. The visibility was superb in comparison and there were a lot more fish around. As well as all the usual reef fish we saw a couple of morays and a Napoleon Wrasse as well as some of the bigger things like barracuda and jacks. The dive times on this trip are supposed to be limited to 50 minutes due to trying to do 25 dives in six days, but we were underwater for 55 minutes so could not really complain.
-        </p>
-        <p class="diary-text-gs">
-          Back on board, we had breakfast 2 and then the briefing for the second dive. We were back in the water by 10:30, this time at Shark Fin Reef. This was a more typical Similans site with plenty of large boulders. There were still a lot of fish - more than we both remember from our last trip to the Similans. Lunch was served at midday.
-        </p>
-        <p class="diary-text-gs">
-          Dive 3 was at Boulder City. As the name suggests, this was more boulders. A very nice dive with the added bonus of the first hawksbill turtle of the trip. Roz spotted it quite late in the dive as it was going up for air. We waited for it to come back down and she was able to briefly get quite close to it. Fourth dive was at Honeymoon Bay. The start of this was not great but it did improve as we got into the shallower area. All in all a very enjoyable days diving.
-        </p>
-        <div class="diary-photo-centre"><img
-          border="0"
-          width=100%;
-          src="images/seasia26_010.jpg">
-        </div>
-        <p class="diary-text-gs">
-          There was due to be a night dive today but we were told at lunchtime that this had been cancelled. We were told that this was due to us all being too tired which seemed an unlikely reason. It was probably more due to one of the RIBs needing a spare part. Instead of a night dive we were taken back to a beach on Similan #8. Roz and I were not that bothered about going to the beach anyway but by the time we got there, the sun was already setting so we stayed on the boat while most of the others went there for an hour or so.
-        </p>
-        <p class="diary-text-gs">
-          We had our evening meal when everyone returned. We spent the evening talking to Carsten and Katja (the German couple) and were about the last ones to go to bed just before 9.
-        </p>
-        <p class="diary-text-gs">
-          <span class="diary-date">Monday 26th January</span>  
-					A similar day to yesterday as we remained in The Similans. Instead of diving with Bank, we had Bobby the "cruise director" guiding us for the first dive and also had Ja in the water taking photos. Dive 1 was at West of Eden. This was a very nice dive and we saw two hawksbill turtles.
-        </p>
-        <p class="diary-text-gs">
-          We were guided by Ja for the second dive at Deep Six. Roz spotted another hawksbill as soon as we entered the water. Ja was helping one of our group who was having trouble descending so Roz and I went straight down to it and were able to get a few photos before having to move on. The rest of the dive was also very nice. There were a few swim-throughs and at the exit to the last one, there was a small white-tip reef shark. 
-        </p>
-        <div class="diary-photo-centre"><img
-          border="0"
-          width=100%;
-          src="images/seasia26_011.jpg">
-        </div>
-        <p class="diary-text-gs">
-          Dive 3 was also led by Ja and was at Beacon Reef. This was an easy dive drifting along the reef. There was not anything really spectacular about the dive but the coral and the number of fish particularly towards the end made it all very pleasant. This was also the longest dive of the trip so far (58 minutes) as we were able to wait underwater while waiting for the tender to come and pick us up. Very enjoyable all round.
-        </p>
-        <p class="diary-text-gs">
-          Dive 4 was probably not as good as the previous ones today. The sun was starting to go down so there was not as much light. There was a bit of current at the start but although it was still a nice enough dive, there did not seem to be as much to see as on the others. We did see the first decent nudibranch of the trip and Roz did get a brief glimpse of another turtle although I missed it.
-        </p>
-        <p class="diary-text-gs">
-          Today, we were able to do a night dive although it was all a bit shambolic. There were nine divers, all of our group plus three from Group B, all led by Bobby. This was too many divers for a guided night dive and we jumped in just about on top of a group from another boat which added to the confusion. We jumped from the back of the boat and then went along the reef at quite a speed before being bought back to the boat on the RIB. No-one really saw anything of interest and given that it was only a 30 minute dive, we could easily have just swam back to the boat. At least the hot chocolate on our return was good!
-        </p>
-        <p class="diary-text-gs">
-          We had showers and went up for the evening meal which was very good again. Still back in the cabin by 9pm.
-        </p>
-        <p class="diary-text-gs">
-          <span class="diary-date">Tuesday 27th January</span>  
-					Last two dives in the Similans today before heading North. First dive of the day was at Elephant Head Rock. We have dived here before but I do not remember the dive site being so good. Group A was back to diving with Bank today and we were first in the water at 7:00. As soon as we went down we saw an area with four octopus. I only saw three of them but apparently there was a fourth. After that, the dive was all about the spectacular swim-throughs and rock formations. There were a lot of fish around and the whole dive was very enjoyable.
-        </p>
-        <div class="diary-photo-centre"><img
-          border="0"
-          width=100%;
-          src="images/seasia26_012.jpg">
-        </div>
-        <p class="diary-text-gs">
-          The second dive was at Breakfast Bay (also known as Three Trees). The highlight of this dive was probably the huge barrel sponge at the beginning. We spent quite a bit of time over sand, I think looking for guitar sharks but there were plenty of interesting pinnacles along the way.
-        </p>
-        <p class="diary-text-gs">
-          As we had lunch after the second dive, we left The Similans and started making our way towards Koh Bon. We arrived at Koh Bon Bay at about 13:30 and started gearing up straight away. The first dive here was at Koh Bon Ridge. This was quite enjoyable and a change from the granite boulders of The Similans. However, it was hard not to think about previous visits here where we have been surrounded by manta rays for just about the whole dive.
-        </p>
-        <p class="diary-text-gs">
-          We were not overly enthusiastic about dive 4. We were diving Koh Bon Bay and had a very poor dive the last time we did this site. However, it turned out to be the best dive of the day. It started slowly as we went round the bay but as we got round towards the ridge, there was suddenly a lot of activity. There was a bit more current there and a lot of jacks, trevally and tuna hunting all around us. There were plenty of reef fish as well making it quite a spectacular 20 minutes or so to end the dive. Bank also managed to find a Maldivian Sponge Snail which we had been told about in the briefing.
-        </p>
-				<p class="diary-text-gs">
-          The night dive tonight was a lot better than last nights. There were ten of us this time led by Ja but there were no other divers in the water so it was easy enough to keep the group together. There was a lot more to see here. There were a lot of morays out and about and we had a large barracuda that seemed to join the group for most of the dive. Gen and Malik found another Maldivian Sponge Snail and I found a stone fish towards the end of the dive.
-        </p>
-        <p class="diary-text-gs">
-          As soon as everyone was on board after the night dive, we began the journey North to Koh Tachai. We had a few glasses of wine again with the evening meal and were back in the cabin just after 9pm. Arrived in Koh Tachai just after 10.
-        </p>
-        <p class="diary-text-gs">
-          <span class="diary-date">Wednesday 28th January</span>  
-					Today was supposed to start with two dives at Koh Tachai Pinnacle. However, when we woke up, there were seven or eight dive boats on the pinnacle so Bobby decided that for the first dive we would do Koh Tachai reef instead. This was a bit disappointing but it turned into being a very nice dive. There were two octopus at the start of the dive that were very happy to be photographed and the rest of the dive was all quite pleasant and relaxing compared to some of the dives we have done at the pinnacle. The shallow area at the end of the dive was particularly nice.
-        </p>
-        <div class="diary-photo-centre"><img
-          border="0"
-          width=100%;
-          src="images/seasia26_013.jpg">
-        </div>
-        <p class="diary-text-gs">
-					We had a bit of a wait after breakfast for the second dive so that we could dive the pinnacle at slack tide. This worked out well as it was one of our better dives here. We were led by Bobby which was a bit unfortunate as I do not really rate him as a dive guide. He told us we all had to go down holding the line but it was a lot easier to go straight down from where we were dropped. We all made it down safely and met up at the top of the pinnacle. From there, he seemed to want to get round the whole site as quickly as possible. He had us all swimming into current to get to the big school of barracuda which was very spectacular and then left there very quickly to show us a few lobsters. Despite this, it was a very spectacular dive with a lot going on as usual. The barracuda were superb and there were jacks, tuna and giant trevally swimming round us for most of the dive.
-        </p>
-        <p class="diary-text-gs">
-          After about 40 minutes, Bobby had to take Malik up as he had used a lot of air dashing to the barracuda. The rest of Group A were left with Ja and things became a lot more sedate after that. We were able to just stay at the top of the pinnacle and watch what was going on around us. We also managed to make the dive last for more than an hour for the first time on this live-aboard.
-        </p>
-        <p class="diary-text-gs">
-          After the dive, we continued our journey North to the Surin Islands. We arrived at South Surin at around 3pm and got in the water straight away. We dived first at Ao Pakard. We were led by Bobby again. However it was a really nice dive site with very spectacular hard coral formations. Bobby went on ahead with Malik and Gen while the rest of us took our time and followed at some distance behind. A very enjoyable dive.
-        </p>
-        <div class="diary-photo-centre"><img
-          border="0"
-          width=100%;
-          src="images/seasia26_014.jpg">
-        </div>
-        <p class="diary-text-gs">
-          Dive 4 of the day was with Ja at Pineapple Bay. Despite being told that this was a wall dive, it was a very similar sloping reef to the previous site. The coral would probably have been as spectacular as the previous dive but the sun was already going down when we went in the water and there was not as much light. We did have the bonus of two hawksbill turtles swimming past us towards the end of the dive.
-        </p>
-        <p class="diary-text-gs">
-          Dinner tonight was unbelievably good steak. We had a few glasses of wine with the meal as usual and were back in the cabin by 9.
-        </p>
-        <p class="diary-text-gs">
-          <span class="diary-date">Thursday 29th January</span>  
-					Today we were due to do four dives at Richelieu Rock which was about an hour away from South Surin where we had moored overnight. We were woken by the ships engines starting just before 5:00 but then we did not seem to be going anywhere. At 6:00, we were still in the same place due to the ship's anchor being tangled in abandoned fishing gear. Bobby eventually managed to free it and by 6:30 we were on our way.
-        </p>
-        <p class="diary-text-gs">
-          We arrived at Richelieu slightly later than planned and did not get into the water for the first dive until 7:40. The dive, however, was superb. Group A was first in the water and we were diving with Bank again. We also had Ja in with us as she was taking photos. We all went straight down to the sea-horse at about 24m although it was not in a great position for being photographed. While we were still queuing to take photos, Bobby came along with Group B. There was then a bit of confusion as Bank let them look at it before going back for a second look himself. When Group B and Ja moved on, most of our group went with them leaving me, Roz and Bank to do most of the dive on our own.
-        </p>
-        <p class="diary-text-gs">
-          This could not have worked out much better for us. We not only avoided our group but managed to stay clear of most of the other divers on the site. Bank was able to point out a lot of smaller stuff to us to look at when not looking at all the usual activity going on out in the blue. Excellent dive to start the day.
-        </p>
-        <p class="diary-text-gs">
-          Dive 2 was at 10:45. This was very good again. The amount of fish on this site is incredible and you don’t really need to go looking for anything special, you could easily spend the whole dive in one spot watching everything going on around you. Our group managed to stay together on this dive. The highlight of the smaller stuff was the first ghost pipe fish we have seen for a few years. Unfortunately, my camera battery had gone flat just before we came to it.
-        </p>
-        <div class="diary-photo-centre"><img
-          border="0"
-          width=100%;
-          src="images/seasia26_015.jpg">
-        </div>
-        <p class="diary-text-gs">
-          Dive 3 was similar again. We went straight down to the sea-horse which this time was far happier to have its photo taken. All the usual stuff here plus an excellent octopus towards the end of the dive. The fourth dive here was as good as any of the others. Bank spent a lot of time looking for small things while the rest of us just watched all the fish swimming around us. The first part of the dive was incredible and the end up in the shallows also very good. All in all, a very good days diving!
-        </p>
-        <p class="diary-text-gs">
-          It was a relatively early end to the diving today and we were able to watch the sunset as we made our way back to South Surin Island. Dinner was served at 7pm. Once again, a very good meal with a few glasses of wine. Back in the room by 9 as usual.
-        </p>
-        <p class="diary-text-gs">
-          <span class="diary-date">Friday 30th January</span>  
-					First dive today was at Torinla Island just South of South Surin where we had stayed the night. This was a nice enough dive if not quite as spectacular as some of the sites on the  previous days. Group A was led by Ja today for all three dives. The site was mainly boulders at about 10 - 15 metres with sand sloping down deeper. We spent quite a bit of time in the deeper sandy area looking for Picachu nudis and Ja did eventually find one. 
-        </p>
-        <p class="diary-text-gs">
-          After the dive we began heading back down South. We are returning to Tap Lamu this evening with a couple of stops on the way. First stop was Koh Tachai where we dived the pinnacle again. This was probably the quietest we have ever seen this dive site. There was no current at all, not that many divers and probably not as many fish as usual. It was all very enjoyable and we got to see a hawksbill turtle eating a jellyfish. Sadly, it was a bit higher than us so we did not go up to see it too closely.
-        </p>
-        <div class="diary-photo-centre"><img
-          border="0"
-          width=100%;
-          src="images/seasia26_016.jpg">
-        </div>
-        <p class="diary-text-gs">
-          The third dive of the day and the last of the trip was back at Koh Bon Reef. This was probably not the best dive of the trip but was still thoroughly enjoy enjoyable. There was no-where near as much activity around the ridge as when we were here a few days ago but there were enough fish around and we found a small sea-snake at the  end of the dive. A nice easy dive to end the trip with.
-        </p>
-        <div class="diary-photo-centre"><img
-          border="0"
-          width=100%;
-          src="images/seasia26_017.jpg">
-        </div>
-        <p class="diary-text-gs">
-          We have really enjoyed all the diving on this trip. Three months ago I still did not know whether or not I would ever dive again. The fact that I have been able to complete all 25 dives on a live-aboard is beyond what I could reasonably have hoped for. The diving on this trip has been very good but I've enjoyed even the not-so-good dives. There has been no problems at all diving despite the four year break and it has just been unbelievably good to be back underwater again.
-        </p>
-        <p class="diary-text-gs">
-          Back on the boat we washed our gear and got it out in the sun in an attempt to dry it all out by tomorrow. We then had a few hours to kill as the boat made its way back to Tap Lamu. I had my first beer of the live-aboard and we spent the rest of the time sorting out cameras, downloading photos and sitting around chatting.
-        </p>
-        <div class="diary-photo-centre"><img
-          border="0"
-          width=100%;
-          src="images/seasia26_018.jpg">
-        </div>
-        <p class="diary-text-gs">
-          At 7pm we had a bar-b-q meal and awards presentations. After eating, medals and certificates were given to those of us who had completed all 25 dives. Eight of the thirteen divers on the boat achieved this including all of Group A. We all said our thank yous to the staff, paid our bills and were given glasses of Prosecco. Roz and Katya managed to get through most of a second bottle between them while I had a few extra glasses of Thai white wine. It was a very enjoyable evening to end the trip although still not too late a night.
-        </p>
-        <p class="diary-text-gs">
-          <span class="diary-date">Saturday 31st January</span>  
-					We were awake before 6:00 and after packing up the remainder of our luggage, we went up for breakfast. The boat had been moored a short distance away from the pier so we had docked by the time we got upstairs. After eating we said goodbye to the staff and half the group who were in different transport and were then taken by mini-van back to Phuket. By about 9:30 we were back at Isara Resort at Nai Yang.
-        </p>
-        <div class="diary-photo-centre"><img
-          border="0"
-          width=100%;
-          src="images/seasia26_019.jpg">
-        </div>
-        <p class="diary-text-gs">
-          Our room was not ready when we arrived but the previous occupants had already checked out so we were able to get into the room about 30 minutes later. We waited by the pool and spent most of the rest of the day there. We walked to the beach for lunch (banana and chocolate pancakes and banana shakes) before returning to the pool for the afternoon.
-        </p>
-        <p class="diary-text-gs">
-          In the evening, we had a couple of drinks on the balcony while looking at some of the photos from the last week. We ate at Gold Diggers and got through slightly more Sang Som than we intended to. We did not manage to stay awake for the football.
-        </p>
-        <p class="diary-text-gs">
-          <span class="diary-date">Sunday 1st February</span>  
-					We got up, had breakfast and finished packing and put our big bags into the luggage room. We had booked a taxi for 9:30 and it turned up a few minutes early. We were dropped at the airport, went straight through security and were in the departures area by 9:45. We then had a two hour wait for our Air Asia flight to Don Mueang. We departed on time and got to Don Mueang at about 1:20pm.
-        </p>
-        <p class="diary-text-gs">
-          After a long walk through the airport, we had a wait of about 10 minutes for a taxi and then a journey of 55 minutes to the Mövenpick Hotel on Sukhumvit 15. We had not stayed here before but were tempted by the free chocolate hour. We checked in dropped our stuff in the room and went out to get something to eat. We ate at a food court on Sukhumvit Road and had the spiciest meals we have had since getting to Thailand. We were not able to buy alcohol anywhere today before 6pm due to there being elections. We returned to the room to wait for chocolate hour to start.
-        </p>
-        <p class="diary-text-gs">
-          Chocolate hour was a very healthy experience with an all you can eat selection of chocolate cake, chocolate pudding, chocolate biscuits and a chocolate fountain. After we had eaten more than enough chocolate, we returned to the room for showers.
-        </p>
-        <p class="diary-text-gs">
-          We went out at 6 when everywhere was serving alcohol again. We went first to "The Old German Beerhouse on 11". There was a bit of confusion about the location of this as it was not in the same place as when we went in it a couple of years ago but we eventually worked out that there are two of them very close together. We had a wheat beer in there and then crossed Sukhumvit to Soi 8 where there were a couple of craft beer bars.
-        </p>
-        <div class="diary-photo-centre"><img
-          border="0"
-          width=100%;
-          src="images/seasia26_020.jpg">
-        </div>
-        <p class="diary-text-gs">
-          We had a few drinks in The Brewhouse and then went to The  Tipsy Tap where they had the same 7.5% IPA that I had been drinking in Penang (Heart of Darkness - Loose Rivet). A couple of pints of this each and things were starting to get a bit messy. On the way home, we stopped for one in "The Old German Beerhouse on 13" while watching the end of the football and were back in the hotel just after 11.
-        </p>
-        <p class="diary-text-gs">
-          <span class="diary-date">Monday 2nd February</span>  
-					We did not do a lot today. There were not really any sights that we wanted to see in Bangkok as we will have plenty of temples lined up for the next few weeks. We decided to have a couple of quiet days at the hotel instead. Roz went to the pool in the morning while I stayed in the room.
-        </p>
-        <p class="diary-text-gs">
-          We made it out of the hotel by 11:30 and got the Sky Train to MBK for a late breakfast in the food hall. After buying a few things we needed, we got the train back and had an hour or so by the pool before chocolate hour.
-        </p>
-        <div class="diary-photo-centre"><img
-          border="0"
-          width=100%;
-          src="images/seasia26_021.jpg">
-        </div>
-        <p class="diary-text-gs">
-          We went back down to the bar at 6 and had our welcome drinks while booking a few things for the next week. We left the hotel at 7 and got the Sky Train to the Asia Hotel and went for a few beers at Feat Lab. We walked from there back to the MBK and had an excellent meal at Ban Khun Mae. After eating, we found another craft beer place - Sip 'n Drip - somewhere we had not been to before. After one in there, we made the mistake of ordering a taxi to get us back to Sukhumvit. We were not expecting so much traffic at this time but it took a lot longer than the Sky Train would have done. We had a couple more beers in The Old German Beerhouse on 13 before returning to the hotel.
-        </p>
-        <p class="diary-text-gs">
-          <span class="diary-date">Tuesday 3rd February</span>  
-					Another day of not doing a lot. Roz went out to buy breakfast from 7-Eleven and we headed up to the pool at around 11:30. We stayed there a few hours before coming back down for chocolate hour. After eating way too much chocolate for the third day in a row, I went for a walk and Roz went for a swim. We had no idea where we would eat to night but I had walked past Madam Saranair Restaurant earlier and we decided to it it a go. This turned out to be a very good choice as the food was excellent. We had a much needed night off alcohol and were back in the room by 8:45.
-        </p>
-        <p class="diary-text-gs">
-          <span class="diary-date">Wednesday 4th February</span>  
-					Due to our quieter night last yesterday, we were able to start the day in a slightly healthier way this morning. We were both up by 8:30. Roz went for a swim while I went for a 5km run in the gym for the first time on this trip. Roz went out to buy breakfast again and we were then able to have a few hours by the pool. We returned to the room for showers and checked out at 3.
-        </p>
-        <div class="diary-photo-centre"><img
-          border="0"
-          width=100%;
-          src="images/seasia26_022.jpg">
-        </div>
-        <p class="diary-text-gs">
-          We caught the BTS to MBK again and had a late lunch in the food court. We then got the BTS back and went for the fourth chocolate hour of our stay here. At 5, we got the free shuttle tuk-tuk from the hotel to Terminal 21, a shopping centre next to Sukhumvit MRT station. There were direct trains from there to Bang Sue which is a short walk from Krung Thep Aphiwat Central Terminal Station from where we were due to get the 21:25 train to Vientiane. As the journey had all gone smoothly, we arrived at the station with 3 hours to spare.
-        </p>
-        <p class="diary-text-gs">
-          The three hours at the station went quite quickly despite no having a lot to do. We started boarding on time at 21:05 and departed 20 minutes later, also on time.
-        </p>
-        <div class="diary-photo-centre"><img
-          border="0"
-          width=100%;
-          src="images/seasia26_023.jpg">
-        </div>
-        <p class="diary-text-gs">
-          The train is a different layout to all the other overnight trains we have been on previously. This one has open compartments with four bunks in each one. We had the two upper bunks in our compartment (the lower ones were sold out). There is plenty of space by our heads to store luggage and there is a lot more room on the upper bunks than there is on the other trains. We have an electric socket each in the compartment and all in all, it is a lot more comfortable. We got to sleep at about 11:00.
-        </p>
-        <p class="diary-text-gs">
-          <span class="diary-date">Thursday 5th February</span>  
-					We were awake by about 6:30 after a reasonable night's sleep. All the bedding was put away and we were left in the compartment on our own for the remainder of the journey as one of the ones in the compartment went to join her friends and the other one got off the train. The train stopped in Nong Khai at 7:55. Everyone got off the train and the carriages not going to Laos were removed. Those of us who were going to Laos had to go through immigration to exit Thailand and then re-board the train. As soon as everyone had got through, the train continued its journey. It was about another ten minutes until we crossed The Friendship Bridge into Laos. We arrived at Vientiane Khamsavath station a few minutes early at 9:00.
-        </p>
-        <p class="diary-text-gs">
-					At the station, it was all fairly chaotic as everyone tried to get through Laos immigration. We had not bought e-visas meaning that we had to fill out the forms to get visas-on-arrival. We think this worked out quicker for us as we were two of the first to get process and were able to by-pass the queues for people that did have e-visas. Outside the station, there were not too many options for transport into Vientiane. The taxi drivers knew we were not in a good bargaining position so we had to pay ฿500 to get taken to Xaysomboun Hotel and Spa. We checked in but could not have our room yet so headed off to start our sight-seeing.
-				</p>
-        <p class="diary-text-gs">
-          We started off by trying to get some Laos Kip as we had none with us. Last time we arrived in Laos we had problems finding a cashpoint that would work and today was no different. We tried a few banks before going over to Patuxai, a 1960's war memorial. After stopping here for a few photos we continued our search for money and eventually found a bank that would change some Thai Baht for us. This meant that we could stop for breakfast before walking to our next sight Pha That Luang.
-        </p>
-        <div class="diary-photo-centre"><img
-          border="0"
-          width=100%;
-          src="images/seasia26_024.jpg">
-        </div>
-        <p class="diary-text-gs">
-          We had visited Pha That Luang in 2001 but the whole area between the temple and our hotel had changed beyond recognition. We remember small residential roads with very little traffic. Where these were, there are now busy dual-carriageways and modern office blocks. Pha That Luang probably had not changed much in 25 years and was still a spectacular sight. We walked around the main temple and then spent some time walking round some of the near-by buildings which were equally impressive, particularly the area with the reclining Buddha.
-        </p>
-        <p class="diary-text-gs">
-          We got a tuk-tuk back to the hotel by about 12:30 by which time we could check into our room. We had been upgraded to a "Junior Suite" so had a very nice room with loads of space for about £30 for the night. After much needed showers, Roz went to the pool for an hour or so while I stayed in the air-conditioning.
-        </p>
-        <div class="diary-photo-centre"><img
-          border="0"
-          width=100%;
-          src="images/seasia26_025.jpg">
-        </div>
-        <p class="diary-text-gs">
-          We went out again to continue our sight-seeing at 3. We walked to Wat Sisaket stopping for photos of That Dam Stupa along the way. Wat Sisaket was all quite interesting again and was another place that we had visited 25 years ago. We then managed to find a bank (BCEL) that not only let us take out money out but only charged 0.5% which was considerably better than anywhere else. We walked along parallel to the river and found a bakery for something to eat before walking back to the hotel.
-        </p>
-        <p class="diary-text-gs">
-          By the time we got back, we did not have much time until sunset which was one of the highlights when we were here before. We had showers and walked back down to the river. This was all a bit of a disappointment. Last time we were here you could sit at little stalls, each with a few plastic chairs, drinking Beerlao as the sun went down. It was a lovely peaceful spot to sit for a couple of drinks at the start of the evening. Today the section of the river that we used to sit by had dried up and we were a long way from the main river. There is now a busy dual-carriageway running along parallel to the river with lots of high-rise buildings on the other side. There is a huge night-market and a large fun-fair all generating plenty of noise..... and there was no-one selling Beerlao. The sunset itself was still nice enough and we sat watching until the sun had completely disappeared but it was certainly not the same any-more.
-        </p>
-        <p class="diary-text-gs">
-          We managed to get back across the dual-carriageway and walked to The Tipsy Elephant, a rooftop bar where we planned to stop for a drink. This did look very nice but was completely full so we could not get a table. We left there and spotted Nazim's Indian Restaurant over the road. We had already decided that we would eat Indian food tonight and are fairly sure that this was a branch of the same chain of restaurants that we ate in 25 years ago. We had excellent curries and a couple of large bottles of Beerlao (₭30,000 or £1 each) before walking back to the hotel for an early night.
-        </p>
-        <p class="diary-text-gs">
-          <span class="diary-date">Friday 6th February</span>  
-					We were awake early and went for breakfast at about 7. We checked out of the hotel at 7:45 and went outside to try and get taxi to the train station. We knew roughly what the price should be from the LOCA taxi app. The first tuk-tuk that stopped wanted ₭400,000 but came down to ₭200,000 fairly quickly. It was a journey of about 40 minutes to the station.
-        </p>
-        <p class="diary-text-gs">
-          The station was not the same as the one we had arrived at yesterday but was slightly further out at Don Noun. This was another huge new station built with Chinese money mainly to cater for trains to and from China. We had booked tickets for the 9:50 train to Luang Prabang. We got to the station at about 8:30 and first had to go and collect tickets. We had booked through 12go.com and had confirmation but not the actual tickets. We were directed to the ticket office where it was not obvious which desk we had to go to. In proper Chinese fashion, we were told to get in one queue then when we were near the front of that one, we were told to go somewhere else. However, when we were standing in the second queue, a woman appeared with our tickets in her hand. After checking our passports, we were given the tickets and made our way into the station.
-        </p>
-        <p class="diary-text-gs">
-          We had to go through airport type security to get into the station. Here we lost the bottle of Sang Som that we had bought with us from Bangkok. An unopened bottle of wine was allowed through but not the Sang Som, apparently because it had been opened. Once through security we had a wait of about 45 minutes for the train.
-        </p>
-        <div class="diary-photo-centre"><img
-          border="0"
-          width=100%;
-          src="images/seasia26_026.jpg">
-        </div>
-        <p class="diary-text-gs">
-          We boarded at 9:30 and took our seats in the first class compartment. The trains are all new and very comfortable. The compartment was only 25% full so we had a couple of seats each although it did fill up a bit when we stopped at Vang Vieng. All very different to our last journey in this direction from Vientiane!
-        </p>
-        <p class="diary-text-gs">
-          We arrived in Luang Prabang on time at 11:50. Being in first class meant that we were in the centre of the train so were out of the station fairly quickly. After a bit of haggling, we got offered a lift into town for ₭200,000. They said this would be just for us but we ended up sharing with two other blokes. This didn't really matter as we left straight away and we were dropped off first. We were dropped at My Dream Resort just after midday.
-        </p>
-        <p class="diary-text-gs">
-          We had booked three nights here for Roz's birthday. We had to wait by the pool for an hour and were then given our "private villa". This is a lovely big room with a vary nice balcony overlooking the garden. We did a bit of unpacking then went out for lunch and a bit of a look round. It was about a 20 minute walk from the resort to the start of the "Historic District". We had lunch at a cafe then walked along The Nam Khan river to where it flows into The Mekong. After a few photos there, we went to have a look around Wat Xiengthong which is at the meeting point of the rivers. 
-        </p>
-        <div class="diary-photo-centre"><img
-          border="0"
-          width=100%;
-          src="images/seasia26_027.jpg">
-        </div>
-        <p class="diary-text-gs">
-          We walked back to the centre along The Mekong and had a look at a few restaurants for tomorrow night without finding anything that looked too promising. We went into one more wat before walking all round Phousi Hill. This is apparently the best spot for watching the sunset but there were far too many people around so we decided not to climb it. We had a look at a couple of supermarkets but white wine seems very hard to get here for some reason so we were not able to get anything to replace our confiscated Sang Som. We got back to the hotel before 6 having spotted a reasonable looking Italian restaurant for tomorrow on the way. 
-        </p>
-        <p class="diary-text-gs">
-          We were both worn out again by the time we were back. We had a couple of beers on our balcony and then ate at the resort restaurant. We were back in the room just after 9.
-        </p>
-        <p class="diary-text-gs">
-          <span class="diary-date">Saturday 7th February</span>  
-					We got up, had breakfast and decided to go straight out and do today's sight-seeing before it got too hot. We were thinking of climbing Phousi Hill but Roz has had a bad knee for the last couple of days so we decided to put that off until tomorrow. We headed instead to the Royal Palace & National Museum.
-        </p>
-        <p class="diary-text-gs">
-          This was not actually that interesting. There was a nice enough wat there that you could not go into but the rest of the buildings were not that spectacular. Roz went into the main bit but I would have had to deposit my bag and camera so I could not be bothered. We left there and walked to Wat May Souvannapoumaram, just about next door. This  was the temple featured on the cover of our Lonely Planet 25 years ago. We did not manage to get a picture of a monk in the doorway this time but it was nice enough to wander round anyway.
-        </p>
-        <div class="diary-photo-centre"><img
-          border="0"
-          width=100%;
-          src="images/seasia26_028.jpg">
-        </div>
-        <p class="diary-text-gs">
-          We started walking back towards the resort stopping at a BCEL ATM for more cash. On our way back we stopped at Wat Wisunarat. We had walked past this a couple of times and decided we may as well go in. This was a good move. The outside bit was quite all quite nice again but at the last minute we decided to go into the main hall there. This contained the largest Buddha in Luang Prabang as well as a lot of smaller Bhuddas. Probably my favourite sight so far here. We were back in our villa by about 12:30.
-        </p>
-        <p class="diary-text-gs">
-          I did go out for another walk but we spent most of the rest of the afternoon by the pool.
-        </p>
-        <p class="diary-text-gs">
-          We started the birthday celebrations at 6. I had managed to find a bottle of Sauvignon Blanc for Roz. She had a few glasses of that and I had a couple of bottles of Beerlao IPA while sat on the balcony having a video call with Jane. We started walking back into the centre at about 7:30 and stopped for a drink at Khua Kao the restaurant just the other side of The Old French Bridge. We ate at La Silapa where we had very good pizzas and a couple more bottles of wine.
-        </p>
-        <div class="diary-photo-centre"><img
-          border="0"
-          width=100%;
-          src="images/seasia26_029.jpg">
-        </div>
-        <p class="diary-text-gs">
-          When we had finished the second bottle we went off to try and find somewhere showing the Arsenal v Sunderland game. We had expected it to be on in Outback Laos but they didn't have the right channel. They directed us down the road to Redbul Restaurant & Bar which was quite busy and had a few other Sunderland fans in. We didn't have the best of views of the game but we stayed until Sunderland went 2 - 0 down in the second half before getting a tuk-tuk home. We finished the bottle of wine before going to bed.
-        </p>
-        <p class="diary-text-gs">
-          <span class="diary-date">Sunday 8th February</span>  
-					We both felt quite rough when we woke up so did not do a lot all morning. We got up and went to breakfast and then went back to sleep until midday. At midday we got up and went to the pool for a couple of hours by which time we had just about fully recovered. We had leftover pizza on the balcony for lunch and then returned to the pool. Neither of us could be bothered with the planned walk up Phousi Hill! I had another walk round the Historic District to get my steps in but that was about it for the afternoon.
-        </p>
-        <p class="diary-text-gs">
-          We went out at 6:30. Swansea were kicking off at 7:00 and we did not know if the Redbul place we were in last night would show it. They had a look through all their channels but could not find it. We watched the first half on my phone while we ate and then walked back at half time. The hotel's Wi-Fi was not good enough to be able to watch the second half but we followed the game on Flash Scores while finishing our last Beerlao. Both in bed before 9.
-        </p>
-        <p class="diary-text-gs">
-          <span class="diary-date">Monday 9th February</span>  
-					We were up at 5:45 and after a brief look outside the hotel for monks, we packed up and checked out. We were picked up by minibus at about 6:20 and driven to the river for the start of our two day cruise up The Mekong. We had done this journey by public boat 25 years ago but had gone a bit more upmarket this time. We had booked through Mekong Cruise but ended up on a boat belonging to Mekong Lover Cruise. The boats can take up to 40 passengers but there were only 8 of us today so it was all very comfortable. There was a French family of four and a French/Belgian couple as well as us
-        </p>
-        <p class="diary-text-gs">
-          We set off at about 7. The total distance for the trip was 380km. Day one included one stop at Pak Ou Caves, home to over 2,000 Buddha statues and a revered pilgrimage site for the Lao people. The stop came after a couple of hours. It was all quite good and worth seeing although not sure it would have been worth a dedicated trip from Luang Prabang. We were given about 40 minutes to see the statues before continuing up river. A very good lunch was served at about 12:30.
-        </p>
-        <div class="diary-photo-centre"><img
-          border="0"
-          width=100%;
-          src="images/seasia26_030.jpg">
-        </div>
-        <p class="diary-text-gs">
-          The day was spent lazing around on the boat, reading or just watching the scenery as we went past. With only 8 passengers, there was loads of space for lying around - a complete contrast to the last time we did it. Also unlike last time, we managed to get to Pak Beng the intended overnight stop. We arrived there at about 4:45 and were met by drivers from our hotels. We were driven to The Luang Say Lodge along with the French/Belgian couple.
-        </p>
-        <p class="diary-text-gs">
-          A night at The Luang Say Lodge was included in the cost of our cruise. Our room did not have a balcony but did have plenty of windows offering nice views of the river.
-        </p>
-        <div class="diary-photo-centre"><img
-          border="0"
-          width=100%;
-          src="images/seasia26_031.jpg">
-        </div>
-        <p class="diary-text-gs">
-          The hotel was a bit isolated meaning that we just about had to eat in the restaurant. The only option was the $25 set menu. This was a few courses and included the best laab we have ever had in Laos. We ate the meal with a couple of Beerlao's and were back in the room by 8:30
-        </p>
-        <p class="diary-text-gs">
-          <span class="diary-date">Tuesday 10th February</span>  
-					Another 5:45 start this morning. We got up, packed and went to reception to check out and pay for last night's meal. At 6:20, the four of us were taken back to the boat where we were joined about five minutes later by the French family. We left Pak Beng and continued our journey up-river at 6:45.
-        </p>
-        <p class="diary-text-gs">
-          Today's "excursion" was a visit to a village, an hour or so after we had left Pak Beng. This was not particularly exciting. It involved climbing up a sandy bank and a few steps to get to about 20 or so bamboo huts. We walked through the village stopping to hear assorted bits of information about the locals. We were all stood around watching a group of women who breast-feed each other's babies when the Belgian woman in our group, who had not been well yesterday, feinted which I think bought the excursion to a premature end.
-        </p>
-        <div class="diary-photo-centre"><img
-          border="0"
-          width=100%;
-          src="images/seasia26_032.jpg">
-        </div>
-        <p class="diary-text-gs">
-          She recovered quite quickly and went straight back to the boat with her other half. The rest of us had a slightly longer walk but were all back on the boat within about 10 minutes of the incident. The highlights of the visit were probably a piglet and some friendly local dogs.
-        </p>
-        <p class="diary-text-gs">
-          Back on the boat, the rest of the day was fairly similar to yesterday. Lunch was very good again and the day was spent sitting around, reading and enjoying the views. We arrived in Houay Xay slightly later than planned at about 16:45.
-        </p>
-        <p class="diary-text-gs">
-          From here things went remarkably smoothly. All eight of us plus our guide were met by a mini-van at the pier. The Belgian/French couple were dropped at their hotel in Houay Xay as they are staying in Laos. The rest of us continued in the van to the immigration point at Friendship Bridge 4. We all went through immigration without being ripped off as much as last year - they only charged us ₭10,000 (30p) each to leave the country. We bought our tickets for the shuttle bus to take us across the bridge and said goodbye to our guide. We still had about £10 worth of Kip left. Roz managed to buy four cans of Beerlao with half of it before getting on the shuttle bus.
-        </p>
-        <p class="diary-text-gs">
-          Thai immigration was reasonably quick on the other side. We had booked a night at Fortune Riverview Hotel in Chiang Khong on the opposite side of the river to Houay Xay. We thought we would have to haggle with a taxi driver for the five mile journey but there was a taxi stand there with songthaew type things which were a fixed price. Better still, we could pay with Kip. By this time, we had about $2 worth of Kip left. It was no use to us so we gave it to a couple going the other way and got into the songthaew.
-        </p>
-        <p class="diary-text-gs">
-          We got to the hotel just after 6pm, about an hour and forty minutes after going past it on the boat. There were not a great deal of restaurant options around the hotel so we had a couple of our cans of Beerlao on the balcony (overlooking The Mekong again) and then went and got takeaways from 7-Eleven. We ate these with the other two cans of Beerlao back on the balcony and had another early night. 
-        </p>
-        <p class="diary-text-gs">
-          <span class="diary-date">Wednesday 11th February</span>  
-					
-        </p>
-        <p class="diary-text-gs">
-          
-        </p>
-        <p class="diary-text-gs">
-          
-        </p>
+          </div>
+        </section>
         
-      </div>
-    </section>
-    <!-- Contact-->
-    <section class="contact-section bg-black">
-      <div class="container">
-        <div class="social d-flex justify-content-center">
-          <a class="mx-2" href="https://facebook.com/dwjhaines"><i class="fab fa-facebook-f"></i></a>
-          <a class="mx-2" href="https://www.youtube.com/user/dwjhaines"><i class="fab fa-youtube"></i></a>
-        </div>
-      </div>
-    </section>
-    <!-- Footer-->
-    <footer class="footer bg-black small text-center text-white-50">
-      <div class="container px-4 px-lg-5">Copyright &copy; dwjhaines 2026</div>
-    </footer>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <!-- * *                               SB Forms JS                               * *-->
-    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    <script src="angular/angular.min.js"></script>
-    <script src="js/tiles.js"></script>
-  </body>
+        <!-- Contact-->
+        <section class="contact-section bg-black">
+            <div class="container">
+                <div class="social d-flex justify-content-center">
+                    <a class="mx-2" href="https://facebook.com/dwjhaines"><i class="fab fa-facebook-f"></i></a>
+                    <a class="mx-2" href="https://www.youtube.com/user/dwjhaines"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; dwjhaines 2026</div></footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script src="../angular/angular.min.js"></script>
+        <script src="js/diarytiles.js"></script>
+    </body>
 </html>
