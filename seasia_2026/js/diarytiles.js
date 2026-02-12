@@ -20,9 +20,9 @@ app.controller('tileController', function() {
             category: ['photos']
         },
         {
-            link:'',
+            link:'https://photos.app.goo.gl/A7ju7p5tA6wYJcmx8',
             image:'images/part4-tile.jpg',
-            title:'4. Thailand',
+            title:'4. Northern Thailand',
             category: ['photos']
         },
 				{
@@ -46,7 +46,7 @@ app.controller('tileController', function() {
         {
             link:'part4.html',
             image:'images/part4-tile.jpg',
-            title:'4. Thailand',
+            title:'4. Northern Thailand',
             category: ['diary']
         }
     ]
