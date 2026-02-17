@@ -26,6 +26,12 @@ app.controller('tileController', function() {
             category: ['photos']
         },
 				{
+            link:'',
+            image:'images/part5-tile.jpg',
+            title:'5. Phuket',
+            category: ['photos']
+        },
+				{
             link:'part1.html',
             image:'images/part1-tile.jpg',
             title:'1. Malaysia and Thailand',
@@ -47,6 +53,12 @@ app.controller('tileController', function() {
             link:'part4.html',
             image:'images/part4-tile.jpg',
             title:'4. Northern Thailand',
+            category: ['diary']
+        },
+        {
+            link:'part5.html',
+            image:'images/part5-tile.jpg',
+            title:'5. Phuket',
             category: ['diary']
         }
     ]
