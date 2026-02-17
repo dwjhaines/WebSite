@@ -26,7 +26,7 @@ app.controller('tileController', function() {
             category: ['photos']
         },
 				{
-            link:'',
+            link:'https://photos.app.goo.gl/jAwgdLx66Midn4o49',
             image:'images/part5-tile.jpg',
             title:'5. Phuket',
             category: ['photos']
