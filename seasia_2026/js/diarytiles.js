@@ -60,6 +60,12 @@ app.controller('tileController', function() {
             image:'images/part5-tile.jpg',
             title:'5. Phuket',
             category: ['diary']
+        },
+        {
+            link:'part6.html',
+            image:'images/part6-tile.jpg',
+            title:'6. The Journey Home',
+            category: ['diary']
         }
     ]
     this.weeks=weeks;
