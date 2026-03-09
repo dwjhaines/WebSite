@@ -43,6 +43,7 @@ function filterTables() {
       const cells = rows[i].getElementsByTagName("td");
       let rowText = "";
       let lastCellText = "";
+			let lastCellHasImage = false;
 
       for (let j = 0; j < cells.length; j++) {
         rowText += normalizeText(cells[j].textContent);
@@ -51,12 +52,19 @@ function filterTables() {
       if (cells.length > 0) {
         lastCellText = cells[cells.length - 1].textContent.trim();
       }
+			
+			if (cells.length > 0) {
+				const lastCell = cells[cells.length - 1];
+				const img = lastCell.querySelector("img");
+				lastCellHasImage = img && img.src.includes("wetherspoons.gif");
+}
 
       const matchesSearch = rowText.includes(filter);
-      const matchesW = !wOnly || lastCellText === "W";
-
+      const matchesW = !wOnly || lastCellHasImage;
+			
       rows[i].style.display =
         matchesSearch && matchesW ? "" : "none";
+
     }
   }
 }
