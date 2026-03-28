@@ -112,7 +112,7 @@ app.controller('tileController', function() {
 				{
             link:'https://photos.app.goo.gl/Fe7UswsDygNgBmgV6',
             image:'images/unesco/greenwich-tile.jpg',
-            title:'Greenwich',
+            title:'6. Greenwich',
             category: ['unesco']
         },
 				{
