@@ -8,6 +8,12 @@ app.controller('tileController', function() {
             category: ['beer', '60th']
         },
         {
+            link:'https://photos.app.goo.gl/U5vQXLRgbhMCJkdcA',
+            image:'seasia_2026/images/part2-tile.jpg',
+            title:'The Similans 2026',
+            category: ['diving']
+        },
+        {
             link:'seasia_2026/seasia-2026.html',
             image:'seasia_2026/images/seasia-2026-tile.jpg',
             title:'S.E. Asia 2026',
