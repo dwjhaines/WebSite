@@ -2,6 +2,12 @@ var app = angular.module('tripApp',[]);
 app.controller('tileController', function() {
     var trips=[ 
         {
+            link:'inter_rail_2026/inter-rail-2026.html',
+            image:'inter_rail_2026/images/interrail-2026-tile.jpg',
+            title:'Interrail 2026',
+            category: ['travel']
+        },
+        {
             link:'https://photos.app.goo.gl/vRyUgNfSQbz4R2qu6',
             image:'images/gary-60th-tile.jpg',
             title:'Brighton - Gary\'s 60th',
