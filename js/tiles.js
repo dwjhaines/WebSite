@@ -2,6 +2,12 @@ var app = angular.module('tripApp',[]);
 app.controller('tileController', function() {
     var trips=[ 
         {
+            link:'cur_bon_2026/cur-bon-2026.html',
+            image:'cur_bon_2026/images/cur-bon-2026-tile.jpg',
+            title:'Curacao and Bonaire',
+            category: ['travel', 'diving']
+        },
+        {
             link:'inter_rail_2026/inter-rail-2026.html',
             image:'inter_rail_2026/images/interrail-2026-tile.jpg',
             title:'Interrail 2026',
