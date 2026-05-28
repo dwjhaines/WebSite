@@ -14,7 +14,7 @@ app.controller('tileController', function() {
             category: ['photos']
         },
 				{
-            link:'curaçao.html',
+            link:'curacao.html',
             image:'images/part1-tile.jpg',
             title:'1. Curaçao',
             category: ['diary']
