@@ -8,6 +8,12 @@ app.controller('tileController', function() {
             category: ['travel', 'diving']
         },
         {
+            link:'https://photos.app.goo.gl/kG1pKTR7LQLR2AFfA',
+            image:'inter_rail_2026/images/porto-tile.jpg',
+            title:'Porto 2026',
+            category: ['beer']
+        },
+        {
             link:'inter_rail_2026/inter-rail-2026.html',
             image:'inter_rail_2026/images/interrail-2026-tile.jpg',
             title:'Interrail 2026',
