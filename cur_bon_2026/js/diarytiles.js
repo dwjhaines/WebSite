@@ -8,7 +8,7 @@ app.controller('tileController', function() {
             category: ['photos']
         },
         {
-            link:'https://photos.app.goo.gl/U5vQXLRgbhMCJkdcA',
+            link:'https://photos.app.goo.gl/sRmMPSSN4e739FVe7',
             image:'images/bonaire-tile.jpg',
             title:'2. Bonaire',
             category: ['photos']
