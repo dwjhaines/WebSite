@@ -40,9 +40,9 @@ async function getMilage(){
     console.log("Number of rides: " + numberOfRides)
     console.log("Time in seconds: " + timeInSeconds)
 
-    document.getElementById("miles-cycled").innerHTML = distanceInMiles + "miles"
+    document.getElementById("miles-cycled").innerHTML = distanceInMiles.toLocaleString() + "miles"
     document.getElementById("count").innerHTML = numberOfRides
-    document.getElementById("elevation").innerHTML = elevationInFeet + "ft"
+    document.getElementById("elevation").innerHTML = elevationInFeet.toLocaleString() + "ft"
     document.getElementById("time").innerHTML = convertSecondsToHoursAndMinutes(timeInSeconds)
     
     // Same four variables but for the 2025 1250 mile challenge
