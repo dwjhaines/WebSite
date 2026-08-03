@@ -2,6 +2,18 @@ var app = angular.module('tripApp',[]);
 app.controller('tileController', function() {
     var trips=[ 
         {
+            link:'france-belgium-2026.html',
+            image:'images/lens-2026-tile.jpg',
+            title:'Lens v Sunderland',
+            category: ['beer', 'football']
+        },
+        {
+            link:'https://photos.app.goo.gl/fkNp4wWNtuYTimWq6',
+            image:'images/rowbarge-2026-tile.jpg',
+            title:'Rowbarge Beer Festival 2026',
+            category: ['beer']
+        },
+        {
             link:'cur_bon_2026/cur-bon-2026.html',
             image:'cur_bon_2026/images/cur-bon-2026-tile.jpg',
             title:'Curaçao and Bonaire',
