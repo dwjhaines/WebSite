@@ -3,7 +3,7 @@ app.controller('tileController', function() {
     var trips=[ 
         {
             link:'spain-2026.html',
-            image:'images/spain-2026/spain-2026-tile.jpg',
+            image:'images/spain2026/spain-2026-tile.jpg',
             title:'Spain v England 2026',
             category: ['football']
         },
